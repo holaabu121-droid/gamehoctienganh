@@ -323,15 +323,11 @@ class ProgressAndStreakTests(DatabaseTestCase):
         activity = "unit3-a-closer-look2-builder"
         self.repository.save_user_progress(self.user.id, "unit3", activity, earned_score=700, max_score=1000, completed=True)
         overview = self.repository.score_overview(self.user.id)
-        self.assertEqual([course["course_id"] for course in overview["courses"]], ["english-6-semester-1", "english-6-semester-2", "math-6-semester-1", "math-6-semester-2", "informatics-6-semester-1", "informatics-6-semester-2", "vietnamese-6-semester-1", "vietnamese-6-semester-2", "science-6-semester-1", "science-6-semester-2"])
-        self.assertEqual([subject["subject"] for subject in overview["subjects"]], ["science", "vietnamese", "informatics", "english", "math"])
+        self.assertEqual([course["course_id"] for course in overview["courses"]], ["english-6-semester-1", "english-6-semester-2"])
+        self.assertEqual([subject["subject"] for subject in overview["subjects"]], ["english"])
         self.assertEqual(overview["grand_total"]["earned_score"], 700)
-        self.assertEqual(overview["grand_total"]["max_score"], 1476500)
-        self.assertEqual(overview["subjects"][0]["max_score"], 330000)
-        self.assertEqual(overview["subjects"][1]["max_score"], 72000)
-        self.assertEqual(overview["subjects"][2]["max_score"], 102000)
-        self.assertEqual(overview["subjects"][3]["max_score"], 528500)
-        self.assertEqual(overview["subjects"][4]["max_score"], 444000)
+        self.assertEqual(overview["grand_total"]["max_score"], 528500)
+        self.assertEqual(overview["subjects"][0]["max_score"], 528500)
 
     def test_score_overview_excludes_planned_course_even_if_it_has_draft_branches(self) -> None:
         current = course_catalog().course(DEFAULT_COURSE_ID)
@@ -570,97 +566,16 @@ class ProgressAndStreakTests(DatabaseTestCase):
         state = self.repository.bonus_state(self.user.id, "review4")
         self.assertEqual((state["gate"], state["available_tier"], state["required_practice"]["complete"]), ("ready", "high", True))
 
-    def test_math_lesson1_has_six_independent_scored_games(self) -> None:
-        activities = UNIT_ACTIVITY_MAXIMA["math6-s1-lesson1"]
-        self.assertEqual((len(activities), sum(activities.values())), (6, 6000))
-        for activity_id, maximum in activities.items():
-            self.repository.save_user_progress(self.user.id, "math6-s1-lesson1", activity_id, earned_score=maximum, max_score=maximum, completed=True)
-        profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
-        self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]), (6000, 228000))
-
-    def test_math_lesson2_has_six_independent_scored_games(self) -> None:
-        activities = UNIT_ACTIVITY_MAXIMA["math6-s1-lesson2"]
-        self.assertEqual((len(activities), sum(activities.values())), (6, 6000))
-        for activity_id, maximum in activities.items():
-            self.repository.save_user_progress(self.user.id, "math6-s1-lesson2", activity_id, earned_score=maximum, max_score=maximum, completed=True)
-        profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
-        self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]), (6000, 228000))
-
-    def test_math_lesson3_has_six_independent_scored_games(self) -> None:
-        activities = UNIT_ACTIVITY_MAXIMA["math6-s1-lesson3"]
-        self.assertEqual((len(activities), sum(activities.values())), (6, 6000))
-        for activity_id, maximum in activities.items():
-            self.repository.save_user_progress(self.user.id, "math6-s1-lesson3", activity_id, earned_score=maximum, max_score=maximum, completed=True)
-        profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
-        self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]), (6000, 228000))
-
-    def test_math_lesson4_has_six_independent_scored_games(self) -> None:
-        activities = UNIT_ACTIVITY_MAXIMA["math6-s1-lesson4"]
-        self.assertEqual((len(activities), sum(activities.values())), (6, 6000))
-        for activity_id, maximum in activities.items():
-            self.repository.save_user_progress(self.user.id, "math6-s1-lesson4", activity_id, earned_score=maximum, max_score=maximum, completed=True)
-        profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
-        self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]), (6000, 228000))
-
-    def test_math_lesson5_has_six_independent_scored_games(self) -> None:
-        activities = UNIT_ACTIVITY_MAXIMA["math6-s1-lesson5"]
-        self.assertEqual((len(activities), sum(activities.values())), (6, 6000))
-        for activity_id, maximum in activities.items():
-            self.repository.save_user_progress(self.user.id, "math6-s1-lesson5", activity_id, earned_score=maximum, max_score=maximum, completed=True)
-        profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
-        self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]), (6000, 228000))
-
-    def test_math_chapter1_reviews_have_separate_six_game_plans(self) -> None:
-        for branch in ("math6-s1-chapter1-practice", "math6-s1-chapter1-review"):
-            activities = UNIT_ACTIVITY_MAXIMA[branch]
-            self.assertEqual((len(activities), sum(activities.values())), (6, 6000))
-            for activity_id, maximum in activities.items():
-                self.repository.save_user_progress(self.user.id, branch, activity_id, earned_score=maximum, max_score=maximum, completed=True)
-        profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
-        self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]), (12000, 228000))
-
-    def test_complete_math_semester1_has_38_six_game_score_plans(self) -> None:
-        branches = course_catalog().course("math-6-semester-1").branch_ids
-        self.assertEqual(len(branches), 38)
-        for branch in branches:
-            activities = UNIT_ACTIVITY_MAXIMA[branch]
-            self.assertEqual((len(activities), sum(activities.values())), (6, 6000), branch)
-        self.assertEqual(sum(sum(UNIT_ACTIVITY_MAXIMA[branch].values()) for branch in branches), 228000)
-
-    def test_complete_math_semester2_has_36_six_game_score_plans(self) -> None:
-        branches = course_catalog().course("math-6-semester-2").branch_ids
-        self.assertEqual(len(branches), 36)
-        for branch in branches:
-            activities = UNIT_ACTIVITY_MAXIMA[branch]
-            self.assertEqual((len(activities), sum(activities.values())), (6, 6000), branch)
-        self.assertEqual(sum(sum(UNIT_ACTIVITY_MAXIMA[branch].values()) for branch in branches), 216000)
-
-    def test_vietnamese_two_semesters_have_twelve_six_game_score_plans(self) -> None:
-        branches = course_catalog().course("vietnamese-6-semester-1").branch_ids + course_catalog().course("vietnamese-6-semester-2").branch_ids
-        self.assertEqual(len(branches), 12)
-        for branch in branches:
-            activities = UNIT_ACTIVITY_MAXIMA[branch]
-            self.assertEqual((len(activities), sum(activities.values())), (6, 6000), branch)
-            self.assertEqual(set(activities), {f"{branch}-{suffix}" for suffix in ("trace", "organize", "infer", "language", "compose", "communicate")})
-        self.assertEqual(sum(sum(UNIT_ACTIVITY_MAXIMA[branch].values()) for branch in branches), 72000)
-
-    def test_informatics_two_semesters_have_seventeen_six_game_score_plans(self) -> None:
-        branches = course_catalog().course("informatics-6-semester-1").branch_ids + course_catalog().course("informatics-6-semester-2").branch_ids
-        self.assertEqual(len(branches), 17)
-        for branch in branches:
-            activities = UNIT_ACTIVITY_MAXIMA[branch]
-            self.assertEqual((len(activities), sum(activities.values())), (6, 6000), branch)
-            self.assertEqual(set(activities), {f"{branch}-{suffix}" for suffix in ("recognize", "process", "reason", "diagnose", "connect", "safe-apply")})
-        self.assertEqual(sum(sum(UNIT_ACTIVITY_MAXIMA[branch].values()) for branch in branches), 102000)
-
-    def test_science_two_semesters_have_fifty_five_six_game_score_plans(self) -> None:
-        branches = course_catalog().course("science-6-semester-1").branch_ids + course_catalog().course("science-6-semester-2").branch_ids
-        self.assertEqual(len(branches), 55)
-        for branch in branches:
-            activities = UNIT_ACTIVITY_MAXIMA[branch]
-            self.assertEqual((len(activities), sum(activities.values())), (6, 6000), branch)
-            self.assertEqual(set(activities), {f"{branch}-{suffix}" for suffix in ("observe-identify", "classify-model", "measure-analyze", "predict-reason", "experiment-safety", "explain-apply")})
-        self.assertEqual(sum(sum(UNIT_ACTIVITY_MAXIMA[branch].values()) for branch in branches), 330000)
+    def test_only_english_branches_are_openable_and_legacy_plans_remain_for_history(self) -> None:
+        # Retiring other subjects must not make archived records or their score
+        # definitions disappear during a future profile migration/restore.
+        self.assertIn("math6-s1-lesson1", UNIT_ACTIVITY_MAXIMA)
+        self.assertIn("science6-l01", UNIT_ACTIVITY_MAXIMA)
+        self.assertIn("informatics6-s1-lesson1", UNIT_ACTIVITY_MAXIMA)
+        self.assertIn("vietnamese6-s1-lesson1", UNIT_ACTIVITY_MAXIMA)
+        with self.assertRaises(ValueError):
+            self.repository.unit_summary(self.user.id, "math6-s1-lesson1")
+        self.assertEqual(self.repository.unit_summary(self.user.id, "unit1")["max_score"], 42000)
 
     def test_review1_has_separate_score_and_three_stage_bonus_without_practice_gate(self) -> None:
         for activity_id, maximum in UNIT_ACTIVITY_MAXIMA["review1"].items():
@@ -760,41 +675,18 @@ class ApiContractTests(DatabaseTestCase):
 
 
 class CourseCatalogTests(unittest.TestCase):
-    def test_catalog_has_current_course_and_planned_expansion_slots(self) -> None:
+    def test_catalog_contains_only_two_english_semesters(self) -> None:
         catalog = course_catalog()
         self.assertEqual(catalog.default_course_id, "english-6-semester-1")
         self.assertEqual([course.id for course in catalog.courses], [
-            "english-6-semester-1", "english-6-semester-2", "math-6-semester-1", "math-6-semester-2", "informatics-6-semester-1", "informatics-6-semester-2", "vietnamese-6-semester-1", "vietnamese-6-semester-2", "science-6-semester-1", "science-6-semester-2",
+            "english-6-semester-1", "english-6-semester-2",
         ])
-        current = catalog.course(catalog.default_course_id)
-        self.assertEqual(current.status, "available")
-        self.assertEqual(current.branch_ids, ("unit1", "unit2", "unit3", "review1", "unit4", "unit5", "unit6", "review2"))
-        semester2 = catalog.course("english-6-semester-2")
-        self.assertEqual((semester2.status, semester2.branch_ids), ("available", ("unit7", "unit8", "unit9", "review3", "unit10", "unit11", "unit12", "review4")))
-        available_branches = {branch for course in catalog.courses if course.status == "available" for branch in course.branch_ids}
-        self.assertEqual(available_branches, set(UNIT_ACTIVITY_MAXIMA))
-        math_semester1 = catalog.course("math-6-semester-1")
-        self.assertEqual(math_semester1.status, "available")
-        self.assertEqual(len(math_semester1.branch_ids), 38)
-        self.assertEqual(math_semester1.branch_ids[:7], ("math6-s1-lesson1", "math6-s1-lesson2", "math6-s1-lesson3", "math6-s1-lesson4", "math6-s1-lesson5", "math6-s1-chapter1-practice", "math6-s1-chapter1-review"))
-        self.assertEqual(math_semester1.branch_ids[-3:], ("math6-s1-activity-card-room", "math6-s1-activity-geogebra", "math6-s1-activity-calculator"))
-        math_semester2 = catalog.course("math-6-semester-2")
-        self.assertEqual(math_semester2.status, "available")
-        self.assertEqual(len(math_semester2.branch_ids), 36)
-        self.assertEqual(math_semester2.branch_ids[0], "math6-s2-lesson23")
-        self.assertEqual(math_semester2.branch_ids[-1], "math6-s2-final-review")
-        informatics_semester1 = catalog.course("informatics-6-semester-1")
-        informatics_semester2 = catalog.course("informatics-6-semester-2")
-        self.assertEqual((len(informatics_semester1.branch_ids), informatics_semester1.branch_ids[0], informatics_semester1.branch_ids[-1]), (9, "informatics6-s1-lesson1", "informatics6-s1-lesson9"))
-        self.assertEqual((len(informatics_semester2.branch_ids), informatics_semester2.branch_ids[0], informatics_semester2.branch_ids[-1]), (8, "informatics6-s2-lesson10", "informatics6-s2-lesson17"))
-        vietnamese_semester1 = catalog.course("vietnamese-6-semester-1")
-        vietnamese_semester2 = catalog.course("vietnamese-6-semester-2")
-        self.assertEqual((len(vietnamese_semester1.branch_ids), vietnamese_semester1.branch_ids[0], vietnamese_semester1.branch_ids[-1]), (6, "vietnamese6-s1-lesson1", "vietnamese6-s1-review"))
-        self.assertEqual((len(vietnamese_semester2.branch_ids), vietnamese_semester2.branch_ids[0], vietnamese_semester2.branch_ids[-1]), (6, "vietnamese6-s2-lesson6", "vietnamese6-s2-review"))
-        science_semester1 = catalog.course("science-6-semester-1")
-        science_semester2 = catalog.course("science-6-semester-2")
-        self.assertEqual((len(science_semester1.branch_ids), science_semester1.branch_ids[0], science_semester1.branch_ids[-1]), (28, "science6-l01", "science6-l28"))
-        self.assertEqual((len(science_semester2.branch_ids), science_semester2.branch_ids[0], science_semester2.branch_ids[-1]), (27, "science6-l29", "science6-l55"))
+        self.assertTrue(all(course.subject == "english" and course.status == "available" for course in catalog.courses))
+        self.assertEqual(catalog.courses[0].branch_ids, ("unit1", "unit2", "unit3", "review1", "unit4", "unit5", "unit6", "review2"))
+        self.assertEqual(catalog.courses[1].branch_ids, ("unit7", "unit8", "unit9", "review3", "unit10", "unit11", "unit12", "review4"))
+        available_branches = {branch for course in catalog.courses for branch in course.branch_ids}
+        self.assertTrue(available_branches.issubset(set(UNIT_ACTIVITY_MAXIMA)))
+        self.assertFalse({"math6-s1-lesson1", "science6-l01", "informatics6-s1-lesson1", "vietnamese6-s1-lesson1"} & available_branches)
 
 
 if __name__ == "__main__": unittest.main()

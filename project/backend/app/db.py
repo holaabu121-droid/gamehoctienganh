@@ -612,12 +612,14 @@ BONUS_POOLS = {
 def validate_catalog_activity_registry() -> None:
     catalog_branches = registered_branch_ids()
     activity_branches = frozenset(UNIT_ACTIVITY_MAXIMA)
-    if catalog_branches != activity_branches:
-        missing_plans = sorted(catalog_branches - activity_branches)
-        unregistered_plans = sorted(activity_branches - catalog_branches)
+    # Only active English course branches are required. Historical per-subject
+    # score plans remain registered so archived progress can be read and migrated
+    # without deleting student records, but retired branches cannot be opened:
+    # registered_activity_plan still calls require_branch().
+    missing_plans = sorted(catalog_branches - activity_branches)
+    if missing_plans:
         raise RuntimeError(
-            f"course catalog/activity registry mismatch; missing plans={missing_plans}, "
-            f"unregistered plans={unregistered_plans}"
+            f"course catalog/activity registry mismatch; missing plans={missing_plans}"
         )
 
 
