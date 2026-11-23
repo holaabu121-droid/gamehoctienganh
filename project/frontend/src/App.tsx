@@ -172,6 +172,7 @@ const COURSE_RENDERERS: Record<CourseRendererKey, ComponentType<CourseRendererPr
   "english-6-semester-1": English6Semester1Experience,
   "english-6-semester-2": English6Semester2Experience,
   "math-6-semester-1": Math6Lesson1Experience,
+  "math-6-semester-2": Math6Lesson1Experience,
 
 };
 

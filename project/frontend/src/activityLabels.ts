@@ -266,6 +266,8 @@ const LABELS: Record<string, string> = {
 };
 
 export function activityLabel(activityId: string) {
+  const generatedLesson = activityId.match(/^math6-bai(\d{2})-v01-quiz$/);
+  if (generatedLesson) return "Toán 6 · Bài " + Number(generatedLesson[1]) + " · Kiểm tra tổng hợp";
   if (activityId === "math6-bai1-v054-kn1") return "Toán 6 · Bài 1 · Kiến thức nền 1";
   if (activityId === "math6-bai1-v054-kn2") return "Toán 6 · Bài 1 · Kiến thức nền 2";
   if (activityId === "math6-bai2-v01-tp") return "Toán 6 · Bài 2 · Hệ thập phân";
