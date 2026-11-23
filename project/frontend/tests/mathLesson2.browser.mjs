@@ -114,7 +114,8 @@ async function main(){
    assert.equal(noOverflow,true,"mobile layout must not overflow viewport");
    if(width===390){
      // Recreate a specific four-row matching question to check focus independence.
-     await page.evaluate(()=>{
+     // Seed after pagehide persistence but before the lesson bootstrap.
+     await page.addInitScript(()=>{
        const key="toan6.bai2.v01.progress.student.browser_student";
        const st=JSON.parse(localStorage.getItem(key));
        st.view="quiz";
