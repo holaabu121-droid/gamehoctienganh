@@ -63,3 +63,22 @@ jobs:
           assert (p/"frontend/src/features/math6/Math6Lesson1Experience.tsx").is_file()
           print("PASS: two English semesters and Math Lesson 1; other subjects absent")
           PY
+
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        working-directory: project/frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install frontend and browser test dependencies
+        run: |
+          npm install --ignore-scripts --no-audit --no-fund
+          npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: One full regression pass on mobile and desktop
+        run: node tests/mathLesson2.browser.mjs
