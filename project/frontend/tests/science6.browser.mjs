@@ -33,8 +33,11 @@ async function run(){
    await page.locator(".lesson-header h1").waitFor();
    assert.match(await page.locator(".lesson-header h1").textContent(),new RegExp("Bài "+lesson+":"));
    assert.equal(await page.locator('[data-action="questions"]').isDisabled(),true);
+   if(await page.locator('[data-action="read"]').isDisabled()){
+     await page.locator("#readbox").evaluate(e=>{e.scrollTop=e.scrollHeight;e.dispatchEvent(new Event("scroll",{bubbles:true}));});
+   }
    await page.locator('[data-action="read"]').click();
-   await page.locator('[data-action="card1"]').click();
+   await page.locator('[data-action="card1"]').first().click();
    if(await page.locator('[data-action="read"]').isDisabled()){
      await page.locator("#readbox").evaluate(e=>{e.scrollTop=e.scrollHeight;e.dispatchEvent(new Event("scroll",{bubbles:true}));});
    }
