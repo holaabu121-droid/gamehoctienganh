@@ -1,0 +1,305 @@
+{
+  "chapter": 1,
+  "sourcePageRange": [
+    7,
+    27
+  ],
+  "rows": [
+    {
+      "number": 1,
+      "terms": [
+        {
+          "name": "Khoa học tự nhiên",
+          "meaning": "Nghiên cứu các sự vật và hiện tượng của thế giới tự nhiên."
+        },
+        {
+          "name": "Vật sống",
+          "meaning": "Có các dấu hiệu sống như trao đổi chất, lớn lên và sinh sản."
+        },
+        {
+          "name": "Vật không sống",
+          "meaning": "Không thể hiện đầy đủ các dấu hiệu sống."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Một cây non lớn lên là biểu hiện của điều gì?",
+          "answer": "Hoạt động sống",
+          "incorrect": [
+            "Tính chất của kim loại",
+            "Sự bay hơi của nước"
+          ],
+          "hint": "Chú ý khả năng sinh trưởng của cây."
+        },
+        {
+          "prompt": "Quan sát nam châm hút đinh sắt thuộc lĩnh vực nghiên cứu nào?",
+          "answer": "Vật lí",
+          "incorrect": [
+            "Sinh học",
+            "Thiên văn học"
+          ],
+          "hint": "Hiện tượng liên quan đến tác dụng của lực."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "terms": [
+        {
+          "name": "Kí hiệu cảnh báo",
+          "meaning": "Cho biết nguy cơ hoặc quy định cần chú ý trong phòng thực hành."
+        },
+        {
+          "name": "Bảo hộ cá nhân",
+          "meaning": "Trang bị giúp giảm nguy cơ khi tham gia thực hành theo hướng dẫn."
+        },
+        {
+          "name": "Báo giáo viên",
+          "meaning": "Việc cần làm ngay khi gặp sự cố hoặc dụng cụ hỏng."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Thấy lọ chứa chất lạ không có nhãn, học sinh nên làm gì?",
+          "answer": "Không sử dụng và báo giáo viên",
+          "incorrect": [
+            "Tự mở nắp ngửi để nhận biết",
+            "Tự ý trộn với nước"
+          ],
+          "hint": "Không tự xử lý chất chưa rõ tên."
+        },
+        {
+          "prompt": "Khi dụng cụ thủy tinh bị nứt, cách xử lý đúng là gì?",
+          "answer": "Ngừng sử dụng và thông báo giáo viên",
+          "incorrect": [
+            "Dùng tiếp nếu cẩn thận",
+            "Tự phá bỏ dụng cụ"
+          ],
+          "hint": "Ưu tiên an toàn và sự hướng dẫn của người phụ trách."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "terms": [
+        {
+          "name": "Kính lúp",
+          "meaning": "Dụng cụ giúp quan sát vật nhỏ với ảnh phóng đại."
+        },
+        {
+          "name": "Vật kính lúp",
+          "meaning": "Thấu kính lồi có phần giữa dày hơn phần rìa."
+        },
+        {
+          "name": "Quan sát rõ",
+          "meaning": "Điều chỉnh khoảng cách để ảnh của vật hiện ra nét."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Muốn nhìn chi tiết đường gân lá, dụng cụ nào phù hợp?",
+          "answer": "Kính lúp",
+          "incorrect": [
+            "Đồng hồ bấm giây",
+            "Cân điện tử"
+          ],
+          "hint": "Chọn dụng cụ phóng đại vật nhỏ."
+        },
+        {
+          "prompt": "Khi ảnh qua kính lúp bị mờ, nên làm gì?",
+          "answer": "Điều chỉnh khoảng cách quan sát",
+          "incorrect": [
+            "Đặt kính xuống và đo khối lượng",
+            "Cố nhìn qua kính bị bẩn mà không vệ sinh"
+          ],
+          "hint": "Điều chỉnh vị trí kính và vật để ảnh rõ nét."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "terms": [
+        {
+          "name": "Kính hiển vi quang học",
+          "meaning": "Dùng để quan sát vật có kích thước rất nhỏ như tế bào."
+        },
+        {
+          "name": "Vật kính",
+          "meaning": "Bộ phận có độ phóng đại, đặt gần mẫu quan sát."
+        },
+        {
+          "name": "Thị kính",
+          "meaning": "Bộ phận dùng để nhìn ảnh được phóng đại."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Quan sát tế bào biểu bì cần dụng cụ nào?",
+          "answer": "Kính hiển vi quang học",
+          "incorrect": [
+            "Thước dây",
+            "Kính râm"
+          ],
+          "hint": "Tế bào quá nhỏ để quan sát rõ bằng mắt thường."
+        },
+        {
+          "prompt": "Trước khi thay đổi độ phóng đại, học sinh nên làm gì?",
+          "answer": "Thực hiện theo hướng dẫn của giáo viên",
+          "incorrect": [
+            "Tự tháo vật kính",
+            "Chạm tay trực tiếp vào bề mặt kính"
+          ],
+          "hint": "Giữ an toàn cho dụng cụ và người quan sát."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "terms": [
+        {
+          "name": "Mét (m)",
+          "meaning": "Đơn vị đo chiều dài thường dùng trong hệ SI."
+        },
+        {
+          "name": "Thước đo",
+          "meaning": "Dụng cụ dùng để xác định chiều dài của vật."
+        },
+        {
+          "name": "Giới hạn đo",
+          "meaning": "Độ dài lớn nhất được ghi trên thước."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Đo chiều dài quyển vở, dụng cụ nào thích hợp?",
+          "answer": "Thước thẳng",
+          "incorrect": [
+            "Nhiệt kế",
+            "Cân đồng hồ"
+          ],
+          "hint": "Chọn dụng cụ phù hợp với đại lượng chiều dài."
+        },
+        {
+          "prompt": "Khi mắt nhìn lệch so với vạch chia trên thước sẽ dễ dẫn tới điều gì?",
+          "answer": "Đọc sai kết quả đo",
+          "incorrect": [
+            "Tăng chiều dài thực của vật",
+            "Làm thước nặng hơn"
+          ],
+          "hint": "Kết quả đọc phụ thuộc vào vị trí nhìn của mắt."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "terms": [
+        {
+          "name": "Kilôgam (kg)",
+          "meaning": "Đơn vị đo khối lượng cơ bản."
+        },
+        {
+          "name": "Cân",
+          "meaning": "Dụng cụ dùng để đo khối lượng."
+        },
+        {
+          "name": "Tara",
+          "meaning": "Thao tác đưa chỉ số cân về 0 khi tính khối lượng phần cần đo."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Để đo khối lượng quả táo, chọn dụng cụ nào?",
+          "answer": "Cân",
+          "incorrect": [
+            "Thước kẻ",
+            "Đồng hồ"
+          ],
+          "hint": "Khối lượng được xác định bằng cân."
+        },
+        {
+          "prompt": "Khi dùng cân điện tử với hộp chứa, chức năng nào giúp không tính khối lượng hộp?",
+          "answer": "Tara",
+          "incorrect": [
+            "Hẹn giờ",
+            "Tăng độ sáng"
+          ],
+          "hint": "Chức năng trừ bì giúp đo riêng phần chứa."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "terms": [
+        {
+          "name": "Giây (s)",
+          "meaning": "Đơn vị đo thời gian cơ bản."
+        },
+        {
+          "name": "Đồng hồ bấm giây",
+          "meaning": "Dụng cụ đo khoảng thời gian diễn ra hoạt động."
+        },
+        {
+          "name": "Ước lượng thời gian",
+          "meaning": "Dự đoán khoảng thời gian trước khi đo thực tế."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Đo thời gian chạy 100 m, dùng dụng cụ nào?",
+          "answer": "Đồng hồ bấm giây",
+          "incorrect": [
+            "Cân",
+            "Nhiệt kế"
+          ],
+          "hint": "Cần biết khoảng thời gian từ lúc bắt đầu đến khi kết thúc."
+        },
+        {
+          "prompt": "Một phút tương ứng bao nhiêu giây?",
+          "answer": "60 giây",
+          "incorrect": [
+            "10 giây",
+            "100 giây"
+          ],
+          "hint": "Dựa vào quan hệ đổi đơn vị thời gian."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "terms": [
+        {
+          "name": "Độ C (°C)",
+          "meaning": "Đơn vị nhiệt độ thông dụng."
+        },
+        {
+          "name": "Nhiệt kế",
+          "meaning": "Dụng cụ dùng để đo nhiệt độ."
+        },
+        {
+          "name": "Nhiệt độ",
+          "meaning": "Đại lượng cho biết mức độ nóng, lạnh của vật."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Đo nhiệt độ cơ thể, dụng cụ phù hợp là gì?",
+          "answer": "Nhiệt kế y tế",
+          "incorrect": [
+            "Thước thẳng",
+            "Cân đồng hồ"
+          ],
+          "hint": "Dụng cụ phải phù hợp mục đích đo."
+        },
+        {
+          "prompt": "Đọc nhiệt độ trên nhiệt kế, nên nhìn thế nào?",
+          "answer": "Đọc đúng vạch chỉ thị theo hướng dẫn",
+          "incorrect": [
+            "Đoán bằng cách chạm tay",
+            "Nhìn từ góc lệch lớn"
+          ],
+          "hint": "Cần đọc đúng thang đo và tránh sai số do góc nhìn."
+        }
+      ]
+    }
+  ]
+}

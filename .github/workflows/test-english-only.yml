@@ -1,7 +1,7 @@
 name: Verify Grade 6 exercise application
 on:
   push:
-    branches: [review/english-only, feature/grade6-multisubject, feature/math6-lesson2-v01, feature/math6-full-year-curriculum]
+    branches: [review/english-only, feature/grade6-multisubject, feature/math6-lesson2-v01, feature/math6-full-year-curriculum, feature/science6-curriculum-blueprint]
     paths: ['project/**', '.github/workflows/test-english-only.yml']
   pull_request:
     branches: [main, review/english-only]
@@ -43,7 +43,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Validate 2 English terms and all 43 Math lessons
+      - name: Validate English and Math, plus independent draft Science 6 source files
         run: |
           python - <<'PY'
           import json,pathlib
@@ -65,6 +65,13 @@ jobs:
           assert cat["courses"][3]["branch_ids"][-1]=="math6-bai43-v01"
           assert (p/"frontend/public/math6-year/bank.mjs").exists()
           assert (p/"frontend/src/features/math6/Math6Lesson1Experience.tsx").is_file()
+          science=json.loads((p/"data/curriculum/science6_full_year.json").read_text())
+          assert science["chapterCount"]==10 and science["lessonCount"]==55
+          assert science["source"]["pdfPageCount"]==199
+          assert (p/"frontend/public/science6/lessonEngine.mjs").exists()
+          assert (p/"frontend/public/science6/data/ch07a.json").exists()
+          assert (p/"frontend/public/science6/data/ch07b.json").exists()
+          assert not any(x.get("subject")=="science" for x in cat["courses"])
           print("PASS: two English semesters and Math Lesson 1; other subjects absent")
           PY
 
@@ -89,3 +96,4 @@ jobs:
         run: |
           node tests/mathLesson2.browser.mjs
           node tests/mathFullYear.browser.mjs
+          node tests/science6.browser.mjs

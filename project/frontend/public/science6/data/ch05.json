@@ -1,0 +1,157 @@
+{
+  "chapter": 5,
+  "sourcePageRange": [
+    64,
+    74
+  ],
+  "rows": [
+    {
+      "number": 18,
+      "terms": [
+        {
+          "name": "Tế bào",
+          "meaning": "Đơn vị cấu tạo cơ bản của cơ thể sống."
+        },
+        {
+          "name": "Hình dạng tế bào",
+          "meaning": "Có thể khác nhau tùy chức năng và loại sinh vật."
+        },
+        {
+          "name": "Kích thước tế bào",
+          "meaning": "Phần lớn tế bào nhỏ và cần kính hiển vi để quan sát rõ."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Vì sao cơ thể sống được tạo từ tế bào?",
+          "answer": "Tế bào là đơn vị cấu tạo cơ bản của sự sống",
+          "incorrect": [
+            "Mọi tế bào đều có hình vuông",
+            "Tế bào không thực hiện hoạt động sống"
+          ],
+          "hint": "Cơ thể sinh vật được cấu tạo từ tế bào."
+        },
+        {
+          "prompt": "Để quan sát phần lớn tế bào cần dụng cụ nào?",
+          "answer": "Kính hiển vi",
+          "incorrect": [
+            "Thước dây",
+            "Đồng hồ"
+          ],
+          "hint": "Kích thước tế bào thường rất nhỏ."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "terms": [
+        {
+          "name": "Màng tế bào",
+          "meaning": "Bao bọc và kiểm soát sự trao đổi chất với môi trường."
+        },
+        {
+          "name": "Tế bào chất",
+          "meaning": "Nơi diễn ra nhiều hoạt động của tế bào."
+        },
+        {
+          "name": "Nhân hoặc vùng nhân",
+          "meaning": "Chứa vật chất di truyền của tế bào."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Bộ phận nào góp phần kiểm soát chất ra vào tế bào?",
+          "answer": "Màng tế bào",
+          "incorrect": [
+            "Thước đo",
+            "Cột sống"
+          ],
+          "hint": "Màng là ranh giới của tế bào."
+        },
+        {
+          "prompt": "Tế bào thực vật thường có đặc điểm nào mà tế bào động vật không có?",
+          "answer": "Thành tế bào",
+          "incorrect": [
+            "Màng tế bào",
+            "Tế bào chất"
+          ],
+          "hint": "So sánh sơ đồ cấu tạo tế bào thực vật và động vật."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "terms": [
+        {
+          "name": "Lớn lên của tế bào",
+          "meaning": "Quá trình tăng kích thước tế bào."
+        },
+        {
+          "name": "Sinh sản tế bào",
+          "meaning": "Tế bào tạo ra tế bào mới bằng phân chia."
+        },
+        {
+          "name": "Ý nghĩa phân chia",
+          "meaning": "Góp phần làm cơ thể lớn lên và thay thế tế bào già, tổn thương."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Cơ thể lớn lên một phần nhờ quá trình nào?",
+          "answer": "Tế bào lớn lên và phân chia",
+          "incorrect": [
+            "Tế bào biến thành chất không sống",
+            "Mọi tế bào ngừng hoạt động"
+          ],
+          "hint": "Quan hệ giữa số lượng tế bào và sự phát triển cơ thể."
+        },
+        {
+          "prompt": "Sau khi một tế bào phân chia thành hai tế bào con, số tế bào tăng hay giảm?",
+          "answer": "Tăng",
+          "incorrect": [
+            "Giảm",
+            "Không thay đổi"
+          ],
+          "hint": "Từ một tế bào tạo thành hai tế bào."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "terms": [
+        {
+          "name": "Tiêu bản tế bào",
+          "meaning": "Mẫu vật được chuẩn bị để quan sát dưới kính hiển vi."
+        },
+        {
+          "name": "Quan sát",
+          "meaning": "Nhận biết hình dạng, thành phần theo hình ảnh kính hiển vi."
+        },
+        {
+          "name": "Ghi chép khoa học",
+          "meaning": "Vẽ hoặc mô tả đặc điểm đã thấy, tránh suy đoán không có căn cứ."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Quan sát tế bào dưới kính hiển vi cần chú ý yếu tố nào?",
+          "answer": "Điều chỉnh để nhìn rõ mẫu theo hướng dẫn",
+          "incorrect": [
+            "Chạm tay vào vật kính",
+            "Tự tháo các bộ phận"
+          ],
+          "hint": "Bảo vệ kính hiển vi và mẫu quan sát."
+        },
+        {
+          "prompt": "Bản vẽ tế bào trong vở cần dựa trên điều gì?",
+          "answer": "Đặc điểm thực tế quan sát được",
+          "incorrect": [
+            "Trí tưởng tượng thay cho quan sát",
+            "Hình tùy ý không nhãn"
+          ],
+          "hint": "Quan sát và ghi kết quả là hai phần của thực hành khoa học."
+        }
+      ]
+    }
+  ]
+}

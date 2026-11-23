@@ -1,0 +1,306 @@
+{
+  "chapter": 7,
+  "part": "a",
+  "sourcePageRange": [
+    86,
+    107
+  ],
+  "rows": [
+    {
+      "number": 25,
+      "terms": [
+        {
+          "name": "Phân loại sinh vật",
+          "meaning": "Sắp xếp sinh vật thành các nhóm dựa trên đặc điểm chung."
+        },
+        {
+          "name": "Loài",
+          "meaning": "Bậc phân loại cơ bản của hệ thống phân loại sinh vật."
+        },
+        {
+          "name": "Tên khoa học",
+          "meaning": "Cách gọi giúp nhận biết sinh vật thống nhất trong nghiên cứu."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Hai sinh vật có nhiều đặc điểm chung có thể được xếp thế nào?",
+          "answer": "Vào nhóm phân loại gần nhau",
+          "incorrect": [
+            "Bắt buộc khác giới",
+            "Luôn là cùng một cá thể"
+          ],
+          "hint": "Các đặc điểm chung giúp xác lập quan hệ phân loại."
+        },
+        {
+          "prompt": "Việc phân loại sinh vật có lợi ích gì?",
+          "answer": "Thuận tiện nhận biết và nghiên cứu sự đa dạng sinh vật",
+          "incorrect": [
+            "Thay thế hoàn toàn quan sát",
+            "Làm giảm số loài ngoài tự nhiên"
+          ],
+          "hint": "Phân loại giúp tổ chức thông tin."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "terms": [
+        {
+          "name": "Khóa lưỡng phân",
+          "meaning": "Cách nhận dạng sinh vật bằng các cặp lựa chọn đối lập."
+        },
+        {
+          "name": "Đặc điểm phân biệt",
+          "meaning": "Dấu hiệu dùng để tách sinh vật thành hai nhóm."
+        },
+        {
+          "name": "Nhánh khóa",
+          "meaning": "Con đường theo các lựa chọn để đi tới tên nhóm hoặc sinh vật."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Ở một bước khóa lưỡng phân thường có mấy lựa chọn đối lập?",
+          "answer": "Hai",
+          "incorrect": [
+            "Một",
+            "Bốn"
+          ],
+          "hint": "Tên gọi lưỡng phân gợi ý hai nhánh."
+        },
+        {
+          "prompt": "Muốn dùng khóa để tìm tên cây, trước tiên cần làm gì?",
+          "answer": "Quan sát dấu hiệu cây để chọn nhánh phù hợp",
+          "incorrect": [
+            "Đoán tên trước khi xem khóa",
+            "Chọn nhánh ngẫu nhiên"
+          ],
+          "hint": "Lựa chọn phải dựa trên đặc điểm thật của mẫu."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "terms": [
+        {
+          "name": "Vi khuẩn",
+          "meaning": "Nhóm sinh vật đơn bào có cấu tạo tế bào nhân sơ."
+        },
+        {
+          "name": "Tế bào nhân sơ",
+          "meaning": "Tế bào chưa có nhân hoàn chỉnh được bao bọc bằng màng nhân."
+        },
+        {
+          "name": "Vai trò của vi khuẩn",
+          "meaning": "Có loài có ích và có loài có thể gây bệnh."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Vi khuẩn thường thuộc loại cơ thể nào?",
+          "answer": "Đơn bào",
+          "incorrect": [
+            "Đa bào có cơ quan",
+            "Vật không sống"
+          ],
+          "hint": "Phần lớn vi khuẩn gồm một tế bào."
+        },
+        {
+          "prompt": "Để hạn chế tác hại của vi khuẩn gây bệnh, việc nào phù hợp?",
+          "answer": "Rửa tay đúng cách và giữ vệ sinh",
+          "incorrect": [
+            "Ăn thực phẩm đã ôi",
+            "Không cần vệ sinh tay"
+          ],
+          "hint": "Giữ vệ sinh là biện pháp phòng bệnh quan trọng."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "terms": [
+        {
+          "name": "Vi khuẩn lactic",
+          "meaning": "Vi khuẩn tham gia vào sự lên men tạo nên sản phẩm sữa chua."
+        },
+        {
+          "name": "Lên men",
+          "meaning": "Quá trình biến đổi chất nhờ hoạt động của vi sinh vật phù hợp."
+        },
+        {
+          "name": "Quan sát dưới kính",
+          "meaning": "Sử dụng thiết bị chuyên dụng và mẫu do giáo viên chuẩn bị để nhận biết vi khuẩn."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Vai trò của vi khuẩn lactic trong làm sữa chua là gì?",
+          "answer": "Góp phần tạo sản phẩm lên men",
+          "incorrect": [
+            "Tạo ra kim loại",
+            "Làm nước thành dầu"
+          ],
+          "hint": "Đây là ví dụ ứng dụng vi khuẩn có ích."
+        },
+        {
+          "prompt": "Khi thực hành quan sát mẫu vi sinh vật, học sinh cần làm gì?",
+          "answer": "Làm theo hướng dẫn và giữ vệ sinh dụng cụ",
+          "incorrect": [
+            "Nếm thử mẫu quan sát",
+            "Tự mang mẫu không rõ nguồn gốc đến lớp"
+          ],
+          "hint": "Không nếm hoặc tiếp xúc tùy tiện với mẫu thực hành."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "terms": [
+        {
+          "name": "Virus",
+          "meaning": "Tác nhân siêu nhỏ, chưa có cấu tạo tế bào hoàn chỉnh."
+        },
+        {
+          "name": "Vật chủ",
+          "meaning": "Cơ thể hoặc tế bào mà virus cần để nhân lên."
+        },
+        {
+          "name": "Phòng bệnh do virus",
+          "meaning": "Giữ vệ sinh, tiêm chủng theo khuyến cáo và thực hiện hướng dẫn y tế."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Virus có thể tự sinh sản độc lập bên ngoài tế bào chủ không?",
+          "answer": "Không",
+          "incorrect": [
+            "Có, luôn luôn",
+            "Chỉ cần ánh sáng mặt trời"
+          ],
+          "hint": "Virus cần tế bào chủ để nhân lên."
+        },
+        {
+          "prompt": "Khi có triệu chứng bệnh truyền nhiễm, lựa chọn phù hợp là gì?",
+          "answer": "Thông báo người lớn và làm theo hướng dẫn y tế",
+          "incorrect": [
+            "Tự ý dùng thuốc bất kì",
+            "Che giấu triệu chứng với người chăm sóc"
+          ],
+          "hint": "Phòng bệnh và chăm sóc cần dựa vào hướng dẫn y tế."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "terms": [
+        {
+          "name": "Nguyên sinh vật",
+          "meaning": "Nhóm sinh vật nhân thực, nhiều loài là đơn bào."
+        },
+        {
+          "name": "Trùng roi",
+          "meaning": "Ví dụ sinh vật đơn bào có bộ phận giúp di chuyển."
+        },
+        {
+          "name": "Trùng giày",
+          "meaning": "Nguyên sinh vật đơn bào có lông bơi."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Trùng giày thường di chuyển nhờ cấu trúc nào?",
+          "answer": "Lông bơi",
+          "incorrect": [
+            "Rễ cây",
+            "Cánh chim"
+          ],
+          "hint": "Quan sát đặc điểm hình dạng và bộ phận chuyển động."
+        },
+        {
+          "prompt": "Nguyên sinh vật trong môi trường nước được khảo sát tốt bằng dụng cụ nào?",
+          "answer": "Kính hiển vi",
+          "incorrect": [
+            "Cân điện tử",
+            "Thước dây"
+          ],
+          "hint": "Nhiều nguyên sinh vật quá nhỏ để nhìn bằng mắt thường."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "terms": [
+        {
+          "name": "Mẫu quan sát",
+          "meaning": "Mẫu được chuẩn bị theo hướng dẫn để quan sát nguyên sinh vật."
+        },
+        {
+          "name": "Hình dạng",
+          "meaning": "Dấu hiệu nhận biết ở các hình ảnh mẫu."
+        },
+        {
+          "name": "Chuyển động",
+          "meaning": "Một đặc điểm có thể quan sát để mô tả nguyên sinh vật."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Quan sát hình ảnh trùng giày đang di chuyển, học sinh nên ghi điều gì?",
+          "answer": "Hình dạng và cách di chuyển quan sát thấy",
+          "incorrect": [
+            "Kết luận không cần căn cứ",
+            "Đo khối lượng của mẫu bằng cân"
+          ],
+          "hint": "Bài thực hành chú trọng ghi thông tin quan sát được."
+        },
+        {
+          "prompt": "Nếu hình ảnh qua kính chưa rõ, cách phù hợp là gì?",
+          "answer": "Nhờ giáo viên hướng dẫn chỉnh tiêu cự",
+          "incorrect": [
+            "Tự tháo bộ phận kính",
+            "Sờ tay vào bề mặt vật kính"
+          ],
+          "hint": "Sử dụng kính hiển vi đúng cách."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "terms": [
+        {
+          "name": "Nấm",
+          "meaning": "Nhóm sinh vật nhân thực không có diệp lục để tự quang hợp như cây xanh."
+        },
+        {
+          "name": "Nấm men",
+          "meaning": "Nấm đơn bào dùng trong một số quá trình lên men."
+        },
+        {
+          "name": "Nấm mốc",
+          "meaning": "Nấm thường tạo các mảng sợi trên chất hữu cơ trong điều kiện thích hợp."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Nấm có vai trò nào trong tự nhiên?",
+          "answer": "Phân hủy chất hữu cơ",
+          "incorrect": [
+            "Tạo ra ánh sáng Mặt Trời",
+            "Làm Trái Đất ngừng quay"
+          ],
+          "hint": "Nấm tham gia chu trình vật chất."
+        },
+        {
+          "prompt": "Thấy nấm mọc lạ trên thực phẩm, nên làm gì?",
+          "answer": "Không ăn thực phẩm mốc",
+          "incorrect": [
+            "Gạt lớp mốc rồi ăn ngay",
+            "Nếm thử để kiểm tra"
+          ],
+          "hint": "Thực phẩm mốc có thể không an toàn."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "chapter": 2,
+  "sourcePageRange": [
+    28,
+    41
+  ],
+  "rows": [
+    {
+      "number": 9,
+      "terms": [
+        {
+          "name": "Vật thể",
+          "meaning": "Đồ vật hoặc đối tượng trong tự nhiên, có thể tạo thành từ một hay nhiều chất."
+        },
+        {
+          "name": "Chất",
+          "meaning": "Thành phần cấu tạo nên vật thể, có tính chất đặc trưng."
+        },
+        {
+          "name": "Tính chất vật lí",
+          "meaning": "Đặc điểm như màu, thể, độ tan và dẫn nhiệt quan sát được mà không tạo chất mới."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Muối tan trong nước là biểu hiện của tính chất nào?",
+          "answer": "Tính chất vật lí",
+          "incorrect": [
+            "Sự hình thành chất mới",
+            "Sự cháy"
+          ],
+          "hint": "Hòa tan không đồng nghĩa với tạo chất mới."
+        },
+        {
+          "prompt": "Chiếc thìa kim loại là ví dụ về gì?",
+          "answer": "Vật thể",
+          "incorrect": [
+            "Một đơn vị đo",
+            "Một hiện tượng thiên văn"
+          ],
+          "hint": "Phân biệt đồ vật cụ thể và chất làm nên đồ vật."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "terms": [
+        {
+          "name": "Thể rắn",
+          "meaning": "Thường có hình dạng và thể tích xác định."
+        },
+        {
+          "name": "Thể lỏng",
+          "meaning": "Có thể tích xác định nhưng nhận hình dạng phần bình chứa."
+        },
+        {
+          "name": "Thể khí",
+          "meaning": "Không có hình dạng hay thể tích xác định; có thể lan ra lấp đầy bình chứa."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Nước đá chuyển thành nước lỏng gọi là gì?",
+          "answer": "Sự nóng chảy",
+          "incorrect": [
+            "Sự ngưng tụ",
+            "Sự đông đặc"
+          ],
+          "hint": "Chuyển thể rắn sang lỏng là nóng chảy."
+        },
+        {
+          "prompt": "Hơi nước gặp lạnh tạo giọt nước là hiện tượng gì?",
+          "answer": "Ngưng tụ",
+          "incorrect": [
+            "Sôi",
+            "Nóng chảy"
+          ],
+          "hint": "Chuyển từ khí sang lỏng là ngưng tụ."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "terms": [
+        {
+          "name": "Oxygen",
+          "meaning": "Khí cần cho hô hấp và duy trì sự cháy."
+        },
+        {
+          "name": "Nitrogen",
+          "meaning": "Khí chiếm phần lớn thể tích không khí."
+        },
+        {
+          "name": "Không khí",
+          "meaning": "Hỗn hợp nhiều khí, trong đó có oxygen và nitrogen."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Khí nào chiếm xấp xỉ 21% thể tích không khí?",
+          "answer": "Oxygen",
+          "incorrect": [
+            "Carbon dioxide",
+            "Hydrogen"
+          ],
+          "hint": "Chú ý thành phần không khí trên biểu đồ trong SGK."
+        },
+        {
+          "prompt": "Muốn góp phần bảo vệ không khí, chọn cách làm nào?",
+          "answer": "Hạn chế đốt rác và trồng thêm cây",
+          "incorrect": [
+            "Đốt rác ngoài trời",
+            "Để động cơ nổ không cần thiết"
+          ],
+          "hint": "Chọn hành động giúp giảm ô nhiễm không khí."
+        }
+      ]
+    }
+  ]
+}

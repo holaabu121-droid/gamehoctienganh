@@ -1,0 +1,269 @@
+{
+  "chapter": 7,
+  "part": "b",
+  "sourcePageRange": [
+    108,
+    143
+  ],
+  "rows": [
+    {
+      "number": 33,
+      "terms": [
+        {
+          "name": "Quan sát nấm",
+          "meaning": "Nhận biết mẫu nấm qua hình dạng, màu sắc và cấu tạo bên ngoài."
+        },
+        {
+          "name": "Nấm mũ",
+          "meaning": "Loại nấm có phần mũ và cuống dễ nhận thấy ở nhiều loài."
+        },
+        {
+          "name": "An toàn thực phẩm",
+          "meaning": "Không ăn nấm hoang dã khi chưa có người có chuyên môn xác định an toàn."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Khi gặp nấm lạ ngoài sân trường, lựa chọn nào đúng?",
+          "answer": "Chỉ quan sát và không ăn thử",
+          "incorrect": [
+            "Hái nếm để nhận biết",
+            "Tự kết luận ăn được qua màu sắc"
+          ],
+          "hint": "Không thể xác định nấm ăn được chỉ nhờ nhìn màu."
+        },
+        {
+          "prompt": "Quan sát nấm mũ trong tranh, đặc điểm nào nên ghi lại?",
+          "answer": "Mũ, cuống và màu sắc nhìn thấy",
+          "incorrect": [
+            "Tên thuốc chữa bệnh của nấm",
+            "Khối lượng nguyên tử"
+          ],
+          "hint": "Mô tả những gì quan sát được từ mẫu."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "terms": [
+        {
+          "name": "Thực vật",
+          "meaning": "Nhóm sinh vật đa bào có nhiều loài quang hợp nhờ diệp lục."
+        },
+        {
+          "name": "Rêu",
+          "meaning": "Nhóm thực vật thường sống ở nơi ẩm, cấu tạo đơn giản."
+        },
+        {
+          "name": "Thực vật có hoa",
+          "meaning": "Nhóm thực vật có cơ quan sinh sản là hoa, tạo quả chứa hạt."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Cây xoài thuộc nhóm thực vật nào?",
+          "answer": "Thực vật có hoa",
+          "incorrect": [
+            "Nấm mốc",
+            "Vi khuẩn"
+          ],
+          "hint": "Cây xoài có hoa và quả."
+        },
+        {
+          "prompt": "Bộ phận nào giúp nhiều cây xanh tạo chất hữu cơ nhờ ánh sáng?",
+          "answer": "Lá chứa diệp lục",
+          "incorrect": [
+            "Rễ hút kim loại",
+            "Hoa tự phát sáng"
+          ],
+          "hint": "Quang hợp chủ yếu diễn ra ở phần có diệp lục."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "terms": [
+        {
+          "name": "Quan sát thực vật",
+          "meaning": "Ghi lại lá, thân, rễ, hoa, quả hoặc hạt nếu có."
+        },
+        {
+          "name": "Phân biệt nhóm",
+          "meaning": "Dựa vào đặc điểm hình thái để xếp thực vật vào nhóm phù hợp."
+        },
+        {
+          "name": "Giữ gìn mẫu vật",
+          "meaning": "Quan sát không làm hư hại cây và môi trường."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Muốn phân biệt cây dương xỉ với cây có hoa, dấu hiệu nào hữu ích?",
+          "answer": "Có hay không có hoa, hạt",
+          "incorrect": [
+            "Màu của chậu cây",
+            "Chiều cao của người quan sát"
+          ],
+          "hint": "Cơ quan sinh sản giúp phân biệt nhiều nhóm thực vật."
+        },
+        {
+          "prompt": "Trong buổi quan sát cây ở sân trường, nên làm gì?",
+          "answer": "Ghi chép đặc điểm mà không bẻ phá cây",
+          "incorrect": [
+            "Bẻ cành để mang về dù không được phép",
+            "Nhổ cây để đếm lá"
+          ],
+          "hint": "Quan sát có trách nhiệm với sinh vật."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "terms": [
+        {
+          "name": "Động vật",
+          "meaning": "Nhóm sinh vật đa bào, dị dưỡng và có khả năng vận động ở nhiều giai đoạn."
+        },
+        {
+          "name": "Động vật không xương sống",
+          "meaning": "Động vật không có cột sống."
+        },
+        {
+          "name": "Động vật có xương sống",
+          "meaning": "Động vật có cột sống."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Con giun đất thuộc nhóm nào?",
+          "answer": "Động vật không xương sống",
+          "incorrect": [
+            "Động vật có xương sống",
+            "Thực vật"
+          ],
+          "hint": "Giun đất không có cột sống."
+        },
+        {
+          "prompt": "Con cá chép thuộc nhóm nào?",
+          "answer": "Động vật có xương sống",
+          "incorrect": [
+            "Nấm",
+            "Động vật không xương sống"
+          ],
+          "hint": "Cá có bộ xương và cột sống."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "terms": [
+        {
+          "name": "Quan sát ngoài thiên nhiên",
+          "meaning": "Nhận biết động vật qua nơi sống, hình dạng và đặc điểm di chuyển."
+        },
+        {
+          "name": "Đặc điểm nhận dạng",
+          "meaning": "Dấu hiệu giúp phân biệt các nhóm động vật."
+        },
+        {
+          "name": "Quan sát an toàn",
+          "meaning": "Không chạm hoặc đuổi bắt động vật lạ, giữ khoảng cách phù hợp."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Khi gặp côn trùng lạ trong chuyến quan sát, nên làm gì?",
+          "answer": "Quan sát từ khoảng cách an toàn",
+          "incorrect": [
+            "Bắt bằng tay không",
+            "Đưa sát mặt để ngửi"
+          ],
+          "hint": "Quan sát không gây nguy cơ hoặc làm hại con vật."
+        },
+        {
+          "prompt": "Muốn phân loại động vật qua ảnh, cần quan tâm điều gì?",
+          "answer": "Đặc điểm cơ thể và nơi sống",
+          "incorrect": [
+            "Tên của người chụp ảnh",
+            "Màu nền giấy"
+          ],
+          "hint": "Dùng dấu hiệu sinh học có thể kiểm chứng."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "terms": [
+        {
+          "name": "Đa dạng sinh học",
+          "meaning": "Sự phong phú về loài sinh vật, nguồn gen và hệ sinh thái."
+        },
+        {
+          "name": "Hệ sinh thái",
+          "meaning": "Hệ gồm sinh vật và môi trường sống có quan hệ với nhau."
+        },
+        {
+          "name": "Bảo tồn",
+          "meaning": "Hành động giữ gìn các loài và môi trường sống."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Vì sao cần bảo tồn đa dạng sinh học?",
+          "answer": "Duy trì cân bằng tự nhiên và nguồn tài nguyên sinh vật",
+          "incorrect": [
+            "Loại bỏ mọi sinh vật hoang dã",
+            "Làm môi trường chỉ có một loài"
+          ],
+          "hint": "Sự đa dạng góp phần duy trì hệ sinh thái."
+        },
+        {
+          "prompt": "Hành động nào giúp bảo vệ sinh vật tự nhiên?",
+          "answer": "Không săn bắt và không phá hủy nơi sống",
+          "incorrect": [
+            "Xả rác xuống suối",
+            "Tự ý khai thác động vật quý hiếm"
+          ],
+          "hint": "Tác động của con người có thể làm giảm đa dạng sinh học."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "terms": [
+        {
+          "name": "Điều tra sinh vật",
+          "meaning": "Quan sát và ghi nhận các loài gặp trong môi trường thực tế."
+        },
+        {
+          "name": "Phiếu quan sát",
+          "meaning": "Bảng ghi tên, đặc điểm, nơi sống và số lượng ước tính."
+        },
+        {
+          "name": "Đạo đức khi khảo sát",
+          "meaning": "Không làm hại sinh vật hoặc nơi sống trong quá trình tìm hiểu."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Khảo sát sinh vật ngoài trời cần ghi thông tin nào?",
+          "answer": "Đặc điểm, nơi sống và thời điểm quan sát",
+          "incorrect": [
+            "Tên ngẫu nhiên không cần đối chiếu",
+            "Chỉ ghi ý kiến chủ quan"
+          ],
+          "hint": "Phiếu khảo sát cần thông tin quan sát có thể kiểm tra."
+        },
+        {
+          "prompt": "Thấy tổ chim đang có con non, nên ứng xử thế nào?",
+          "answer": "Giữ khoảng cách và không làm phiền",
+          "incorrect": [
+            "Tự ý lấy trứng làm mẫu",
+            "Đuổi chim khỏi tổ"
+          ],
+          "hint": "Hoạt động nghiên cứu không được gây hại sinh vật."
+        }
+      ]
+    }
+  ]
+}

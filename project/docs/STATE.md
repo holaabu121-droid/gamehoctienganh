@@ -7,3 +7,11 @@
 - Chấm điểm và hồ sơ tách theo mã bài, học kỳ, môn; không xoá dữ liệu lịch sử.
 - Chi tiết ở `docs/MATH6_FULL_YEAR_2026-11-23.md`.
 - Chưa gộp vào main, chưa triển khai hoặc tạo bộ cài Windows.
+## Khoa học tự nhiên 6 – bản thiết kế dữ liệu (23/11/2026)
+
+- Đã đọc mục lục bản PDF SGK KHTN 6 – Kết nối tri thức với cuộc sống, 199 trang; 10 chương, 55 bài.
+- Đã soạn dữ liệu nền 55 bài, hai thẻ/bài (110 thẻ), bốn câu mẫu/bài (220 câu, gồm 110 luyện tập + 110 vận dụng); bản nháp đang chờ duyệt chuyên môn.
+- Có trang xem mẫu riêng `project/frontend/public/science6/index.html`, **chưa gắn vào catalog môn học, chưa ghi điểm học sinh**.
+- Mục tiêu dài hạn là 50 câu/bài (30 luyện tập, 20 vận dụng) với đề 6+4 và luật chấm đã duyệt; hiện chưa hoàn thành ngân hàng này, không làm giả bằng cách nhân bản câu.
+- Mục lục không ghi ranh giới học kỳ; chưa tự gán học kỳ.
+- Chi tiết ở `project/docs/SCIENCE6_CURRICULUM_DESIGN_2026-11-23.md`.

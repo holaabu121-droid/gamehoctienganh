@@ -1,0 +1,231 @@
+{
+  "chapter": 8,
+  "sourcePageRange": [
+    144,
+    161
+  ],
+  "rows": [
+    {
+      "number": 40,
+      "terms": [
+        {
+          "name": "Lực",
+          "meaning": "Tác dụng đẩy hoặc kéo của vật này lên vật khác."
+        },
+        {
+          "name": "Lực tiếp xúc",
+          "meaning": "Lực xuất hiện khi các vật tiếp xúc với nhau."
+        },
+        {
+          "name": "Tác dụng của lực",
+          "meaning": "Có thể làm thay đổi chuyển động hoặc biến dạng vật."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Khi đẩy xe đồ chơi làm xe chuyển động, lực đã gây ra điều gì?",
+          "answer": "Thay đổi chuyển động",
+          "incorrect": [
+            "Thay đổi thành phần hóa học",
+            "Tạo thêm khối lượng"
+          ],
+          "hint": "Lực có thể làm vật bắt đầu chuyển động."
+        },
+        {
+          "prompt": "Bàn tay kéo dây là ví dụ về dạng lực nào?",
+          "answer": "Lực tiếp xúc",
+          "incorrect": [
+            "Lực không tiếp xúc",
+            "Lực hấp dẫn giữa các hành tinh"
+          ],
+          "hint": "Tay và dây tiếp xúc trực tiếp."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "terms": [
+        {
+          "name": "Điểm đặt lực",
+          "meaning": "Vị trí lực tác dụng lên vật."
+        },
+        {
+          "name": "Phương và chiều",
+          "meaning": "Đặc điểm định hướng của lực."
+        },
+        {
+          "name": "Độ lớn lực",
+          "meaning": "Mức mạnh của lực, thường đo bằng niutơn (N)."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Mũi tên biểu diễn lực hướng sang phải cho biết điều gì?",
+          "answer": "Chiều của lực sang phải",
+          "incorrect": [
+            "Khối lượng của vật tăng",
+            "Nhiệt độ tăng"
+          ],
+          "hint": "Đầu mũi tên thể hiện chiều."
+        },
+        {
+          "prompt": "Dụng cụ nào dùng để đo độ lớn của lực?",
+          "answer": "Lực kế",
+          "incorrect": [
+            "Nhiệt kế",
+            "Thước dây"
+          ],
+          "hint": "Lực kế có thang chia theo đơn vị niutơn."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "terms": [
+        {
+          "name": "Lò xo",
+          "meaning": "Vật đàn hồi có thể thay đổi chiều dài khi chịu lực."
+        },
+        {
+          "name": "Độ dãn của lò xo",
+          "meaning": "Phần chiều dài tăng so với chiều dài tự nhiên."
+        },
+        {
+          "name": "Biến dạng đàn hồi",
+          "meaning": "Biến dạng có thể phục hồi khi không còn lực tác dụng trong giới hạn phù hợp."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Lò xo dài tự nhiên 10 cm, khi treo vật dài 13 cm. Độ dãn là bao nhiêu?",
+          "answer": "3 cm",
+          "incorrect": [
+            "10 cm",
+            "13 cm"
+          ],
+          "hint": "Lấy chiều dài khi có lực trừ chiều dài ban đầu."
+        },
+        {
+          "prompt": "Tháo vật ra mà lò xo trở lại chiều dài ban đầu là tính chất nào?",
+          "answer": "Đàn hồi",
+          "incorrect": [
+            "Hòa tan",
+            "Dẫn điện"
+          ],
+          "hint": "Quan sát khả năng phục hồi hình dạng."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "terms": [
+        {
+          "name": "Lực hấp dẫn",
+          "meaning": "Lực hút giữa các vật có khối lượng."
+        },
+        {
+          "name": "Trọng lượng",
+          "meaning": "Độ lớn lực hút của Trái Đất tác dụng lên vật."
+        },
+        {
+          "name": "Khối lượng",
+          "meaning": "Đại lượng đặc trưng cho lượng vật chất của vật, thường đo bằng kg."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Tại sao quả táo rơi xuống đất khi thả ra?",
+          "answer": "Do lực hấp dẫn của Trái Đất",
+          "incorrect": [
+            "Do ánh sáng kéo vật xuống",
+            "Do lực của đồng hồ"
+          ],
+          "hint": "Trái Đất hút các vật ở gần nó."
+        },
+        {
+          "prompt": "Trọng lượng là một loại đại lượng nào?",
+          "answer": "Lực",
+          "incorrect": [
+            "Thời gian",
+            "Thể tích"
+          ],
+          "hint": "Trọng lượng có đơn vị là niutơn."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "terms": [
+        {
+          "name": "Lực ma sát",
+          "meaning": "Lực xuất hiện tại bề mặt tiếp xúc, cản trở chuyển động tương đối hoặc xu hướng trượt."
+        },
+        {
+          "name": "Ma sát có ích",
+          "meaning": "Giúp người đi lại không bị trượt, giúp phanh xe."
+        },
+        {
+          "name": "Ma sát có hại",
+          "meaning": "Gây mòn hoặc tỏa nhiệt không mong muốn ở một số bộ phận máy."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Vì sao giày có rãnh ở đế?",
+          "answer": "Tăng độ bám khi đi lại",
+          "incorrect": [
+            "Làm chân nhẹ hơn không điều kiện",
+            "Loại bỏ trọng lượng"
+          ],
+          "hint": "Ma sát có thể giúp giảm trơn trượt."
+        },
+        {
+          "prompt": "Đối với bản lề bị khô gây tiếng kêu, xử lý đúng về nguyên tắc là gì?",
+          "answer": "Giảm ma sát bằng bảo dưỡng phù hợp",
+          "incorrect": [
+            "Tăng lực ép vô hạn",
+            "Để bề mặt mòn hẳn"
+          ],
+          "hint": "Giảm ma sát khi gây hao mòn không cần thiết."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "terms": [
+        {
+          "name": "Lực cản của nước",
+          "meaning": "Lực nước tác dụng chống lại chuyển động của vật trong nước."
+        },
+        {
+          "name": "Hình dạng thuôn",
+          "meaning": "Hình dạng thường giúp giảm lực cản khi di chuyển trong nước."
+        },
+        {
+          "name": "Vận động trong nước",
+          "meaning": "Chịu tác dụng của lực đẩy và lực cản từ nước."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Vì sao nhiều loài cá có thân thuôn?",
+          "answer": "Giúp giảm lực cản của nước",
+          "incorrect": [
+            "Làm cá không có khối lượng",
+            "Làm nước chuyển sang thể rắn"
+          ],
+          "hint": "Hình dạng ảnh hưởng đến lực cản khi bơi."
+        },
+        {
+          "prompt": "Hai vật giống khối lượng nhưng hình dạng khác nhau đi trong nước, lực cản có thể thế nào?",
+          "answer": "Khác nhau",
+          "incorrect": [
+            "Luôn bằng không",
+            "Luôn giống hệt nhau"
+          ],
+          "hint": "Lực cản phụ thuộc hình dạng và điều kiện chuyển động."
+        }
+      ]
+    }
+  ]
+}
