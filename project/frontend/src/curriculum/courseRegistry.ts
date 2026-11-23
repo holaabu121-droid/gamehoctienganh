@@ -28,7 +28,7 @@ export const COURSE_EXPERIENCE_REGISTRY: Readonly<Record<string, CourseExperienc
     courseId: "math-6-semester-1",
     rendererKey: "math-6-semester-1",
     initialBranch: "math6-bai1-v054",
-    branchIds: ["math6-bai1-v054"],
+    branchIds: ["math6-bai1-v054", "math6-bai2-v01"],
   },
 };
 

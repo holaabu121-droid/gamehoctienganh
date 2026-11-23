@@ -51,11 +51,12 @@
       "grade": 6,
       "semester": 1,
       "title": "Toán 6 · Học kỳ 1",
-      "description": "Bài 1: Tập hợp — 50 câu hỏi luyện tập và vận dụng, có gợi ý và chấm điểm theo thời gian. Các bài tiếp theo sẽ được bổ sung.",
+      "description": "Bài 1: Tập hợp và Bài 2: Cách ghi số tự nhiên. Mỗi bài có 50 câu luyện tập và vận dụng, kèm gợi ý và chấm điểm theo thời gian.",
       "status": "available",
-      "content_version": "0.5.4",
+      "content_version": "0.6.0",
       "branch_ids": [
-        "math6-bai1-v054"
+        "math6-bai1-v054",
+        "math6-bai2-v01"
       ]
     }
   ]
