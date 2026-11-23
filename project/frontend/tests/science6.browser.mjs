@@ -32,7 +32,7 @@ async function run(){
    await page.locator('[data-lesson="'+lesson+'"]').click();
    await page.locator(".lesson-header h1").waitFor();
    assert.match(await page.locator(".lesson-header h1").textContent(),new RegExp("Bài "+lesson+":"));
-   assert.equal(await page.locator('[data-action="questions"]').isDisabled(),true);
+   assert.equal(await page.locator('[data-action="questions"]').first().isDisabled(),true);
    if(await page.locator('[data-action="read"]').isDisabled()){
      await page.locator("#readbox").evaluate(e=>{e.scrollTop=e.scrollHeight;e.dispatchEvent(new Event("scroll",{bubbles:true}));});
    }
@@ -42,8 +42,8 @@ async function run(){
      await page.locator("#readbox").evaluate(e=>{e.scrollTop=e.scrollHeight;e.dispatchEvent(new Event("scroll",{bubbles:true}));});
    }
    await page.locator('[data-action="read"]').click();
-   assert.equal(await page.locator('[data-action="questions"]').isDisabled(),false);
-   await page.locator('[data-action="questions"]').click();
+   assert.equal(await page.locator('[data-action="questions"]').first().isDisabled(),false);
+   await page.locator('[data-action="questions"]').first().click();
    assert.equal(await page.locator(".exer-meta span").last().textContent(),"Câu 1/4");
    const first=expected.questions[0];
    const options=page.locator(".option");
