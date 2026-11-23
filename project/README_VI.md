@@ -44,3 +44,7 @@ Mục đích: cấu hình 1 agent chính (Orchestrator) + 3 agent chuyên trách
 - `docs/TASK_TEMPLATE.md`: hợp đồng nhiệm vụ.
 - `scripts/validate_source_data.py`: bộ kiểm tra JSON tiêu chuẩn thư viện Python.
 - `data/raw/*`: dữ liệu gốc đã cung cấp; không ghi đè.
+
+## Phát triển đa môn lớp 6 (nhánh feature/grade6-multisubject)
+
+Ứng dụng nay có Tiếng Anh 6 (hai học kỳ, Units 1–12, Review 1–4) và Toán 6 (hiện chỉ Bài 1: Tập hợp, 50 câu). Sau khi đăng nhập, chọn môn/học kỳ trong Thư viện. Toán được tích hợp qua bộ bài tương tác v0.5.4; điểm đề hoàn thành lưu vào cùng hồ sơ, đề dở lưu trên trình duyệt theo người học. Chưa triển khai bản này thành bộ cài Windows; mọi đường dẫn nhắc đến bộ cài cũ chỉ mô tả lịch sử, không phản ánh chức năng đa môn mới. Xem `docs/MULTISUBJECT_GRADE6_2026-11-23.md`.
