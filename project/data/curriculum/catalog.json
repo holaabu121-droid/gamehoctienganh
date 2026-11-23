@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "default_course_id": "english-6-semester-1",
+  "courses": [
+    {
+      "id": "english-6-semester-1",
+      "subject": "english",
+      "subject_label": "Tiếng Anh",
+      "grade": 6,
+      "semester": 1,
+      "title": "Tiếng Anh 6 · Học kỳ 1",
+      "description": "Chương trình hiện có gồm Units 1–6 và Review 1–2.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": [
+        "unit1",
+        "unit2",
+        "unit3",
+        "review1",
+        "unit4",
+        "unit5",
+        "unit6",
+        "review2"
+      ]
+    },
+    {
+      "id": "english-6-semester-2",
+      "subject": "english",
+      "subject_label": "Tiếng Anh",
+      "grade": 6,
+      "semester": 2,
+      "title": "Tiếng Anh 6 · Học kỳ 2",
+      "description": "Chương trình hiện có gồm Units 7–12 và Review 3–4.",
+      "status": "available",
+      "content_version": "1.7.0",
+      "branch_ids": [
+        "unit7",
+        "unit8",
+        "unit9",
+        "review3",
+        "unit10",
+        "unit11",
+        "unit12",
+        "review4"
+      ]
+    }
+  ]
+}

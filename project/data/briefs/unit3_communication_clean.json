@@ -1,0 +1,117 @@
+{
+  "unit_id": "grade6-friends-communication",
+  "section_id": "unit3-communication",
+  "grade": 6,
+  "level": "A1",
+  "theme": "describing friends and sharing evidence-based opinions",
+  "estimated_minutes": 35,
+  "can_do": [
+    "Ask separate questions about a person's appearance and personality.",
+    "Give a short description of a friend's visible features and character.",
+    "Infer a personality adjective from actions in a short profile.",
+    "Agree or disagree with a personality prediction and give simple evidence."
+  ],
+  "vocabulary_groups": [
+    {
+      "id": "appearance_features",
+      "core_concepts": ["height", "hair", "eyes", "visible features"],
+      "extension": ["build", "hairstyle"]
+    },
+    {
+      "id": "personality_adjectives",
+      "core": ["active", "careful", "caring", "clever", "confident", "creative", "friendly", "funny", "hard-working", "kind"],
+      "extension": ["patient", "generous", "curious"]
+    },
+    {
+      "id": "evidence_actions",
+      "core_concepts": ["independent study", "creative hobbies", "helping others", "joining activities"]
+    }
+  ],
+  "language_focus": [
+    {
+      "concept": "appearance_question",
+      "function": "ask what a person looks like",
+      "response_scope": "visible physical features"
+    },
+    {
+      "concept": "personality_question",
+      "function": "ask what a person is like",
+      "response_scope": "character adjectives supported by behaviour"
+    },
+    {
+      "concept": "opinion_statement",
+      "function": "state agreement or disagreement with a claim and add a short reason"
+    }
+  ],
+  "communication_functions": [
+    "ask about appearance",
+    "ask about personality",
+    "describe a friend",
+    "infer a trait from behaviour",
+    "agree or disagree politely",
+    "support an opinion with profile evidence"
+  ],
+  "skill_targets": {
+    "listening": "Distinguish whether a speaker is asking about appearance or personality.",
+    "speaking": "Ask and answer short questions about a fictional friend and share an opinion.",
+    "reading": "Locate behavioural evidence in a short original profile.",
+    "writing": "Produce a concise description and an evidence-based opinion."
+  },
+  "common_errors": [
+    "use the appearance question when asking about personality",
+    "answer a personality question with only physical features",
+    "choose a trait without evidence from the profile",
+    "treat a birthday-based prediction as a fact",
+    "state agreement or disagreement without a reason"
+  ],
+  "activity_slots": [
+    {
+      "id": "question_switch",
+      "round_count": 10,
+      "purpose": "Select the correct question function for an appearance or personality prompt."
+    },
+    {
+      "id": "description_builder",
+      "round_count": 10,
+      "purpose": "Assemble a short original description and keep appearance and personality language distinct."
+    },
+    {
+      "id": "profile_detective",
+      "round_count": 10,
+      "purpose": "Infer a trait from evidence in a newly written fictional profile."
+    },
+    {
+      "id": "prediction_checker",
+      "round_count": 10,
+      "purpose": "Evaluate an entertainment-style prediction against profile evidence and allow disagreement."
+    },
+    {
+      "id": "opinion_spotlight",
+      "round_count": 10,
+      "purpose": "Practise a concise opinion plus reason in an original classroom-safe situation."
+    }
+  ],
+  "pedagogy_constraints": [
+    "Teach the difference between appearance and personality questions before games.",
+    "Require observable evidence before accepting an inferred personality trait.",
+    "Frame birthday-personality associations as claims for discussion, not scientific facts.",
+    "Allow respectful disagreement and never score a learner's real personality."
+  ],
+  "originality_constraints": [
+    "Do not reuse the source dialogue, profiles, magazine framing, names, countries, cities, birthdays or example stems.",
+    "Do not copy the twelve source date ranges, their trait pairs or their order into the commercial lesson.",
+    "Do not embed, trace or imitate textbook portraits, page layout or decorative frames.",
+    "Create all prompts, fictional profiles, distractors, feedback and visual assets from this clean brief only.",
+    "Use Vietnamese two-word names for newly designed characters.",
+    "Give every game concise help steps and make all ten rounds keyboard accessible."
+  ],
+  "source_status": "clean_brief",
+  "review_status": "pending",
+  "analysis_date": "2026-11-06",
+  "confidence": {
+    "learning_goals": "high",
+    "language_functions": "high",
+    "activity_types": "high",
+    "audio_details": "low"
+  }
+}

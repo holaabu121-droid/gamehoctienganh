@@ -1,0 +1,68 @@
+{
+  "lesson_id": "unit3-bonus",
+  "source_status": "designed",
+  "usage_scope": "personal-family",
+  "source_note": "Ba màn Bonus và toàn bộ câu hỏi được sáng tạo mới từ mục tiêu Unit 3. Không sao chép hình hoặc câu bài tập trong sách.",
+  "variant_catalog": [
+    {"id":"treasure","title":"Kho báu từ vựng","skills":["vocabulary","listening","spelling"]},
+    {"id":"boss","title":"Grammar Boss","skills":["grammar","reading","memory","spelling"]},
+    {"id":"meteor","title":"Mưa từ vựng","skills":["vocabulary","speed","spelling"]},
+    {"id":"detective","title":"Thám tử điền từ","skills":["listening","reading","writing","grammar"]}
+  ],
+  "selected_variants": ["treasure","boss","detective"],
+  "rules_vi": [
+    "Bonus chỉ mở sau khi hoàn thành toàn bộ game tính điểm, gồm Sound Sort và Rhythm Echo luyện chủ động đủ 60 giây mỗi phần.",
+    "Điểm Unit từ 90% mở kho thưởng cao: 50.000 / 100.000 / 150.000 với tỷ lệ 50% / 35% / 15%.",
+    "Điểm Unit từ 70% đến dưới 90% mở kho tiêu chuẩn: 20.000 / 30.000 / 50.000 với cùng tỷ lệ; xác nhận mức này sẽ khóa kho cao.",
+    "Dưới 70%, hãy luyện lại các bài và câu điểm thấp được gợi ý.",
+    "Nếu điểm riêng của một màn Bonus dưới 70%, phần thưởng bốc được của màn đó giảm một nửa.",
+    "Điểm thưởng tách riêng khỏi điểm học tập và mỗi màn chỉ nhận thưởng một lần."
+  ],
+  "stages": {
+    "treasure": {
+      "title":"Kho báu từ vựng","subtitle":"Gõ đúng để mở 10 ổ khóa","variant":"treasure","help_vi":"Nghe hoặc đọc gợi ý, sau đó gõ chính xác từ tiếng Anh. Phần nghe chỉ kiểm tra nhận biết từ, không đánh giá phát âm của học sinh.",
+      "rounds":[
+        {"id":"tr-01","source_status":"ai-generated","character_name":"Lan Anh","skill":"vocabulary","prompt_vi":"Tính từ nào có nghĩa là chăm chỉ?","clue":"Lan Anh studies every evening and finishes her homework on time.","answer":"hard-working","explanation_vi":"Hard-working nghĩa là chăm chỉ.","completed_text":"Lan Anh is hard-working."},
+        {"id":"tr-02","source_status":"ai-generated","character_name":"Minh Khoa","skill":"vocabulary","prompt_vi":"Gõ tính từ phù hợp với hành động quan tâm người khác.","clue":"Minh Khoa brings water to his tired friend.","answer":"caring","explanation_vi":"Caring diễn tả người biết quan tâm.","completed_text":"Minh Khoa is caring."},
+        {"id":"tr-03","source_status":"ai-generated","character_name":"Bảo Ngọc","skill":"vocabulary","prompt_vi":"Gõ từ chỉ bộ phận cơ thể được mô tả.","clue":"You use it to smell.","answer":"nose","explanation_vi":"Nose là mũi, dùng để ngửi.","completed_text":"We use our nose to smell."},
+        {"id":"tr-04","source_status":"ai-generated","character_name":"Hải Nam","skill":"vocabulary","prompt_vi":"Gõ tính từ chỉ người làm mọi người bật cười.","clue":"Hải Nam tells jokes and makes everyone laugh.","answer":"funny","explanation_vi":"Funny nghĩa là hài hước.","completed_text":"Hải Nam is funny."},
+        {"id":"tr-05","source_status":"ai-generated","character_name":"Mai Chi","skill":"listening","prompt_vi":"Nghe rồi gõ từ em nghe được.","clue":"Audio clue","audio_text":"friendly","answer":"friendly","explanation_vi":"Friendly nghĩa là thân thiện.","completed_text":"Mai Chi is friendly."},
+        {"id":"tr-06","source_status":"ai-generated","character_name":"Thu Hà","skill":"vocabulary","prompt_vi":"Gõ tính từ trái nghĩa với small.","clue":"Thu Hà has ___ brown eyes.","answer":"big","explanation_vi":"Big nghĩa là to, trái nghĩa với small.","completed_text":"Thu Hà has big brown eyes."},
+        {"id":"tr-07","source_status":"ai-generated","character_name":"Đức Anh","skill":"vocabulary","prompt_vi":"Gõ từ chỉ bộ phận cơ thể dùng để nói.","clue":"Open your ___ and say hello.","answer":"mouth","explanation_vi":"Mouth là miệng.","completed_text":"Đức Anh opens his mouth and says hello."},
+        {"id":"tr-08","source_status":"ai-generated","character_name":"Khánh Linh","skill":"vocabulary","prompt_vi":"Gõ tính từ chỉ người nghĩ ra ý tưởng mới.","clue":"Khánh Linh designs toys from old boxes.","answer":"creative","explanation_vi":"Creative nghĩa là sáng tạo.","completed_text":"Khánh Linh is creative."},
+        {"id":"tr-09","source_status":"ai-generated","character_name":"Quang Huy","skill":"vocabulary","prompt_vi":"Gõ từ chỉ phần nối cánh tay với thân người.","clue":"Your school bag strap rests on it.","answer":"shoulder","explanation_vi":"Shoulder là vai.","completed_text":"Quang Huy carries a bag on his shoulder."},
+        {"id":"tr-10","source_status":"ai-generated","character_name":"Yến Nhi","skill":"listening","prompt_vi":"Nghe rồi gõ tính từ em nghe được.","clue":"Audio clue","audio_text":"confident","answer":"confident","explanation_vi":"Confident nghĩa là tự tin.","completed_text":"Yến Nhi is confident when she speaks to the class."}
+      ]
+    },
+    "boss": {
+      "title":"Grammar Boss","subtitle":"Gõ đúng để hạ Boss Đồng Hồ","variant":"boss","help_vi":"Điền am/is/are, dạng -ing hoặc gõ cụm câu đúng. Mỗi đáp án đúng gây 10 sát thương; sai làm mất combo.",
+      "rounds":[
+        {"id":"bo-01","source_status":"ai-generated","character_name":"Nam Phong","skill":"grammar","prompt_vi":"Điền từ còn thiếu.","clue":"Nam ___ playing football now.","answer":"is","explanation_vi":"Nam là chủ ngữ số ít nên dùng is.","completed_text":"Nam is playing football now."},
+        {"id":"bo-02","source_status":"ai-generated","character_name":"Mai Châu","skill":"grammar","prompt_vi":"Điền từ còn thiếu.","clue":"Mai and Châu ___ reading comic books.","answer":"are","explanation_vi":"Hai người là chủ ngữ số nhiều nên dùng are.","completed_text":"Mai and Châu are reading comic books."},
+        {"id":"bo-03","source_status":"ai-generated","character_name":"Bảo Nam","skill":"grammar","prompt_vi":"Gõ dạng -ing đúng của động từ run.","clue":"Bảo Nam is ___ in the playground.","answer":"running","explanation_vi":"Run gấp đôi n trước khi thêm -ing.","completed_text":"Bảo Nam is running in the playground."},
+        {"id":"bo-04","source_status":"ai-generated","character_name":"Phương Anh","skill":"grammar","prompt_vi":"Gõ cụm phủ định còn thiếu.","clue":"Phương Anh ___ sleeping. She is studying.","answer":"isn't","explanation_vi":"Chủ ngữ số ít dùng isn't trong câu phủ định.","completed_text":"Phương Anh isn't sleeping. She is studying."},
+        {"id":"bo-05","source_status":"ai-generated","character_name":"Minh Đức","skill":"grammar","prompt_vi":"Điền trợ động từ để tạo câu hỏi.","clue":"___ Minh Đức doing his homework?","answer":"Is","explanation_vi":"Câu hỏi với chủ ngữ số ít bắt đầu bằng Is.","completed_text":"Is Minh Đức doing his homework?"},
+        {"id":"bo-06","source_status":"ai-generated","character_name":"Lan Chi","skill":"grammar","prompt_vi":"Gõ dạng -ing đúng của write.","clue":"Lan Chi is ___ an email.","answer":"writing","explanation_vi":"Write bỏ e rồi thêm -ing.","completed_text":"Lan Chi is writing an email."},
+        {"id":"bo-07","source_status":"ai-generated","character_name":"Hải Đăng","skill":"grammar","prompt_vi":"Chọn thì theo dấu hiệu every day và gõ động từ đúng.","clue":"Hải Đăng ___ to school every day. (walk)","answer":"walks","explanation_vi":"Every day là thói quen; chủ ngữ số ít dùng walks.","completed_text":"Hải Đăng walks to school every day."},
+        {"id":"bo-08","source_status":"ai-generated","character_name":"Ngọc Hà","skill":"grammar","prompt_vi":"Chọn thì theo dấu hiệu now và gõ cụm đúng.","clue":"Ngọc Hà ___ a book now. (read)","answer":"is reading","explanation_vi":"Now yêu cầu hiện tại tiếp diễn: is reading.","completed_text":"Ngọc Hà is reading a book now."},
+        {"id":"bo-09","source_status":"ai-generated","character_name":"Tuấn Kiệt","skill":"grammar","prompt_vi":"Gõ câu trả lời ngắn khẳng định.","clue":"Is Tuấn Kiệt playing basketball? — Yes, ___.","answer":"he is","explanation_vi":"Câu trả lời ngắn khẳng định là Yes, he is.","completed_text":"Yes, he is."},
+        {"id":"bo-10","source_status":"ai-generated","character_name":"Thảo Vy","skill":"grammar","prompt_vi":"Sửa cụm sai are drawing cho chủ ngữ số ít.","clue":"Thảo Vy are drawing a picture.","answer":"is drawing","explanation_vi":"Thảo Vy là số ít nên dùng is drawing.","completed_text":"Thảo Vy is drawing a picture."}
+      ]
+    },
+    "detective": {
+      "title":"Thám tử điền từ","subtitle":"Khôi phục hội thoại và mở khóa manh mối","variant":"detective","help_vi":"Đọc hoặc nghe lời thoại, suy luận từ còn thiếu rồi gõ chính xác. Các manh mối kết hợp từ vựng, ngữ pháp và nội dung về bạn bè.",
+      "rounds":[
+        {"id":"de-01","source_status":"ai-generated","character_name":"Lan Anh","skill":"reading","prompt_vi":"Khôi phục từ bị mất trong hồ sơ.","clue":"Lan Anh has long black ___.","answer":"hair","explanation_vi":"Long black hair mô tả mái tóc đen dài.","completed_text":"Lan Anh has long black hair."},
+        {"id":"de-02","source_status":"ai-generated","character_name":"Minh Khoa","skill":"writing","prompt_vi":"Khôi phục tính từ từ bằng chứng.","clue":"Minh Khoa shares his lunch. He is ___.","answer":"kind","explanation_vi":"Chia sẻ đồ ăn là hành động tốt bụng.","completed_text":"Minh Khoa is kind."},
+        {"id":"de-03","source_status":"ai-generated","character_name":"Bảo Ngọc","skill":"listening","prompt_vi":"Nghe lời khai rồi gõ hành động còn thiếu.","clue":"Bảo Ngọc is ___ a photo now.","audio_text":"Bảo Ngọc is taking a photo now.","answer":"taking","explanation_vi":"Taking a photo là đang chụp ảnh.","completed_text":"Bảo Ngọc is taking a photo now."},
+        {"id":"de-04","source_status":"ai-generated","character_name":"Hải Nam","skill":"grammar","prompt_vi":"Khôi phục từ hỏi về tính cách.","clue":"What ___ Hải Nam like? — He is funny.","answer":"is","explanation_vi":"What is ... like? hỏi về tính cách.","completed_text":"What is Hải Nam like?"},
+        {"id":"de-05","source_status":"ai-generated","character_name":"Mai Chi","skill":"grammar","prompt_vi":"Khôi phục từ hỏi về ngoại hình.","clue":"What does Mai Chi look ___?","answer":"like","explanation_vi":"What does ... look like? hỏi về ngoại hình.","completed_text":"What does Mai Chi look like?"},
+        {"id":"de-06","source_status":"ai-generated","character_name":"Thu Hà","skill":"listening","prompt_vi":"Nghe rồi gõ tính từ bị mất.","clue":"Thu Hà checks every answer twice. She is ___.","audio_text":"Thu Hà is careful.","answer":"careful","explanation_vi":"Careful nghĩa là cẩn thận.","completed_text":"Thu Hà is careful."},
+        {"id":"de-07","source_status":"ai-generated","character_name":"Đức Anh","skill":"reading","prompt_vi":"Khôi phục sở thích từ hồ sơ.","clue":"Đức Anh likes ___ comic books.","answer":"reading","explanation_vi":"Like + V-ing: likes reading.","completed_text":"Đức Anh likes reading comic books."},
+        {"id":"de-08","source_status":"ai-generated","character_name":"Khánh Linh","skill":"grammar","prompt_vi":"Khôi phục động từ be đúng.","clue":"Khánh Linh and Yến Nhi ___ talking now.","answer":"are","explanation_vi":"Chủ ngữ gồm hai người dùng are.","completed_text":"Khánh Linh and Yến Nhi are talking now."},
+        {"id":"de-09","source_status":"ai-generated","character_name":"Quang Huy","skill":"memory","prompt_vi":"Nhớ mẫu câu và khôi phục từ còn thiếu.","clue":"My best friend ___ big brown eyes.","answer":"has","explanation_vi":"Chủ ngữ số ít dùng has để mô tả đặc điểm.","completed_text":"My best friend has big brown eyes."},
+        {"id":"de-10","source_status":"ai-generated","character_name":"Yến Nhi","skill":"writing","prompt_vi":"Hoàn tất câu lý do.","clue":"I like Yến Nhi ___ she is friendly and caring.","answer":"because","explanation_vi":"Because nối ý thích với lý do.","completed_text":"I like Yến Nhi because she is friendly and caring."}
+      ]
+    }
+  }
+}

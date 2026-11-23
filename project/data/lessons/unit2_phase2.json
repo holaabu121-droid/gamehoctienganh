@@ -1,0 +1,109 @@
+{
+  "lesson_id": "unit2-phase2",
+  "source_status": "user-provided-reference",
+  "usage_scope": "personal-family",
+  "source_note": "Built from the user-provided Unit 2 pages 21–25. Track 13–15 audio was not provided; replacement listening audio is AI-generated and labelled.",
+  "communication": {
+    "suggestion_dialogue": [
+      {"speaker": "Elena", "text": "My bedroom isn't nice."},
+      {"speaker": "Mum", "text": "How about putting a picture on the wall?"},
+      {"speaker": "Elena", "text": "Great idea, Mum."},
+      {"speaker": "Mum", "text": "Let's go to the department store to buy one."}
+    ],
+    "structures": ["How about + V-ing?", "Let's + verb."],
+    "living_places_answers": ["country", "four", "window", "chairs", "on"],
+    "nick_house_facts": [
+      "Nick lives in a country house.",
+      "There is a living room on the ground floor.",
+      "There is a kitchen next to the hall.",
+      "There are bedrooms upstairs.",
+      "There is a bathroom upstairs."
+    ]
+  },
+  "skills1": {
+    "email_title": "Room at the Crazy House Hotel, Da Lat",
+    "passage": "Hi Phong and Mi, How are you? I'm in Da Lat with my parents. We're staying at the Crazy House Hotel. Wow! It really is crazy. There are ten rooms in the hotel. There's a Kangaroo Room, an Eagle Room, and even an Ant Room. I'm staying in the Tiger Room. It's called the Tiger Room because there's a big tiger on the wall. The tiger is between the bathroom door and the window. The bed is next to the window, but the window is a strange shape. I put my bag under the bed. There's a lamp, a wardrobe and a desk. You should stay here when you visit Da Lat. It's great. See you soon! Nick.",
+    "questions": [
+      {"question": "Who is Nick in Da Lat with?", "answer": "his parents"},
+      {"question": "How many rooms are there in the hotel?", "answer": "ten"},
+      {"question": "Why is the room called the Tiger Room?", "answer": "because there is a big tiger on the wall"},
+      {"question": "Where is Nick's bag?", "answer": "under the bed"}
+    ],
+    "tiger_room_items": [
+      {"item": "a window", "present": true},
+      {"item": "a wardrobe", "present": true},
+      {"item": "a cooker", "present": false},
+      {"item": "a cupboard", "present": false},
+      {"item": "a shelf", "present": false},
+      {"item": "a desk", "present": true},
+      {"item": "a lamp", "present": true},
+      {"item": "a tiger", "present": true}
+    ],
+    "room_plan_items": ["a window", "a wardrobe", "a desk", "a lamp", "a bed", "a shelf", "a chair", "a picture"]
+  },
+  "skills2": {
+    "visible_items": ["bookshelf", "sofa", "desk", "clock", "window"],
+    "visible_statements": [
+      "There are four people in Mai's family.",
+      "Mai's house has seven rooms.",
+      "The living room is next to the kitchen.",
+      "In her bedroom, there's a clock on the wall.",
+      "She often listens to music in her bedroom."
+    ],
+    "replacement_audio": {
+      "source_status": "ai-generated",
+      "script": "Mai lives in a town house with her parents and younger brother. There are four people in her family. Her house has seven rooms. The living room is next to the kitchen. In her bedroom, there is a clock on the wall, a desk by the window, a bookshelf, and a sofa. She often listens to music in her bedroom."
+    },
+    "writing_prompts": [
+      "Where do you live?",
+      "How many rooms are there in your house? What are they?",
+      "Which room do you like the best in your house? Why?"
+    ],
+    "fictional_house": {
+      "source_status": "ai-generated",
+      "name": "Coral House",
+      "location": "in a quiet town",
+      "rooms": "six rooms: a living room, a kitchen, two bedrooms and two bathrooms",
+      "favourite": "the living room because it has a big window and a comfortable sofa"
+    }
+  },
+  "looking_back": {
+    "word_groups": {
+      "types_of_house": ["flat", "stilt house", "town house", "country house"],
+      "rooms": ["kitchen", "living room", "bathroom"],
+      "furniture": ["sink", "fridge", "dishwasher", "cupboard", "chest of drawers"]
+    },
+    "possessive_answers": ["teacher's", "brother's", "Elena's", "grandfather's", "Vy’s"],
+    "picture_positions": [
+      {"subject": "cat", "answer": "on the table"},
+      {"subject": "dog", "answer": "in the dog house"},
+      {"subject": "cat", "answer": "next to the TV"},
+      {"subject": "cat", "answer": "in front of the computer"},
+      {"subject": "girl", "answer": "on the sofa"},
+      {"subject": "boy", "answer": "behind the sofa"}
+    ]
+  },
+  "project": {
+    "title": "Strange Houses",
+    "house_options": ["shoe house", "upside-down house", "tower house"],
+    "steps": ["Draw your own strange house.", "Decorate it.", "Tell the class about your house."],
+    "now_i_can": [
+      "use words for types of house, rooms and furniture",
+      "pronounce the sounds /s/ and /z/ at the end of words correctly",
+      "use possessive case to describe possession",
+      "use prepositions of place to describe where people or things are",
+      "give suggestions",
+      "read about rooms and furniture",
+      "describe houses, rooms and furniture",
+      "listen about someone's house",
+      "write an email to a friend describing my house"
+    ],
+    "fictional_design": {
+      "source_status": "ai-generated",
+      "name": "Cloud Lantern House",
+      "shape": "a tall lantern",
+      "rooms": "a round living room, a small kitchen and two bedrooms",
+      "features": "a rooftop garden, round windows and a spiral staircase"
+    }
+  }
+}

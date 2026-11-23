@@ -1,0 +1,68 @@
+name: Import application source from release
+on:
+  push:
+    branches: [review/english-only]
+    paths: ['.github/workflows/import-project.yml']
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/english-only
+      - name: Download verified release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/backup"
+          gh release download v1.0.0 -R "$GITHUB_REPOSITORY" -p 'gamehoctienganh.zip' -D "$RUNNER_TEMP/backup"
+          echo "31ba4b5e769cc8fdef7c681a63507bc960ca3bb890b3dd5058b17a5d0711d617  $RUNNER_TEMP/backup/gamehoctienganh.zip" | sha256sum -c -
+      - name: Extract clean application source without student data
+        env:
+          ZIP_PATH: ${{ runner.temp }}/backup/gamehoctienganh.zip
+        run: |
+          python - <<'PY'
+          import collections,json,os,pathlib,re,stat,zipfile
+          prefix="gamehoctienganh/English_Quest_Codex_Kit/"
+          safe_ext={'.py','.ts','.tsx','.js','.jsx','.mjs','.cjs','.css','.html','.json','.toml','.yaml','.yml','.md','.txt','.csv','.ini','.cfg','.sql','.sh','.ps1','.bat','.svg','.png','.jpg','.jpeg','.webp','.ico','.lock'}
+          excluded={'.git','.run','.venv','venv','env','node_modules','site-packages','__pycache__','dist','build','release','.next','coverage','.codex','.packaging-venv','logs','.pytest_cache','.mypy_cache','test-results','.playwright','playwright-report','tmp','temp','backups','backup'}
+          secrets=re.compile(r'(^\.env($|\.)|secret|credential|password|private[_-]?key|token|\.pem$|\.key$|student[_-]?data|user[_-]?data|\.db$|\.sqlite)',re.I)
+          written=[];skipped=[];total=0
+          with zipfile.ZipFile(os.environ['ZIP_PATH']) as z:
+            for item in z.infolist():
+              if item.is_dir() or not item.filename.startswith(prefix):continue
+              rawpath=item.filename[len(prefix):]
+              posix=pathlib.PurePosixPath(rawpath)
+              if not posix.parts or posix.is_absolute() or '..' in posix.parts or len(posix.parts)>15:continue
+              if any(seg.startswith('.') or seg.lower() in excluded for seg in posix.parts):continue
+              if secrets.search(posix.name) or posix.suffix.lower() not in safe_ext:continue
+              if 'backend/data/' in rawpath or 'data/backups/' in rawpath:continue
+              if item.file_size>2*1024*1024 or total+item.file_size>85*1024*1024:skipped.append(rawpath);continue
+              if item.compress_size and item.file_size/item.compress_size>500:continue
+              if stat.S_ISLNK(item.external_attr >> 16):continue
+              body=z.read(item)
+              if posix.suffix.lower() not in {'.png','.jpg','.jpeg','.webp','.ico'}:
+                try:body.decode('utf-8-sig')
+                except UnicodeDecodeError:continue
+                if b'\x00' in body or b'-----BEGIN PRIVATE KEY-----' in body:continue
+              target=pathlib.Path('project').joinpath(*posix.parts)
+              target.parent.mkdir(parents=True,exist_ok=True)
+              target.write_bytes(body)
+              written.append(rawpath)
+              total+=len(body)
+          report={'imported_files':len(written),'total_bytes':total,'skipped_due_to_limits':skipped[:200],'english_only_cleanup_pending':True}
+          pathlib.Path('reports/import_summary.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+          print(report)
+          PY
+      - name: Commit clean source for code review
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add project/ reports/import_summary.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: unpack original app source safely for English-only cleanup"
+            git push origin HEAD:review/english-only
+          fi

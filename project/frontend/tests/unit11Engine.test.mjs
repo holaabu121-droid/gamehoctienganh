@@ -1,0 +1,7 @@
+import assert from "node:assert/strict";import {readFileSync} from "node:fs";import test from "node:test";
+import {buildStructuredBonus,validateStructuredUnit} from "../src/features/semester2/structuredUnitEngine.ts";import {validateBonusLesson} from "../src/features/bonus/bonusEngine.ts";
+const raw=JSON.parse(readFileSync(new URL("../../data/lessons/unit11_source.json",import.meta.url),"utf8"));
+test("Unit 11 builds 42 games with ten rounds",()=>{const l=validateStructuredUnit(raw);assert.equal(Object.keys(l.games).length,42);assert.ok(Object.values(l.games).every(r=>r.length===10&&r.every(q=>q.options.includes(q.answer))));});
+test("Unit 11 preserves 3Rs and green-school anchors",()=>{const l=validateStructuredUnit(raw);assert.equal(l.banks.vocabulary[0].answer,"reduce");assert.equal(l.banks.reading[1].answer,"recycling bins");assert.equal(l.banks.project[0].answer,"choose an old object");assert.ok(l.banks.listening.every(x=>x.source_status==="ai-generated"));});
+test("Unit 11 rhythm audio and Bonus are complete",()=>{const l=validateStructuredUnit(raw);for(const g of ["acl1-sound","acl1-sound-sentence"])assert.ok(l.games[g].every(x=>!x.audio_text.includes("/")));const b=validateBonusLesson(buildStructuredBonus(raw));assert.deepEqual(b.selected_variants.map(id=>b.stages[id].rounds.length),[10,10,10]);});
+test("Unit 11 is connected to the app",()=>{const app=readFileSync(new URL("../src/App.tsx",import.meta.url),"utf8");assert.ok(app.includes("<Unit11 />"));});

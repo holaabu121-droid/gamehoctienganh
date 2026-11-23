@@ -1,0 +1,2558 @@
+{
+  "generated_utc": "2026-11-23T12:08:07.681914+00:00",
+  "archive_entries": 21253,
+  "extensions": [
+    [
+      "",
+      4937
+    ],
+    [
+      ".pyc",
+      3096
+    ],
+    [
+      ".py",
+      2718
+    ],
+    [
+      ".js",
+      1871
+    ],
+    [
+      ".json",
+      1476
+    ],
+    [
+      ".svg",
+      614
+    ],
+    [
+      ".map",
+      419
+    ],
+    [
+      ".ts",
+      305
+    ],
+    [
+      ".png",
+      297
+    ],
+    [
+      ".jpg",
+      268
+    ],
+    [
+      ".md",
+      131
+    ],
+    [
+      ".log",
+      111
+    ],
+    [
+      ".dll",
+      108
+    ],
+    [
+      ".hyb",
+      104
+    ],
+    [
+      ".txt",
+      100
+    ],
+    [
+      ".mjs",
+      92
+    ],
+    [
+      ".tsx",
+      84
+    ],
+    [
+      ".typed",
+      71
+    ],
+    [
+      ".html",
+      62
+    ],
+    [
+      ".binarypb",
+      50
+    ],
+    [
+      ".exe",
+      47
+    ],
+    [
+      ".pyd",
+      40
+    ],
+    [
+      ".ps1",
+      36
+    ],
+    [
+      ".db",
+      33
+    ],
+    [
+      ".cmd",
+      32
+    ],
+    [
+      ".mts",
+      28
+    ],
+    [
+      ".old",
+      27
+    ],
+    [
+      ".cts",
+      27
+    ],
+    [
+      ".css",
+      16
+    ],
+    [
+      ".sample",
+      14
+    ],
+    [
+      ".woff2",
+      14
+    ],
+    [
+      ".cjs",
+      13
+    ],
+    [
+      ".pb",
+      12
+    ],
+    [
+      ".pdf",
+      11
+    ],
+    [
+      ".pyi",
+      10
+    ]
+  ],
+  "top_folders": [
+    [
+      "gamehoctienganh",
+      17418
+    ]
+  ],
+  "sample_paths": [
+    {
+      "path": "gamehoctienganh/.codex-attachments/0b66c0ec-36bd-4e5d-bfc1-cead97938a42/dc02bb3f-6ee9-4b98-905a-02d09b02d3fd/image-1794578895067.jpg",
+      "bytes": 112942
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/1002a377-d61d-4c30-9c71-59685c7cb542/cb0edc6d-1b90-41ae-ab20-50017b824e78/image-1794987067943.jpg",
+      "bytes": 188924
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/139fc676-0288-4931-a305-dd5593cf607f/3a7520a8-7518-4726-95fb-73b3120fa639/image-1794578456311.jpg",
+      "bytes": 123705
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/1cfb8c18-fe7d-459a-bf42-507413cbc811/a3fe8a53-7a6f-4309-aacd-399ac0902664/5488.jpg",
+      "bytes": 194800
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/1cfb8c18-fe7d-459a-bf42-507413cbc811/c7e5c00a-dd2e-4843-8ab1-668929952c49/5489.jpg",
+      "bytes": 152385
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/3ee166b9-41f2-49cb-9ec5-ba4cf8dbcb4f/021f52e1-8b39-4ff6-b9b5-a4565df69b5d/image-1794042826890.jpg",
+      "bytes": 126457
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/3ee166b9-41f2-49cb-9ec5-ba4cf8dbcb4f/2116bfa4-68df-4c91-87c5-dda5e3d94c5f/image-1794042842416.jpg",
+      "bytes": 126403
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/3ee166b9-41f2-49cb-9ec5-ba4cf8dbcb4f/7929741d-fad4-4dc0-aacd-69013124c83a/image-1794042875116.jpg",
+      "bytes": 118171
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/3ee166b9-41f2-49cb-9ec5-ba4cf8dbcb4f/a6c102b4-9a01-43bd-8d97-b0fe86ca4b90/image-1794042851397.jpg",
+      "bytes": 110968
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/3ee166b9-41f2-49cb-9ec5-ba4cf8dbcb4f/dd728a72-f7df-4fac-82c0-ce6b3873e29b/image-1794042867073.jpg",
+      "bytes": 118654
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/47ff731d-9aa6-4df2-b776-700641584dee/67c7eab4-50be-42aa-9d31-db7494b47d9e/image-1794027060099.jpg",
+      "bytes": 91610
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/47ff731d-9aa6-4df2-b776-700641584dee/7ee2e5ba-6ffd-41fa-8290-c5b58612600b/image-1794027034363.jpg",
+      "bytes": 113806
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/47ff731d-9aa6-4df2-b776-700641584dee/9eba5698-3f84-45c2-9382-7f7ffe023c8c/image-1794027046150.jpg",
+      "bytes": 118258
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/47ff731d-9aa6-4df2-b776-700641584dee/ae4aa7a1-647e-4d9c-806e-16f94b42fd7f/image-1794027083634.jpg",
+      "bytes": 111649
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/47ff731d-9aa6-4df2-b776-700641584dee/eb863855-5140-4389-98ec-e9d4b7ca4c8c/image-1794027071201.jpg",
+      "bytes": 107189
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/4ba5ff1f-2b45-4af3-b206-d0ad66b1866b/ca3b7e84-c5a5-43d0-9c0d-39de4b33f988/image-1794988697594.jpg",
+      "bytes": 55619
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/56d7fc4c-79ff-4e8c-8fcd-3de382716546/12fe0c50-ef3c-4fe6-b728-ff52b7dd2bd7/image-1794040936672.jpg",
+      "bytes": 118469
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/56d7fc4c-79ff-4e8c-8fcd-3de382716546/6d9ddd36-50d6-4f8e-838b-acd2dc1a65ea/image-1794040945336.jpg",
+      "bytes": 113218
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/56d7fc4c-79ff-4e8c-8fcd-3de382716546/7745eacb-8c9c-4765-ba5a-22007434eab3/image-1794040974222.jpg",
+      "bytes": 115693
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/56d7fc4c-79ff-4e8c-8fcd-3de382716546/9cd5a878-dbca-495a-98b7-0f745c76b885/image-1794040960540.jpg",
+      "bytes": 107120
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/56d7fc4c-79ff-4e8c-8fcd-3de382716546/bd3a3f40-7ca6-4dbd-95b8-af13e8742741/image-1794040954685.jpg",
+      "bytes": 114935
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/90e6212c-2de8-4e77-930e-77c8e8204994/8e2b21a0-4f0e-4ef9-8c08-90c61fc0e167/5490.jpg",
+      "bytes": 166883
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/92db21a0-b7ab-415b-ba2b-a2f617106557/fed68d7d-8cdc-4523-a55f-7240882f9539/image-1794986840200.jpg",
+      "bytes": 251090
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ac1723a6-0b8e-4c45-a922-46cc5262dfeb/662461ed-6f65-46c0-9914-cda8ac067cf4/image-1794036442966.jpg",
+      "bytes": 124294
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ac1723a6-0b8e-4c45-a922-46cc5262dfeb/71de9733-e281-471a-afb6-9f1564388227/image-1794036418968.jpg",
+      "bytes": 114522
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ac1723a6-0b8e-4c45-a922-46cc5262dfeb/81100751-24e7-4e51-94e1-ca52d1d99fb8/image-1794036331139.jpg",
+      "bytes": 122948
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ac1723a6-0b8e-4c45-a922-46cc5262dfeb/b009269c-0500-43c7-86f7-fde78df30957/image-1794036398259.jpg",
+      "bytes": 120269
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ac1723a6-0b8e-4c45-a922-46cc5262dfeb/b0984ee9-45e6-48b8-9881-b81bccea9641/image-1794036357570.jpg",
+      "bytes": 142643
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/b4931fa4-b668-4824-87be-779f48095db1/31b3b328-cc05-4b79-876a-a8ce9d8498cc/image-1794039945398.jpg",
+      "bytes": 107779
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/b4931fa4-b668-4824-87be-779f48095db1/40a0cde2-185a-45de-8e37-45a429cb04c5/image-1794039891163.jpg",
+      "bytes": 119562
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/b4931fa4-b668-4824-87be-779f48095db1/4b9049e4-e5e7-45f0-a8ac-d760cad83f9f/image-1794039956679.jpg",
+      "bytes": 109978
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/b4931fa4-b668-4824-87be-779f48095db1/667c7b57-0cf4-40be-aedb-9ff0786f081a/image-1794039933805.jpg",
+      "bytes": 112723
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/b4931fa4-b668-4824-87be-779f48095db1/dac16489-a147-42b2-af11-9694db5894a3/image-1794039877977.jpg",
+      "bytes": 126767
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/be4c6413-72c3-4419-bcad-88dc0284395d/dc02bb3f-6ee9-4b98-905a-02d09b02d3fd/image-1794578895067.jpg",
+      "bytes": 112942
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/d4081d51-7d17-4ac9-818e-f324bbbc9050/3292fa23-cbdf-445a-8558-81c8a15a0a4f/5488.jpg",
+      "bytes": 194800
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/d4081d51-7d17-4ac9-818e-f324bbbc9050/a0d946c4-2665-488a-8a1a-0bf6c483b15d/5489.jpg",
+      "bytes": 152385
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ead85d7f-6bc8-445b-acdc-8633c8fecd2d/38c2e79f-3ec9-41a3-8841-bb1a5eeafaf3/image-1794037632114.jpg",
+      "bytes": 113554
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ead85d7f-6bc8-445b-acdc-8633c8fecd2d/546806b1-0be5-4580-a763-21993a3650ba/image-1794037619672.jpg",
+      "bytes": 116699
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ead85d7f-6bc8-445b-acdc-8633c8fecd2d/87903d84-c846-4d53-85cb-6379418229c5/image-1794037645907.jpg",
+      "bytes": 100601
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ead85d7f-6bc8-445b-acdc-8633c8fecd2d/a06af873-90fb-4303-97ec-ee536b25476c/image-1794037589954.jpg",
+      "bytes": 115644
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/ead85d7f-6bc8-445b-acdc-8633c8fecd2d/f4e34e05-db3d-4d7a-9f49-e5112ce79c65/image-1794037602323.jpg",
+      "bytes": 113821
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/f31f0f5a-1f82-4f9e-ba20-7a4192f0660d/7f4530ed-bfc9-4932-93c2-f83189b96060/image-1794580349020.jpg",
+      "bytes": 102594
+    },
+    {
+      "path": "gamehoctienganh/.codex-attachments/f31f0f5a-1f82-4f9e-ba20-7a4192f0660d/dd9075ae-5d0c-4656-9c99-afbf04006a4b/image-1794580326766.jpg",
+      "bytes": 106922
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1abf4-8b5b-7302-b4d6-392b5ddec04d/1588ac18-7414-4c39-af2b-9a62c3e1edc7/1-image-1793926859188.jpg",
+      "bytes": 123268
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1abf4-8b5b-7302-b4d6-392b5ddec04d/1588ac18-7414-4c39-af2b-9a62c3e1edc7/2-image-1793926872303.jpg",
+      "bytes": 107339
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1abf4-8b5b-7302-b4d6-392b5ddec04d/21555e7d-b8e7-4284-b01d-9508219b2181/1-image-1793928264136.jpg",
+      "bytes": 98864
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1abf4-8b5b-7302-b4d6-392b5ddec04d/ca401a43-c28b-4bcc-9866-a383ff157cae/1-image-1793926417789.jpg",
+      "bytes": 90787
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1af71-bd77-7190-b912-f706e495bf79/025f0f86-3742-4e27-8fd0-496d4379762d/1-image-1793964481101.jpg",
+      "bytes": 124600
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1af71-bd77-7190-b912-f706e495bf79/2191e0d7-0e00-4dc2-ba0a-7ffca3fa3b5f/1-image-1793954034870.jpg",
+      "bytes": 109833
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1af71-bd77-7190-b912-f706e495bf79/2191e0d7-0e00-4dc2-ba0a-7ffca3fa3b5f/2-image-1793954060158.jpg",
+      "bytes": 106093
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/0cc0f740-bf24-43cf-bd4f-a1b23f7be267/1-5500.jpg",
+      "bytes": 137364
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/0cc0f740-bf24-43cf-bd4f-a1b23f7be267/2-5501.jpg",
+      "bytes": 175603
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/0cc0f740-bf24-43cf-bd4f-a1b23f7be267/3-5502.jpg",
+      "bytes": 161526
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/0cc0f740-bf24-43cf-bd4f-a1b23f7be267/4-5503.jpg",
+      "bytes": 143482
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/0cc0f740-bf24-43cf-bd4f-a1b23f7be267/5-5499.jpg",
+      "bytes": 152689
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/37b3bf82-a047-491b-883b-c63ac31b3a7b/1-21481.jpg",
+      "bytes": 147986
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/3d300287-68f3-4dc6-af5e-d50164935a26/1-5494.jpg",
+      "bytes": 160431
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/3d300287-68f3-4dc6-af5e-d50164935a26/2-5495.jpg",
+      "bytes": 155219
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/3d300287-68f3-4dc6-af5e-d50164935a26/3-5496.jpg",
+      "bytes": 151390
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/3d300287-68f3-4dc6-af5e-d50164935a26/4-5497.jpg",
+      "bytes": 137526
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/3d300287-68f3-4dc6-af5e-d50164935a26/5-5498.jpg",
+      "bytes": 139242
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/611181d7-7040-4c13-b58d-15a135a8d665/1-image-1794044595699.jpg",
+      "bytes": 131845
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/611181d7-7040-4c13-b58d-15a135a8d665/2-image-1794044621230.jpg",
+      "bytes": 115963
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/611181d7-7040-4c13-b58d-15a135a8d665/3-image-1794044627705.jpg",
+      "bytes": 99718
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/611181d7-7040-4c13-b58d-15a135a8d665/4-image-1794044644315.jpg",
+      "bytes": 101578
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/611181d7-7040-4c13-b58d-15a135a8d665/5-image-1794044653867.jpg",
+      "bytes": 122580
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/9e7a6747-eef4-4e77-a3ea-840818cfd0f8/1-image-1794043678360.jpg",
+      "bytes": 103061
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/9e7a6747-eef4-4e77-a3ea-840818cfd0f8/2-image-1794043686467.jpg",
+      "bytes": 116963
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/9e7a6747-eef4-4e77-a3ea-840818cfd0f8/3-image-1794043699085.jpg",
+      "bytes": 127206
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/9e7a6747-eef4-4e77-a3ea-840818cfd0f8/4-image-1794043706798.jpg",
+      "bytes": 106612
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/9e7a6747-eef4-4e77-a3ea-840818cfd0f8/5-image-1794043722144.jpg",
+      "bytes": 113323
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/d90e54bf-7f85-4b37-b571-7017e69f3ea4/1-5491.jpg",
+      "bytes": 157407
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/e7e364c1-91d4-44b2-8d74-85b6749e8cce/1-image-1794045162768.jpg",
+      "bytes": 123539
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/e7e364c1-91d4-44b2-8d74-85b6749e8cce/2-image-1794045169505.jpg",
+      "bytes": 111013
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/ee937009-f164-4667-ad63-4face06636da/1-5492.jpg",
+      "bytes": 162744
+    },
+    {
+      "path": "gamehoctienganh/.codex-remote-attachments/01a1b16e-c4c1-7ba2-a476-3c6748904bef/ee937009-f164-4667-ad63-4face06636da/2-5493.jpg",
+      "bytes": 149233
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/agents/builder.toml",
+      "bytes": 714
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/agents/qa.toml",
+      "bytes": 800
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/agents/unit_analyst.toml",
+      "bytes": 1979
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/config.toml",
+      "bytes": 292
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/COMMIT_EDITMSG",
+      "bytes": 29
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/config",
+      "bytes": 211
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/description",
+      "bytes": 73
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/HEAD",
+      "bytes": 21
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/applypatch-msg.sample",
+      "bytes": 478
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/commit-msg.sample",
+      "bytes": 1972
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/fsmonitor-watchman.sample",
+      "bytes": 4611
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/post-update.sample",
+      "bytes": 189
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/pre-applypatch.sample",
+      "bytes": 424
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/pre-commit.sample",
+      "bytes": 1649
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/pre-merge-commit.sample",
+      "bytes": 416
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/pre-push.sample",
+      "bytes": 1374
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/pre-rebase.sample",
+      "bytes": 4898
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/pre-receive.sample",
+      "bytes": 544
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/prepare-commit-msg.sample",
+      "bytes": 1492
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/push-to-checkout.sample",
+      "bytes": 2783
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/sendemail-validate.sample",
+      "bytes": 2308
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/hooks/update.sample",
+      "bytes": 3650
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/index",
+      "bytes": 31616
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.git/info/exclude",
+      "bytes": 240
+    }
+  ],
+  "selected_source_files": [
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/packaging/build_version.py",
+      "bytes": 23
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/app/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Wallet-Checkout/app-setup.js",
+      "bytes": 37
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Wallet-Checkout/app-setup.js",
+      "bytes": 37
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/vite-env.d.ts",
+      "bytes": 38
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/pnpm-workspace.yaml",
+      "bytes": 64
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/webui-setup.js",
+      "bytes": 65
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/webui-setup.js",
+      "bytes": 65
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/offscreen/index.html",
+      "bytes": 67
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/offscreen/index.html",
+      "bytes": 67
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/reviewTarget.ts",
+      "bytes": 79
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/json/wallet/README.md",
+      "bytes": 86
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/json/wallet/README.md",
+      "bytes": 86
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/release/EnglishQuest-Setup-1.0.0.exe.sha256.txt",
+      "bytes": 96
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/release/EnglishQuest-Setup-1.1.0.exe.sha256.txt",
+      "bytes": 96
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/release/EnglishQuest-Setup-1.2.0.exe.sha256.txt",
+      "bytes": 96
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/offscreendocument.html",
+      "bytes": 97
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/offscreendocument.html",
+      "bytes": 97
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/release/EnglishQuest-Setup-1.1.0-Windows-x64.zip.sha256.txt",
+      "bytes": 108
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/crypto.bundle.js",
+      "bytes": 121
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/crypto.bundle.js",
+      "bytes": 121
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/popup/index.html",
+      "bytes": 148
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/popup/index.html",
+      "bytes": 148
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/vpn-notification/index.html",
+      "bytes": 160
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/vpn-notification/index.html",
+      "bytes": 160
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/anti-male-ware-notification/index.html",
+      "bytes": 178
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/anti-male-ware-notification/index.html",
+      "bytes": 178
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/consent-reminder-notification/index.html",
+      "bytes": 180
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/consent-reminder-notification/index.html",
+      "bytes": 180
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-webui-925.baa79171a74ad52b0a67.chunk.js",
+      "bytes": 201
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-webui-925.baa79171a74ad52b0a67.chunk.js",
+      "bytes": 201
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/app-setup.js",
+      "bytes": 206
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/app-setup.js",
+      "bytes": 206
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/vite.config.ts",
+      "bytes": 214
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/side-panel-loading.html",
+      "bytes": 230
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/side-panel-loading.html",
+      "bytes": 230
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/js-kernel.html",
+      "bytes": 234
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/js-kernel.html",
+      "bytes": 234
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/chunk-BbOYAc3o.js",
+      "bytes": 238
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/chunk-BbOYAc3o.js",
+      "bytes": 238
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/safe-price-check-notification/index.html",
+      "bytes": 267
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/safe-price-check-notification/index.html",
+      "bytes": 267
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/terminated-connection-notification/index.html",
+      "bytes": 281
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/terminated-connection-notification/index.html",
+      "bytes": 281
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/config.toml",
+      "bytes": 292
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit9/Unit9.tsx",
+      "bytes": 302
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit11/Unit11.tsx",
+      "bytes": 303
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit10/Unit10.tsx",
+      "bytes": 304
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit12/Unit12.tsx",
+      "bytes": 304
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review3/Review3.tsx",
+      "bytes": 317
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review4/Review4.tsx",
+      "bytes": 318
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/page_embed_script.js",
+      "bytes": 339
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/page_embed_script.js",
+      "bytes": 339
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.packaging-venv/pyvenv.cfg",
+      "bytes": 343
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/index.html",
+      "bytes": 371
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/vietnamese6/VietnameseBranch.tsx",
+      "bytes": 421
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/informatics6/InformaticsBranch.tsx",
+      "bytes": 427
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/js-kernel-offscreen.html",
+      "bytes": 486
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/js-kernel-offscreen.html",
+      "bytes": 486
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/main.tsx",
+      "bytes": 502
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/science6/scienceLessonIndex.ts",
+      "bytes": 526
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-webui-792.b1180305c186d50631a2.chunk.js",
+      "bytes": 532
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-webui-792.b1180305c186d50631a2.chunk.js",
+      "bytes": 532
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/TASK_TEMPLATE.md",
+      "bytes": 561
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/popup.html",
+      "bytes": 571
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/popup.html",
+      "bytes": 571
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathLesson2.tsx",
+      "bytes": 576
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathLesson3.tsx",
+      "bytes": 578
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathLesson4.tsx",
+      "bytes": 578
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathLesson5.tsx",
+      "bytes": 578
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathGeneratedBranch.tsx",
+      "bytes": 609
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathSemester2Branch.tsx",
+      "bytes": 609
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/curriculum/courseRegistryCore.ts",
+      "bytes": 623
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathChapter1Review.tsx",
+      "bytes": 646
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathChapter1Practice.tsx",
+      "bytes": 654
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/protocol-DmTED-28.js",
+      "bytes": 678
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/protocol-DmTED-28.js",
+      "bytes": 678
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/_virtual_wxt-html-plugins-vINxzu2L.js",
+      "bytes": 711
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/_virtual_wxt-html-plugins-vINxzu2L.js",
+      "bytes": 711
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/js-kernel-host.html",
+      "bytes": 712
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/js-kernel-host.html",
+      "bytes": 712
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/agents/builder.toml",
+      "bytes": 714
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/prompts/02_TASK_TEMPLATE.md",
+      "bytes": 738
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/options.html",
+      "bytes": 757
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/options.html",
+      "bytes": 757
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/app/version.py",
+      "bytes": 791
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/agents/qa.toml",
+      "bytes": 800
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/offscreen/offscreen.js",
+      "bytes": 844
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/offscreen/offscreen.js",
+      "bytes": 844
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/science6/ScienceConceptVisual.tsx",
+      "bytes": 895
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/prompts/01_SETUP_ONCE.md",
+      "bytes": 923
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/codex-work-sidepanel.html",
+      "bytes": 944
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/codex-work-sidepanel.html",
+      "bytes": 944
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/assets/codex-work-sidepanel-5HNvaIW9.css",
+      "bytes": 1102
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/assets/codex-work-sidepanel-5HNvaIW9.css",
+      "bytes": 1102
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/science6/ScienceBranch.tsx",
+      "bytes": 1132
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet_donation_driver.js",
+      "bytes": 1166
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet_donation_driver.js",
+      "bytes": 1166
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/microphone-permission.html",
+      "bytes": 1182
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/microphone-permission.html",
+      "bytes": 1182
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/shopping_fre.html",
+      "bytes": 1312
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/shopping_fre.html",
+      "bytes": 1312
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/shopping.html",
+      "bytes": 1345
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/shopping.html",
+      "bytes": 1345
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/friend-detective/FriendDetective.tsx",
+      "bytes": 1365
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/bnpl/bnpl.html",
+      "bytes": 1396
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/bnpl/bnpl.html",
+      "bytes": 1396
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_part2_practice.json",
+      "bytes": 1430
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/assets/waiting-room-B8ErwGS9.css",
+      "bytes": 1501
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/assets/waiting-room-B8ErwGS9.css",
+      "bytes": 1501
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/progress/ProgressProvider.tsx",
+      "bytes": 1512
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/unit3Structure.ts",
+      "bytes": 1536
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Notification/notification_fast.html",
+      "bytes": 1556
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Notification/notification_fast.html",
+      "bytes": 1556
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Mini-Wallet/mini-wallet.html",
+      "bytes": 1558
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Mini-Wallet/mini-wallet.html",
+      "bytes": 1558
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/load-hub-i18n.bundle.js",
+      "bytes": 1577
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/load-hub-i18n.bundle.js",
+      "bytes": 1577
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/skills-1/Skills1.tsx",
+      "bytes": 1646
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/offscreen/worker.js",
+      "bytes": 1652
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/offscreen/worker.js",
+      "bytes": 1652
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/google-workspace-BnXIlG7d.js",
+      "bytes": 1666
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/google-workspace-BnXIlG7d.js",
+      "bytes": 1666
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/listen-read/listenReadEngine.ts",
+      "bytes": 1674
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/skills-2/Skills2.tsx",
+      "bytes": 1694
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review2/Review2Language.tsx",
+      "bytes": 1728
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/project/Project.tsx",
+      "bytes": 1750
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/body-lab/bodyLabEngine.ts",
+      "bytes": 1787
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review/ReviewLanguage.tsx",
+      "bytes": 1834
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review2/Review2Skills.tsx",
+      "bytes": 1854
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/typing-quest/TypingSummary.tsx",
+      "bytes": 1913
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/courses/CourseLibrary.tsx",
+      "bytes": 1947
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/codex-work-preload.js",
+      "bytes": 1954
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/codex-work-preload.js",
+      "bytes": 1954
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-train/wordTrainEngine.ts",
+      "bytes": 1963
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.codex/agents/unit_analyst.toml",
+      "bytes": 1979
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/typing-quest/TypingQuest.tsx",
+      "bytes": 1983
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Wallet-Checkout/wallet-drawer.html",
+      "bytes": 1993
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Wallet-Checkout/wallet-drawer.html",
+      "bytes": 1993
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/part3-games/Part3Games.tsx",
+      "bytes": 2006
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review/ReviewSkills.tsx",
+      "bytes": 2025
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/looking-back/LookingBack.tsx",
+      "bytes": 2036
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/part2-games/Part2Games.tsx",
+      "bytes": 2052
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/307.js",
+      "bytes": 2110
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/307.js",
+      "bytes": 2110
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/informatics6/InformaticsConceptVisual.tsx",
+      "bytes": 2114
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/runtime.bundle.js",
+      "bytes": 2142
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/runtime.bundle.js",
+      "bytes": 2142
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-webui-992.268aa821c3090dce03cb.chunk.js",
+      "bytes": 2148
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-webui-992.268aa821c3090dce03cb.chunk.js",
+      "bytes": 2148
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/science6_pilot/reports/first10-evaluation.md",
+      "bytes": 2254
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/libs/extend-native-history-api.js",
+      "bytes": 2255
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/libs/extend-native-history-api.js",
+      "bytes": 2255
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/303.js",
+      "bytes": 2262
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/303.js",
+      "bytes": 2262
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/progress/scoringEngine.ts",
+      "bytes": 2271
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Subresource Filter/Unindexed Rules/10.34.0.84/adblock_snippet.js",
+      "bytes": 2323
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Subresource Filter/Unindexed Rules/10.34.0.84/adblock_snippet.js",
+      "bytes": 2323
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/science6_pilot/reports/full55-evaluation.md",
+      "bytes": 2458
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/science6_pilot/README.md",
+      "bytes": 2504
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-bridge/wordBridgeEngine.ts",
+      "bytes": 2545
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Wallet-BuyNow/wallet-buynow.html",
+      "bytes": 2564
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Wallet-BuyNow/wallet-buynow.html",
+      "bytes": 2564
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/StructuredMathLesson.tsx",
+      "bytes": 2564
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/STATE.md",
+      "bytes": 2624
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/curriculum/courseCatalog.ts",
+      "bytes": 2643
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/vietnamese6/VietnameseConceptVisual.tsx",
+      "bytes": 2671
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/typing-quest/typingQuestTypes.ts",
+      "bytes": 2682
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/bonus/bonusEngine.ts",
+      "bytes": 2691
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review2/review2Engine.ts",
+      "bytes": 2711
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/308.js",
+      "bytes": 2715
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/308.js",
+      "bytes": 2715
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/components/AppRecoveryBoundary.tsx",
+      "bytes": 2745
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/200.js",
+      "bytes": 2761
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/200.js",
+      "bytes": 2761
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-magnet/speechQueue.ts",
+      "bytes": 2944
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/buynow_driver.js",
+      "bytes": 2961
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/buynow_driver.js",
+      "bytes": 2961
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/vietnamese6/VietnameseLesson.tsx",
+      "bytes": 2975
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/informatics6/InformaticsLesson.tsx",
+      "bytes": 2976
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet.html",
+      "bytes": 2990
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet.html",
+      "bytes": 2990
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/friend-detective/friendDetectiveEngine.ts",
+      "bytes": 3003
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/science6_pilot/schema/lesson.schema.json",
+      "bytes": 3038
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-crypto.html",
+      "bytes": 3045
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-crypto.html",
+      "bytes": 3045
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/304.js",
+      "bytes": 3087
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/304.js",
+      "bytes": 3087
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review/reviewEngine.ts",
+      "bytes": 3101
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/auth/AuthGate.tsx",
+      "bytes": 3108
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/js-kernel-offscreen-7jIPJNl2.js",
+      "bytes": 3134
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/js-kernel-offscreen-7jIPJNl2.js",
+      "bytes": 3134
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/science6/ScienceLesson.tsx",
+      "bytes": 3171
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit1_phase1.json",
+      "bytes": 3293
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/501.js",
+      "bytes": 3327
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/501.js",
+      "bytes": 3327
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/SEMESTER1_BOOK_AUDIT.md",
+      "bytes": 3331
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit2_phase1.json",
+      "bytes": 3336
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/tests/test_packaging.py",
+      "bytes": 3497
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-webs/wordWebsEngine.ts",
+      "bytes": 3503
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/typing-quest/TypingSetup.tsx",
+      "bytes": 3531
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-webui-227.bb2c3c84778e2589775f.chunk.js",
+      "bytes": 3532
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-webui-227.bb2c3c84778e2589775f.chunk.js",
+      "bytes": 3532
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/WINDOWS_INSTALLER.md",
+      "bytes": 3603
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/101.js",
+      "bytes": 3667
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/101.js",
+      "bytes": 3667
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/progress/useActivityScoring.ts",
+      "bytes": 3680
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/microphone-permission-q9dh_mze.js",
+      "bytes": 3693
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/microphone-permission-q9dh_mze.js",
+      "bytes": 3693
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/content-scripts/content.js",
+      "bytes": 3719
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/content-scripts/content.js",
+      "bytes": 3719
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit4_phase1.json",
+      "bytes": 3809
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit6_phase1.json",
+      "bytes": 3850
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/skills-1/skills1Engine.ts",
+      "bytes": 3950
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/project/projectEngine.ts",
+      "bytes": 4044
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathLesson1.tsx",
+      "bytes": 4053
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/popup-CKsBYv6A.js",
+      "bytes": 4207
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/popup-CKsBYv6A.js",
+      "bytes": 4207
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/README_VI.md",
+      "bytes": 4277
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-magnet/wordMagnetEngine.ts",
+      "bytes": 4311
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/briefs/unit3_a_closer_look2_clean.json",
+      "bytes": 4376
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/skills-2/skills2Engine.ts",
+      "bytes": 4416
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/structuredMathReviewEngine.ts",
+      "bytes": 4547
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/305.js",
+      "bytes": 4610
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/305.js",
+      "bytes": 4610
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-webui-560.da6c8914bf5007e1044c.chunk.js",
+      "bytes": 4658
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-webui-560.da6c8914bf5007e1044c.chunk.js",
+      "bytes": 4658
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/briefs/unit3_communication_clean.json",
+      "bytes": 4659
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/100.js",
+      "bytes": 4786
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/100.js",
+      "bytes": 4786
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review2/Review2.tsx",
+      "bytes": 4817
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/briefs/unit3_looking_back_clean.json",
+      "bytes": 4821
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit5_phase1.json",
+      "bytes": 4825
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Notification/notification.html",
+      "bytes": 4905
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Notification/notification.html",
+      "bytes": 4905
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/raw/getting_started_unit3.json",
+      "bytes": 4923
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-webui-101.079f5d74a18127cd9d6a.chunk.js",
+      "bytes": 4943
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-webui-101.079f5d74a18127cd9d6a.chunk.js",
+      "bytes": 4943
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/structuredMathLessonEngine.ts",
+      "bytes": 5035
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/foreign-frame-monitor.js",
+      "bytes": 5158
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/foreign-frame-monitor.js",
+      "bytes": 5158
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/packaging/launcher.py",
+      "bytes": 5168
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit5_phase2.json",
+      "bytes": 5173
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/vietnamese6/CURRICULUM_REVIEW.md",
+      "bytes": 5231
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Wallet-BuyNow/wallet-buynow.bundle.js",
+      "bytes": 5235
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Wallet-BuyNow/wallet-buynow.bundle.js",
+      "bytes": 5235
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/mathLesson1Engine.ts",
+      "bytes": 5238
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/libs/requests.js",
+      "bytes": 5311
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/libs/requests.js",
+      "bytes": 5311
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/semester2/structuredReviewEngine.ts",
+      "bytes": 5369
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/science6/scienceCurriculum.ts",
+      "bytes": 5405
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit8/Unit8.tsx",
+      "bytes": 5431
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit7/Unit7.tsx",
+      "bytes": 5457
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/review/Review1.tsx",
+      "bytes": 5513
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/waiting-room.html",
+      "bytes": 5538
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/waiting-room.html",
+      "bytes": 5538
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit2_phase2.json",
+      "bytes": 5544
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/vietnamese6/reports/three-role-evaluation.md",
+      "bytes": 5568
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/app/curriculum.py",
+      "bytes": 5591
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-webs/WordWebs.tsx",
+      "bytes": 5661
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/informatics6/CURRICULUM_RESEARCH.md",
+      "bytes": 5707
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/raw/unit3_game_data.json",
+      "bytes": 5738
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/README.md",
+      "bytes": 5780
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/reference-analysis/unit3_a_closer_look2.md",
+      "bytes": 5847
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/looking-back/lookingBackEngine.ts",
+      "bytes": 5893
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit4_phase2.json",
+      "bytes": 6060
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_structure.json",
+      "bytes": 6068
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit1_phase2.json",
+      "bytes": 6110
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit6_phase2.json",
+      "bytes": 6152
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit1/Unit1Sections.tsx",
+      "bytes": 6186
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit2/Unit2.tsx",
+      "bytes": 6213
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit2/Unit2Sections.tsx",
+      "bytes": 6267
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit1/Unit1.tsx",
+      "bytes": 6275
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit6/Unit6.tsx",
+      "bytes": 6323
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit5/Unit5.tsx",
+      "bytes": 6365
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/reference-analysis/unit3_communication.md",
+      "bytes": 6368
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit6/Unit6Sections.tsx",
+      "bytes": 6375
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/a-closer-look-1/closerLookEngine.ts",
+      "bytes": 6420
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit5/Unit5Sections.tsx",
+      "bytes": 6508
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit4/Unit4Sections.tsx",
+      "bytes": 6619
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/location/location.js",
+      "bytes": 6630
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/location/location.js",
+      "bytes": 6630
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/browser-accessibility-xrpAC-cb.js",
+      "bytes": 6799
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/browser-accessibility-xrpAC-cb.js",
+      "bytes": 6799
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/briefs/unit3_skills_clean.json",
+      "bytes": 6832
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/waiting-room-CDU_ZquZ.js",
+      "bytes": 6844
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/waiting-room-CDU_ZquZ.js",
+      "bytes": 6844
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet-webui-708.de49febeeb0e9c77883f.chunk.js",
+      "bytes": 6871
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet-webui-708.de49febeeb0e9c77883f.chunk.js",
+      "bytes": 6871
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit4/Unit4.tsx",
+      "bytes": 6909
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_part5_designed.json",
+      "bytes": 7165
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/curriculum/courseRegistry.ts",
+      "bytes": 7276
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/reference-analysis/unit3_looking_back.md",
+      "bytes": 7349
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/AGENTS.md",
+      "bytes": 7356
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/a-closer-look-2/closerLook2Engine.ts",
+      "bytes": 7631
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/_virtual_wxt-plugins-h3nJhKaR.js",
+      "bytes": 7662
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/_virtual_wxt-plugins-h3nJhKaR.js",
+      "bytes": 7662
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/semester2/StructuredUnit.tsx",
+      "bytes": 7769
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/listen-read/ListenAndRead.tsx",
+      "bytes": 7848
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/science6_pilot/reports/three-role-evaluation.md",
+      "bytes": 7874
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/semester2/StructuredReview.tsx",
+      "bytes": 8025
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/306.js",
+      "bytes": 8157
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/306.js",
+      "bytes": 8157
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit8/unit8Engine.ts",
+      "bytes": 8269
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit7/unit7Engine.ts",
+      "bytes": 8368
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/informatics6/reports/three-role-evaluation.md",
+      "bytes": 8415
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/semester2/structuredUnitEngine.ts",
+      "bytes": 8648
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/body-lab/BodyLab.tsx",
+      "bytes": 8974
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/auth/authApi.ts",
+      "bytes": 9082
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/309.js",
+      "bytes": 9233
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/309.js",
+      "bytes": 9233
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/auth/AuthProvider.tsx",
+      "bytes": 9358
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/APP_AUDIT_2026-11-17.md",
+      "bytes": 9650
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-train/WordTrain.tsx",
+      "bytes": 9731
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/jmjflgjpcpepeafmmgdpfkogkghcpiha/1.2.1_0/content.js",
+      "bytes": 9815
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/jmjflgjpcpepeafmmgdpfkogkghcpiha/1.2.1_0/content.js",
+      "bytes": 9815
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/packaging/setup_launcher.py",
+      "bytes": 10015
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/jmjflgjpcpepeafmmgdpfkogkghcpiha/1.2.1_0/content_new.js",
+      "bytes": 10388
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/jmjflgjpcpepeafmmgdpfkogkghcpiha/1.2.1_0/content_new.js",
+      "bytes": 10388
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/310.js",
+      "bytes": 10398
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/310.js",
+      "bytes": 10398
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-bridge/WordBridge.tsx",
+      "bytes": 10486
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit4/Unit4Phase2Sections.tsx",
+      "bytes": 10627
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit2_bonus.json",
+      "bytes": 10650
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/reference-analysis/unit3_skills.md",
+      "bytes": 10691
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/PRODUCT.md",
+      "bytes": 10822
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit1_bonus.json",
+      "bytes": 10923
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit5/Unit5Phase2Sections.tsx",
+      "bytes": 10960
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit6_bonus.json",
+      "bytes": 11106
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/301.js",
+      "bytes": 11157
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/301.js",
+      "bytes": 11157
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit5_bonus.json",
+      "bytes": 11241
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit2/Unit2Phase2Sections.tsx",
+      "bytes": 11279
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit6/Unit6Phase2Sections.tsx",
+      "bytes": 11340
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/word-magnet/WordMagnet.tsx",
+      "bytes": 11342
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/bnpl_driver.js",
+      "bytes": 11456
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/bnpl_driver.js",
+      "bytes": 11456
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit8/Unit8Sections.tsx",
+      "bytes": 11503
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/app/main.py",
+      "bytes": 11535
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit7_bonus.json",
+      "bytes": 11812
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit1/Unit1Phase2Sections.tsx",
+      "bytes": 11837
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit4_bonus.json",
+      "bytes": 11850
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/bonus/Bonus.tsx",
+      "bytes": 12173
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/communication/communicationEngine.ts",
+      "bytes": 12265
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/typing-quest/typingQuestEngine.ts",
+      "bytes": 12307
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/typing-quest/TypingRound.tsx",
+      "bytes": 12564
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_bonus.json",
+      "bytes": 12878
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit7/Unit7Sections.tsx",
+      "bytes": 12994
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit8_source.json",
+      "bytes": 13212
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/wallet_checkout_autofill_driver.js",
+      "bytes": 13381
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/wallet_checkout_autofill_driver.js",
+      "bytes": 13381
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/profile/ScoreProfile.tsx",
+      "bytes": 13606
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit9_source.json",
+      "bytes": 14064
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/background.js",
+      "bytes": 14235
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/background.js",
+      "bytes": 14235
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit11_source.json",
+      "bytes": 14366
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/assets/options-xeTLN_ZZ.css",
+      "bytes": 14528
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/assets/options-xeTLN_ZZ.css",
+      "bytes": 14528
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit10_source.json",
+      "bytes": 14606
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_a_closer_look1.json",
+      "bytes": 14696
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit2/unit2Engine.ts",
+      "bytes": 14962
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit12_source.json",
+      "bytes": 15150
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit8_bonus.json",
+      "bytes": 15165
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit6/unit6Engine.ts",
+      "bytes": 15398
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/science6_pilot/reports/teacher-and-student-review.md",
+      "bytes": 15647
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit1/unit1Engine.ts",
+      "bytes": 15695
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/codex-work-sidepanel-BVa_CGmE.js",
+      "bytes": 16046
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/side-chat-tab-mentions.js",
+      "bytes": 16046
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/codex-work-sidepanel-BVa_CGmE.js",
+      "bytes": 16046
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/side-chat-tab-mentions.js",
+      "bytes": 16046
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Wallet-Checkout/load-ec-i18n.bundle.js",
+      "bytes": 16164
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Wallet-Checkout/load-ec-i18n.bundle.js",
+      "bytes": 16164
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Wallet-Checkout/load-ec-deps.bundle.js",
+      "bytes": 16493
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Wallet-Checkout/load-ec-deps.bundle.js",
+      "bytes": 16493
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit5/unit5Engine.ts",
+      "bytes": 16740
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathConceptVisuals.tsx",
+      "bytes": 17026
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit7_source.json",
+      "bytes": 17202
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/chatgpt-website.js",
+      "bytes": 17227
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/chatgpt-website.js",
+      "bytes": 17227
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/activityLabels.ts",
+      "bytes": 18248
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/MathLessonVisualLab.tsx",
+      "bytes": 18534
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/CONTENT_RULES.md",
+      "bytes": 18811
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/skills-common/learningUx.ts",
+      "bytes": 18818
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit4/unit4Engine.ts",
+      "bytes": 19235
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/mathCurriculumDepth.ts",
+      "bytes": 19578
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/vietnamese6_s1_research/PRACTICE_FRAMEWORK.md",
+      "bytes": 20198
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/docs/MATH_RULE_VISUAL_AUDIT_2026-11-18.md",
+      "bytes": 20351
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit2/unit2Phase2Engine.ts",
+      "bytes": 20928
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit6/unit6Phase2Engine.ts",
+      "bytes": 21106
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/mathRuleVisualRegistry.ts",
+      "bytes": 21733
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/communication/Communication.tsx",
+      "bytes": 22008
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/vietnamese6_s2_research/PRACTICE_FRAMEWORK.md",
+      "bytes": 22404
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/shopping_iframe_driver.js",
+      "bytes": 22950
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/shopping_iframe_driver.js",
+      "bytes": 22950
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit1/unit1Phase2Engine.ts",
+      "bytes": 22973
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/skills-common/SkillsSection.tsx",
+      "bytes": 23281
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/mathPilotTaskBanks.ts",
+      "bytes": 23791
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_skills1.json",
+      "bytes": 23842
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_skills2.json",
+      "bytes": 24010
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_looking_back.json",
+      "bytes": 24158
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/math6_s1_lesson5.json",
+      "bytes": 24310
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/math6_s1_lesson4.json",
+      "bytes": 24644
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/302.js",
+      "bytes": 24863
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/executors/302.js",
+      "bytes": 24863
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/a-closer-look-2/ACloserLook2.tsx",
+      "bytes": 25340
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_communication.json",
+      "bytes": 26422
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/math6_s1_lesson2.json",
+      "bytes": 26536
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit5/unit5Phase2Engine.ts",
+      "bytes": 26616
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_a_closer_look2.json",
+      "bytes": 27012
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/unit3_project.json",
+      "bytes": 27662
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/math6_s1_lesson3.json",
+      "bytes": 28079
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/unit4/unit4Phase2Engine.ts",
+      "bytes": 28538
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/shopping_iframe_driver.js",
+      "bytes": 28756
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/shopping_iframe_driver.js",
+      "bytes": 28756
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/a-closer-look-1/ACloserLook1.tsx",
+      "bytes": 30396
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/mathSemester2Curriculum.ts",
+      "bytes": 30833
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/data/lessons/math6_s1_lesson1.json",
+      "bytes": 30845
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/mathPilotDepth.ts",
+      "bytes": 31434
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/codex.js",
+      "bytes": 35191
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/content-scripts/codex.js",
+      "bytes": 35191
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/App.tsx",
+      "bytes": 36145
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/src-B7kAvDDE.js",
+      "bytes": 36314
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/src-B7kAvDDE.js",
+      "bytes": 36314
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/pnpm-lock.yaml",
+      "bytes": 36945
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/TASKS.md",
+      "bytes": 40637
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/inomeogfingihgjfjlpeplalcfajhgai/2.1_0/event_page_binary.js",
+      "bytes": 42045
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/inomeogfingihgjfjlpeplalcfajhgai/2.1_0/event_page_binary.js",
+      "bytes": 42045
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/math6/mathSemester1Curriculum.ts",
+      "bytes": 46566
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/assets/microphone-permission-BQ71LL-a.css",
+      "bytes": 51154
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/assets/microphone-permission-BQ71LL-a.css",
+      "bytes": 51154
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/informatics6/informaticsCurriculum.ts",
+      "bytes": 51493
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/scripts/validate_source_data.py",
+      "bytes": 56220
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/tests/test_db.py",
+      "bytes": 58382
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/features/vietnamese6/vietnameseCurriculum.ts",
+      "bytes": 60170
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/edge_tracking_page_validator.js",
+      "bytes": 64828
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/edge_tracking_page_validator.js",
+      "bytes": 64828
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/sentry-DA6_M-2w.js",
+      "bytes": 79146
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/sentry-DA6_M-2w.js",
+      "bytes": 79146
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/CHECKPOINT.md",
+      "bytes": 83775
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/backend/app/db.py",
+      "bytes": 85441
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/frontend/src/styles.css",
+      "bytes": 90092
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/browser-D2pf4ijY.js",
+      "bytes": 110246
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/browser-D2pf4ijY.js",
+      "bytes": 110246
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/offscreendocument_main.js",
+      "bytes": 134170
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/offscreendocument_main.js",
+      "bytes": 134170
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/service_worker_bin_prod.js",
+      "bytes": 140633
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.112.1_0/service_worker_bin_prod.js",
+      "bytes": 140633
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/service-worker/anti-malware.js",
+      "bytes": 148510
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/service-worker/anti-malware.js",
+      "bytes": 148510
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/content.js",
+      "bytes": 151738
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/content/content.js",
+      "bytes": 151738
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/options-gOWBATrb.js",
+      "bytes": 174491
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/options-gOWBATrb.js",
+      "bytes": 174491
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/assets/inter-tO-R5zAf.css",
+      "bytes": 176417
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/assets/inter-tO-R5zAf.css",
+      "bytes": 176417
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/ad-blocker/background.js",
+      "bytes": 196195
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/ad-blocker/background.js",
+      "bytes": 196195
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/inter-CL2qmJzj.js",
+      "bytes": 197045
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/chunks/inter-CL2qmJzj.js",
+      "bytes": 197045
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/js-kernel-BCcxYUuj.js",
+      "bytes": 198456
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/js-kernel-BCcxYUuj.js",
+      "bytes": 198456
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/libs/processor.js",
+      "bytes": 228386
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/libs/processor.js",
+      "bytes": 228386
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/ad-blocker/content.js",
+      "bytes": 243656
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/eppiocemhmnlbhjplcgkofciiegomcon/5.15.1_0/ad-blocker/content.js",
+      "bytes": 243656
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/ZxcvbnData/3.2.0.0/english_wikipedia.txt",
+      "bytes": 276213
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/ZxcvbnData/3.2.0.0/english_wikipedia.txt",
+      "bytes": 276213
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Notification/notification_fast.bundle.js",
+      "bytes": 339352
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Notification/notification_fast.bundle.js",
+      "bytes": 339352
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Mini-Wallet/miniwallet.bundle.js",
+      "bytes": 379697
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Mini-Wallet/miniwallet.bundle.js",
+      "bytes": 379697
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/content-scripts/esm/content.js",
+      "bytes": 452657
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/content-scripts/esm/content.js",
+      "bytes": 452657
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/content-scripts/esm/content.css",
+      "bytes": 467605
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/ohcoejhlajaopflplmckddjcfecgleij/2.8.1_0/content-scripts/esm/content.css",
+      "bytes": 467605
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/background.js",
+      "bytes": 518861
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/background.js",
+      "bytes": 518861
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Notification/notification.bundle.js",
+      "bytes": 542664
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Notification/notification.bundle.js",
+      "bytes": 542664
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/bnpl/bnpl.bundle.js",
+      "bytes": 707609
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/bnpl/bnpl.bundle.js",
+      "bytes": 707609
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/edge_confirmation_page_validator.js",
+      "bytes": 1065412
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/edge_confirmation_page_validator.js",
+      "bytes": 1065412
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/edge_checkout_page_validator.js",
+      "bytes": 1065574
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/edge_checkout_page_validator.js",
+      "bytes": 1065574
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/product_page.js",
+      "bytes": 1070025
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/product_page.js",
+      "bytes": 1070025
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/edge_driver.js",
+      "bytes": 1110837
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/edge_driver.js",
+      "bytes": 1110837
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/js-kernel-host-B4ilWFF8.js",
+      "bytes": 1316113
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Default/Extensions/odlomjlbamekndcpllcnffbgeohgkmjh/1.26.1021.11019_0/chunks/js-kernel-host-B4ilWFF8.js",
+      "bytes": 1316113
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Shopping/2.2.22.0/auto_open_controller.js",
+      "bytes": 1322801
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Shopping/2.2.22.0/auto_open_controller.js",
+      "bytes": 1322801
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/Wallet-Checkout/wallet-drawer.bundle.js",
+      "bytes": 1552147
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/Wallet-Checkout/wallet-drawer.bundle.js",
+      "bytes": 1552147
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/vendor.bundle.js",
+      "bytes": 1758117
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/vendor.bundle.js",
+      "bytes": 1758117
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile/Edge Wallet/128.18367.18366.1/edge_driver.js",
+      "bytes": 1908434
+    },
+    {
+      "path": "gamehoctienganh/English_Quest_Codex_Kit/.run/student-e2e-edge-profile2/Edge Wallet/128.18367.18366.1/edge_driver.js",
+      "bytes": 1908434
+    },
+    {
+      "path": "gamehoctienganh/getting_started_unit3.json",
+      "bytes": 4923
+    }
+  ],
+  "selected_total_bytes": 39921836,
+  "skipped_candidate_count": 1
+}

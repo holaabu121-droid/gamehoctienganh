@@ -1,0 +1,254 @@
+[
+    {
+        "en": "cheek",
+        "type": "(n)",
+        "vi": "má",
+        "sentence": "She has a round face with rosy [BLANK]s.",
+        "options": [
+            "eye",
+            "cheek",
+            "hand",
+            "shoulder"
+        ]
+    },
+    {
+        "en": "eye",
+        "type": "(n)",
+        "vi": "mắt",
+        "sentence": "My best friend has big brown [BLANK]s.",
+        "options": [
+            "mouth",
+            "nose",
+            "leg",
+            "eye"
+        ]
+    },
+    {
+        "en": "hand",
+        "type": "(n)",
+        "vi": "bàn tay",
+        "sentence": "He writes with his left [BLANK].",
+        "options": [
+            "foot",
+            "hand",
+            "arm",
+            "hair"
+        ]
+    },
+    {
+        "en": "arm",
+        "type": "(n)",
+        "vi": "cánh tay",
+        "sentence": "The monkey has long [BLANK]s.",
+        "options": [
+            "leg",
+            "hair",
+            "shoulder",
+            "arm"
+        ]
+    },
+    {
+        "en": "mouth",
+        "type": "(n)",
+        "vi": "miệng",
+        "sentence": "Open your [BLANK] and say 'Ah'.",
+        "options": [
+            "nose",
+            "cheek",
+            "mouth",
+            "eye"
+        ]
+    },
+    {
+        "en": "leg",
+        "type": "(n)",
+        "vi": "cẳng chân",
+        "sentence": "He runs very fast because he has long [BLANK]s.",
+        "options": [
+            "arm",
+            "hand",
+            "foot",
+            "leg"
+        ]
+    },
+    {
+        "en": "nose",
+        "type": "(n)",
+        "vi": "mũi",
+        "sentence": "She has a small straight [BLANK].",
+        "options": [
+            "mouth",
+            "eye",
+            "nose",
+            "cheek"
+        ]
+    },
+    {
+        "en": "hair",
+        "type": "(n)",
+        "vi": "tóc",
+        "sentence": "Chau has long black [BLANK].",
+        "options": [
+            "hand",
+            "hair",
+            "shoulder",
+            "arm"
+        ]
+    },
+    {
+        "en": "shoulder",
+        "type": "(n)",
+        "vi": "vai",
+        "sentence": "He carried the bag on his [BLANK].",
+        "options": [
+            "foot",
+            "leg",
+            "shoulder",
+            "cheek"
+        ]
+    },
+    {
+        "en": "foot",
+        "type": "(n)",
+        "vi": "bàn chân",
+        "sentence": "My [BLANK] hurts after walking so much.",
+        "options": [
+            "hand",
+            "foot",
+            "arm",
+            "leg"
+        ]
+    },
+    {
+        "en": "hard-working",
+        "type": "(adj)",
+        "vi": "chăm chỉ",
+        "sentence": "Mina is very [BLANK]. She always has lots of new ideas.",
+        "options": [
+            "hard-working",
+            "confident",
+            "funny",
+            "caring"
+        ]
+    },
+    {
+        "en": "confident",
+        "type": "(adj)",
+        "vi": "tự tin",
+        "sentence": "He is a [BLANK] boy. He isn't shy in front of many people.",
+        "options": [
+            "creative",
+            "careful",
+            "confident",
+            "shy"
+        ]
+    },
+    {
+        "en": "funny",
+        "type": "(adj)",
+        "vi": "ngộ nghĩnh, khôi hài",
+        "sentence": "Nick is very [BLANK]. He makes everyone laugh!",
+        "options": [
+            "clever",
+            "friendly",
+            "caring",
+            "funny"
+        ]
+    },
+    {
+        "en": "caring",
+        "type": "(adj)",
+        "vi": "chu đáo, biết quan tâm",
+        "sentence": "My mother is very [BLANK]. She always takes care of us.",
+        "options": [
+            "caring",
+            "active",
+            "shy",
+            "confident"
+        ]
+    },
+    {
+        "en": "active",
+        "type": "(adj)",
+        "vi": "hăng hái, năng động",
+        "sentence": "Lan is [BLANK] and she likes playing sports.",
+        "options": [
+            "clever",
+            "friendly",
+            "active",
+            "kind"
+        ]
+    },
+    {
+        "en": "careful",
+        "type": "(adj)",
+        "vi": "cẩn thận",
+        "sentence": "Kim is very [BLANK]. She pays attention to what she's doing.",
+        "options": [
+            "creative",
+            "careful",
+            "funny",
+            "shy"
+        ]
+    },
+    {
+        "en": "clever",
+        "type": "(adj)",
+        "vi": "lanh lợi, thông minh",
+        "sentence": "Mai is [BLANK]. She learns things quickly and easily.",
+        "options": [
+            "clever",
+            "kind",
+            "friendly",
+            "hard-working"
+        ]
+    },
+    {
+        "en": "shy",
+        "type": "(adj)",
+        "vi": "xấu hổ",
+        "sentence": "Don't be [BLANK], come and say hello.",
+        "options": [
+            "confident",
+            "shy",
+            "active",
+            "funny"
+        ]
+    },
+    {
+        "en": "kind",
+        "type": "(adj)",
+        "vi": "tốt bụng",
+        "sentence": "He is a [BLANK] person. He cares about everybody.",
+        "options": [
+            "kind",
+            "clever",
+            "creative",
+            "careful"
+        ]
+    },
+    {
+        "en": "creative",
+        "type": "(adj)",
+        "vi": "sáng tạo",
+        "sentence": "Mina is very [BLANK]. She likes drawing pictures.",
+        "options": [
+            "friendly",
+            "caring",
+            "hard-working",
+            "creative"
+        ]
+    },
+    {
+        "en": "friendly",
+        "type": "(adj)",
+        "vi": "thân thiện",
+        "sentence": "Nam is [BLANK]. He likes helping his friends.",
+        "options": [
+            "shy",
+            "friendly",
+            "careful",
+            "confident"
+        ]
+    }
+]

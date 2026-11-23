@@ -1,0 +1,118 @@
+{
+  "unit_id": "unit-3-my-friends",
+  "unit_number": 3,
+  "unit_title": "My Friends",
+  "unit_title_vi": "Những người bạn của em",
+  "source_status": "designed",
+  "source_note": "Paraphrased Vietnamese guidance and objectives designed from the user-provided Unit 3 learning outline.",
+  "sections": [
+    {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "title_vi": "Khởi động",
+      "lead_vi": "Chúng ta bắt đầu Unit 3 bằng câu chuyện về một vị khách bất ngờ. Em hãy nghe, đọc và luyện những từ đầu tiên để nói về bạn bè, ngoại hình và các hoạt động cùng nhau.",
+      "objectives_vi": [
+        "Nghe và hiểu ý chính của hội thoại mở đầu.",
+        "Nhận biết từ chỉ bộ phận cơ thể và ngoại hình.",
+        "Hoàn thành câu và sắp xếp từ theo đúng trật tự.",
+        "Luyện nhớ nghĩa, chính tả và phát âm từ vựng."
+      ]
+    },
+    {
+      "id": "closer-look-1",
+      "title": "A Closer Look 1",
+      "title_vi": "Từ vựng và phát âm",
+      "lead_vi": "Phần này giúp em mở rộng vốn từ để miêu tả tính cách và luyện phân biệt hai âm /b/ và /p/ qua các trò chơi ngắn.",
+      "objectives_vi": [
+        "Hiểu và sử dụng các tính từ chỉ tính cách.",
+        "Đoán nghĩa của từ dựa vào hành động và ngữ cảnh.",
+        "Nhận biết và phân biệt âm đầu /b/ với /p/.",
+        "Đọc câu theo nhịp với khoảng lặng để luyện nói."
+      ]
+    },
+    {
+      "id": "closer-look-2",
+      "title": "A Closer Look 2",
+      "title_vi": "Ngữ pháp và giao tiếp",
+      "lead_vi": "Phần này giúp em mô tả hành động đang diễn ra, đặt câu hỏi và trả lời ngắn, sau đó phân biệt hành động lúc này với thói quen hằng ngày.",
+      "objectives_vi": [
+        "Dùng đúng am, is hoặc are với động từ dạng -ing.",
+        "Tạo câu khẳng định, phủ định và câu hỏi Yes/No.",
+        "Trả lời ngắn về hành động đang diễn ra.",
+        "Phân biệt hiện tại đơn với hiện tại tiếp diễn theo ngữ cảnh."
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication",
+      "title_vi": "Giao tiếp",
+      "lead_vi": "Phần này giúp em hỏi và trả lời về ngoại hình, tính cách của bạn bè, đọc hồ sơ ngắn và chia sẻ ý kiến về những mô tả tính cách theo ngày sinh.",
+      "objectives_vi": [
+        "Phân biệt câu hỏi về ngoại hình và tính cách.",
+        "Hỏi và trả lời về người bạn thân.",
+        "Chọn tính từ phù hợp từ thông tin trong hồ sơ.",
+        "Nêu ý kiến đồng ý hoặc không đồng ý bằng câu đầy đủ."
+      ]
+    },
+    {
+      "id": "skills-1",
+      "title": "Skills 1",
+      "title_vi": "Đọc và nói",
+      "lead_vi": "Em sẽ đọc quảng cáo, email và hồ sơ ngắn để tìm bằng chứng, sửa thông tin chưa đúng và giải thích một lựa chọn hợp lý.",
+      "objectives_vi": [
+        "Quét văn bản để tìm nhanh thông tin cụ thể.",
+        "Kiểm tra đúng sai và sửa chi tiết bằng bằng chứng.",
+        "Phân loại thông tin về ngoại hình, tính cách và sở thích.",
+        "Nêu lựa chọn kèm một lý do rõ ràng."
+      ]
+    },
+    {
+      "id": "skills-2",
+      "title": "Skills 2",
+      "title_vi": "Nghe và viết",
+      "lead_vi": "Em sẽ nghe các mô tả mới về hành động và bạn bè, ghi lại từ khóa rồi sắp xếp ý thành một đoạn nhật ký ngắn, mạch lạc.",
+      "objectives_vi": [
+        "Nghe để nhận ra hành động và người được miêu tả.",
+        "Nghe chi tiết để chọn đúng một từ hoặc một số.",
+        "Ghép câu hỏi với đúng loại thông tin trả lời.",
+        "Tổ chức ý thành đoạn nhật ký nhất quán."
+      ]
+    },
+    {
+      "id": "looking-back",
+      "title": "Looking Back",
+      "title_vi": "Ôn tập",
+      "lead_vi": "Em sẽ ôn lại tính từ chỉ tính cách, câu hỏi về ngoại hình và hai thì hiện tại, rồi hoàn thành thử thách tổng hợp cuối Unit 3.",
+      "objectives_vi": [
+        "Chọn tính từ tính cách từ bằng chứng hành động.",
+        "Hỏi và trả lời về ngoại hình từ hồ sơ hư cấu.",
+        "Tạo đúng cụm động từ ở hiện tại tiếp diễn.",
+        "Phân biệt hiện tại đơn với hiện tại tiếp diễn."
+      ]
+    },
+    {
+      "id": "project",
+      "title": "Project",
+      "title_vi": "Dự án",
+      "lead_vi": "Em sẽ luyện từng bước để tạo một trang kỷ yếu lớp: chuẩn bị hồ sơ, phỏng vấn, sắp xếp ghi chú, viết mô tả và giới thiệu sản phẩm rõ ràng.",
+      "objectives_vi": [
+        "Đặt câu hỏi để thu thập thông tin phù hợp.",
+        "Phân loại ghi chú về ngoại hình, tính cách và sở thích.",
+        "Viết đoạn giới thiệu bạn bè có bố cục rõ ràng.",
+        "Trình bày một trang kỷ yếu bằng câu tiếng Anh đầy đủ."
+      ]
+    },
+    {
+      "id": "bonus",
+      "title": "Bonus Quest",
+      "title_vi": "Thử thách thưởng",
+      "lead_vi": "Sau khi hoàn thành các phần chính, em có thể dùng kiến thức toàn Unit để mở kho báu, đánh Boss ngữ pháp và phá án bằng những đáp án gõ chính xác.",
+      "objectives_vi": [
+        "Ôn từ vựng và nghe nhận biết từ qua chính tả.",
+        "Vận dụng hiện tại tiếp diễn trong trận Boss tính giờ.",
+        "Đọc, suy luận và khôi phục hội thoại bị mất từ.",
+        "Xác định bài và câu còn yếu để luyện lại có mục tiêu."
+      ]
+    }
+  ]
+}

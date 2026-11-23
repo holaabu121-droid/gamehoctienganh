@@ -1,0 +1,67 @@
+{
+  "lesson_id":"review1-bonus",
+  "source_status":"designed",
+  "usage_scope":"personal-family",
+  "source_note":"Ba màn Bonus được sáng tạo mới từ mục tiêu Review 1 Units 1-2-3. Không sao chép ảnh hoặc nguyên trang sách; phần nghe dùng script AI mới và không chấm phát âm.",
+  "variant_catalog":[
+    {"id":"treasure","title":"Kho báu từ vựng","skills":["vocabulary","listening","spelling"]},
+    {"id":"boss","title":"Grammar Boss","skills":["grammar","reading","memory","spelling"]},
+    {"id":"detective","title":"Thám tử điền từ","skills":["listening","reading","writing","grammar"]}
+  ],
+  "selected_variants":["treasure","boss","detective"],
+  "rules_vi":[
+    "Bonus chỉ mở sau khi hoàn thành cả sáu game tính điểm của Review 1.",
+    "Điểm Review từ 90% mở kho thưởng cao: 50.000 / 100.000 / 150.000 với tỷ lệ 50% / 35% / 15%.",
+    "Điểm Review từ 70% đến dưới 90% mở kho tiêu chuẩn: 20.000 / 30.000 / 50.000 với cùng tỷ lệ; xác nhận mức này sẽ khóa kho cao.",
+    "Dưới 70%, hãy luyện lại các bài và câu điểm thấp được gợi ý.",
+    "Nếu điểm riêng của một màn Bonus dưới 70%, phần thưởng bốc được của màn đó giảm một nửa.",
+    "Điểm thưởng tách riêng khỏi điểm Review và Unit 3; mỗi màn chỉ nhận thưởng một lần."
+  ],
+  "stages":{
+    "treasure":{
+      "title":"Kho báu từ vựng","subtitle":"Gõ đúng để mở 10 ổ khóa","variant":"treasure","help_vi":"Đọc hoặc nghe manh mối rồi gõ chính xác từ tiếng Anh thuộc Units 1-2-3.",
+      "rounds":[
+        {"id":"r1-tr-01","source_status":"ai-generated","character_name":"Lan Anh","skill":"vocabulary","prompt_vi":"Gõ tên đồ vật dùng để viết.","clue":"Lan Anh writes with a ___.","answer":"pen","explanation_vi":"Pen là bút mực.","completed_text":"Lan Anh writes with a pen."},
+        {"id":"r1-tr-02","source_status":"ai-generated","character_name":"Minh Khoa","skill":"vocabulary","prompt_vi":"Gõ tên căn phòng dùng để nấu ăn.","clue":"Minh Khoa cooks in the ___.","answer":"kitchen","explanation_vi":"Kitchen là nhà bếp.","completed_text":"Minh Khoa cooks in the kitchen."},
+        {"id":"r1-tr-03","source_status":"ai-generated","character_name":"Bảo Ngọc","skill":"vocabulary","prompt_vi":"Gõ môn học được mô tả.","clue":"Bảo Ngọc learns words and sentences in this subject.","answer":"English","explanation_vi":"English là môn Tiếng Anh.","completed_text":"Bảo Ngọc studies English."},
+        {"id":"r1-tr-04","source_status":"ai-generated","character_name":"Hải Nam","skill":"vocabulary","prompt_vi":"Gõ tính từ chỉ người chăm chỉ.","clue":"Hải Nam always finishes his homework before class.","answer":"hard-working","explanation_vi":"Hard-working nghĩa là chăm chỉ.","completed_text":"Hải Nam is hard-working."},
+        {"id":"r1-tr-05","source_status":"ai-generated","character_name":"Mai Chi","skill":"listening","prompt_vi":"Nghe rồi gõ từ em nghe được.","clue":"Audio clue","audio_text":"friendly","answer":"friendly","explanation_vi":"Friendly nghĩa là thân thiện.","completed_text":"Mai Chi is friendly."},
+        {"id":"r1-tr-06","source_status":"ai-generated","character_name":"Thu Hà","skill":"vocabulary","prompt_vi":"Gõ tên bữa ăn giữa ngày.","clue":"Thu Hà has ___ at twelve o'clock.","answer":"lunch","explanation_vi":"Lunch là bữa trưa.","completed_text":"Thu Hà has lunch at twelve o'clock."},
+        {"id":"r1-tr-07","source_status":"ai-generated","character_name":"Đức Anh","skill":"vocabulary","prompt_vi":"Gõ bộ phận dùng để nghe.","clue":"Đức Anh hears music with his ___.","answer":"ears","explanation_vi":"Ears là đôi tai.","completed_text":"Đức Anh hears music with his ears."},
+        {"id":"r1-tr-08","source_status":"ai-generated","character_name":"Khánh Linh","skill":"vocabulary","prompt_vi":"Gõ môn thể thao dùng vợt và quả cầu.","clue":"Khánh Linh plays ___ after school.","answer":"badminton","explanation_vi":"Badminton là môn cầu lông.","completed_text":"Khánh Linh plays badminton after school."},
+        {"id":"r1-tr-09","source_status":"ai-generated","character_name":"Quang Huy","skill":"vocabulary","prompt_vi":"Gõ từ chỉ bài tập về nhà.","clue":"Quang Huy does his ___ in the evening.","answer":"homework","explanation_vi":"Homework là bài tập về nhà.","completed_text":"Quang Huy does his homework in the evening."},
+        {"id":"r1-tr-10","source_status":"ai-generated","character_name":"Yến Nhi","skill":"listening","prompt_vi":"Nghe rồi gõ tính từ em nghe được.","clue":"Audio clue","audio_text":"creative","answer":"creative","explanation_vi":"Creative nghĩa là sáng tạo.","completed_text":"Yến Nhi is creative."}
+      ]
+    },
+    "boss":{
+      "title":"Grammar Boss","subtitle":"Gõ đúng để hạ Boss Đồng Hồ","variant":"boss","help_vi":"Dùng giới từ vị trí, hiện tại đơn hoặc hiện tại tiếp diễn. Sai làm mất combo.",
+      "rounds":[
+        {"id":"r1-bo-01","source_status":"ai-generated","character_name":"Nam Phong","skill":"grammar","prompt_vi":"Điền giới từ.","clue":"The clock is ___ the wall.","answer":"on","explanation_vi":"Vật trên bề mặt tường dùng on.","completed_text":"The clock is on the wall."},
+        {"id":"r1-bo-02","source_status":"ai-generated","character_name":"Mai Châu","skill":"grammar","prompt_vi":"Điền cụm chỉ vị trí.","clue":"The window is ___ to the door.","answer":"next","explanation_vi":"Next to nghĩa là ở cạnh.","completed_text":"The window is next to the door."},
+        {"id":"r1-bo-03","source_status":"ai-generated","character_name":"Bảo Nam","skill":"grammar","prompt_vi":"Gõ dạng đúng của run.","clue":"Bảo Nam is ___ in the yard now.","answer":"running","explanation_vi":"Run gấp đôi n rồi thêm -ing.","completed_text":"Bảo Nam is running in the yard now."},
+        {"id":"r1-bo-04","source_status":"ai-generated","character_name":"Phương Anh","skill":"grammar","prompt_vi":"Điền trợ động từ.","clue":"What time ___ Phương Anh have breakfast every day?","answer":"does","explanation_vi":"Chủ ngữ số ít trong hiện tại đơn dùng does.","completed_text":"What time does Phương Anh have breakfast every day?"},
+        {"id":"r1-bo-05","source_status":"ai-generated","character_name":"Minh Đức","skill":"grammar","prompt_vi":"Điền động từ be.","clue":"___ Minh Đức doing his homework now?","answer":"Is","explanation_vi":"Câu hỏi hiện tại tiếp diễn với chủ ngữ số ít bắt đầu bằng Is.","completed_text":"Is Minh Đức doing his homework now?"},
+        {"id":"r1-bo-06","source_status":"ai-generated","character_name":"Lan Chi","skill":"grammar","prompt_vi":"Gõ dạng đúng của write.","clue":"Lan Chi is ___ an email.","answer":"writing","explanation_vi":"Write bỏ e rồi thêm -ing.","completed_text":"Lan Chi is writing an email."},
+        {"id":"r1-bo-07","source_status":"ai-generated","character_name":"Hải Đăng","skill":"grammar","prompt_vi":"Gõ dạng động từ theo every day.","clue":"Hải Đăng ___ to school every day. (walk)","answer":"walks","explanation_vi":"Thói quen và chủ ngữ số ít dùng walks.","completed_text":"Hải Đăng walks to school every day."},
+        {"id":"r1-bo-08","source_status":"ai-generated","character_name":"Ngọc Hà","skill":"grammar","prompt_vi":"Gõ cụm động từ theo now.","clue":"Ngọc Hà ___ a book now. (read)","answer":"is reading","explanation_vi":"Now yêu cầu hiện tại tiếp diễn.","completed_text":"Ngọc Hà is reading a book now."},
+        {"id":"r1-bo-09","source_status":"ai-generated","character_name":"Tuấn Kiệt","skill":"grammar","prompt_vi":"Điền từ sở hữu.","clue":"The flowers are on the ___ desk. (teacher)","answer":"teacher's","explanation_vi":"Teacher's chỉ chiếc bàn của giáo viên.","completed_text":"The flowers are on the teacher's desk."},
+        {"id":"r1-bo-10","source_status":"ai-generated","character_name":"Thảo Vy","skill":"grammar","prompt_vi":"Gõ dạng phủ định đúng.","clue":"Thảo Vy ___ cooking now. She is reading.","answer":"isn't","explanation_vi":"Chủ ngữ số ít dùng isn't.","completed_text":"Thảo Vy isn't cooking now. She is reading."}
+      ]
+    },
+    "detective":{
+      "title":"Thám tử điền từ","subtitle":"Khôi phục hồ sơ và mở khóa manh mối","variant":"detective","help_vi":"Đọc hoặc nghe lời khai, suy luận từ còn thiếu rồi gõ chính xác.",
+      "rounds":[
+        {"id":"r1-de-01","source_status":"ai-generated","character_name":"Lan Anh","skill":"reading","prompt_vi":"Khôi phục nơi chốn.","clue":"Lan Anh's school is near the city ___.","answer":"centre","explanation_vi":"City centre là trung tâm thành phố.","completed_text":"Lan Anh's school is near the city centre."},
+        {"id":"r1-de-02","source_status":"ai-generated","character_name":"Minh Khoa","skill":"writing","prompt_vi":"Khôi phục tính từ.","clue":"Minh Khoa shares his lunch. He is ___.","answer":"kind","explanation_vi":"Kind nghĩa là tốt bụng.","completed_text":"Minh Khoa is kind."},
+        {"id":"r1-de-03","source_status":"ai-generated","character_name":"Bảo Ngọc","skill":"listening","prompt_vi":"Nghe rồi điền hành động.","clue":"Bảo Ngọc is ___ a picture now.","audio_text":"Bảo Ngọc is drawing a picture now.","answer":"drawing","explanation_vi":"Drawing là đang vẽ.","completed_text":"Bảo Ngọc is drawing a picture now."},
+        {"id":"r1-de-04","source_status":"ai-generated","character_name":"Hải Nam","skill":"reading","prompt_vi":"Khôi phục tính từ về giáo viên.","clue":"The teachers always help us. They are ___.","answer":"helpful","explanation_vi":"Helpful nghĩa là hay giúp đỡ.","completed_text":"The teachers are helpful."},
+        {"id":"r1-de-05","source_status":"ai-generated","character_name":"Mai Chi","skill":"grammar","prompt_vi":"Khôi phục từ chỉ lý do.","clue":"Mai Chi likes her school ___ it is a good school.","answer":"because","explanation_vi":"Because nối kết quả với lý do.","completed_text":"Mai Chi likes her school because it is a good school."},
+        {"id":"r1-de-06","source_status":"ai-generated","character_name":"Thu Hà","skill":"listening","prompt_vi":"Nghe rồi gõ căn phòng.","clue":"Thu Hà is in the ___ room.","audio_text":"Thu Hà is in the living room.","answer":"living","explanation_vi":"Living room là phòng khách.","completed_text":"Thu Hà is in the living room."},
+        {"id":"r1-de-07","source_status":"ai-generated","character_name":"Đức Anh","skill":"writing","prompt_vi":"Khôi phục động từ đi với homework.","clue":"Đức Anh always ___ his homework after school.","answer":"does","explanation_vi":"Cụm đúng là do homework; chủ ngữ số ít dùng does.","completed_text":"Đức Anh always does his homework after school."},
+        {"id":"r1-de-08","source_status":"ai-generated","character_name":"Khánh Linh","skill":"grammar","prompt_vi":"Khôi phục động từ be.","clue":"Khánh Linh and Yến Nhi ___ talking now.","answer":"are","explanation_vi":"Hai người là chủ ngữ số nhiều nên dùng are.","completed_text":"Khánh Linh and Yến Nhi are talking now."},
+        {"id":"r1-de-09","source_status":"ai-generated","character_name":"Quang Huy","skill":"memory","prompt_vi":"Khôi phục số câu lạc bộ.","clue":"Dance, English, Arts, Football and Basketball make ___ school clubs.","answer":"five","explanation_vi":"Danh sách có năm câu lạc bộ.","completed_text":"The school has five clubs."},
+        {"id":"r1-de-10","source_status":"ai-generated","character_name":"Yến Nhi","skill":"writing","prompt_vi":"Hoàn thành lời kết email.","clue":"Write ___ and tell me about your school.","answer":"soon","explanation_vi":"Write soon là hãy sớm viết thư.","completed_text":"Write soon and tell me about your school."}
+      ]
+    }
+  }
+}

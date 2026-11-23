@@ -1,0 +1,104 @@
+{
+  "lesson_id":"unit11-source","source_status":"user-provided-reference","usage_scope":"personal-family",
+  "source_note":"Đối chiếu trực quan SGK Tiếng Anh 6 Tập 2, Unit 11, trang sách 48–57 (PDF trang 50–59). Track 31–36 không có audio gốc; nội dung nghe thay thế được ghi nhãn AI.",
+  "unit":{"number":11,"title":"Our Greener World","title_vi":"Thế giới xanh hơn của chúng ta"},
+  "dialogue":[
+    {"context":"Mi: You've bought a lot of things.","answer":"a picnic","translation":"Nick đã mua nhiều đồ vì ngày mai sẽ đi dã ngoại.","source_status":"user-provided-reference"},
+    {"context":"Nick: What are you doing at the supermarket?","answer":"buying eggs","translation":"Mi đang mua trứng ở siêu thị.","source_status":"user-provided-reference"},
+    {"context":"Nick: It's a reusable shopping bag.","answer":"reusable bag","translation":"Đây là túi mua sắm có thể tái sử dụng.","source_status":"user-provided-reference"},
+    {"context":"Nick: It's better than a plastic one.","answer":"plastic bag","translation":"Túi tái sử dụng tốt hơn túi nhựa.","source_status":"user-provided-reference"},
+    {"context":"If we use green bags, we will help the environment.","answer":"help the environment","translation":"Dùng túi xanh sẽ giúp bảo vệ môi trường.","source_status":"user-provided-reference"},
+    {"context":"Mi: I'll buy one for my mum.","answer":"her mum","translation":"Mi sẽ mua một chiếc túi cho mẹ.","source_status":"user-provided-reference"},
+    {"context":"Nick: You are also green. You're cycling.","answer":"cycling","translation":"Mi sống xanh vì đi xe đạp.","source_status":"user-provided-reference"},
+    {"context":"If more people cycle, the air will be cleaner.","answer":"cleaner air","translation":"Nếu nhiều người đạp xe hơn, không khí sẽ sạch hơn.","source_status":"user-provided-reference"},
+    {"context":"People can buy green bags at the check-out.","answer":"the check-out","translation":"Có thể mua túi xanh tại quầy thanh toán.","source_status":"user-provided-reference"},
+    {"context":"Nick: I have to go now. See you later.","answer":"saying goodbye","translation":"Nick chào tạm biệt Mi.","source_status":"user-provided-reference"}
+  ],
+  "banks":{
+    "topic":[
+      {"context":"Use less of something.","answer":"reduce","translation":"Reduce nghĩa là giảm sử dụng.","source_status":"user-provided-reference"},
+      {"context":"Use something again.","answer":"reuse","translation":"Reuse nghĩa là dùng lại.","source_status":"user-provided-reference"},
+      {"context":"Create new products from used materials.","answer":"recycle","translation":"Recycle nghĩa là tái chế.","source_status":"user-provided-reference"},
+      {"context":"A bag that can be used many times","answer":"reusable bag","translation":"Reusable bag là túi dùng nhiều lần.","source_status":"user-provided-reference"},
+      {"context":"Waste that should be put in a bin","answer":"rubbish","translation":"Rubbish là rác.","source_status":"user-provided-reference"}
+    ],
+    "vocabulary":[
+      {"context":"Use fewer plastic bags.","answer":"reduce","translation":"Giảm sử dụng túi nhựa.","source_status":"user-provided-reference"},
+      {"context":"Turn an old bottle into a plant pot.","answer":"reuse","translation":"Dùng lại chai cũ làm chậu cây.","source_status":"user-provided-reference"},
+      {"context":"Make new paper from used paper.","answer":"recycle","translation":"Tái chế giấy cũ thành giấy mới.","source_status":"user-provided-reference"},
+      {"context":"A container made of glass","answer":"glass","translation":"Glass là thủy tinh hoặc cốc thủy tinh.","source_status":"user-provided-reference"},
+      {"context":"An item used to carry water","answer":"plastic bottle","translation":"Plastic bottle là chai nhựa.","source_status":"user-provided-reference"},
+      {"context":"Unwanted loud sound","answer":"noise","translation":"Noise là tiếng ồn.","source_status":"user-provided-reference"}
+    ],
+    "sounds":[
+      {"context":"If you cycle, it'll help the Earth.","answer":"cycle · Earth","translation":"Nhấn cycle và Earth để tạo nhịp câu.","source_status":"user-provided-reference","speech_text":"If you CYCLE, it'll help the EARTH.","pronunciation_vi":"Đọc từ mang nghĩa chính mạnh hơn, các từ còn lại nhẹ hơn."},
+      {"context":"Water is good for your body.","answer":"Water · good · body","translation":"Nhấn Water, good và body.","source_status":"user-provided-reference","speech_text":"WATER is GOOD for your BODY.","pronunciation_vi":"Giữ khoảng đều giữa các âm tiết được nhấn."},
+      {"context":"The students are planting trees in the garden.","answer":"students · planting · trees · garden","translation":"Nhấn các từ nội dung trong câu.","source_status":"user-provided-reference","speech_text":"The STUDENTS are PLANTING TREES in the GARDEN."},
+      {"context":"Is it better to use paper bags?","answer":"better · use · paper bags","translation":"Nhấn better, use và paper bags.","source_status":"user-provided-reference","speech_text":"Is it BETTER to USE PAPER BAGS?"},
+      {"context":"We are happy to walk to school.","answer":"happy · walk · school","translation":"Nhấn happy, walk và school.","source_status":"user-provided-reference","speech_text":"We are HAPPY to WALK to SCHOOL."}
+    ],
+    "grammar":[
+      {"context":"___ egg","answer":"an","translation":"Dùng an trước âm nguyên âm.","source_status":"user-provided-reference"},
+      {"context":"My father is ___ doctor.","answer":"a","translation":"Dùng a trước danh từ đếm được số ít nói chung.","source_status":"user-provided-reference"},
+      {"context":"___ Moon is bright tonight.","answer":"The","translation":"Dùng the với sự vật duy nhất.","source_status":"user-provided-reference"},
+      {"context":"If we recycle more, we ___ the Earth.","answer":"will help","translation":"Điều kiện loại một: hiện tại đơn và will + động từ.","source_status":"user-provided-reference"},
+      {"context":"If the river isn't dirty, there ___ more fish.","answer":"will be","translation":"Mệnh đề chính dùng will be.","source_status":"user-provided-reference"}
+    ],
+    "communication":[
+      {"context":"You are giving the goldfish too much food. ___","answer":"Don't do that.","translation":"Don't do that dùng để cảnh báo không làm việc đó.","source_status":"user-provided-reference"},
+      {"context":"If you give them too much food, ___.","answer":"they will die","translation":"Nêu hậu quả để giải thích lời cảnh báo.","source_status":"user-provided-reference"},
+      {"context":"A green choice for bringing lunch","answer":"a reusable box","translation":"Nên dùng hộp có thể tái sử dụng.","source_status":"user-provided-reference"},
+      {"context":"A green way to travel one kilometre","answer":"walk or cycle","translation":"Đi bộ hoặc đạp xe cho quãng đường ngắn.","source_status":"user-provided-reference"},
+      {"context":"A green use for an old glass","answer":"keep pencils in it","translation":"Có thể dùng cốc cũ để đựng bút chì.","source_status":"user-provided-reference"}
+    ],
+    "reading":[
+      {"context":"The interview is about making the school ___.","answer":"greener","translation":"Bài phỏng vấn nói về cách làm trường học xanh hơn.","source_status":"user-provided-reference"},
+      {"context":"They put ___ in every classroom.","answer":"recycling bins","translation":"Họ đặt thùng tái chế ở mỗi lớp.","source_status":"user-provided-reference"},
+      {"context":"They exchange old uniforms or give them to ___.","answer":"charity","translation":"Họ đổi đồng phục cũ hoặc tặng từ thiện.","source_status":"user-provided-reference"},
+      {"context":"They borrow books instead of buying ___.","answer":"new ones","translation":"Họ mượn sách thay vì mua sách mới.","source_status":"user-provided-reference"},
+      {"context":"They bring ___ water bottles to school.","answer":"reusable","translation":"Họ mang chai nước dùng lại được đến trường.","source_status":"user-provided-reference"}
+    ],
+    "listening":[
+      {"context":"Mi is in class 6A.","answer":"6A","translation":"Mi học lớp 6A.","source_status":"ai-generated"},
+      {"context":"Mi will put a recycling bin in every classroom.","answer":"recycling","translation":"Mi sẽ đặt thùng tái chế trong mỗi lớp.","source_status":"ai-generated"},
+      {"context":"Mi will organise book fairs.","answer":"book","translation":"Mi sẽ tổ chức hội chợ sách.","source_status":"ai-generated"},
+      {"context":"Nam will encourage students to use buses.","answer":"buses","translation":"Nam sẽ khuyến khích học sinh đi xe buýt.","source_status":"ai-generated"},
+      {"context":"Nam will organise uniform fairs.","answer":"uniform","translation":"Nam sẽ tổ chức hội chợ đồng phục.","source_status":"ai-generated"}
+    ],
+    "looking_back":[
+      {"context":"A thing to reduce","answer":"plastic bags","translation":"Nên giảm dùng túi nhựa.","source_status":"user-provided-reference"},
+      {"context":"A thing to reuse","answer":"plastic bottles","translation":"Có thể dùng lại chai nhựa.","source_status":"user-provided-reference"},
+      {"context":"A thing to recycle","answer":"glass","translation":"Có thể tái chế thủy tinh.","source_status":"user-provided-reference"},
+      {"context":"If they build an airport, it ___ noisy.","answer":"will be","translation":"Sân bay sẽ gây ồn.","source_status":"user-provided-reference"},
+      {"context":"If people reuse old items, they ___ the environment.","answer":"will save","translation":"Dùng lại đồ cũ sẽ bảo vệ môi trường.","source_status":"user-provided-reference"}
+    ],
+    "project":[
+      {"context":"Choose a used object such as a bottle or paper.","answer":"choose an old object","translation":"Chọn một đồ vật đã qua sử dụng.","source_status":"user-provided-reference"},
+      {"context":"Think of a new use for the old object.","answer":"plan a new use","translation":"Nghĩ cách dùng mới cho đồ vật cũ.","source_status":"user-provided-reference"},
+      {"context":"Make something new and decorate it.","answer":"make and decorate","translation":"Làm vật mới và trang trí.","source_status":"user-provided-reference"},
+      {"context":"Bring the reused object to class.","answer":"bring it to class","translation":"Mang sản phẩm tái sử dụng đến lớp.","source_status":"user-provided-reference"},
+      {"context":"Do a show and tell about it.","answer":"show and tell","translation":"Trình bày sản phẩm trước lớp.","source_status":"user-provided-reference"}
+    ],
+    "project_checklist":[
+      {"context":"Use words for things that can be reduced, reused and recycled.","answer":"3Rs words","translation":"Dùng từ về đồ có thể giảm dùng, dùng lại và tái chế.","source_status":"user-provided-reference"},
+      {"context":"Say sentences with correct rhythm.","answer":"sentence rhythm","translation":"Đọc câu đúng nhịp.","source_status":"user-provided-reference"},
+      {"context":"Use the articles correctly.","answer":"articles","translation":"Dùng mạo từ đúng.","source_status":"user-provided-reference"},
+      {"context":"Use the first conditional to talk about possibilities.","answer":"first conditional","translation":"Dùng câu điều kiện loại một.","source_status":"user-provided-reference"},
+      {"context":"Give warnings.","answer":"warnings","translation":"Đưa ra lời cảnh báo.","source_status":"user-provided-reference"},
+      {"context":"Read and talk about ways to go green.","answer":"green tips","translation":"Đọc và nói về cách sống xanh.","source_status":"user-provided-reference"},
+      {"context":"Listen about ideas for a green club.","answer":"listening","translation":"Nghe ý tưởng cho câu lạc bộ xanh.","source_status":"user-provided-reference"},
+      {"context":"Write a paragraph about green-club ideas.","answer":"writing","translation":"Viết đoạn văn về ý tưởng câu lạc bộ xanh.","source_status":"user-provided-reference"}
+    ]
+  },
+  "section_intro":{
+    "getting":{"title":"Let's go green!","title_vi":"Hãy sống xanh","description_vi":"Theo dõi Mi và Nick nói về túi tái sử dụng, đi xe đạp và không khí sạch."},
+    "acl1":{"title":"The 3Rs and sentence rhythm","title_vi":"Ba chữ R và nhịp câu","description_vi":"Học Reduce–Reuse–Recycle và luyện nhịp câu."},
+    "acl2":{"title":"Articles and first conditional","title_vi":"Mạo từ và điều kiện loại một","description_vi":"Dùng a, an, the và cấu trúc If + hiện tại, will + động từ."},
+    "communication":{"title":"Don't do that!","title_vi":"Đưa ra lời cảnh báo","description_vi":"Cảnh báo, giải thích hậu quả và khảo sát thói quen sống xanh."},
+    "skills1":{"title":"Tips for a greener school","title_vi":"Mẹo làm trường học xanh hơn","description_vi":"Đọc phỏng vấn thành viên 3Rs Club và xếp hạng các mẹo."},
+    "skills2":{"title":"A new 3Rs Club president","title_vi":"Nghe và viết ý tưởng câu lạc bộ xanh","description_vi":"Nghe TTS thay thế về Mi và Nam rồi viết khoảng 50 từ."},
+    "looking_back":{"title":"Unit 11 review","title_vi":"Ôn tập Unit 11","description_vi":"Củng cố 3Rs, mạo từ và câu điều kiện loại một."},
+    "project":{"title":"Creative ideas about reusing old things","title_vi":"Ý tưởng sáng tạo dùng lại đồ cũ","description_vi":"Dùng các bước của sách để tạo sản phẩm mới và thuyết trình."}
+  },
+  "objectives":["Dùng từ về Reduce, Reuse và Recycle.","Đọc câu đúng nhịp.","Dùng mạo từ và câu điều kiện loại một.","Đọc, nghe, nói và viết về cách sống xanh."]
+}

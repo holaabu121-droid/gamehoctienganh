@@ -1,0 +1,66 @@
+name: Verify English-only application
+on:
+  push:
+    branches: [review/english-only]
+    paths: ['project/**', '.github/workflows/test-english-only.yml']
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: project/frontend
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/english-only
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install frontend dependencies
+        run: npm install --ignore-scripts --no-audit --no-fund
+      - name: Run frontend tests
+        run: npm test
+      - name: Compile frontend production bundle
+        run: npm run build
+  backend:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/english-only
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install backend dependencies
+        run: python -m pip install -r project/backend/requirements.txt
+      - name: Run backend unit tests
+        working-directory: project
+        run: python -m unittest discover -s backend/tests -v
+  content:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/english-only
+      - name: Validate exposed course catalog and source isolation
+        run: |
+          python - <<'PY'
+          import json,pathlib
+          p=pathlib.Path("project")
+          cat=json.loads((p/"data/curriculum/catalog.json").read_text())
+          assert [x["id"] for x in cat["courses"]]==["english-6-semester-1","english-6-semester-2"]
+          assert all(x["subject"]=="english" for x in cat["courses"])
+          app=(p/"frontend/src/App.tsx").read_text()
+          for s in ["Math6Semester1Experience","Informatics6Experience","Vietnamese6Experience","Science6Experience"]:
+            assert s not in app,s
+          for dir in ["math6","science6","vietnamese6","informatics6"]:
+            assert not (p/"frontend/src/features"/dir).exists(),dir
+          print("PASS: catalog contains only English, non-English renderers/activities removed")
+          PY

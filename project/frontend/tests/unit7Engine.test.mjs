@@ -1,0 +1,15 @@
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+import { validateBonusLesson } from "../src/features/bonus/bonusEngine.ts";
+import { UNIT7_GAME_SECTIONS, validateUnit7 } from "../src/features/unit7/unit7Engine.ts";
+
+const raw=JSON.parse(readFileSync(new URL("../../data/lessons/unit7_source.json",import.meta.url),"utf8"));
+const bonusRaw=JSON.parse(readFileSync(new URL("../../data/lessons/unit7_bonus.json",import.meta.url),"utf8"));
+
+test("Unit 7 builds exactly 42 games with ten valid rounds",()=>{const before=JSON.stringify(raw),lesson=validateUnit7(raw);assert.equal(JSON.stringify(raw),before);assert.equal(Object.keys(lesson.games).length,42);assert.equal(Object.values(lesson.games).flat().length,420);assert.equal(new Set(Object.values(UNIT7_GAME_SECTIONS).flat()).size,42);for(const rounds of Object.values(lesson.games)){assert.equal(rounds.length,10);assert.equal(new Set(rounds.map(item=>item.id)).size,10);assert.ok(rounds.every(item=>item.options.includes(item.answer)));}});
+test("Unit 7 preserves book anchors and provenance",()=>{const lesson=validateUnit7(raw);assert.equal(lesson.dialogue.length,12);assert.ok(lesson.dialogue.every(item=>item.translation));assert.equal(lesson.banks.tv_guide[5].answer,"Children are Always Right");assert.equal(lesson.banks.project[0].context,"What do you do in your free time?");assert.equal(lesson.banks.project_checklist.length,10);assert.ok(lesson.source_note.includes("trang sách 6–15"));});
+test("Unit 7 sound practice is timed and speech text omits slash marks",()=>{const lesson=validateUnit7(raw);assert.equal(lesson.games.sound.length,10);assert.equal(lesson.games.tongue_twister.length,10);const sections=readFileSync(new URL("../src/features/unit7/Unit7Sections.tsx",import.meta.url),"utf8");assert.ok(sections.includes('timedSeconds:60'));for(const speech of [...sections.matchAll(/speechText:"([^"]+)"/g)].map(match=>match[1]))assert.ok(!speech.includes("/"));});
+test("Unit 7 Project guidance drives games instead of foundation blocks",()=>{const lesson=validateUnit7(raw);assert.equal(lesson.games.presentation[0].context,lesson.banks.project_checklist[0].context);const sections=readFileSync(new URL("../src/features/unit7/Unit7Sections.tsx",import.meta.url),"utf8");assert.ok(sections.includes("project:[]"));});
+test("Unit 7 Bonus has three AI stages of ten rounds",()=>{const bonus=validateBonusLesson(bonusRaw);assert.deepEqual(bonus.selected_variants,["treasure","boss","detective"]);assert.deepEqual(bonus.selected_variants.map(id=>bonus.stages[id].rounds.length),[10,10,10]);assert.ok(bonus.selected_variants.flatMap(id=>bonus.stages[id].rounds).every(item=>item.source_status==="ai-generated"));});
+test("Unit 7 is connected to the 42-game backend path and semester 2 shell",()=>{const db=readFileSync(new URL("../../backend/app/db.py",import.meta.url),"utf8");assert.equal((db.match(/"unit7-[^"]+": 1000/g)??[]).length,42);const app=readFileSync(new URL("../src/App.tsx",import.meta.url),"utf8");assert.ok(app.includes("English6Semester2Experience"));assert.ok(app.includes("<Unit7 />"));});
