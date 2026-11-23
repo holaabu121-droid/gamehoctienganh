@@ -1,0 +1,83 @@
+name: Extract safe source from release backup
+
+on:
+  push:
+    branches: [review/english-only]
+    paths: ['.github/workflows/extract-source.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/english-only
+      - name: Download and verify backup
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/release"
+          gh release download v1.0.0 --repo "$GITHUB_REPOSITORY" -p 'gamehoctienganh.zip' -D "$RUNNER_TEMP/release"
+          echo "31ba4b5e769cc8fdef7c681a63507bc960ca3bb890b3dd5058b17a5d0711d617  $RUNNER_TEMP/release/gamehoctienganh.zip" | sha256sum -c -
+      - name: Inspect archive and copy safe text code (no execution)
+        env:
+          ZIP_PATH: ${{ runner.temp }}/release/gamehoctienganh.zip
+        run: |
+          python - <<'PY'
+          import collections,datetime,json,os,pathlib,re,stat,zipfile
+          p=pathlib.Path('review_source');p.mkdir(exist_ok=True)
+          pathlib.Path('reports').mkdir(exist_ok=True)
+          allowed={'.py','.js','.jsx','.ts','.tsx','.html','.css','.scss','.vue','.svelte','.toml','.yaml','.yml','.ini','.cfg','.md','.sql'}
+          data_allowed={'.json','.csv','.txt'}
+          forbidden={'.git','node_modules','.venv','venv','env','__pycache__','site-packages','dist','build','.next','coverage','logs','tmp','temp','backup','backups'}
+          sensitive=re.compile(r'(^\.env($|\.)|secret|credential|password|private[_-]?key|token|\.pem$|\.key$|users?[_-]?data|students?[_-]?data)',re.I)
+          data_keys=re.compile(r'question|exercise|quiz|lesson|curriculum|subject|unit|vocab|grammar|english|tieng|bai[_-]?hoc|luyen[_-]?tap',re.I)
+          total=0; chosen=[]; candidates=[]; folders=collections.Counter(); extensions=collections.Counter();sample=[]
+          with zipfile.ZipFile(os.environ['ZIP_PATH']) as z:
+            items=z.infolist()
+            for e in items:
+              if e.is_dir():continue
+              path=pathlib.PurePosixPath(e.filename.replace('\\','/'))
+              extensions[path.suffix.lower()]+=1
+              if path.parts:folders[path.parts[0]]+=1
+              if len(sample)<100:sample.append({'path':str(path),'bytes':e.file_size})
+              if path.is_absolute() or '..' in path.parts or not path.parts or len(path.parts)>16:continue
+              if any(k.lower() in forbidden for k in path.parts):continue
+              if sensitive.search(path.name):continue
+              suffix=path.suffix.lower()
+              if suffix not in allowed and not (suffix in data_allowed and data_keys.search(path.name)):continue
+              if e.file_size<=0 or e.file_size>2*1024*1024:continue
+              if e.compress_size and e.file_size/e.compress_size>500:continue
+              if stat.S_ISLNK(e.external_attr >> 16):continue
+              candidates.append(e)
+            def rank(e):
+              t=e.filename.lower()
+              return (0 if any(x in t for x in ('main.py','app.py','src/','pages/','component','question','exercise','lesson','english')) else 1,e.file_size)
+            for e in sorted(candidates,key=rank):
+              if len(chosen)>=500 or total+e.file_size>60*1024*1024:continue
+              raw=z.read(e)
+              try:content=raw.decode('utf-8-sig')
+              except UnicodeDecodeError:continue
+              if '\x00' in content or re.search(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',content):continue
+              path=pathlib.PurePosixPath(e.filename.replace('\\','/'))
+              target=p.joinpath(*path.parts);target.parent.mkdir(parents=True,exist_ok=True)
+              target.write_text(content,encoding='utf-8')
+              chosen.append({'path':str(path),'bytes':len(raw)})
+              total+=len(raw)
+          report={'generated_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'archive_entries':len(items),'extensions':extensions.most_common(35),'top_folders':folders.most_common(35),'sample_paths':sample,'selected_source_files':chosen,'selected_total_bytes':total,'skipped_candidate_count':len(candidates)-len(chosen)}
+          pathlib.Path('reports/zip_inventory.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
+          print('Archive',len(items),'selected',len(chosen),'total bytes',total)
+          PY
+      - name: Save inventory and source on review branch only
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/zip_inventory.json review_source/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: inventory backup and stage source on review branch"
+            git push origin HEAD:review/english-only
+          fi
