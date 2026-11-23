@@ -323,12 +323,12 @@ class ProgressAndStreakTests(DatabaseTestCase):
         activity = "unit3-a-closer-look2-builder"
         self.repository.save_user_progress(self.user.id, "unit3", activity, earned_score=700, max_score=1000, completed=True)
         overview = self.repository.score_overview(self.user.id)
-        self.assertEqual([course["course_id"] for course in overview["courses"]], ["english-6-semester-1", "english-6-semester-2", "math-6-semester-1"])
+        self.assertEqual([course["course_id"] for course in overview["courses"]], ["english-6-semester-1", "english-6-semester-2", "math-6-semester-1", "math-6-semester-2"])
         self.assertEqual([subject["subject"] for subject in overview["subjects"]], ["english", "math"])
         self.assertEqual(overview["grand_total"]["earned_score"], 700)
-        self.assertEqual(overview["grand_total"]["max_score"], 532500)
+        self.assertEqual(overview["grand_total"]["max_score"], 573500)
         self.assertEqual(overview["subjects"][0]["max_score"], 528500)
-        self.assertEqual(overview["subjects"][1]["max_score"], 4000)
+        self.assertEqual(overview["subjects"][1]["max_score"], 45000)
 
     def test_score_overview_excludes_planned_course_even_if_it_has_draft_branches(self) -> None:
         current = course_catalog().course(DEFAULT_COURSE_ID)
@@ -568,6 +568,19 @@ class ProgressAndStreakTests(DatabaseTestCase):
         self.assertEqual((state["gate"], state["available_tier"], state["required_practice"]["complete"]), ("ready", "high", True))
 
 
+    def test_all_41_generated_math_lessons_have_unique_score_plans(self) -> None:
+        cats=course_catalog()
+        all_ids=[b for c in cats.courses if c.subject=="math" for b in c.branch_ids]
+        self.assertEqual(len(all_ids),43)
+        self.assertEqual(len(set(all_ids)),43)
+        for n in range(3,44):
+            unit=f"math6-bai{n:02d}-v01"
+            self.assertIn(unit,all_ids)
+            self.assertEqual(UNIT_ACTIVITY_MAXIMA[unit],{f"{unit}-quiz":1000})
+        self.repository.save_user_progress(self.user.id,"math6-bai43-v01","math6-bai43-v01-quiz",earned_score=700,max_score=1000,completed=True)
+        summary=self.repository.score_profile(self.user.id,"math-6-semester-2")
+        self.assertEqual((summary["course_best"]["earned_score"],summary["course_best"]["max_score"]),(700,21000))
+
     def test_math_bai2_has_two_distinct_1000_point_tests_and_no_english_overlap(self) -> None:
         lesson="math6-bai2-v01"
         plan=UNIT_ACTIVITY_MAXIMA[lesson]
@@ -576,7 +589,7 @@ class ProgressAndStreakTests(DatabaseTestCase):
         self.repository.save_user_progress(self.user.id,lesson,"math6-bai2-v01-tp",earned_score=650,max_score=1000,completed=True)
         self.repository.save_user_progress(self.user.id,lesson,"math6-bai2-v01-lm",earned_score=900,max_score=1000,completed=True)
         profile=self.repository.score_profile(self.user.id,"math-6-semester-1")
-        self.assertEqual((profile["course_best"]["earned_score"],profile["course_best"]["max_score"]),(1600,4000))
+        self.assertEqual((profile["course_best"]["earned_score"],profile["course_best"]["max_score"]),(1600,24000))
         self.assertEqual(self.repository.score_profile(self.user.id,"english-6-semester-1")["course_best"]["earned_score"],0)
 
     def test_math_bai1_v054_has_two_independent_1000_point_tests(self) -> None:
@@ -588,7 +601,7 @@ class ProgressAndStreakTests(DatabaseTestCase):
                                            earned_score=sum(a), max_score=1000, completed=True, question_scores=a)
         profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
         self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]),
-                         (sum(a), 4000))
+                         (sum(a), 24000))
         overview = self.repository.score_overview(self.user.id)
         self.assertEqual(next(s for s in overview["subjects"] if s["subject"] == "math")["earned_score"],sum(a))
         self.assertEqual(next(s for s in overview["subjects"] if s["subject"] == "english")["earned_score"],0)
@@ -714,13 +727,15 @@ class CourseCatalogTests(unittest.TestCase):
         catalog = course_catalog()
         self.assertEqual(catalog.default_course_id, "english-6-semester-1")
         self.assertEqual([course.id for course in catalog.courses], [
-            "english-6-semester-1", "english-6-semester-2", "math-6-semester-1",
+            "english-6-semester-1", "english-6-semester-2", "math-6-semester-1", "math-6-semester-2",
         ])
-        self.assertEqual([course.subject for course in catalog.courses], ["english", "english", "math"])
+        self.assertEqual([course.subject for course in catalog.courses], ["english", "english", "math", "math"])
         self.assertTrue(all(course.status == "available" for course in catalog.courses))
         self.assertEqual(catalog.courses[0].branch_ids, ("unit1", "unit2", "unit3", "review1", "unit4", "unit5", "unit6", "review2"))
         self.assertEqual(catalog.courses[1].branch_ids, ("unit7", "unit8", "unit9", "review3", "unit10", "unit11", "unit12", "review4"))
-        self.assertEqual(catalog.courses[2].branch_ids, ("math6-bai1-v054", "math6-bai2-v01"))
+        self.assertEqual(len(catalog.courses[2].branch_ids),22)
+        self.assertEqual(len(catalog.courses[3].branch_ids),21)
+        self.assertEqual(catalog.courses[3].branch_ids[-1], "math6-bai43-v01")
         available_branches = {branch for course in catalog.courses for branch in course.branch_ids}
         self.assertTrue(available_branches.issubset(set(UNIT_ACTIVITY_MAXIMA)))
         self.assertFalse({"math6-s1-lesson1", "science6-l01", "informatics6-s1-lesson1", "vietnamese6-s1-lesson1"} & available_branches)

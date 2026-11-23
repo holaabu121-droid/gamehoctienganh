@@ -3,7 +3,9 @@ import { descriptorMatchesCourse } from "./courseRegistryCore";
 
 export type English6Semester1Branch = "profile" | "unit1" | "unit2" | "unit3" | "review1" | "unit4" | "unit5" | "unit6" | "review2";
 export type English6Semester2Branch = "profile" | "unit7" | "unit8" | "unit9" | "review3" | "unit10" | "unit11" | "unit12" | "review4";
-export type CourseRendererKey = "english-6-semester-1" | "english-6-semester-2" | "math-6-semester-1";
+import mathYear from "../../../data/curriculum/math6_full_year.json";
+
+export type CourseRendererKey = "english-6-semester-1" | "english-6-semester-2" | "math-6-semester-1" | "math-6-semester-2";
 export type CourseExperienceDescriptor = {
   courseId: string;
   rendererKey: CourseRendererKey;
@@ -28,7 +30,13 @@ export const COURSE_EXPERIENCE_REGISTRY: Readonly<Record<string, CourseExperienc
     courseId: "math-6-semester-1",
     rendererKey: "math-6-semester-1",
     initialBranch: "math6-bai1-v054",
-    branchIds: ["math6-bai1-v054", "math6-bai2-v01"],
+    branchIds: mathYear.lessons.filter(l=>l.semester===1).map(l=>l.unitId),
+  },
+  "math-6-semester-2": {
+    courseId: "math-6-semester-2",
+    rendererKey: "math-6-semester-2",
+    initialBranch: "math6-bai23-v01",
+    branchIds: mathYear.lessons.filter(l=>l.semester===2).map(l=>l.unitId),
   },
 };
 

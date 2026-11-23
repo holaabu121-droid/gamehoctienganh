@@ -1,7 +1,7 @@
 name: Verify Grade 6 exercise application
 on:
   push:
-    branches: [review/english-only, feature/grade6-multisubject, feature/math6-lesson2-v01]
+    branches: [review/english-only, feature/grade6-multisubject, feature/math6-lesson2-v01, feature/math6-full-year-curriculum]
     paths: ['project/**', '.github/workflows/test-english-only.yml']
   pull_request:
     branches: [main, review/english-only]
@@ -43,14 +43,14 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Validate two English semesters plus Math Lessons 1–2
+      - name: Validate 2 English terms and all 43 Math lessons
         run: |
           python - <<'PY'
           import json,pathlib
           p=pathlib.Path("project")
           cat=json.loads((p/"data/curriculum/catalog.json").read_text())
-          assert [x["id"] for x in cat["courses"]]==["english-6-semester-1","english-6-semester-2","math-6-semester-1"]
-          assert [x["subject"] for x in cat["courses"]]==["english","english","math"]
+          assert [x["id"] for x in cat["courses"]]==["english-6-semester-1","english-6-semester-2","math-6-semester-1","math-6-semester-2"]
+          assert [x["subject"] for x in cat["courses"]]==["english","english","math","math"]
           app=(p/"frontend/src/App.tsx").read_text()
           for s in ["Math6Semester1Experience","Informatics6Experience","Vietnamese6Experience","Science6Experience"]:
             assert s not in app,s
@@ -60,6 +60,10 @@ jobs:
           assert math.count('"KN1-')+math.count('"KN2-')>=50
           assert "math6-bai2-v01" in cat["courses"][2]["branch_ids"]
           assert (p/"frontend/public/math6-bai2/questions.mjs").exists()
+          assert len(cat["courses"][2]["branch_ids"])==22
+          assert len(cat["courses"][3]["branch_ids"])==21
+          assert cat["courses"][3]["branch_ids"][-1]=="math6-bai43-v01"
+          assert (p/"frontend/public/math6-year/bank.mjs").exists()
           assert (p/"frontend/src/features/math6/Math6Lesson1Experience.tsx").is_file()
           print("PASS: two English semesters and Math Lesson 1; other subjects absent")
           PY
@@ -82,4 +86,6 @@ jobs:
           npm install --no-save --ignore-scripts --no-audit --no-fund playwright@1.58.2
           npx playwright install --with-deps chromium
       - name: One full regression pass on mobile and desktop
-        run: node tests/mathLesson2.browser.mjs
+        run: |
+          node tests/mathLesson2.browser.mjs
+          node tests/mathFullYear.browser.mjs

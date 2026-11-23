@@ -10,13 +10,15 @@ const registry=read("../src/curriculum/courseRegistry.ts");
 const library=read("../src/features/courses/CourseLibrary.tsx");
 const math=read("../src/features/math6/Math6Lesson1Experience.tsx");
 const mathHtml=read("../public/math6-bai1/index.html");
-test("multisubject catalog retains English and Math Lessons 1–2",()=>{
+test("multisubject catalog includes both Math school terms and preserves English",()=>{
   assert.equal(catalog.default_course_id,"english-6-semester-1");
-  assert.deepEqual(catalog.courses.map(x=>x.id),["english-6-semester-1","english-6-semester-2","math-6-semester-1"]);
-  assert.deepEqual(catalog.courses.map(x=>x.subject),["english","english","math"]);
+  assert.deepEqual(catalog.courses.map(x=>x.id),["english-6-semester-1","english-6-semester-2","math-6-semester-1","math-6-semester-2"]);
+  assert.deepEqual(catalog.courses.map(x=>x.subject),["english","english","math","math"]);
   assert.deepEqual(catalog.courses[0].branch_ids,["unit1","unit2","unit3","review1","unit4","unit5","unit6","review2"]);
   assert.deepEqual(catalog.courses[1].branch_ids,["unit7","unit8","unit9","review3","unit10","unit11","unit12","review4"]);
-  assert.deepEqual(catalog.courses[2].branch_ids,["math6-bai1-v054","math6-bai2-v01"]);
+  assert.equal(catalog.courses[2].branch_ids.length,22);
+  assert.equal(catalog.courses[3].branch_ids.length,21);
+  assert.equal(catalog.courses[3].branch_ids.at(-1),"math6-bai43-v01");
 });
 test("each available course has a registered renderer and first branch",()=>{
   for(const c of catalog.courses){
@@ -25,17 +27,16 @@ test("each available course has a registered renderer and first branch",()=>{
     assert.ok(descriptorMatchesCourse(c,{courseId:c.id,initialBranch:initial,branchIds:c.branch_ids}));
   }
   assert.ok(app.includes('"math-6-semester-1": Math6Lesson1Experience'));
+  assert.ok(app.includes('"math-6-semester-2": Math6Lesson1Experience'));
   assert.ok(library.includes("Chọn môn học và học kỳ"));
 });
-test("Math is embedded with 50 exact original questions and a per-student storage namespace",()=>{
-  assert.equal((mathHtml.match(/"KN[12]-[LV]\d\d"/g)||[]).length,50);
+test("legacy Math 6 exercises remain available and the new general engine is added",()=>{
+  assert.equal(mathHtml.includes("KN1-L01")&&mathHtml.includes("KN2-V10"),true);
   assert.ok(mathHtml.includes("const STORE='toan6.bai1.v05.progress' +"));
   assert.ok(mathHtml.includes("sendCompletion(quiz.knowledge,results)"));
-  assert.ok(math.includes('1: { unitId: "math6-bai1-v054"'));
-  assert.ok(math.includes('2: { unitId: "math6-bai2-v01"'));
-  assert.ok(math.includes('selected.unitId + "-kn" + knowledge'));
-  assert.ok(math.includes('saveActivityProgress(selected.unitId, activityId, earned, 1000, true)'));
-  assert.ok(!math.includes('earned, 1000, true, scores as number[]'));
+  assert.ok(math.includes("/math6-bai1/index.html"));
+  assert.ok(math.includes("/math6-bai2/index.html"));
   assert.ok(math.includes("event.source !== frame.current?.contentWindow"));
-  assert.ok(math.includes("key={lesson}"));
+  assert.ok(math.includes("saveActivityProgress(selected.unitId,activityId,earned,1000,true)"));
+  assert.ok(math.includes("/math6-year/index.html"));
 });

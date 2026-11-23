@@ -501,6 +501,12 @@ UNIT_ACTIVITY_MAXIMA = {
     },
 }
 
+# New independent IDs for the full SGK lesson sequence; retain the older
+# math6-s1/s2 score plans below as historical definitions (do not erase).
+for _lesson in range(3,44):
+    _key=f"math6-bai{_lesson:02d}-v01"
+    UNIT_ACTIVITY_MAXIMA[_key]={f"{_key}-quiz":1000}
+
 MATH6_S1_GENERATED_BRANCHES = (
     "math6-s1-lesson6", "math6-s1-lesson7", "math6-s1-chapter1-practice2",
     "math6-s1-lesson8", "math6-s1-lesson9", "math6-s1-lesson10", "math6-s1-chapter2-practice1",

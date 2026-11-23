@@ -110,12 +110,13 @@ test("previous bugs: input focus, hints pause timer, retries, resume, separate s
 });
 test("Bài 1 preserved; Bài 2 has its own activities and same-origin completion bridge",()=>{
  const math=catalog.courses.find(c=>c.id==="math-6-semester-1");
- assert.deepEqual(math.branch_ids,["math6-bai1-v054","math6-bai2-v01"]);
- assert.ok(react.includes('key={lesson}'));
+ assert.deepEqual(math.branch_ids.slice(0,2),["math6-bai1-v054","math6-bai2-v01"]);
+ assert.equal(math.branch_ids.length,22);
+ assert.ok(react.includes('key={selected.unitId}'));
  assert.ok(react.includes('event.origin !== window.location.origin'));
  assert.ok(react.includes('event.source !== frame.current?.contentWindow'));
- assert.ok(react.includes('selected.unitId + (knowledge === 1 ? "-tp" : "-lm")'));
- assert.ok(react.includes('saveActivityProgress(selected.unitId, activityId, earned, 1000, true)'));
+ assert.ok(react.includes('selected.unitId+(knowledge===1?"-tp":"-lm")'));
+ assert.ok(react.includes('saveActivityProgress(selected.unitId,activityId,earned,1000,true)'));
  assert.ok(!react.includes('earned, 1000, true, scores as number[]'));
  assert.equal(QUESTIONS.filter(q=>q.mode==="number"||q.mode==="roman").length,11);
 });
