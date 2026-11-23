@@ -1,7 +1,7 @@
-name: Verify English-only application
+name: Verify Grade 6 exercise application
 on:
   push:
-    branches: [review/english-only]
+    branches: [review/english-only, feature/grade6-multisubject]
     paths: ['project/**', '.github/workflows/test-english-only.yml']
   pull_request:
     branches: [main]

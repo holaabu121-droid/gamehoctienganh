@@ -323,11 +323,12 @@ class ProgressAndStreakTests(DatabaseTestCase):
         activity = "unit3-a-closer-look2-builder"
         self.repository.save_user_progress(self.user.id, "unit3", activity, earned_score=700, max_score=1000, completed=True)
         overview = self.repository.score_overview(self.user.id)
-        self.assertEqual([course["course_id"] for course in overview["courses"]], ["english-6-semester-1", "english-6-semester-2"])
-        self.assertEqual([subject["subject"] for subject in overview["subjects"]], ["english"])
+        self.assertEqual([course["course_id"] for course in overview["courses"]], ["english-6-semester-1", "english-6-semester-2", "math-6-semester-1"])
+        self.assertEqual([subject["subject"] for subject in overview["subjects"]], ["english", "math"])
         self.assertEqual(overview["grand_total"]["earned_score"], 700)
-        self.assertEqual(overview["grand_total"]["max_score"], 528500)
+        self.assertEqual(overview["grand_total"]["max_score"], 530500)
         self.assertEqual(overview["subjects"][0]["max_score"], 528500)
+        self.assertEqual(overview["subjects"][1]["max_score"], 2000)
 
     def test_score_overview_excludes_planned_course_even_if_it_has_draft_branches(self) -> None:
         current = course_catalog().course(DEFAULT_COURSE_ID)
@@ -566,6 +567,21 @@ class ProgressAndStreakTests(DatabaseTestCase):
         state = self.repository.bonus_state(self.user.id, "review4")
         self.assertEqual((state["gate"], state["available_tier"], state["required_practice"]["complete"]), ("ready", "high", True))
 
+
+    def test_math_bai1_v054_has_two_independent_1000_point_tests(self) -> None:
+        unit_id = "math6-bai1-v054"
+        plans = UNIT_ACTIVITY_MAXIMA[unit_id]
+        self.assertEqual(plans, {"math6-bai1-v054-kn1": 1000, "math6-bai1-v054-kn2": 1000})
+        a = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10]
+        self.repository.save_user_progress(self.user.id, unit_id, "math6-bai1-v054-kn1",
+                                           earned_score=sum(a), max_score=1000, completed=True, question_scores=a)
+        profile = self.repository.score_profile(self.user.id, "math-6-semester-1")
+        self.assertEqual((profile["course_best"]["earned_score"], profile["course_best"]["max_score"]),
+                         (sum(a), 2000))
+        overview = self.repository.score_overview(self.user.id)
+        self.assertEqual(next(s for s in overview["subjects"] if s["subject"] == "math")["earned_score"],sum(a))
+        self.assertEqual(next(s for s in overview["subjects"] if s["subject"] == "english")["earned_score"],0)
+
     def test_only_english_branches_are_openable_and_legacy_plans_remain_for_history(self) -> None:
         # Retiring other subjects must not make archived records or their score
         # definitions disappear during a future profile migration/restore.
@@ -679,11 +695,13 @@ class CourseCatalogTests(unittest.TestCase):
         catalog = course_catalog()
         self.assertEqual(catalog.default_course_id, "english-6-semester-1")
         self.assertEqual([course.id for course in catalog.courses], [
-            "english-6-semester-1", "english-6-semester-2",
+            "english-6-semester-1", "english-6-semester-2", "math-6-semester-1",
         ])
-        self.assertTrue(all(course.subject == "english" and course.status == "available" for course in catalog.courses))
+        self.assertEqual([course.subject for course in catalog.courses], ["english", "english", "math"])
+        self.assertTrue(all(course.status == "available" for course in catalog.courses))
         self.assertEqual(catalog.courses[0].branch_ids, ("unit1", "unit2", "unit3", "review1", "unit4", "unit5", "unit6", "review2"))
         self.assertEqual(catalog.courses[1].branch_ids, ("unit7", "unit8", "unit9", "review3", "unit10", "unit11", "unit12", "review4"))
+        self.assertEqual(catalog.courses[2].branch_ids, ("math6-bai1-v054",))
         available_branches = {branch for course in catalog.courses for branch in course.branch_ids}
         self.assertTrue(available_branches.issubset(set(UNIT_ACTIVITY_MAXIMA)))
         self.assertFalse({"math6-s1-lesson1", "science6-l01", "informatics6-s1-lesson1", "vietnamese6-s1-lesson1"} & available_branches)

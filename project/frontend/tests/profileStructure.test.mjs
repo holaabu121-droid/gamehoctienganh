@@ -23,7 +23,7 @@ test("adds a top-level parent score profile", () => {
 test("profile separates course best, branch best and improvement-only history", () => {
   assert.ok(profile.includes("Khóa đang xem"));
   assert.ok(profile.includes("Điểm tốt nhất khóa đang xem"));
-  assert.ok(profile.includes("Tổng điểm Tiếng Anh"));
+  assert.ok(profile.includes("Tổng tất cả môn"));
   assert.ok(profile.includes("overview.subjects.map"));
   assert.ok(profile.includes("overview.courses.map"));
   assert.ok(profile.includes("overview.courses.find(course => course.course_id === profile.course_id)"));

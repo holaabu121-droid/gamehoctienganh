@@ -1,0 +1,1909 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17284b">
+  <title>Toán 6 – Bài 1: Tập hợp</title>
+  <style>
+:root{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:#17284b;background:#f5f7fc;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,textarea{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.48}a{color:inherit}.shell{max-width:900px;margin:auto;min-height:100vh;padding:22px 18px 50px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;border-bottom:1px solid #dbe2ee;padding:4px 0 18px}.brand{font-size:15px;color:#65738b;font-weight:700}.brand strong{color:#173970}.pill{font-size:12px;display:inline-flex;align-items:center;border-radius:999px;border:1px solid #c6d7ff;color:#2350a5;background:#ecf2ff;padding:6px 10px;font-weight:700}.hero{padding:32px 0 18px}.hero h1{font-size:clamp(27px,4.7vw,42px);line-height:1.2;margin:0 0 11px;letter-spacing:-.03em}.muted{color:#5f6e87;line-height:1.6}.lead{font-size:17px;margin:0}.row{display:flex;align-items:center;justify-content:space-between;gap:12px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{background:white;border:1px solid #d9e2f0;border-radius:18px;padding:22px;box-shadow:0 6px 22px #20346b0b}.card h2,.card h3{margin:0 0 8px}.learning{background:#fff7cc;border-color:#edd16e;box-shadow:none}.learning h2{font-size:21px}.mini{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.mini span{background:white;border:1px solid #d4b853;border-radius:999px;padding:5px 10px;font-weight:700}.knowledge{margin-bottom:18px}.learning .ex{margin:13px 0 19px;background:#ffffffb9;border-left:4px solid #dbac16;border-radius:10px;padding:13px;line-height:1.7}.actions{display:flex;gap:10px;flex-wrap:wrap}.button{border-radius:12px;background:#204d9c;color:white;border:1px solid #204d9c;padding:11px 16px;font-weight:750;min-height:44px}.button.secondary{background:#fff;color:#244b91;border-color:#bacbed}.button.green{background:#14825b;border-color:#14825b}.button:focus-visible,.option:focus-visible,input:focus-visible{outline:3px solid #dfac28;outline-offset:2px}.button:hover:not(:disabled){filter:brightness(.95)}.step-title{font-size:20px;margin-bottom:8px}.status{color:#147753;font-weight:750}.status.pending{color:#825d0c}.content{display:grid;gap:18px}.note{background:#edf4fe;border-radius:12px;padding:12px 16px;color:#315b9b}.question-title{font-size:22px;line-height:1.35;margin:0 0 12px}.prompt{line-height:1.8;font-size:17px;white-space:pre-line;overflow-wrap:anywhere}.meta{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:12px}.tag{background:#edf2f8;padding:5px 10px;border-radius:30px;font-size:12px;font-weight:700;color:#4f607a}.meter{height:9px;background:#e6edf6;border-radius:99px;overflow:hidden;margin:14px 0 22px}.meter i{display:block;background:#3c75cc;height:100%;transition:width .25s}.scorebar{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}.stat{text-align:center;padding:12px 10px;background:#eef4ff;border-radius:12px;min-width:120px}.stat b{display:block;font-size:22px;color:#173970}.stat span{font-size:12px;color:#647089}.option-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:15px}.option{background:#fff;border:2px solid #d4dfef;border-radius:12px;padding:14px;text-align:left;min-height:53px;font-weight:650;color:#203659}.option.selected{border-color:#2465c9;background:#e8f0ff;color:#173f91}.option:hover{border-color:#76a5ea}.text-field{display:block;margin:16px 0}.text-field strong{display:block;margin-bottom:7px}.text-field input{width:100%;border:2px solid #cbd8e9;background:white;border-radius:10px;padding:13px 12px;min-height:50px;color:#122b54}.symbol-buttons{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}.symbol-buttons button{border:1px solid #c9d8ec;background:#f0f6ff;color:#244b91;border-radius:8px;font-weight:800;padding:8px 18px}.group{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:15px}.group section{background:#f0f5fb;padding:12px;border:1px dashed #afc2dc;border-radius:12px;min-height:120px}.group h4{margin:0 0 10px;font-size:14px}.tiles{display:flex;flex-wrap:wrap;gap:8px}.tile{border-radius:999px;padding:8px 11px;border:1px solid #9baed1;background:white;color:#264674}.tile.active{background:#cdebdc;border-color:#138b5d;color:#0e6144}.tile.out{background:#ffe6d8;border-color:#c98458;color:#96501b}.match-row{margin-top:10px;display:grid;grid-template-columns:1fr 1.3fr;gap:12px;align-items:center}.match-row select{width:100%;border:1px solid #bacce8;border-radius:10px;background:white;padding:11px;min-height:46px}.feedback{margin:18px 0;padding:17px;border-radius:13px;background:#fff4d0;border:1px solid #e9ca72;line-height:1.6}.feedback.bad{background:#fff1ed;border-color:#f0af9e}.feedback.good{background:#e6f8ef;border-color:#93d7b4}.feedback h3{margin:0 0 7px}.feedback p{margin:5px 0}.summary-title{font-size:32px;margin:0}.result-row{display:flex;justify-content:space-between;gap:12px;align-items:start;padding:13px 0;border-bottom:1px solid #e6ecf4}.result-row:last-child{border-bottom:none}.small{font-size:13px}.footer{margin-top:26px;color:#6c788b;font-size:12px;line-height:1.7}.warn{color:#8f4c1a}.instructions{padding-left:20px;line-height:1.65}.archive{font-size:14px;color:#5d6e86}.hidden{display:none!important}@media(max-width:650px){.shell{padding:14px 12px 30px}.grid,.option-grid{grid-template-columns:1fr}.card{padding:17px;border-radius:15px}.hero{padding:24px 0 16px}.hero h1{font-size:30px}.group{grid-template-columns:1fr}.scorebar .stat{flex:1}.top{align-items:flex-start}.prompt{font-size:16px}.result-row{font-size:14px}}
+
+/* KN2-V03: readable, touch-friendly equivalent-description choices. */
+.statement-grid{grid-template-columns:1fr;margin-top:10px}
+.statement-option{display:flex;align-items:flex-start;gap:11px;font-size:15px;line-height:1.55;font-weight:550;min-height:64px}
+.choice-mark{flex:0 0 23px;width:23px;height:23px;border:2px solid #91a8cc;border-radius:6px;color:#fff;text-align:center;line-height:19px;font-size:16px}
+.statement-option.selected .choice-mark{background:#2465c9;border-color:#2465c9}
+@media(max-width:650px){.statement-option{font-size:15px;padding:12px}}
+
+/* Original CSS illustrations for the set and number-line questions. */
+.set-visual,.number-visual{margin:16px 0 18px;padding:14px;background:#f7faff;border:1px solid #cddcf2;border-radius:14px}
+.set-visual figcaption,.number-visual figcaption{font-weight:750;font-size:14px;color:#34568a;margin-bottom:12px}
+.set-map{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.set-ring{position:relative;display:flex;flex-wrap:wrap;align-content:center;align-items:center;justify-content:center;gap:8px;min-height:145px;width:min(100%,440px);padding:30px 22px;border:3px solid #427cb6;border-radius:50%;background:#e1f2ff}
+.set-name{position:absolute;left:17px;top:10px;color:#1b5490;font-size:18px;font-weight:850}
+.set-token{display:inline-block;max-width:100%;overflow-wrap:anywhere;background:#fff;border:1px solid #aac8e5;border-radius:999px;padding:6px 10px;font-size:14px;font-weight:650;color:#173b68}
+.set-exterior{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.set-exterior small{width:100%;color:#66748c}
+.number-ticks{display:grid;grid-template-columns:repeat(var(--tick-count),minmax(0,1fr));position:relative;padding:9px 0 0;margin:12px 0 6px;text-align:center;gap:0}
+.number-ticks::before{content:"";position:absolute;top:11px;left:3%;right:3%;height:3px;background:#3b70b7;border-radius:3px}
+.number-ticks::after{content:"";position:absolute;right:1%;top:5px;border:7px solid transparent;border-left:10px solid #3b70b7}
+.number-ticks span{position:relative;z-index:1;padding:22px 0 0;font-size:14px;font-weight:800;color:#18416f}
+.number-ticks span::before{content:"";position:absolute;top:0;left:50%;width:3px;height:18px;transform:translateX(-50%);background:#3574ba}
+@media(max-width:650px){.set-ring{min-height:125px;padding:28px 18px}.set-token{font-size:12px;padding:6px 8px}.set-map{gap:12px}.number-ticks span{font-size:12px}}
+
+.option-letter{display:inline-block;font-weight:850;color:#516fa3;margin-right:8px}
+
+</style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+/* Toán 6 Bài 1 – grading and quiz generator, usable offline and in Node. */
+(function (root, factory) {
+  const engine = factory();
+  if (typeof module !== 'undefined' && module.exports) module.exports = engine;
+  root.QuizEngine = engine;
+})(typeof globalThis !== 'undefined' ? globalThis : this, function () {
+  'use strict';
+  const MAX_SCORE = 100;
+  const FREE_SECONDS = 10;
+  const INTERVAL_SECONDS = 10;
+  const LIMIT_SECONDS = 110;
+
+  function normalize(value) {
+    return String(value ?? '').normalize('NFKC')
+      .replace(/[“”]/g, '"').replace(/\u00a0/g, ' ')
+      .trim().replace(/\s+/g, ' ').toLocaleLowerCase('vi-VN');
+  }
+  function compact(value) { return normalize(value).replace(/\s+/g, ''); }
+  function setTokens(raw, requiredName) {
+    // Accept a list with or without { }, optionally prefixed by A= (etc).
+    // Reject partial parses: "A={1;2} and 3" and wrong set labels are not valid.
+    const whole=String(raw ?? '').normalize('NFKC').trim();
+    const match=whole.match(/^(?:([A-Za-z])\s*=\s*)?(?:\{([^{}]*)\}|([^{}]*))$/u);
+    if (!match) return null;
+    if (match[1] && requiredName && normalize(match[1])!==normalize(requiredName)) return null;
+    const values=match[2]===undefined?match[3]:match[2];
+    if (/[{}=]/u.test(values)) return null;
+    const pieces=values.split(/[;,]/);
+    if (pieces.some(x=>!x.trim())) return null; // reject missing/empty list elements
+    const tokens=pieces.map(normalize);
+    if (!tokens.length || new Set(tokens).size!==tokens.length) return null;
+    return tokens.sort();
+  }
+  function fieldCorrect(field, input) {
+    // Some mathematical descriptions are semantically equivalent. For a
+    // statement-selection field we grade the selected indexes, not prose.
+    if(field.kind==='selectStatements') {
+      if(!Array.isArray(input) || !Array.isArray(field.expected))return false;
+      const selected=input.map(Number).sort((a,b)=>a-b);
+      const expected=[...field.expected].sort((a,b)=>a-b);
+      return selected.length===expected.length && new Set(selected).size===selected.length &&
+        selected.every((item,i)=>item===expected[i]);
+    }
+    const v=String(input ?? '').trim();
+    if (!v) return false;
+    const accepted=[field.expected,...(field.aliases || [])];
+    if (field.kind==='set') {
+      const a=setTokens(v,field.setName), b=setTokens(field.expected,field.setName);
+      return Boolean(a && b && a.length===b.length && a.every((x,i)=>x===b[i]));
+    }
+    if (field.kind==='membership') {
+      return accepted.some(a=>compact(v)===compact(a));
+    }
+    return accepted.some(a=>compact(v)===compact(a));
+  }
+  function grade(question, response) {
+    const config=question.interaction;
+    if (!config || !response) return false;
+    if (config.kind==='single') return response.choice !== null && response.choice !== undefined && Number(response.choice)===config.correct;
+    if (config.kind==='multi'||config.kind==='diagram') {
+      if(!Array.isArray(response.selected)) return false;
+      const a=[...new Set(response.selected.map(Number))].sort((x,y)=>x-y);
+      const b=[...config.correct].sort((x,y)=>x-y);
+      return a.length===b.length && a.every((x,i)=>x===b[i]);
+    }
+    if (config.kind==='sort') {
+      if(!Array.isArray(response.buckets)||response.buckets.length!==config.options.length) return false;
+      const alternatives=[config.correct,...(config.alternateCorrect||[])];
+      return alternatives.some(indices=>response.buckets.every((b,i)=>b===(indices.includes(i)?'in':'out')));
+    }
+    if (config.kind==='match') {
+      if(!Array.isArray(response.matches)||response.matches.length!==config.left.length) return false;
+      return response.matches.every((x,i)=>x!==null && x!==undefined && x!=='' && Number(x)===config.correct[i]);
+    }
+    if (config.kind==='text') {
+      if(!Array.isArray(response.fields)||response.fields.length!==config.fields.length) return false;
+      return config.fields.every((field,i)=>fieldCorrect(field,response.fields[i]));
+    }
+    return false;
+  }
+  function penalty(elapsedSeconds) {
+    return Math.min(100,Math.floor(Math.max(0,elapsedSeconds-FREE_SECONDS)/INTERVAL_SECONDS)*10);
+  }
+  function pointScore(seconds,wrongAnswers) {
+    if(wrongAnswers>=2 || seconds>=LIMIT_SECONDS) return 0;
+    return Math.max(0,MAX_SCORE-penalty(seconds)-(wrongAnswers>0?50:0));
+  }
+  function rng() {
+    if(typeof crypto!=='undefined' && crypto.getRandomValues) {
+      const buf=new Uint32Array(1);crypto.getRandomValues(buf);return buf[0]/4294967296;
+    }
+    return Math.random();
+  }
+  function shuffle(values,rand=rng) {
+    const copy=[...values];for(let i=copy.length-1;i>0;i--){const j=Math.floor(rand()*(i+1));[copy[i],copy[j]]=[copy[j],copy[i]];}return copy;
+  }
+  function draw(group,count,recent,rand) {
+    const fresh=shuffle(group.filter(q=>!recent.includes(q.id)),rand);
+    if(fresh.length>=count)return fresh.slice(0,count);
+    const recycled=shuffle(group.filter(q=>recent.includes(q.id)),rand);
+    return [...fresh,...recycled].slice(0,count);
+  }
+  function newQuiz(bank,knowledge,recent=[],rand=rng) {
+    const group=bank.filter(q=>q.knowledge===knowledge);
+    const practice=group.filter(q=>q.level==='Luyện tập');
+    const application=group.filter(q=>q.level==='Vận dụng');
+    if(practice.length!==15||application.length!==10)throw new Error('Ngân hàng kiến thức phải có 15 luyện tập và 10 vận dụng.');
+    const selected=shuffle([...draw(practice,6,recent,rand),...draw(application,4,recent,rand)],rand);
+    if(new Set(selected.map(q=>q.id)).size!==10)throw new Error('Đề kiểm tra bị trùng câu.');
+    return selected;
+  }
+  function emptyAnswer(interaction) {
+    if(interaction.kind==='single')return {choice:null};
+    if(interaction.kind==='multi'||interaction.kind==='diagram')return {selected:[]};
+    if(interaction.kind==='sort')return {buckets:interaction.options.map(()=>null)};
+    if(interaction.kind==='match')return {matches:interaction.left.map(()=>null)};
+    return {fields:interaction.fields.map(f=>f.kind==='selectStatements'?[]:'')};
+  }
+  function report(results) {
+    const total=results.reduce((s,r)=>s+r.score,0);
+    return {total,max:results.length*100,percent:results.length?Math.round(total/results.length):0,
+      zeroAfterSecondError:results.filter(r=>r.mistakes>=2).length,
+      earned:results.filter(r=>r.score>0).length};
+  }
+  return {normalize,compact,setTokens,fieldCorrect,grade,penalty,pointScore,newQuiz,emptyAnswer,report,FREE_SECONDS,LIMIT_SECONDS};
+});
+
+</script>
+  <script>
+window.QUESTIONS = [
+  {
+    "id": "KN1-L01",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Đọc các phần tử từ sơ đồ kín",
+    "mode": "Chọn một",
+    "prompt": "Quan sát sơ đồ A. Các đồ vật nằm trong đường khép kín là phần tử của A. Chọn cách viết tập A đúng trong các đáp án.",
+    "answer": "(a) A={bút chì; thước; tẩy}",
+    "hint": "Chỉ nhìn đồ vật ở bên trong đường khép kín A.",
+    "common_error": "Nhầm vật nằm ngoài sơ đồ là phần tử.",
+    "explanation": "Các phần tử của A là ba vật nằm trong hình, không gồm kéo.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "A={bút chì; thước; tẩy}",
+        "A={bút chì; thước; kéo}",
+        "A={kéo; tẩy}"
+      ],
+      "correct": 0
+    },
+    "visual": {
+      "kind": "set",
+      "label": "A",
+      "inside": [
+        "bút chì",
+        "thước",
+        "tẩy"
+      ],
+      "outside": [
+        "kéo"
+      ]
+    }
+  },
+  {
+    "id": "KN1-L02",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Tìm đúng thẻ thuộc tập hợp đồ dùng",
+    "mode": "Tương tác sơ đồ",
+    "prompt": "G={khăn; mũ; áo}. Trên ba thẻ \"áo\", \"giày\", \"sách\", chạm vào tất cả thẻ thuộc G.",
+    "answer": "áo",
+    "hint": "So sánh từng thẻ với danh sách trong dấu ngoặc nhọn.",
+    "common_error": "Chọn thêm vật không có trong tập hợp.",
+    "explanation": "Chỉ áo là phần tử G.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "diagram",
+      "options": [
+        "áo",
+        "giày",
+        "sách"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    "visual": {
+      "kind": "set",
+      "label": "G",
+      "inside": [
+        "khăn",
+        "mũ",
+        "áo"
+      ],
+      "outside": [
+        "giày",
+        "sách"
+      ]
+    }
+  },
+  {
+    "id": "KN1-L03",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Viết phát biểu phần tử bằng kí hiệu",
+    "mode": "Điền/nhập",
+    "prompt": "Cho K={12;14;16}. Điền dấu vào 14 __ K.",
+    "answer": "14 ∈ K",
+    "hint": "Kiểm tra số 14 có xuất hiện giữa hai dấu ngoặc nhọn không.",
+    "common_error": "Nhầm kí hiệu ∈ với ∉.",
+    "explanation": "Vì 14 có trong K nên dùng ∈.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Điền ∈ hoặc ∉ (có thể viết cả biểu thức)",
+          "kind": "membership",
+          "expected": "14∈K",
+          "aliases": [
+            "∈"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN1-L04",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Phản biện phát biểu thuộc sai",
+    "mode": "Chọn một",
+    "prompt": "P={mèo; chó; thỏ}. Bạn viết \"chim sẻ ∈ P\". Chọn cách sửa đúng: (a) chim sẻ ∉ P; (b) chim sẻ ∈ P; (c) P ∈ chim sẻ.",
+    "answer": "(a) chim sẻ ∉ P",
+    "hint": "Chim sẻ có nằm trong danh sách các loài thuộc P không?",
+    "common_error": "Đổi chiều kí hiệu hoặc giữ nguyên ∈.",
+    "explanation": "Chim sẻ không thuộc P nên viết chim sẻ ∉ P.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "chim sẻ ∉ P",
+        "chim sẻ ∈ P",
+        "P ∈ chim sẻ"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN1-L05",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Phân loại dụng cụ dùng để viết",
+    "mode": "Phân loại thẻ",
+    "prompt": "Phân loại các thẻ bút bi, bút chì, phấn, thước, tẩy vào hai khay: W = dụng cụ dùng để viết và “Không thuộc W”. Chạm chọn đúng khay cho từng thẻ.",
+    "answer": "W={bút bi; bút chì; phấn}; ngoài W={thước; tẩy}",
+    "hint": "Dụng cụ để kẻ hoặc xóa không trực tiếp dùng để viết.",
+    "common_error": "Cho thước/tẩy vào khay viết.",
+    "explanation": "Bút bi, bút chì, phấn dùng để tạo nét chữ; thước và tẩy không phải dụng cụ viết.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "sort",
+      "options": [
+        "bút bi",
+        "bút chì",
+        "phấn",
+        "thước",
+        "tẩy"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "inside_label": "Dụng cụ dùng để viết W",
+      "outside_label": "Không thuộc W"
+    }
+  },
+  {
+    "id": "KN1-L06",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Chỉ phần tử ở ngoài đường bao",
+    "mode": "Tương tác sơ đồ",
+    "prompt": "Quan sát sơ đồ C và chạm vào thẻ nằm ngoài đường khép kín.",
+    "answer": "tím",
+    "hint": "Phần tử ngoài đường kín không thuộc tập hợp.",
+    "common_error": "Chọn thẻ nằm trong hình C.",
+    "explanation": "Tím nằm ngoài đường kín C nên tím ∉ C.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "diagram",
+      "options": [
+        "đỏ",
+        "xanh",
+        "vàng",
+        "tím"
+      ],
+      "correct": [
+        3
+      ]
+    },
+    "visual": {
+      "kind": "set",
+      "label": "C",
+      "inside": [
+        "đỏ",
+        "xanh",
+        "vàng"
+      ],
+      "outside": [
+        "tím"
+      ]
+    }
+  },
+  {
+    "id": "KN1-L07",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Điền kí hiệu cho ngày không có trong lịch",
+    "mode": "Điền/nhập",
+    "prompt": "D={thứ hai; thứ tư; thứ sáu}. Điền ∈ hoặc ∉: thứ ba __ D.",
+    "answer": "∉",
+    "hint": "Các ngày thuộc D được nêu chính xác trong dấu { }.",
+    "common_error": "Suy rằng mọi ngày trong tuần đều thuộc D.",
+    "explanation": "Thứ ba không được liệt kê nên thứ ba ∉ D.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Điền dấu ∈ hoặc ∉",
+          "kind": "exact",
+          "expected": "∉",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN1-L08",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Đọc một kí hiệu thành lời",
+    "mode": "Chọn một",
+    "prompt": "T={3;6;9}. Phát biểu nào diễn đạt đúng \"6 ∈ T\": (a) Sáu thuộc T; (b) Sáu không thuộc T; (c) T là phần tử của sáu?",
+    "answer": "(a) Sáu thuộc T",
+    "hint": "Kí hiệu ∈ đọc là “thuộc”.",
+    "common_error": "Đọc ∈ thành \"không thuộc\" hoặc đảo vị trí tập hợp/phần tử.",
+    "explanation": "6 ∈ T nghĩa là 6 là một phần tử của T.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Sáu thuộc T",
+        "Sáu không thuộc T",
+        "T là phần tử của sáu"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN1-L09",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Đếm số phần tử nhìn thấy",
+    "mode": "Điền/nhập",
+    "prompt": "H={hổ; voi; tê giác}. H có bao nhiêu phần tử? Nhập một số.",
+    "answer": "3",
+    "hint": "Đếm các tên khác nhau giữa hai dấu ngoặc nhọn.",
+    "common_error": "Đếm chữ hoặc số tiếng thay vì phần tử.",
+    "explanation": "H gồm ba phần tử là hổ, voi và tê giác.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Số phần tử",
+          "kind": "exact",
+          "expected": "3",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN1-L10",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Chọn đồng thời các điểm ngoài hình",
+    "mode": "Chọn nhiều",
+    "prompt": "Quan sát sơ đồ Q và chọn tất cả số không thuộc Q trong các thẻ bên dưới.",
+    "answer": "5;6",
+    "hint": "Chỉ đánh dấu các số được vẽ ngoài đường biên.",
+    "common_error": "Chọn số nằm trong Q hoặc bỏ sót một số ngoài Q.",
+    "explanation": "5 và 6 đều không thuộc Q.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "multi",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": [
+        3,
+        4
+      ]
+    },
+    "visual": {
+      "kind": "set",
+      "label": "Q",
+      "inside": [
+        "0",
+        "2",
+        "4"
+      ],
+      "outside": [
+        "5",
+        "6"
+      ]
+    }
+  },
+  {
+    "id": "KN1-L11",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Phân biệt tên tập hợp và phần tử",
+    "mode": "Ghép cặp",
+    "prompt": "Cho tập hợp S={cam; xoài}. Ghép mỗi thẻ “S”, “cam”, “xoài” với đúng vai trò: “Tên tập hợp” hoặc “Phần tử”.",
+    "answer": "S→Tên tập hợp; cam→Phần tử; xoài→Phần tử",
+    "hint": "Tên tập hợp thường dùng chữ in hoa.",
+    "common_error": "Coi S là một quả hoặc coi cam là tên tập hợp.",
+    "explanation": "S là kí hiệu đặt tên tập hợp; cam và xoài là phần tử.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "match",
+      "left": [
+        "S",
+        "cam",
+        "xoài"
+      ],
+      "options": [
+        "Tên tập hợp",
+        "Phần tử"
+      ],
+      "correct": [
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "KN1-L12",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Xác định các phát biểu đồng thời đúng",
+    "mode": "Chọn nhiều",
+    "prompt": "B={đỏ; xanh; vàng}. Đánh dấu tất cả mệnh đề đúng: (1) xanh ∈ B; (2) tím ∈ B; (3) đỏ ∉ B; (4) cam ∉ B.",
+    "answer": "(1);(4)",
+    "hint": "Kiểm tra từng màu trong B rồi đối chiếu dấu ∈/∉.",
+    "common_error": "Chọn (2) hoặc (3) do đọc nhầm dấu.",
+    "explanation": "Xanh có trong B; cam không có trong B; hai mệnh đề còn lại sai.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "multi",
+      "options": [
+        "(1) xanh ∈ B",
+        "(2) tím ∈ B",
+        "(3) đỏ ∉ B",
+        "(4) cam ∉ B"
+      ],
+      "correct": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "id": "KN1-L13",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Nhận biết số 0 thuộc tập số tự nhiên",
+    "mode": "Chọn một",
+    "prompt": "N={0;1;2;3;…}. Mệnh đề \"0 ∈ N\" là đúng hay sai?",
+    "answer": "Đúng",
+    "hint": "Sách quy ước tập N bắt đầu bằng 0.",
+    "common_error": "Nhầm N với N* nên loại 0.",
+    "explanation": "0 là số tự nhiên nên 0 ∈ N.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN1-L14",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Ghép kí hiệu thuộc/không thuộc cho hai tập",
+    "mode": "Ghép cặp",
+    "prompt": "A={1;3;5}, B={2;4;6}. Ghép bốn biểu thức 1 __ A, 1 __ B, 2 __ A, 2 __ B với ∈ hoặc ∉.",
+    "answer": "1∈A;1∉B;2∉A;2∈B",
+    "hint": "Xét lần lượt tập A và B, không gộp hai tập lại.",
+    "common_error": "Dùng dấu ∈ cho cả hai tập.",
+    "explanation": "1 chỉ ở A, còn 2 chỉ ở B.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "match",
+      "left": [
+        "1 __ A",
+        "1 __ B",
+        "2 __ A",
+        "2 __ B"
+      ],
+      "options": [
+        "∈",
+        "∉"
+      ],
+      "correct": [
+        0,
+        1,
+        1,
+        0
+      ]
+    }
+  },
+  {
+    "id": "KN1-L15",
+    "knowledge": 1,
+    "level": "Luyện tập",
+    "idea": "Sửa một lời giải sai có minh chứng",
+    "mode": "Điền/nhập",
+    "prompt": "Cho C={1;3;5}. Bạn Bình ghi \"1 ∉ C\". Hãy sửa đúng toàn bộ biểu thức.",
+    "answer": "1 ∈ C",
+    "hint": "Câu yêu cầu viết lại cả biểu thức, nên cần đủ số 1, dấu quan hệ và tên tập C.",
+    "common_error": "Sửa tên C hoặc thay số 1 thay vì sửa kí hiệu.",
+    "explanation": "1 là phần tử của C nên dấu ∉ phải đổi thành ∈.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Viết đầy đủ biểu thức đã sửa",
+          "kind": "membership",
+          "expected": "1∈C",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN1-V01",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Đọc bảng trực lớp học",
+    "mode": "Điền/nhập",
+    "prompt": "Lịch trực: Thứ ba gồm An, Bình, Dung; thứ tư gồm Huy. Gọi T là tập các bạn trực thứ ba. Điền hai dấu: Bình __ T; Huy __ T.",
+    "answer": "Bình ∈ T; Huy ∉ T",
+    "hint": "Chỉ dùng danh sách của thứ ba để xét T.",
+    "common_error": "Cho Huy thuộc T vì có tên trong lịch của tuần.",
+    "explanation": "Bình trực thứ ba còn Huy trực thứ tư.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Bình __ T",
+          "kind": "exact",
+          "expected": "∈",
+          "aliases": []
+        },
+        {
+          "label": "Huy __ T",
+          "kind": "exact",
+          "expected": "∉",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN1-V02",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Lọc đúng các loại bút tại quầy",
+    "mode": "Phân loại thẻ",
+    "prompt": "Quầy có bút chì, bút mực, bút dạ, khăn lau, thước kẻ. P là tập các loại bút. Chạm chọn đúng khay cho từng thẻ để lập tập P.",
+    "answer": "P={bút chì; bút mực; bút dạ}",
+    "hint": "Chọn mặt hàng là bút, không chọn phụ kiện.",
+    "common_error": "Cho thước vào tập bút.",
+    "explanation": "Ba loại bút là phần tử P; khăn và thước không phải.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "sort",
+      "options": [
+        "bút chì",
+        "bút mực",
+        "bút dạ",
+        "khăn lau",
+        "thước kẻ"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "inside_label": "Tập P: các loại bút",
+      "outside_label": "Không thuộc P"
+    }
+  },
+  {
+    "id": "KN1-V03",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Lọc số từ bảng theo điều kiện phạm vi",
+    "mode": "Chọn nhiều",
+    "prompt": "Trên bảng có 28,31,33,36,40. Tập R chứa những số đã ghi lớn hơn 30 và nhỏ hơn 37. Chọn tất cả phần tử R.",
+    "answer": "R={31;33;36}",
+    "hint": "Hai điều kiện >30 và <37 đều phải thỏa mãn.",
+    "common_error": "Chọn 28 hoặc 40; bỏ sót 36.",
+    "explanation": "Chỉ 31,33,36 ở giữa 30 và 37.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "multi",
+      "options": [
+        "28",
+        "31",
+        "33",
+        "36",
+        "40"
+      ],
+      "correct": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "id": "KN1-V04",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Kiểm tra phiếu mượn sách thư viện",
+    "mode": "Chọn một",
+    "prompt": "Phiếu mượn của Mai ghi ba cuốn: Đảo xanh, Mùa mưa, Hạt nắng. Giá sách có thêm cuốn Con đường nhỏ. Cuốn nào KHÔNG thuộc tập sách Mai đã mượn?",
+    "answer": "Con đường nhỏ",
+    "hint": "Tập được xác định theo phiếu mượn, không theo tất cả sách trên giá.",
+    "common_error": "Chọn một cuốn có trong phiếu.",
+    "explanation": "Con đường nhỏ nằm trên giá nhưng không thuộc phiếu mượn của Mai.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Đảo xanh",
+        "Mùa mưa",
+        "Hạt nắng",
+        "Con đường nhỏ"
+      ],
+      "correct": 3
+    }
+  },
+  {
+    "id": "KN1-V05",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Đối chiếu điểm dừng tuyến xe",
+    "mode": "Tương tác sơ đồ",
+    "prompt": "Tuyến xe S đi qua Bến xe, Công viên, Thư viện. Bản đồ có thêm Bảo tàng. Chạm điểm không thuộc tuyến S.",
+    "answer": "Bảo tàng",
+    "hint": "Tuyến S chỉ gồm ba điểm dừng đã cho.",
+    "common_error": "Nghĩ mọi biểu tượng trên bản đồ đều là điểm dừng.",
+    "explanation": "Bảo tàng không nằm trong tuyến S.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "diagram",
+      "options": [
+        "Bến xe",
+        "Công viên",
+        "Thư viện",
+        "Bảo tàng"
+      ],
+      "correct": [
+        3
+      ]
+    },
+    "visual": {
+      "kind": "set",
+      "label": "S",
+      "inside": [
+        "Bến xe",
+        "Công viên",
+        "Thư viện"
+      ],
+      "outside": [
+        "Bảo tàng"
+      ]
+    }
+  },
+  {
+    "id": "KN1-V06",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Xác định thành viên từ cột xác nhận sự kiện",
+    "mode": "Chọn nhiều",
+    "prompt": "Danh sách đăng kí chạy: Anh–đã xác nhận; Chi–chưa xác nhận; Đức–đã xác nhận; Lan–chưa xác nhận. E là tập các bạn đã xác nhận. Chọn phần tử của E.",
+    "answer": "Anh;Đức",
+    "hint": "Chỉ dựa vào trạng thái “đã xác nhận”.",
+    "common_error": "Chọn cả bốn bạn vì đều xuất hiện trong bảng.",
+    "explanation": "E gồm Anh và Đức, không gồm những người chưa xác nhận.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "multi",
+      "options": [
+        "Anh",
+        "Chi",
+        "Đức",
+        "Lan"
+      ],
+      "correct": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "KN1-V07",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Đọc thực đơn theo ngày",
+    "mode": "Điền/nhập",
+    "prompt": "Thực đơn thứ hai: cơm gà, mì xào, súp bí. M là tập món phục vụ thứ hai. Hoàn thành câu: \"súp bí __ M\" bằng một kí hiệu.",
+    "answer": "∈",
+    "hint": "M là món của đúng ngày thứ hai.",
+    "common_error": "Nhầm súp bí với món không có trong thực đơn.",
+    "explanation": "Súp bí là món thứ hai nên súp bí ∈ M.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Điền kí hiệu",
+          "kind": "exact",
+          "expected": "∈",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN1-V08",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Kiểm tra vật phẩm trong trò chơi",
+    "mode": "Chọn một",
+    "prompt": "Kho đồ của nhân vật có khiên, dây thừng, chìa khóa. Trên màn hình xuất hiện bản đồ. Kí hiệu nào đúng với tập K là kho đồ: (a) bản đồ ∈ K; (b) bản đồ ∉ K?",
+    "answer": "(b) bản đồ ∉ K",
+    "hint": "Chỉ các món đang có trong kho mới thuộc K.",
+    "common_error": "Nghĩ vật xuất hiện trên màn hình là vật trong kho.",
+    "explanation": "Bản đồ chưa nằm trong kho đồ K.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "bản đồ ∈ K",
+        "bản đồ ∉ K"
+      ],
+      "correct": 1
+    }
+  },
+  {
+    "id": "KN1-V09",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Kiểm tra nhãn thùng thu gom giấy",
+    "mode": "Phân loại thẻ",
+    "prompt": "Thùng G chỉ nhận đồ giấy. Có giấy báo, thùng carton, vỏ hộp giấy và chai nhựa. Chạm chọn đúng khay cho từng vật.",
+    "answer": "G={giấy báo; thùng carton; vỏ hộp giấy}",
+    "hint": "Xét chất liệu giấy, không xét hình dáng đồ vật.",
+    "common_error": "Bỏ qua vỏ hộp giấy hoặc cho chai nhựa vào G.",
+    "explanation": "Ba vật bằng giấy thuộc G; chai nhựa không thuộc G.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "sort",
+      "options": [
+        "giấy báo",
+        "thùng carton",
+        "vỏ hộp giấy",
+        "chai nhựa"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "inside_label": "Thuộc G: đồ giấy",
+      "outside_label": "Không thuộc G"
+    }
+  },
+  {
+    "id": "KN1-V10",
+    "knowledge": 1,
+    "level": "Vận dụng",
+    "idea": "Đối chiếu nhạc cụ với nhóm biểu diễn",
+    "mode": "Ghép cặp",
+    "prompt": "Nhóm A dùng sáo và trống; nhóm B dùng guitar và piano. Ghép mỗi nhạc cụ (sáo, guitar, trống, piano) vào đúng tập A hoặc B.",
+    "answer": "sáo→A;trống→A;guitar→B;piano→B",
+    "hint": "Theo danh sách nhạc cụ từng nhóm, không theo âm thanh.",
+    "common_error": "Đổi chéo nhóm A và B.",
+    "explanation": "Nhạc cụ thuộc tập biểu diễn theo nhóm đã phân công.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "match",
+      "left": [
+        "sáo",
+        "guitar",
+        "trống",
+        "piano"
+      ],
+      "options": [
+        "Nhóm A",
+        "Nhóm B"
+      ],
+      "correct": [
+        0,
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "KN2-L01",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Liệt kê các số tự nhiên trong khoảng mở",
+    "mode": "Điền/nhập",
+    "prompt": "A={n ∈ N | 15<n<20}. Viết A bằng cách liệt kê tất cả phần tử.",
+    "answer": "A={16;17;18;19}",
+    "hint": "Không lấy hai đầu mút 15 và 20.",
+    "common_error": "Thêm 15 hoặc 20.",
+    "explanation": "Chỉ các số tự nhiên 16,17,18,19 nằm giữa 15 và 20.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Liệt kê các phần tử của A",
+          "kind": "set",
+          "expected": "16;17;18;19",
+          "aliases": [],
+          "setName": "A"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-L02",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Chọn tính chất đặc trưng từ tập số chẵn",
+    "mode": "Chọn một",
+    "prompt": "B={22;24;26;28}. Chọn mô tả đúng: (a) các số tự nhiên chẵn từ 22 đến 28; (b) mọi số tự nhiên từ 22 đến 28; (c) các số tự nhiên lẻ từ 22 đến 28.",
+    "answer": "(a)",
+    "hint": "Xem các phần tử có chung tính chất gì, ngoài khoảng giá trị.",
+    "common_error": "Bỏ mất điều kiện số chẵn.",
+    "explanation": "B chỉ có số chẵn 22,24,26,28.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Các số tự nhiên chẵn từ 22 đến 28",
+        "Mọi số tự nhiên từ 22 đến 28",
+        "Các số tự nhiên lẻ từ 22 đến 28"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN2-L03",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Xóa phần tử viết lặp",
+    "mode": "Phân loại thẻ",
+    "prompt": "Bạn viết H={lê; xoài; táo; lê}, trong đó “lê” bị lặp. Chạm chọn khay Giữ hoặc Loại cho từng thẻ sao cho tập hợp chỉ ghi mỗi phần tử một lần.",
+    "answer": "H={lê;xoài;táo}",
+    "hint": "Một phần tử chỉ được viết một lần.",
+    "common_error": "Giữ cả hai thẻ lê.",
+    "explanation": "Tập hợp không ghi lặp lại phần tử giống nhau.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "sort",
+      "options": [
+        "lê (thẻ 1)",
+        "xoài",
+        "táo",
+        "lê (thẻ 2)"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "inside_label": "Giữ phần tử",
+      "outside_label": "Loại thẻ viết lặp",
+      "alternateCorrect": [
+        [
+          1,
+          2,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "id": "KN2-L04",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Đổi liệt kê thành đặc trưng khoảng",
+    "mode": "Điền/nhập",
+    "prompt": "D={41;42;43;44}. Điền hai dấu vào D={n∈N | 40 __ n __ 45}.",
+    "answer": "40<n<45",
+    "hint": "Hai đầu 40 và 45 không nằm trong D.",
+    "common_error": "Dùng ≤ hoặc ≥ làm thừa phần tử.",
+    "explanation": "Các số tự nhiên đúng là 41–44.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "40 __ n",
+          "kind": "exact",
+          "expected": "<",
+          "aliases": []
+        },
+        {
+          "label": "n __ 45",
+          "kind": "exact",
+          "expected": "<",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-L05",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Nhận biết hai mô tả cùng phần tử",
+    "mode": "Chọn một",
+    "prompt": "E={8;10;12}; F={n∈N | 7<n<13 và n chẵn}. E và F có cùng các phần tử không?",
+    "answer": "Có",
+    "hint": "Liệt kê F rồi so với E, không xét thứ tự.",
+    "common_error": "Cho rằng F có thêm 7 hoặc 13.",
+    "explanation": "F liệt kê được 8,10,12 nên hai mô tả trùng nhau.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN2-L06",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Bổ sung số 0 bị bỏ quên",
+    "mode": "Điền/nhập",
+    "prompt": "A={n∈N | n<4}. Một bạn viết A={1;2;3}. Nhập phần tử bạn ấy còn thiếu.",
+    "answer": "0",
+    "hint": "N chứa số 0.",
+    "common_error": "Cho rằng số tự nhiên bắt đầu từ 1.",
+    "explanation": "A={0;1;2;3}; số thiếu là 0.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Phần tử còn thiếu",
+          "kind": "exact",
+          "expected": "0",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-L07",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Chọn tập liệt kê đúng cho N*",
+    "mode": "Chọn một",
+    "prompt": "B={n∈N* | n<4}. Chọn cách liệt kê đúng: (a) {0;1;2;3}; (b) {1;2;3}; (c) {1;2;3;4}.",
+    "answer": "(b) B={1;2;3}",
+    "hint": "N* không có 0; dấu <4 cũng loại 4.",
+    "common_error": "Chọn (a) vì lấy 0 hoặc chọn (c) vì lấy 4.",
+    "explanation": "B có 1,2,3 vì là số tự nhiên khác 0 và nhỏ hơn 4.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "{0;1;2;3}",
+        "{1;2;3}",
+        "{1;2;3;4}"
+      ],
+      "correct": 1
+    }
+  },
+  {
+    "id": "KN2-L08",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Chọn dấu ngoặc biểu diễn một tập hợp",
+    "mode": "Chọn một",
+    "prompt": "Khi ghi tập hợp gồm 2,4,6, chọn cách viết chuẩn: (a) {2;4;6}; (b) (2;4;6); (c) [2;4;6].",
+    "answer": "(a) {2;4;6}",
+    "hint": "SGK sử dụng dấu ngoặc nhọn khi liệt kê phần tử.",
+    "common_error": "Dùng ngoặc tròn hoặc ngoặc vuông.",
+    "explanation": "Liệt kê tập hợp bằng dấu ngoặc nhọn { }.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "{2;4;6}",
+        "(2;4;6)",
+        "[2;4;6]"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN2-L09",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Mô tả tập các bội của 3",
+    "mode": "Điền/nhập",
+    "prompt": "U={3;6;9;12}. Hoàn thành: U={n∈N* | n chia hết cho __ và n≤__}.",
+    "answer": "3;12",
+    "hint": "Các số trong U đều chia hết cho cùng một số.",
+    "common_error": "Chọn 2 hoặc quên cận trên.",
+    "explanation": "Đó là những số tự nhiên khác 0 chia hết cho 3 và không vượt 12.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Chia hết cho",
+          "kind": "exact",
+          "expected": "3",
+          "aliases": []
+        },
+        {
+          "label": "Không vượt quá",
+          "kind": "exact",
+          "expected": "12",
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-L10",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Liệt kê tập chữ cái từ một từ không dấu",
+    "mode": "Điền/nhập",
+    "prompt": "Viết tập hợp X gồm các chữ cái khác nhau trong từ “TOAN”. Có thể nhập T;O;A;N hoặc X={T;O;A;N}; thứ tự không quan trọng.",
+    "answer": "X={T;O;A;N}",
+    "hint": "Liệt kê từng chữ cái, không phải các tiếng hay cả từ.",
+    "common_error": "Viết \"TOAN\" như một phần tử duy nhất.",
+    "explanation": "Bốn chữ cái T,O,A,N là bốn phần tử của X.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Liệt kê các phần tử của X",
+          "kind": "set",
+          "expected": "T;O;A;N",
+          "aliases": [],
+          "setName": "X"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-L11",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Kiểm tra tính không phụ thuộc thứ tự liệt kê",
+    "mode": "Chọn một",
+    "prompt": "M={6;8;10}; N={10;6;8}. Hai tập hợp có các phần tử giống nhau không?",
+    "answer": "Có",
+    "hint": "Thứ tự liệt kê có thể khác nhau.",
+    "common_error": "Cho rằng thay thứ tự làm thay tập hợp.",
+    "explanation": "M và N đều có đúng ba phần tử 6,8,10.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN2-L12",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Điền điều kiện lẻ cho một tập số",
+    "mode": "Điền/nhập",
+    "prompt": "C={5;7;9;11}. Điền từ còn thiếu: C={n∈N* | 4<n<12 và n là số ____}.",
+    "answer": "lẻ",
+    "hint": "Các phần tử 5, 7, 9, 11 đều là số không chia hết cho 2. Hãy điền một từ chỉ tính chất này.",
+    "common_error": "Điền chẵn, khiến tập sai.",
+    "explanation": "C gồm các số tự nhiên lẻ giữa 4 và 12.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Điền loại số",
+          "kind": "exact",
+          "expected": "lẻ",
+          "aliases": [
+            "le",
+            "số lẻ"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-L13",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Liệt kê số có ba chữ số trong khoảng cực ngắn",
+    "mode": "Chọn nhiều",
+    "prompt": "T={n∈N | 100<n<103}. Chọn tất cả phần tử T trong các thẻ 100,101,102,103.",
+    "answer": "101;102",
+    "hint": "Chỉ lấy số lớn hơn 100 và nhỏ hơn 103.",
+    "common_error": "Cho 100/103 vào tập do bỏ qua dấu <.",
+    "explanation": "101 và 102 là hai số tự nhiên duy nhất thỏa mãn.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "multi",
+      "options": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "correct": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": "KN2-L14",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Chuyển dấu điều kiện thành mô hình điểm",
+    "mode": "Tương tác sơ đồ",
+    "prompt": "Trên trục thẻ 2,3,4,5,6,7, chọn các điểm thuộc L={n∈N | 4≤n≤6}.",
+    "answer": "4;5;6",
+    "hint": "Dấu ≤ cho phép lấy cả 4 và 6.",
+    "common_error": "Bỏ 4,6 vì nhầm với <.",
+    "explanation": "L={4;5;6}.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "diagram",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correct": [
+        2,
+        3,
+        4
+      ]
+    },
+    "visual": {
+      "kind": "numberline",
+      "ticks": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    }
+  },
+  {
+    "id": "KN2-L15",
+    "knowledge": 2,
+    "level": "Luyện tập",
+    "idea": "Loại phần tử vượt cận trên của tập",
+    "mode": "Chọn một",
+    "prompt": "Bạn viết C={1;2;3;4;5} cho C={n∈N* | n≤4}. Chọn thẻ cần xóa để sửa đáp án.",
+    "answer": "5",
+    "hint": "N* loại 0, nhưng các số lớn hơn 4 cũng không thỏa điều kiện.",
+    "common_error": "Giữ 5 vì đó là số tự nhiên khác 0.",
+    "explanation": "C={1;2;3;4}, vì 5>4 không thỏa n≤4.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": 4
+    }
+  },
+  {
+    "id": "KN2-V01",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Lập tập thành viên từ phiếu nhóm có tên lặp",
+    "mode": "Điền/nhập",
+    "prompt": "Danh sách nhóm mỹ thuật: Lan, Minh, Quân, Lan. Liệt kê các phần tử của tập A gồm những thành viên khác nhau (có thể dùng dấu ngoặc nhọn).",
+    "answer": "A={Lan;Minh;Quân}",
+    "hint": "Tên trùng nhau chỉ là một phần tử.",
+    "common_error": "Ghi Lan hai lần vì xuất hiện hai dòng.",
+    "explanation": "Mỗi thành viên chỉ được ghi một lần trong tập A.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Viết tập A",
+          "kind": "set",
+          "expected": "Lan;Minh;Quân",
+          "aliases": [],
+          "setName": "A"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-V02",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Mô tả tập hình theo đặc trưng bốn cạnh",
+    "mode": "Phân loại thẻ",
+    "prompt": "Trong bộ hình có hình vuông, hình tròn, hình chữ nhật, hình tam giác, hình thoi. Chạm chọn đúng khay cho từng hình để lập tập Q gồm các hình có đúng bốn cạnh.",
+    "answer": "Q={hình vuông;hình chữ nhật;hình thoi}",
+    "hint": "Đếm cạnh của mỗi hình thay vì nhìn độ dài cạnh.",
+    "common_error": "Chọn hình tam giác hoặc hình tròn.",
+    "explanation": "Hình vuông, chữ nhật, thoi đều có bốn cạnh.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "sort",
+      "options": [
+        "hình vuông",
+        "hình tròn",
+        "hình chữ nhật",
+        "hình tam giác",
+        "hình thoi"
+      ],
+      "correct": [
+        0,
+        2,
+        4
+      ],
+      "inside_label": "Hình có đúng bốn cạnh Q",
+      "outside_label": "Hình còn lại"
+    }
+  },
+  {
+    "id": "KN2-V03",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Lọc mã theo hàng đơn vị và mô tả lại",
+    "mode": "Điền + tích chọn",
+    "prompt": "Kho có mã là các số tự nhiên lớn hơn 30, nhỏ hơn 40, có chữ số hàng đơn vị bằng 2 hoặc 6. Viết tập A theo hai cách: (1) liệt kê các phần tử; (2) tích chọn tất cả dấu hiệu đặc trưng mô tả đúng tập A.",
+    "answer": "Cách 1: A={32;36}. Cách 2: (a) các số tự nhiên từ 31 đến 39 có chữ số hàng đơn vị là 2 hoặc 6; (b) các số tự nhiên có hàng chục bằng 3, hàng đơn vị bằng 2 hoặc 6.",
+    "hint": "Kiểm tra từng cách diễn đạt: điều kiện đó có chọn đúng 32 và 36, đồng thời loại mọi số khác không? Có thể có nhiều hơn một mô tả đúng.",
+    "common_error": "Chọn đặc trưng quá rộng như “số từ 31 đến 39” hoặc “số tận cùng 2 hay 6” mà không giới hạn đồng thời cả hai điều kiện.",
+    "explanation": "A={32;36}. Mô tả đúng có thể dùng “số tự nhiên lớn hơn 30, nhỏ hơn 40, tận cùng bằng 2 hoặc 6” hoặc tương đương “số tự nhiên có hàng chục là 3, hàng đơn vị là 2 hoặc 6”. Hai mô tả cùng cho đúng 32 và 36.",
+    "review_status": "Đã duyệt mẫu v0.4",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Cách 1: liệt kê phần tử",
+          "kind": "set",
+          "expected": "32;36",
+          "aliases": [],
+          "setName": "A"
+        },
+        {
+          "label": "Cách 2: chọn TẤT CẢ các mô tả đúng",
+          "kind": "selectStatements",
+          "options": [
+            "Các số tự nhiên lớn hơn 30, nhỏ hơn 40 và có chữ số hàng đơn vị là 2 hoặc 6.",
+            "Các số tự nhiên có chữ số hàng chục là 3 và hàng đơn vị là 2 hoặc 6.",
+            "Tất cả số tự nhiên lớn hơn 30 và nhỏ hơn 40.",
+            "Tất cả số tự nhiên tận cùng bằng 2 hoặc 6.",
+            "Tất cả số tự nhiên từ 32 đến 36.",
+            "Các số tự nhiên có hàng chục bằng 2 và hàng đơn vị bằng 2 hoặc 6."
+          ],
+          "expected": [
+            0,
+            1
+          ],
+          "aliases": []
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-V04",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Xác định phiếu trúng thưởng từ quy tắc chia hết",
+    "mode": "Chọn nhiều",
+    "prompt": "Quầy quay số in phiếu từ 1 đến 20. Phiếu trúng là số chia hết cho 5. Chọn số trúng trong các thẻ 4,5,10,14,15,20.",
+    "answer": "5;10;15;20",
+    "hint": "Số chia hết cho 5 kết thúc bằng 0 hoặc 5.",
+    "common_error": "Chọn 4 hoặc 14.",
+    "explanation": "Các số trúng trong danh sách là 5,10,15,20.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "multi",
+      "options": [
+        "4",
+        "5",
+        "10",
+        "14",
+        "15",
+        "20"
+      ],
+      "correct": [
+        1,
+        2,
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": "KN2-V05",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Ghi tập tên đồ uống theo dấu đánh dấu",
+    "mode": "Điền/nhập",
+    "prompt": "Bảng giải khát: nước cam ★, sữa ★, trà, nước lọc. U là tập đồ uống có dấu ★. Liệt kê các phần tử của U; có thể dùng dấu ngoặc nhọn.",
+    "answer": "U={nước cam;sữa}",
+    "hint": "Chỉ lấy những dòng có biểu tượng ★.",
+    "common_error": "Viết tất cả đồ uống dù không có dấu.",
+    "explanation": "U gồm hai đồ uống được đánh dấu.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Viết tập U",
+          "kind": "set",
+          "expected": "nước cam;sữa",
+          "aliases": [],
+          "setName": "U"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-V06",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Biểu diễn lịch hoạt động bằng điều kiện chẵn",
+    "mode": "Chọn một",
+    "prompt": "Câu lạc bộ sinh hoạt vào các ngày có số thứ tự chẵn trong tuần (thứ hai đến thứ bảy). Tập D={thứ hai;thứ tư;thứ sáu}. Chọn cách mô tả bằng dấu hiệu đặc trưng đúng nhất.",
+    "answer": "D là tập các ngày từ thứ hai đến thứ bảy có số thứ tự chẵn (2,4,6).",
+    "hint": "Liên hệ số trong tên thứ với chẵn/lẻ.",
+    "common_error": "Chọn ngày thứ ba, thứ năm, thứ bảy.",
+    "explanation": "Các thứ có số chẵn 2,4,6 là ba phần tử của D.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Các ngày từ thứ hai đến thứ bảy có số thứ tự chẵn (2, 4, 6)",
+        "Các ngày có số thứ tự lẻ (3, 5, 7)",
+        "Mọi ngày từ thứ hai đến thứ bảy"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN2-V07",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Phát hiện sự không nhất quán giữa bảng và đặc trưng",
+    "mode": "Chọn một",
+    "prompt": "Sổ kho ghi mã {21;22;23;24;25}. Bạn mô tả \"các số tự nhiên lớn hơn 20 và nhỏ hơn 25\". Câu mô tả có chính xác không? Nếu không, mã nào bị thiếu?",
+    "answer": "Không; thiếu mã 25",
+    "hint": "Dấu <25 không bao gồm 25.",
+    "common_error": "Nghĩ 25 vẫn nhỏ hơn 25.",
+    "explanation": "Mô tả đúng cần 20<n<26, hoặc 20<n≤25.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Không đúng; thiếu mã 25",
+        "Đúng; không thiếu mã",
+        "Không đúng; thiếu mã 20"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "KN2-V08",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Dựng nhóm thẻ hình theo hai điều kiện số",
+    "mode": "Tương tác sơ đồ",
+    "prompt": "Bộ thẻ 2,3,4,5,6,7,8,9,10. Chọn các thẻ vào vòng S nếu là số tự nhiên lẻ và 3≤n≤9.",
+    "answer": "S={3;5;7;9}",
+    "hint": "Giữ các số lẻ, kể cả hai đầu nếu thỏa dấu ≤.",
+    "common_error": "Chọn 2,4,6,8 hoặc bỏ 3,9.",
+    "explanation": "Các số lẻ từ 3 đến 9 là 3,5,7,9.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "diagram",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "correct": [
+        1,
+        3,
+        5,
+        7
+      ]
+    },
+    "visual": {
+      "kind": "numberline",
+      "ticks": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    }
+  },
+  {
+    "id": "KN2-V09",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "Xây tập mã hai kí tự theo khuôn",
+    "mode": "Điền/nhập",
+    "prompt": "Kho dùng mã gồm đúng hai kí tự: kí tự đầu là 4, kí tự cuối là A, B hoặc C. Liệt kê các phần tử của tập hợp M (có thể dùng dấu ngoặc nhọn).",
+    "answer": "M={4A;4B;4C}",
+    "hint": "Cố định 4 ở đầu rồi lần lượt gắn A,B,C.",
+    "common_error": "Ghi A4 hoặc thêm mã 4D.",
+    "explanation": "Chỉ ba mã 4A,4B,4C thỏa điều kiện.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "text",
+      "fields": [
+        {
+          "label": "Viết tập M",
+          "kind": "set",
+          "expected": "4A;4B;4C",
+          "aliases": [],
+          "setName": "M"
+        }
+      ]
+    }
+  },
+  {
+    "id": "KN2-V10",
+    "knowledge": 2,
+    "level": "Vận dụng",
+    "idea": "So sánh hai mô tả lịch không tương đương",
+    "mode": "Chọn một",
+    "prompt": "Lịch trực của lớp ghi T={thứ hai; thứ tư; thứ bảy}. Một bạn nói T là \"tập các ngày có số thứ tự chẵn từ thứ hai đến thứ bảy\". Hai mô tả có cùng tập ngày không? Chọn câu kết luận và chỉ rõ ngày không khớp.",
+    "answer": "Không; danh sách có thứ bảy, còn mô tả ngày chẵn có thứ sáu.",
+    "hint": "Theo số thứ tự, các ngày chẵn là thứ hai, thứ tư, thứ sáu; hãy so với danh sách.",
+    "common_error": "Cho rằng thứ bảy là ngày chẵn hoặc không đối chiếu đủ ba ngày.",
+    "explanation": "Hai mô tả khác nhau: một có thứ bảy, một có thứ sáu.",
+    "review_status": "Mới – chờ duyệt",
+    "source": "SGK Toán 6 KNTT, Tập 1, Bài 1, trang 5–8",
+    "interaction": {
+      "kind": "single",
+      "options": [
+        "Không: danh sách có thứ bảy, còn mô tả có thứ sáu",
+        "Có: hai mô tả như nhau",
+        "Không: danh sách thiếu thứ hai"
+      ],
+      "correct": 0
+    }
+  }
+];
+
+</script>
+  <script>
+/* Toán 6 – Bài 1, interactive/offline question bank v0.5.4 */
+(function () {
+  'use strict';
+  const E=window.QuizEngine;
+  const BANK=window.QUESTIONS;
+  const studentKey = new URLSearchParams(window.location.search).get('student');
+  const validStudent = studentKey && /^[A-Za-z0-9_-]{6,64}$/.test(studentKey) ? studentKey : null;
+  // Separate unfinished tests, learning cards, and history for each local account.
+  const STORE='toan6.bai1.v05.progress' + (validStudent ? '.student.'+validStudent : '');
+  function sendCompletion(knowledge, results) {
+    if(!validStudent || window.parent === window)return;
+    const questionScores = results.map(row=>row.score);
+    if(questionScores.length!==10 || questionScores.some(x=>!Number.isInteger(x)||x<0||x>100))return;
+    window.parent.postMessage({
+      source:'math6-bai1-v054', kind:'quiz-completed', student:validStudent,
+      knowledge, questionScores, earnedScore:questionScores.reduce((a,b)=>a+b,0)
+    },window.location.origin);
+  }
+  const app=document.querySelector('#app');
+  const escapeHTML=(text)=>String(text??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const sec=(ms)=>ms/1000;
+  function fresh(){return {version:1,mode:'home',learned:[false,false],quiz:null,recent:{1:[],2:[]},history:{1:[],2:[]}};}
+  function readState(){
+    try{const s=JSON.parse(localStorage.getItem(STORE)||'null');if(!s||s.version!==1)return fresh();
+      if(s.quiz && s.mode==='quiz') { const rec=s.quiz.records[s.quiz.ids[s.quiz.index]];
+        if(rec && rec.status==='answering')rec.status='paused'; }
+      return s;
+    }catch{return fresh();}
+  }
+  let state=readState();let startTick=0;
+  // Quick symbols must target the last answer field the pupil selected.
+  let lastFocusedFieldIndex=null;
+  const persist=()=>{try{localStorage.setItem(STORE,JSON.stringify(state));}catch(err){console.warn('Không thể lưu tiến độ cục bộ:',err);}};
+  const byId=id=>BANK.find(q=>q.id===id);
+  const getRecord=()=>state.quiz?.records?.[state.quiz.ids[state.quiz.index]];
+  const current=()=>byId(state.quiz.ids[state.quiz.index]);
+  const elapsed=()=>{const r=getRecord();if(!r)return 0;return r.elapsedMs+(r.status==='answering'&&startTick?Date.now()-startTick:0);};
+  function syncTime(){
+    const r=getRecord();if(!r)return;
+    if(r.status==='answering'&&startTick){r.elapsedMs+=Math.max(0,Date.now()-startTick);startTick=0;}
+    if(sec(r.elapsedMs)>=E.LIMIT_SECONDS && !r.solved){r.elapsedMs=E.LIMIT_SECONDS*1000;r.timedOut=true;r.status='coaching';r.score=0;}
+  }
+  function resume(){const r=getRecord();if(!r||r.solved)return;
+    // Returning to a paused question preserves the child's typed choices;
+    // only a retry after a graded mistake clears the previous answer.
+    const wasPaused=r.status==='paused';
+    if(r.timedOut||r.mistakes>=2){r.status='coaching';startTick=0;}
+    else {r.status='answering';startTick=Date.now();}
+    if(!wasPaused)r.response=E.emptyAnswer(current().interaction);
+    persist();render();
+  }
+  function stopForHint(){syncTime();startTick=0;}
+  function begin(knowledge){
+    if(!state.learned.every(Boolean))return;
+    // Prevent accidental replacement of the only locally saved unfinished quiz.
+    if(state.quiz && state.quiz.ids.some(id=>!state.quiz.records[id].solved)
+      && !window.confirm('Đề hiện tại chưa hoàn thành. Tạo đề mới sẽ thay thế đề đang làm. Tiếp tục?'))return;
+    const list=E.newQuiz(BANK,knowledge,state.recent[knowledge]||[]);
+    state.recent[knowledge]=list.map(q=>q.id);
+    state.quiz={knowledge,ids:list.map(q=>q.id),index:0,createdAt:new Date().toISOString(),records:{}};
+    list.forEach(q=>state.quiz.records[q.id]={mistakes:0,helpCount:0,extraTries:0,elapsedMs:0,timedOut:false,solved:false,score:null,status:'answering',response:E.emptyAnswer(q.interaction)});
+    state.mode='quiz';startTick=Date.now();persist();render();
+  }
+  function updateAnswer(kind,arg,val){
+    const r=getRecord();if(!r||r.status!=='answering'&&r.status!=='coaching')return;
+    const response=r.response;
+    if(kind==='choice')response.choice=Number(arg);
+    if(kind==='selected'){
+      const item=Number(arg);const old=response.selected.indexOf(item);
+      if(old<0)response.selected.push(item);else response.selected.splice(old,1);
+    }
+    if(kind==='bucket')response.buckets[Number(arg)]=val;
+    if(kind==='match')response.matches[Number(arg)]=val===''?null:Number(val);
+    if(kind==='field')response.fields[Number(arg)]=val;
+    if(kind==='fieldStatement'){
+      const fieldIndex=Number(arg), optionIndex=Number(val);
+      const selection=Array.isArray(response.fields[fieldIndex])?response.fields[fieldIndex]:[];
+      const selected=selection.indexOf(optionIndex);
+      if(selected<0)selection.push(optionIndex);else selection.splice(selected,1);
+      response.fields[fieldIndex]=selection;
+    }
+    persist();
+    if(kind!=='field')render();
+  }
+  function ready(q,r){
+    const c=q.interaction,a=r.response;
+    if(c.kind==='single')return Number.isInteger(a.choice);
+    if(c.kind==='multi'||c.kind==='diagram')return a.selected.length>0;
+    if(c.kind==='sort')return a.buckets.every(x=>x!==null);
+    if(c.kind==='match')return a.matches.every(x=>x!==null);
+    return c.fields.every((f,i)=>f.kind==='selectStatements'?Array.isArray(a.fields[i])&&a.fields[i].length>0:String(a.fields[i]??'').trim().length>0);
+  }
+  function submit(){
+    const q=current(),r=getRecord();if(!r||!['answering','coaching'].includes(r.status)||!ready(q,r))return;
+    syncTime();
+    if(E.grade(q,r.response)) {
+      r.score=(r.mistakes>=2||r.timedOut)?0:E.pointScore(sec(r.elapsedMs),r.mistakes);
+      r.solved=true;r.status='correct';startTick=0;
+    }else if(r.mistakes===0&&!r.timedOut){
+      r.mistakes=1;r.helpCount=1;r.status='hint';r.response=E.emptyAnswer(q.interaction);startTick=0;
+    }else{
+      if(r.mistakes===1)r.mistakes=2;else r.extraTries+=1;
+      r.status='coaching';r.score=0;r.response=E.emptyAnswer(q.interaction);startTick=0;
+    }
+    persist();render();
+  }
+  function finish(){
+    syncTime();const quiz=state.quiz;
+    const done=quiz.ids.every(id=>quiz.records[id].solved);
+    if(!done)return;
+    const results=quiz.ids.map(id=>({id,...quiz.records[id]}));
+    const scores=E.report(results);
+    state.history[quiz.knowledge].push({date:new Date().toISOString(),firstScore:state.history[quiz.knowledge].length===0?scores.total:state.history[quiz.knowledge][0].firstScore,score:scores.total,questions:quiz.ids.slice(),results});
+    state.mode='results';persist();render();
+    sendCompletion(quiz.knowledge,results);
+  }
+  function advance(){
+    const r=getRecord();if(!r||!r.solved)return;
+    if(state.quiz.index===state.quiz.ids.length-1){finish();return;}
+    state.quiz.index++;
+    const next=getRecord();startTick=next.status==='answering'?Date.now():0;
+    persist();render();
+  }
+  function home(){
+    syncTime();
+    const r=getRecord();
+    if(state.mode==='quiz' && r && r.status==='answering')r.status='paused';
+    state.mode='home';startTick=0;persist();render();
+  }
+  function continueQuiz(){
+    if(!state.quiz || state.quiz.ids.every(id=>state.quiz.records[id].solved))return;
+    state.mode='quiz';startTick=0;
+    const r=getRecord();
+    if(r.status==='answering')r.status='paused';
+    persist();render();
+  }
+  function shell(content){
+    app.innerHTML=`<main class="shell"><div class="top"><div class="brand"><strong>TOÁN 6</strong> / Kết nối tri thức</div><span class="pill">Bài 1 · Tập hợp</span></div>${content}<footer class="footer">Ngân hàng 50 câu v0.5.4 · Lưu tiến độ trên trình duyệt của thiết bị · Chỉ dùng cho tự học và kiểm duyệt học liệu. Không gửi thông tin ra máy chủ.</footer></main>`;
+  }
+  function homeHTML(){
+    const pending=state.quiz && state.quiz.ids.some(id=>!state.quiz.records[id].solved);
+    const activeQuiz=pending?state.quiz:null;
+    const cards=[{
+      title:'Kiến thức nền 1',sub:'Tập hợp và phần tử',body:'Một tập hợp gồm các phần tử xác định. Ta dùng chữ in hoa để đặt tên tập hợp và dùng kí hiệu ∈ (thuộc), ∉ (không thuộc) để xét phần tử.',example:'A = {bút chì; thước; tẩy}. Khi đó: bút chì ∈ A; kéo ∉ A.',tags:['A = {1; 3; 5}','3 ∈ A','4 ∉ A']
+    },{
+      title:'Kiến thức nền 2',sub:'Hai cách mô tả tập hợp',body:'Có thể liệt kê các phần tử trong dấu ngoặc nhọn hoặc nêu dấu hiệu đặc trưng. Thứ tự liệt kê không ảnh hưởng đến tập hợp và không viết lặp phần tử.',example:'B = {2; 4; 6} hoặc B = {n ∈ ℕ | n chẵn, 1 < n < 7}. Nhớ rằng 0 ∈ ℕ nhưng 0 ∉ ℕ*.',tags:['{2; 4; 6}','Liệt kê','Dấu hiệu đặc trưng']
+    }];
+    const ready=state.learned.every(Boolean);
+    return `<header class="hero"><h1>Tập hợp – học bằng tương tác</h1><p class="lead muted">Đọc hai thẻ kiến thức, sau đó luyện tập và kiểm tra theo từng kiến thức nền.</p></header>
+      <div class="content">${cards.map((x,i)=>`<section class="card learning knowledge"><div class="row"><div><div class="brand">${x.title}</div><h2>${x.sub}</h2></div><span class="${state.learned[i]?'status':'status pending'}">${state.learned[i]?'Đã học':'Chưa học'}</span></div><p>${x.body}</p><div class="ex">${x.example}</div><div class="mini">${x.tags.map(t=>`<span>${t}</span>`).join('')}</div><button class="button ${state.learned[i]?'secondary':''}" data-action="learn" data-index="${i}" ${state.learned[i]?'disabled':''}>${state.learned[i]?'Đã hoàn thành':'Tôi đã đọc và hiểu'}</button></section>`).join('')}
+      ${activeQuiz?`<section class="card"><h2>Đề đang làm dở</h2><p class="muted">Kiến thức nền ${activeQuiz.knowledge} · Câu ${activeQuiz.index+1}/10 · Đã lưu câu trả lời và điểm. Đồng hồ đang tạm dừng.</p><button class="button" data-action="continue">Tiếp tục đề đã lưu</button></section>`:''}
+      <section class="card"><h2>Kiểm tra kiến thức</h2><p class="muted">Mỗi đề gồm 10 câu rút ngẫu nhiên: <strong>6 luyện tập + 4 vận dụng</strong>. Mỗi kiến thức có ngân hàng riêng 25 câu. Câu không lặp trong một lượt.</p><div class="actions"><button class="button" data-action="begin" data-knowledge="1" ${!ready?'disabled':''}>Kiểm tra kiến thức 1</button><button class="button secondary" data-action="begin" data-knowledge="2" ${!ready?'disabled':''}>Kiểm tra kiến thức 2</button></div>${!ready?'<p class="small warn">Cần hoàn thành cả hai thẻ kiến thức để mở bài kiểm tra.</p>':''}<p class="muted small">Chấm điểm: 10 giây đầu không trừ; sau đó mỗi 10 giây hoàn chỉnh trừ 10 điểm. Sai lần 1 trừ 50 điểm và được gợi ý; sai lần 2 còn 0 điểm nhưng vẫn được hướng dẫn đến khi trả lời đúng.</p></section>
+      ${[1,2].map(k=>{const a=state.history[k]||[];const best=a.length?Math.max(...a.map(x=>x.score)):null;return `<section class="card"><div class="row"><h3>Thành tích kiến thức ${k}</h3><span class="tag">${a.length} lượt kiểm tra</span></div><p class="muted">Lần đầu: <strong>${a.length?a[0].score+'/1000':'Chưa có'}</strong> · Tốt nhất: <strong>${best===null?'Chưa có':best+'/1000'}</strong></p></section>`;}).join('')}</div>`;
+  }
+  function visualHTML(q){
+    const v=q.visual;if(!v)return '';
+    if(v.kind==='set'){
+      const tags=items=>items.map(x=>`<span class="set-token">${escapeHTML(x)}</span>`).join('');
+      return `<figure class="set-visual" role="group" aria-label="Sơ đồ tập hợp ${escapeHTML(v.label)}"><figcaption>Quan sát sơ đồ ${escapeHTML(v.label)}</figcaption><div class="set-map"><div class="set-ring"><span class="set-name">${escapeHTML(v.label)}</span>${tags(v.inside)}</div><div class="set-exterior"><small>Ngoài đường bao</small>${tags(v.outside)}</div></div></figure>`;
+    }
+    if(v.kind==='numberline'){
+      return `<figure class="number-visual" role="group" aria-label="Trục số"><figcaption>Trục số tham khảo</figcaption><div class="number-ticks" style="--tick-count:${v.ticks.length}">${v.ticks.map(t=>`<span>${escapeHTML(t)}</span>`).join('')}</div></figure>`;
+    }
+    return '';
+  }
+  function answerHTML(q,r){
+    const c=q.interaction,a=r.response;
+    if(c.kind==='single')return `<div class="option-grid" role="group" aria-label="Chọn một đáp án">${c.options.map((v,i)=>`<button class="option ${a.choice===i?'selected':''}" data-action="pick" data-value="${i}" aria-pressed="${a.choice===i}"><span class="option-letter" aria-hidden="true">(${String.fromCharCode(97+i)})</span>${escapeHTML(v)}</button>`).join('')}</div>`;
+    if(c.kind==='multi'||c.kind==='diagram')return `<div class="option-grid ${c.kind==='diagram'?'diagram':''}" role="group" aria-label="Chạm để chọn các phần tử">${c.options.map((v,i)=>`<button class="option ${a.selected.includes(i)?'selected':''}" data-action="toggle" data-value="${i}" aria-pressed="${a.selected.includes(i)}">${escapeHTML(v)}</button>`).join('')}</div><p class="muted small">Có thể chọn nhiều thẻ. Nhấn lại thẻ để bỏ chọn.</p>`;
+    if(c.kind==='sort')return `<p class="small muted">Chạm vào ô thuộc hoặc không thuộc bên cạnh mỗi thẻ (có thể dùng trên điện thoại thay cho kéo thả).</p><div class="group"><section><h4>${escapeHTML(c.inside_label)}</h4><div class="tiles">${c.options.map((v,i)=>`<button class="tile ${a.buckets[i]==='in'?'active':''}" data-action="bucket" data-value="${i}" data-bucket="in">${escapeHTML(v)} ${a.buckets[i]==='in'?'✓':''}</button>`).join('')}</div></section><section><h4>${escapeHTML(c.outside_label)}</h4><div class="tiles">${c.options.map((v,i)=>`<button class="tile ${a.buckets[i]==='out'?'out':''}" data-action="bucket" data-value="${i}" data-bucket="out">${escapeHTML(v)} ${a.buckets[i]==='out'?'✓':''}</button>`).join('')}</div></section></div>`;
+    if(c.kind==='match')return `<div role="group" aria-label="Ghép cặp">${c.left.map((v,i)=>`<label class="match-row"><strong>${escapeHTML(v)}</strong><select data-match="${i}"><option value="">-- Chọn đáp án --</option>${c.options.map((o,j)=>`<option value="${j}" ${a.matches[i]===j?'selected':''}>${escapeHTML(o)}</option>`).join('')}</select></label>`).join('')}</div>`;
+    return `<div>${c.fields.map((f,i)=>f.kind==='selectStatements'
+      ?`<section class="text-field" aria-labelledby="statement-label-${i}"><strong id="statement-label-${i}">${escapeHTML(f.label)}</strong><p class="small muted">Có thể có nhiều cách mô tả tương đương. Chạm vào tất cả câu đúng; nhấn lại để bỏ chọn.</p><div class="option-grid statement-grid" role="group" aria-labelledby="statement-label-${i}">${f.options.map((v,j)=>{const selected=Array.isArray(a.fields[i])&&a.fields[i].includes(j);return `<button type="button" class="option statement-option ${selected?'selected':''}" data-action="fieldStatement" data-field-index="${i}" data-value="${j}" aria-pressed="${selected}"><span class="choice-mark" aria-hidden="true">${selected?'✓':''}</span><span><span class="option-letter">(${String.fromCharCode(97+j)})</span>${escapeHTML(v)}</span></button>`;}).join('')}</div></section>`
+      :`<label class="text-field"><strong>${escapeHTML(f.label)}</strong><input data-field="${i}" type="text" inputmode="text" autocomplete="off" spellcheck="false" value="${escapeHTML(a.fields[i]||'')}" placeholder="Nhập đáp án" aria-label="${escapeHTML(f.label)}" /></label>`).join('')}</div><div class="symbol-buttons"><span class="small muted">Kí hiệu nhanh (ô đang chọn):</span><button data-action="symbol" data-value="∈">∈</button><button data-action="symbol" data-value="∉">∉</button><button data-action="symbol" data-value="{">{</button><button data-action="symbol" data-value="}">}</button><button data-action="symbol" data-value=";">;</button><button data-action="symbol" data-value="&lt;">&lt;</button><button data-action="symbol" data-value="&gt;">&gt;</button><button data-action="symbol" data-value="≤">≤</button><button data-action="symbol" data-value="≥">≥</button></div>`;
+  }
+  function feedbackHTML(q,r){
+    if(r.status==='hint')return `<div class="feedback bad" role="status"><h3>Sai lần 1: trừ 50 điểm</h3><p><strong>Gợi ý:</strong> ${escapeHTML(q.hint)}</p><p class="muted small">Đồng hồ đang tạm dừng. Không trừ thêm điểm khi đọc gợi ý.</p><button class="button" data-action="retry">Đã hiểu – trả lời lại</button></div>`;
+    if(r.status==='coaching')return `<div class="feedback" role="status"><h3>${r.timedOut?'Hết thời gian chấm điểm (110 giây) – 0 điểm':'Sai 2 lần – 0 điểm'}</h3><p><strong>Hướng dẫn:</strong> ${escapeHTML(q.explanation)}</p><p><strong>Lỗi thường gặp:</strong> ${escapeHTML(q.common_error)}</p><p class="muted small">Điểm câu này đã khóa ở 0. Em vẫn được trả lời tiếp cho đến khi đúng.</p>${r.timedOut?'': ''}</div>`;
+    if(r.status==='correct')return `<div class="feedback good" role="status"><h3>${r.score>0?'Chính xác!':'Đã tìm được đáp án đúng – 0 điểm'}</h3><p><strong>Đáp án:</strong> ${escapeHTML(q.answer)}</p><p><strong>Giải thích:</strong> ${escapeHTML(q.explanation)}</p><p><strong>Điểm câu:</strong> ${r.score}/100${r.mistakes>=2?' · Sai 2 lần – 0 điểm':''}</p></div>`;
+    if(r.status==='paused')return `<div class="feedback"><h3>Bài đang tạm dừng</h3><p>Tiến độ đã lưu. Nhấn tiếp tục để đồng hồ bắt đầu chạy lại.</p><button class="button" data-action="retry">Tiếp tục câu hỏi</button></div>`;
+    return '';
+  }
+  function quizHTML(){
+    const quiz=state.quiz,q=current(),r=getRecord();
+    const elapsedS=sec(elapsed()),remaining=Math.max(0,E.LIMIT_SECONDS-elapsedS),locked=r.mistakes>=2||r.timedOut;
+    const clockLabel=locked?'Đã dừng':r.status==='hint'||r.status==='paused'?'Tạm dừng':`${Math.ceil(remaining)}s`;
+    const nowScore=r.solved?r.score:E.pointScore(elapsedS,r.mistakes);
+    const canAnswer=['answering','coaching'].includes(r.status);
+    const solvedCount=quiz.ids.filter(id=>quiz.records[id].solved).length;
+    return `<div class="hero"><div class="row"><div><span class="brand">Kiến thức nền ${quiz.knowledge} · Bài kiểm tra</span><h1>Câu ${quiz.index+1} / ${quiz.ids.length}</h1></div><button class="button secondary" data-action="home">Trang chủ</button></div><div class="meter"><i style="width:${solvedCount*10}%"></i></div><div class="scorebar"><div class="stat"><b id="timer">${clockLabel}</b><span>Đồng hồ chấm điểm</span></div><div class="stat"><b id="points">${nowScore}</b><span>Điểm hiện tại / 100</span></div><div class="stat"><b>${r.mistakes}</b><span>Lần trả lời sai</span></div></div></div>
+    <section class="card"><div class="meta"><span class="tag">${escapeHTML(q.id)}</span><span class="tag">${escapeHTML(q.level)}</span><span class="tag">${escapeHTML(q.mode)}</span></div><h2 class="question-title">${escapeHTML(q.idea)}</h2><p class="prompt">${escapeHTML(q.prompt)}</p>${visualHTML(q)}<div id="answer-controls" ${canAnswer?'':'inert'}>${answerHTML(q,r)}</div>${feedbackHTML(q,r)}
+    <div class="actions">${canAnswer?`<button class="button" data-action="submit" ${ready(q,r)?'':'disabled'}>Kiểm tra đáp án</button>`:''}${r.status==='correct'?`<button class="button green" data-action="next">${quiz.index===9?'Xem kết quả':'Câu tiếp theo'}</button>`:''}</div>${locked&&canAnswer?'<p class="warn small">Đồng hồ chấm điểm đã dừng. Trả lời đúng để chuyển sang câu tiếp theo.</p>':''}</section>`;
+  }
+  function resultsHTML(){
+    const q=state.quiz;const res=q.ids.map(id=>({id,...q.records[id]}));const summary=E.report(res);const hist=state.history[q.knowledge];const best=Math.max(...hist.map(x=>x.score));
+    return `<header class="hero"><div class="brand">Đã hoàn thành bài kiểm tra</div><h1 class="summary-title">${summary.total} / ${summary.max} điểm</h1><p class="lead muted">Kiến thức nền ${q.knowledge} · ${summary.percent}% · Lần đầu ${hist[0].score}/1000 · Tốt nhất ${best}/1000</p></header><div class="content"><section class="card"><h2>Chi tiết 10 câu</h2>${res.map(r=>{const item=byId(r.id);return `<div class="result-row"><div><b>${escapeHTML(item.id)} · ${escapeHTML(item.idea)}</b><div class="small muted">${escapeHTML(item.level)} · ${Math.round(r.elapsedMs/1000)} giây · Sai ${r.mistakes} lần · Gợi ý ${r.helpCount} lần</div>${r.mistakes>=2?'<div class="small warn">Sai 2 lần – 0 điểm</div>':''}</div><strong>${r.score}/100</strong></div>`}).join('')}</section><section class="card"><p>Tổng điểm: <strong>${summary.total}/1000</strong>. Câu sai 2 lần: <strong>${summary.zeroAfterSecondError}</strong>. Câu đã hoàn thành: <strong>10/10</strong>.</p><div class="actions"><button class="button" data-action="begin" data-knowledge="${q.knowledge}">Tạo đề mới (10 câu khác)</button><button class="button secondary" data-action="home">Về trang chủ</button></div></section></div>`;
+  }
+  function render(){
+    lastFocusedFieldIndex=null; // A new question should not inherit the old field.
+    if(state.mode==='quiz' && !state.quiz){state.mode='home';}
+    if(state.mode==='results' && !state.quiz){state.mode='home';}
+    shell(state.mode==='quiz'?quizHTML():state.mode==='results'?resultsHTML():homeHTML());
+  }
+  app.addEventListener('focusin',event=>{
+    const input=event.target;
+    if(input.matches('input[data-field]'))lastFocusedFieldIndex=input.dataset.field;
+  });
+  app.addEventListener('click',event=>{
+    const button=event.target.closest('[data-action]');if(!button)return;
+    const action=button.dataset.action,val=button.dataset.value;
+    if(action==='learn'){state.learned[Number(button.dataset.index)]=true;persist();render();}
+    if(action==='begin')begin(Number(button.dataset.knowledge));
+    if(action==='home')home();
+    if(action==='continue')continueQuiz();
+    if(action==='pick')updateAnswer('choice',val);
+    if(action==='toggle')updateAnswer('selected',val);
+    if(action==='fieldStatement')updateAnswer('fieldStatement',button.dataset.fieldIndex,val);
+    if(action==='bucket')updateAnswer('bucket',val,button.dataset.bucket);
+    if(action==='submit')submit();
+    if(action==='retry')resume();
+    if(action==='next')advance();
+    if(action==='symbol'){
+      // The symbol button steals focus. Track the last input instead of
+      // defaulting to the first field on multi-part questions.
+      const input=(lastFocusedFieldIndex===null?null:app.querySelector(`input[data-field="${lastFocusedFieldIndex}"]`))
+        ||app.querySelector('input[data-field]:focus')||app.querySelector('input[data-field]');
+      if(!input)return;
+      const selection=input.selectionStart??input.value.length;
+      const end=input.selectionEnd??selection;
+      const txt=input.value;
+      input.value=txt.slice(0,selection)+val+txt.slice(end);
+      input.focus();input.setSelectionRange(selection+val.length,selection+val.length);
+      updateAnswer('field',input.dataset.field,input.value);
+      const submitBtn=app.querySelector('[data-action="submit"]');if(submitBtn)submitBtn.disabled=!ready(current(),getRecord());
+    }
+  });
+  app.addEventListener('input',event=>{
+    const t=event.target;if(!t.matches('input[data-field]'))return;
+    updateAnswer('field',t.dataset.field,t.value);
+    const button=app.querySelector('[data-action="submit"]');if(button)button.disabled=!ready(current(),getRecord());
+  });
+  app.addEventListener('change',event=>{
+    const t=event.target;if(!t.matches('select[data-match]'))return;
+    updateAnswer('match',t.dataset.match,t.value);
+  });
+  document.addEventListener('visibilitychange',()=>{
+    // A hidden tab is treated as a pause to avoid penalizing pupils for app switching.
+    if(state.mode!=='quiz')return;
+    const r=getRecord();if(!r)return;
+    if(document.hidden && r.status==='answering'){
+      syncTime();if(r.status==='answering')r.status='paused';persist();render();
+    }
+  });
+  setInterval(()=>{
+    if(state.mode!=='quiz')return;
+    const r=getRecord();if(!r||r.status!=='answering')return;
+    const t=sec(elapsed());
+    if(t>=E.LIMIT_SECONDS){syncTime();persist();render();return;}
+    const timeNode=document.getElementById('timer'),pointsNode=document.getElementById('points');
+    if(timeNode)timeNode.textContent=Math.ceil(Math.max(0,E.LIMIT_SECONDS-t))+'s';
+    if(pointsNode)pointsNode.textContent=String(E.pointScore(t,r.mistakes));
+    // Save the active clock once a second without restarting the timer.
+    const accumulated=elapsed();r.elapsedMs=accumulated;startTick=Date.now();persist();
+  },1000);
+  render();
+  // Resend each local best to the authenticated host. SQLite keeps the
+  // highest score; this makes completion syncing retryable after a network loss.
+  if(validStudent && window.parent!==window){
+    [1,2].forEach(knowledge=>{
+      const runs=state.history[knowledge]||[];
+      const best=runs.reduce((a,b)=>!a||b.score>a.score?b:a,null);
+      if(best?.results)sendCompletion(knowledge,best.results);
+    });
+  }
+  if(state.mode==='quiz' && getRecord()?.status==='answering') startTick=Date.now();
+})();
+
+</script>
+<script>
+(function () {
+  if(window.parent===window)return;
+  const sendHeight=()=>{const height=Math.max(document.body.scrollHeight,document.documentElement.scrollHeight);
+    window.parent.postMessage({source:'math6-bai1-v054',kind:'resize',height},window.location.origin);};
+  if('ResizeObserver' in window) new ResizeObserver(sendHeight).observe(document.getElementById('app'));
+  window.addEventListener('load',sendHeight);
+  window.addEventListener('resize',sendHeight);
+  setTimeout(sendHeight,200);
+})();
+</script>
+</body>
+</html>
