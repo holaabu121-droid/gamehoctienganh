@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://english-quest.local/schemas/science6-pilot-lesson.schema.json",
+  "title": "Science 6 pilot lesson",
+  "type": "object",
+  "required": [
+    "schema_version", "pack_id", "course_id", "lesson_id", "branch_id",
+    "chapter_number", "lesson_number", "title_vi", "usage_scope",
+    "source_status", "provenance", "objectives", "foundations", "simulation",
+    "practical_application", "scoring_policy", "competencies"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "pack_id": { "const": "science6-pilot" },
+    "course_id": { "const": "science-6-pilot" },
+    "lesson_id": { "pattern": "^science6-l[0-9]{2}$" },
+    "branch_id": { "pattern": "^science6-l[0-9]{2}$" },
+    "grade": { "const": 6 },
+    "usage_scope": { "const": "personal-family" },
+    "source_status": { "const": "user-provided-reference" },
+    "objectives": { "type": "array", "minItems": 5 },
+    "foundations": { "type": "array", "minItems": 5, "maxItems": 5 },
+    "simulation": {
+      "type": "object",
+      "required": ["type", "description_vi", "student_actions", "variables", "outputs", "implementation_status", "scored"],
+      "properties": {
+        "implementation_status": { "const": "specification-only" },
+        "scored": { "const": false }
+      }
+    },
+    "practical_application": {
+      "type": "object",
+      "required": ["scored", "title_vi", "safe_summary_vi", "supervision", "warning_vi", "allowed_actions", "prohibited_actions", "risk_tags"],
+      "properties": {
+        "scored": { "const": false },
+        "supervision": { "enum": ["none", "adult", "teacher"] }
+      }
+    },
+    "competencies": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["id", "title_vi", "capability_vi", "game_id", "scored", "rounds"],
+        "properties": {
+          "scored": { "const": true },
+          "rounds": {
+            "type": "array",
+            "minItems": 10,
+            "maxItems": 10,
+            "items": {
+              "type": "object",
+              "required": ["id", "order", "level", "difficulty_evidence", "representation", "context_vi", "prompt_vi", "task_vi", "options", "answer", "explanation_vi", "hint_vi", "concept_card_id", "wrong_feedback", "source_status"],
+              "properties": {
+                "level": { "enum": ["basic", "understanding", "application", "challenge"] },
+                "difficulty_evidence": {
+                  "type": "object",
+                  "required": ["label_vi", "required_actions"]
+                },
+                "representation": {
+                  "type": "object",
+                  "required": ["id", "type", "title_vi", "level", "focus_vi"]
+                },
+                "options": { "type": "array", "minItems": 4, "maxItems": 4, "uniqueItems": true },
+                "source_status": { "const": "ai-generated" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

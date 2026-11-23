@@ -1,0 +1,120 @@
+{
+  "lesson_id": "unit1-phase2",
+  "source_status": "user-provided-reference",
+  "usage_scope": "personal-family",
+  "source_note": "Built from the user-provided Unit 1 pages 11–15. Track 8–9 audio was not provided; replacement listening audio is AI-generated and labelled.",
+  "communication": {
+    "introduction_dialogue": [
+      {"speaker": "Vy", "text": "Phong, this is Duy, my new friend."},
+      {"speaker": "Phong", "text": "Hi, Duy. Nice to meet you."},
+      {"speaker": "Duy", "text": "Hi, Phong. Nice to meet you too."}
+    ],
+    "candidate_questions": [
+      {"question": "Are you from around here?", "suitable": true},
+      {"question": "Do you like music?", "suitable": true},
+      {"question": "How much money do you get?", "suitable": false},
+      {"question": "What is your favourite subject at school?", "suitable": true},
+      {"question": "Are you hungry now?", "suitable": false},
+      {"question": "Do you play football?", "suitable": true},
+      {"question": "How do you go to school every day?", "suitable": true},
+      {"question": "Where do you often go shopping?", "suitable": false}
+    ],
+    "friend_quiz": [
+      "Do you remember all your new classmates' names?",
+      "Do you often listen to your friends' advice?",
+      "Do you share things with your classmates?",
+      "Do you keep your friends' secrets?",
+      "Do you play with your classmates at break time?",
+      "Do you help your classmates with their homework?",
+      "Do you go to school with your friends?",
+      "Do you listen when your classmates are talking?"
+    ]
+  },
+  "skills1": {
+    "passages": [
+      {"school": "Sunrise", "text": "Sunrise is a boarding school in Sydney. Students study and live there. About 1,200 boys and girls go to Sunrise. It has students from all over Australia. They study subjects like maths, science and English."},
+      {"school": "An Son", "text": "An Son is a lower secondary school in Bac Giang. It has only 8 classes. There are mountains and green fields around the school. There is a computer room and a library. There is also a school garden and a playground."},
+      {"school": "Dream", "text": "Dream is an international school. Here students learn English with English-speaking teachers. In the afternoon, they join many interesting clubs. They play sports and games. Some students do paintings in the art club."}
+    ],
+    "matches": [
+      {"school": "Sunrise", "description": "a boarding school in Sydney"},
+      {"school": "An Son", "description": "a school in Bac Giang"},
+      {"school": "Dream", "description": "an international school"}
+    ],
+    "fill_answers": ["boarding", "Bac Giang", "mountains and green fields", "Dream School", "English-speaking teachers"],
+    "questions": [
+      {"question": "Which school is a boarding school?", "answer": "Sunrise"},
+      {"question": "Where is An Son School?", "answer": "Bac Giang"},
+      {"question": "Is there a school garden in An Son School?", "answer": "Yes"},
+      {"question": "What do Dream School students do in the afternoon?", "answer": "join clubs, play sports and games, and do paintings"}
+    ]
+  },
+  "skills2": {
+    "visible_choices": [
+      {"question": "Who is Janet's favourite teacher?", "answer": "science teacher"},
+      {"question": "Is Janet wearing her uniform today?", "answer": "No"},
+      {"question": "Which language does Janet study for two hours a week?", "answer": "Vietnamese"},
+      {"question": "Where does Janet usually do her homework?", "answer": "in the library"},
+      {"question": "Where will her class have a biology lesson?", "answer": "on a farm"}
+    ],
+    "replacement_audio": {
+      "source_status": "ai-generated",
+      "script": "Janet studies at Palmer School in America. Her favourite teacher is her science teacher. Today she isn't wearing her uniform. She studies Vietnamese for two hours a week. She usually does her homework in the library. Her class is going to have a biology lesson on a farm."
+    },
+    "writing_prompts": [
+      "What is the name of your school?",
+      "Where is your school?",
+      "How many classes does your school have?",
+      "What do students do at your school?",
+      "What do you like about your school?"
+    ]
+  },
+  "looking_back": {
+    "vocabulary_answers": ["uniform", "pencil sharpener", "notebook", "compass", "calculator", "ruler"],
+    "collocations": ["study new words", "do exercise", "play the piano", "have lunch", "wear a uniform"],
+    "present_simple_answers": ["comes", "Do you speak / I don't", "walks", "do", "teaches"],
+    "text_forms": ["is", "has", "walks", "study", "likes"],
+    "frequency_sentences": [
+      "I always remember to do my homework.",
+      "Nick usually gets good marks in exams.",
+      "We do not often see a rabbit in town.",
+      "I rarely read in bed at night.",
+      "Do you sometimes sing in the shower?"
+    ]
+  },
+  "project": {
+    "title": "Your dream school",
+    "steps": [
+      "Design your dream school.",
+      "Draw a picture of your dream school.",
+      "Present it to the class."
+    ],
+    "design_prompts": [
+      "Is it in a town or in the country?",
+      "Is it a boarding school?",
+      "Is it an international school?",
+      "Does it have a swimming pool?",
+      "Does it have a video game room?",
+      "Does it have a greenhouse and a farm?"
+    ],
+    "now_i_can": [
+      "use words related to My New School",
+      "pronounce the sounds /ɑː/ and /ʌ/ correctly",
+      "use the present simple",
+      "use adverbs of frequency",
+      "introduce someone to someone else",
+      "read about schools",
+      "talk about the type of school I would like to go to",
+      "listen about school activities",
+      "write a paragraph about my school"
+    ],
+    "fictional_school": {
+      "source_status": "ai-generated",
+      "name": "River School",
+      "location": "in a small town",
+      "classes": "twelve classes",
+      "activities": "Students study, play sports, read in the library, and work in the garden.",
+      "highlight": "I like its friendly teachers and green playground."
+    }
+  }
+}

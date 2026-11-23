@@ -1,0 +1,103 @@
+{
+  "lesson_id":"unit8-source",
+  "source_status":"user-provided-reference",
+  "usage_scope":"personal-family",
+  "source_note":"Đối chiếu trực tiếp SGK Tiếng Anh 6 Tập 2, Unit 8, trang sách 16–25. Audio gốc không có trong PDF; các vòng nghe dùng TTS và được gắn nhãn AI.",
+  "unit":{"number":8,"title":"Sports and Games","title_vi":"Thể thao và trò chơi"},
+  "dialogue":[
+    {"context":"Duong: Wow! This gym is big!","answer":"gym","translation":"Dương: Chà! Phòng tập này lớn thật!","source_status":"user-provided-reference"},
+    {"context":"Mai: The equipment is great. What sports do you do?","answer":"equipment","translation":"Mai: Thiết bị rất tuyệt. Bạn chơi môn thể thao nào?","source_status":"user-provided-reference"},
+    {"context":"Duong: I do karate, and I play table tennis.","answer":"karate","translation":"Dương: Mình tập karate và chơi bóng bàn.","source_status":"user-provided-reference"},
+    {"context":"Yesterday I played with Duy, and I won!","answer":"won","translation":"Hôm qua mình chơi với Duy và mình đã thắng!","source_status":"user-provided-reference"},
+    {"context":"Mai: Congratulations! You look fit!","answer":"Congratulations","translation":"Mai: Chúc mừng! Trông bạn thật khỏe!","source_status":"user-provided-reference"},
+    {"context":"Duong: You can go to the karate club with me.","answer":"club","translation":"Dương: Bạn có thể đến câu lạc bộ karate cùng mình.","source_status":"user-provided-reference"},
+    {"context":"Mai: No, I can't do karate.","answer":"can't","translation":"Mai: Không, mình không biết tập karate.","source_status":"user-provided-reference"},
+    {"context":"Duong: But you can learn! You'll love it.","answer":"learn","translation":"Dương: Nhưng bạn có thể học! Bạn sẽ thích đấy.","source_status":"user-provided-reference"},
+    {"context":"I'll meet you there at 10 a.m. on Sunday.","answer":"Sunday","translation":"Mình sẽ gặp bạn ở đó lúc 10 giờ sáng Chủ nhật.","source_status":"user-provided-reference"},
+    {"context":"It's Superfit Club, in Pham Hung Road. You can cycle there.","answer":"cycle","translation":"Đó là Câu lạc bộ Superfit ở đường Phạm Hùng. Bạn có thể đạp xe đến đó.","source_status":"user-provided-reference"}
+  ],
+  "banks":{
+    "sports":[
+      {"context":"A game played on a board with kings and queens.","answer":"chess","translation":"Trò chơi trên bàn cờ có vua và hậu.","source_status":"user-provided-reference"},
+      {"context":"A sport done in water.","answer":"swimming","translation":"Môn thể thao thực hiện dưới nước.","source_status":"user-provided-reference"},
+      {"context":"A sport played across a table with small rackets.","answer":"table tennis","translation":"Môn chơi qua bàn bằng vợt nhỏ.","source_status":"user-provided-reference"},
+      {"context":"A sport played by hitting a ball over a high net.","answer":"volleyball","translation":"Môn đánh bóng qua lưới cao.","source_status":"user-provided-reference"},
+      {"context":"Riding a bicycle as a sport.","answer":"cycling","translation":"Đạp xe như một môn thể thao.","source_status":"user-provided-reference"},
+      {"context":"Exercise to music in a gym.","answer":"aerobics","translation":"Bài tập theo nhạc trong phòng tập.","source_status":"user-provided-reference"}
+    ],
+    "equipment":[
+      {"context":"Used to hit a shuttlecock in badminton.","answer":"racket","translation":"Dùng để đánh cầu trong môn cầu lông.","source_status":"user-provided-reference"},
+      {"context":"Protect the eyes when swimming.","answer":"goggles","translation":"Bảo vệ mắt khi bơi.","source_status":"user-provided-reference"},
+      {"context":"Needed for cycling.","answer":"bicycle","translation":"Cần cho môn đạp xe.","source_status":"user-provided-reference"},
+      {"context":"Used in football and volleyball.","answer":"ball","translation":"Dùng trong bóng đá và bóng chuyền.","source_status":"user-provided-reference"},
+      {"context":"Needed for boating.","answer":"boat","translation":"Cần cho môn chèo thuyền.","source_status":"user-provided-reference"}
+    ],
+    "sounds":[
+      {"context":"chess, tennis, exercise, contest","answer":"/e/","translation":"Các từ có âm /e/.","source_status":"user-provided-reference"},
+      {"context":"racket, match, marathon, active","answer":"/æ/","translation":"Các từ có âm /æ/.","source_status":"user-provided-reference"},
+      {"context":"They cannot take part in this contest.","answer":"/e/","translation":"Từ contest có âm /e/.","source_status":"user-provided-reference"},
+      {"context":"They began the match very late.","answer":"/æ/","translation":"Từ match có âm /æ/.","source_status":"user-provided-reference"},
+      {"context":"Please get the racket for me.","answer":"/æ/","translation":"Từ racket có âm /æ/.","source_status":"user-provided-reference"}
+    ],
+    "past_simple":[
+      {"context":"There ___ an interesting match on TV last night.","answer":"was","translation":"Tối qua có một trận đấu thú vị trên TV.","source_status":"user-provided-reference"},
+      {"context":"My dad ___ a lot of tennis some years ago.","answer":"played","translation":"Bố mình đã chơi nhiều quần vợt vài năm trước.","source_status":"user-provided-reference"},
+      {"context":"I was at the gym, but I ___ you there.","answer":"didn't see","translation":"Mình ở phòng tập nhưng không thấy bạn.","source_status":"user-provided-reference"},
+      {"context":"The teacher ___ us about our homework this morning.","answer":"didn't ask","translation":"Sáng nay giáo viên không hỏi bài tập của chúng mình.","source_status":"user-provided-reference"},
+      {"context":"___ you sleep well last night?","answer":"Did","translation":"Tối qua bạn ngủ ngon không?","source_status":"user-provided-reference"},
+      {"context":"On Sunday, I ___ fishing with my dad.","answer":"went","translation":"Chủ nhật mình đã đi câu cá với bố.","source_status":"user-provided-reference"}
+    ],
+    "imperatives":[
+      {"context":"A no-parking sign.","answer":"Don't park here.","translation":"Đừng đỗ xe ở đây.","source_status":"user-provided-reference"},
+      {"context":"It is windy outside.","answer":"Close the window.","translation":"Hãy đóng cửa sổ.","source_status":"user-provided-reference"},
+      {"context":"The bedroom is messy.","answer":"Tidy up your room.","translation":"Hãy dọn phòng của bạn.","source_status":"user-provided-reference"},
+      {"context":"There is a fire.","answer":"Don't use the lift.","translation":"Đừng dùng thang máy.","source_status":"user-provided-reference"},
+      {"context":"You want to do morning exercise.","answer":"Try to get up early.","translation":"Hãy cố dậy sớm.","source_status":"user-provided-reference"}
+    ],
+    "communication":[
+      {"context":"I won for the first time.","answer":"Congratulations!","translation":"Mình thắng lần đầu tiên. — Chúc mừng!","source_status":"user-provided-reference"},
+      {"context":"Congratulations!","answer":"Thank you.","translation":"Chúc mừng! — Cảm ơn bạn.","source_status":"user-provided-reference"},
+      {"context":"How many players are there in a football match?","answer":"Twenty-two","translation":"Một trận bóng đá có bao nhiêu cầu thủ? — Hai mươi hai.","source_status":"user-provided-reference"},
+      {"context":"How long does a football match last?","answer":"Ninety minutes","translation":"Một trận bóng đá kéo dài bao lâu? — Chín mươi phút.","source_status":"user-provided-reference"},
+      {"context":"How often do the Olympic Games take place?","answer":"Every four years","translation":"Thế vận hội diễn ra bao lâu một lần? — Bốn năm một lần.","source_status":"user-provided-reference"},
+      {"context":"Where did the first Olympic Games take place?","answer":"Greece","translation":"Thế vận hội đầu tiên diễn ra ở đâu? — Hy Lạp.","source_status":"user-provided-reference"}
+    ],
+    "pele":[
+      {"context":"Pelé was born in 1940.","answer":"Brazil","translation":"Pelé sinh năm 1940 tại Brazil.","source_status":"user-provided-reference"},
+      {"context":"Who first taught Pelé to play football?","answer":"His father","translation":"Ai đầu tiên dạy Pelé chơi bóng đá? — Bố ông.","source_status":"user-provided-reference"},
+      {"context":"At what age did Pelé start playing for Santos?","answer":"15","translation":"Pelé bắt đầu chơi cho Santos lúc mấy tuổi? — 15.","source_status":"user-provided-reference"},
+      {"context":"How many goals did Pelé score in total?","answer":"1,281","translation":"Pelé ghi tổng cộng bao nhiêu bàn? — 1.281.","source_status":"user-provided-reference"},
+      {"context":"When did he become Football Player of the Century?","answer":"1999","translation":"Ông trở thành Cầu thủ của Thế kỷ khi nào? — 1999.","source_status":"user-provided-reference"},
+      {"context":"What do people call Pelé?","answer":"The King of Football","translation":"Mọi người gọi Pelé là gì? — Vua bóng đá.","source_status":"user-provided-reference"}
+    ],
+    "listening":[
+      {"context":"Hai plays volleyball at school.","answer":"volleyball","translation":"Hải chơi bóng chuyền ở trường.","source_status":"ai-generated"},
+      {"context":"Hai practises karate at the club three times a week.","answer":"three","translation":"Hải tập karate ở câu lạc bộ ba lần một tuần.","source_status":"ai-generated"},
+      {"context":"Alice likes watching sport on TV.","answer":"Alice","translation":"Alice thích xem thể thao trên TV.","source_status":"ai-generated"},
+      {"context":"Alice plays chess every Saturday.","answer":"chess","translation":"Alice chơi cờ vua mỗi thứ Bảy.","source_status":"ai-generated"},
+      {"context":"The passages are about a sportsman and a girl who likes games.","answer":"False","translation":"Các bài nghe nói về một vận động viên nam và một bạn nữ thích trò chơi.","source_status":"ai-generated"}
+    ],
+    "looking_back":[
+      {"context":"volleyball, badminton, bicycle","answer":"bicycle","translation":"Từ khác nhóm là bicycle.","source_status":"user-provided-reference"},
+      {"context":"playground, ball, racket","answer":"playground","translation":"Từ khác nhóm là playground.","source_status":"user-provided-reference"},
+      {"context":"running, cycling, driving","answer":"driving","translation":"Từ khác nhóm là driving.","source_status":"user-provided-reference"},
+      {"context":"sports shoes, winter sports, goggles","answer":"winter sports","translation":"Cụm khác nhóm là winter sports.","source_status":"user-provided-reference"},
+      {"context":"sporty, intelligent, fit","answer":"intelligent","translation":"Từ khác nhóm là intelligent.","source_status":"user-provided-reference"},
+      {"context":"Duong can ___ karate.","answer":"do","translation":"Dương có thể tập karate.","source_status":"user-provided-reference"}
+    ],
+    "project":[
+      {"context":"Name of the traditional game","answer":"blind man's bluff","translation":"Tên trò chơi dân gian: bịt mắt bắt dê.","source_status":"user-provided-reference"},
+      {"context":"Number of players","answer":"five or more","translation":"Số người chơi: năm người trở lên.","source_status":"user-provided-reference"},
+      {"context":"Equipment","answer":"a blindfold and open space","translation":"Dụng cụ: khăn bịt mắt và khoảng trống.","source_status":"user-provided-reference"},
+      {"context":"First step","answer":"stand in a circle","translation":"Bước đầu: đứng thành vòng tròn.","source_status":"user-provided-reference"},
+      {"context":"The seeker catches a player and guesses who it is.","answer":"touch the face and hair","translation":"Người tìm chạm mặt và tóc để đoán người bị bắt.","source_status":"user-provided-reference"}
+    ],
+    "project_checklist":[
+      {"context":"Choose a traditional game.","answer":"Choose a game","translation":"Chọn một trò chơi dân gian.","source_status":"user-provided-reference"},
+      {"context":"Write the name of the game.","answer":"Game name","translation":"Ghi tên trò chơi.","source_status":"user-provided-reference"},
+      {"context":"State the number of players.","answer":"Player count","translation":"Nêu số người chơi.","source_status":"user-provided-reference"},
+      {"context":"List the equipment.","answer":"Equipment","translation":"Liệt kê dụng cụ.","source_status":"user-provided-reference"},
+      {"context":"Explain how to play.","answer":"Instructions","translation":"Giải thích cách chơi.","source_status":"user-provided-reference"}
+    ]
+  }
+}

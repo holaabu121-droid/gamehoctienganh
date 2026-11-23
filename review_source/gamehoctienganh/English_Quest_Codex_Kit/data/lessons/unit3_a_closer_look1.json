@@ -1,0 +1,109 @@
+{
+  "lesson_id": "unit3-a-closer-look-1",
+  "source_status": "designed",
+  "source_note": "Original learning activities and text designed from Unit 3 learning goals. No textbook images are embedded or copied.",
+  "intro": {
+    "title": "Personality adjectives",
+    "title_vi": "Tính từ chỉ tính cách",
+    "description_vi": "Là những từ dùng để nói một người có tính cách như thế nào hoặc người đó thường cư xử ra sao.",
+    "guide_vi": "Trong bài học này, em sẽ học các tính từ dùng để miêu tả tính cách của một người. Hãy nghe cách phát âm, quan sát hành động của nhân vật và chọn từ phù hợp.",
+    "appearance_examples": ["tall", "long hair"],
+    "personality_examples": ["friendly", "caring", "confident"],
+    "vocabulary": [
+      { "word": "hard-working", "vi": "chăm chỉ, siêng năng" },
+      { "word": "confident", "vi": "tự tin" },
+      { "word": "funny", "vi": "hài hước, vui tính" },
+      { "word": "caring", "vi": "biết quan tâm, chu đáo" },
+      { "word": "active", "vi": "năng động" },
+      { "word": "creative", "vi": "sáng tạo" },
+      { "word": "friendly", "vi": "thân thiện" },
+      { "word": "shy", "vi": "nhút nhát, rụt rè" },
+      { "word": "careful", "vi": "cẩn thận" },
+      { "word": "clever", "vi": "thông minh, lanh lợi" },
+      { "word": "kind", "vi": "tốt bụng" }
+    ],
+    "pronunciation": {
+      "title": "Phân biệt /b/ và /p/",
+      "description_vi": "Hai âm đều bắt đầu bằng cách khép hai môi, nhưng /b/ có rung cổ họng còn /p/ bật ra một luồng hơi rõ hơn.",
+      "practice_tip_vi": "Đặt tay lên cổ khi đọc /b/ để cảm nhận độ rung; đặt tay trước miệng khi đọc /p/ để cảm nhận luồng hơi.",
+      "sounds": [
+        { "symbol": "/b/", "tip_vi": "Có rung cổ họng", "examples": ["big", "bear", "buy", "robe"] },
+        { "symbol": "/p/", "tip_vi": "Bật luồng hơi", "examples": ["pig", "pear", "pie", "rope"] }
+      ]
+    }
+  },
+  "game_help": {
+    "picture": ["Trò chơi có 10 lượt, tối đa 100 điểm mỗi lượt và 1000 điểm cả trò.", "Chọn một thẻ tính từ để nghe cách phát âm, sau đó chọn hình có hành động phù hợp.", "Mở trợ giúp hoặc chọn sai sẽ ảnh hưởng điểm lượt; ghép đúng sẽ hiện nghĩa và đọc câu ví dụ."],
+    "context": ["Trò chơi có 10 lượt, tối đa 100 điểm mỗi lượt và 1000 điểm cả trò.", "Đọc câu mô tả rồi chọn tính từ phù hợp nhất; mỗi lựa chọn đều được phát âm.", "Mở trợ giúp hoặc chọn sai sẽ ảnh hưởng điểm lượt; trả lời đúng mới chuyển sang tình huống tiếp theo."],
+    "garden": ["Trò chơi có 10 lượt, tối đa 100 điểm mỗi lượt và 1000 điểm cả trò.", "Đọc gợi ý rồi chọn đúng hai tính từ; chạm lại một từ để bỏ chọn.", "Mở trợ giúp hoặc kiểm tra sai sẽ ảnh hưởng điểm lượt; đúng cả hai từ mới hoàn thành lượt."],
+    "sound": ["Đây là game tính điểm theo thời gian: luyện chủ động đủ 60 giây để nhận 1000 điểm và mở điều kiện Bonus.", "Nhấn Nghe từ, rồi chọn /b/ nếu cổ họng rung hoặc /p/ nếu có luồng hơi bật ra.", "Em có thể luyện đủ 10 từ; hệ thống không tự chấm chất lượng phát âm."],
+    "rhythm": ["Đây là game tính điểm theo thời gian: luyện chủ động đủ 60 giây để nhận 1000 điểm và mở điều kiện Bonus.", "Ở mỗi dòng, nhấn Nghe câu, đọc lại trong khoảng lặng 7 giây rồi tự xác nhận Em đã đọc xong.", "Luyện đủ 10 dòng; đồng hồ dừng khi trang bị ẩn và hệ thống không tự chấm chất lượng phát âm."]
+  },
+  "picture_match": [
+    { "id": "hard-working", "character_name": "Thu Linh", "word": "hard-working", "vi": "chăm chỉ", "emoji": "📚✍️", "scene": "Thu Linh hoàn thành bài tập theo kế hoạch", "sentence": "Thu Linh is hard-working. She finishes her homework before dinner.", "sentence_vi": "Thu Linh rất chăm chỉ. Bạn ấy hoàn thành bài tập trước bữa tối." },
+    { "id": "confident", "character_name": "Tú Anh", "word": "confident", "vi": "tự tin", "emoji": "🎤🌟", "scene": "Tú Anh trình bày mô hình trước lớp", "sentence": "Tú Anh is confident. She presents her model to the class.", "sentence_vi": "Tú Anh rất tự tin. Bạn ấy trình bày mô hình trước lớp." },
+    { "id": "funny", "character_name": "Gia Huy", "word": "funny", "vi": "hài hước", "emoji": "😄🎭", "scene": "Gia Huy kể chuyện làm mọi người bật cười", "sentence": "Gia Huy is funny. His stories make everyone laugh.", "sentence_vi": "Gia Huy rất hài hước. Những câu chuyện của bạn ấy làm mọi người bật cười." },
+    { "id": "caring", "character_name": "Ngọc Mai", "word": "caring", "vi": "biết quan tâm", "emoji": "🩹💛", "scene": "Ngọc Mai giúp một người bạn bị đau", "sentence": "Ngọc Mai is caring. She helps a friend who is hurt.", "sentence_vi": "Ngọc Mai biết quan tâm. Bạn ấy giúp một người bạn bị đau." },
+    { "id": "active", "character_name": "Minh Nam", "word": "active", "vi": "năng động", "emoji": "🚲⚽", "scene": "Minh Nam đạp xe và chơi bóng ngoài trời", "sentence": "Minh Nam is active. He enjoys cycling and playing football.", "sentence_vi": "Minh Nam rất năng động. Bạn ấy thích đạp xe và chơi bóng đá." },
+    { "id": "creative", "character_name": "Bảo Ngọc", "word": "creative", "vi": "sáng tạo", "emoji": "🎨♻️", "scene": "Bảo Ngọc làm rô-bốt từ hộp giấy cũ", "sentence": "Bảo Ngọc is creative. She makes a robot from old boxes.", "sentence_vi": "Bảo Ngọc rất sáng tạo. Bạn ấy làm rô-bốt từ những chiếc hộp cũ." },
+    { "id": "friendly", "character_name": "Đức Minh", "word": "friendly", "vi": "thân thiện", "emoji": "👋😊", "scene": "Đức Minh vui vẻ chào đón bạn mới", "sentence": "Đức Minh is friendly. He welcomes a new classmate.", "sentence_vi": "Đức Minh rất thân thiện. Bạn ấy chào đón một bạn học mới." },
+    { "id": "shy", "character_name": "Khánh An", "word": "shy", "vi": "nhút nhát", "emoji": "🙈🌷", "scene": "Khánh An nép sau bó hoa khi được giới thiệu", "sentence": "Khánh An is shy. She speaks softly to new people.", "sentence_vi": "Khánh An khá nhút nhát. Bạn ấy nói nhỏ với người mới gặp." },
+    { "id": "careful", "character_name": "Hoàng Long", "word": "careful", "vi": "cẩn thận", "emoji": "🔍📝", "scene": "Hoàng Long kiểm tra từng đáp án", "sentence": "Hoàng Long is careful. He checks every answer twice.", "sentence_vi": "Hoàng Long rất cẩn thận. Bạn ấy kiểm tra từng đáp án hai lần." },
+    { "id": "clever", "character_name": "Mai Chi", "word": "clever", "vi": "thông minh", "emoji": "💡🧩", "scene": "Mai Chi nhanh chóng giải được câu đố", "sentence": "Mai Chi is clever. She solves the puzzle quickly.", "sentence_vi": "Mai Chi rất thông minh. Bạn ấy giải câu đố nhanh chóng." }
+  ],
+  "context_clues": {
+    "word_bank": ["creative", "friendly", "shy", "careful", "clever", "kind", "hard-working", "confident", "funny", "caring", "active"],
+    "questions": [
+      { "id": "creative", "character_name": "Lan Anh", "answer": "creative", "prompt": "Lan Anh makes toys from old boxes and paints her own stories.", "prompt_vi": "Lan Anh làm đồ chơi từ những chiếc hộp cũ và tự vẽ các câu chuyện của mình." },
+      { "id": "friendly", "character_name": "Minh Nam", "answer": "friendly", "prompt": "Minh Nam smiles and welcomes the new student.", "prompt_vi": "Minh Nam mỉm cười và chào đón bạn học mới." },
+      { "id": "shy", "character_name": "Minh Đức", "answer": "shy", "prompt": "Minh Đức speaks very softly when he meets new classmates.", "prompt_vi": "Minh Đức nói rất nhỏ khi gặp các bạn học mới." },
+      { "id": "careful", "character_name": "Kim Anh", "answer": "careful", "prompt": "Kim Anh checks every answer before she closes her notebook.", "prompt_vi": "Kim Anh kiểm tra từng đáp án trước khi đóng vở." },
+      { "id": "clever", "character_name": "Mai Anh", "answer": "clever", "prompt": "Mai Anh finds a quick way to solve the puzzle.", "prompt_vi": "Mai Anh tìm ra cách nhanh chóng để giải câu đố." },
+      { "id": "kind", "character_name": "Hải Nam", "answer": "kind", "prompt": "Hải Nam gives his lunch to a classmate who forgot hers.", "prompt_vi": "Hải Nam chia sẻ bữa trưa với một bạn quên mang đồ ăn." },
+      { "id": "hard-working", "character_name": "Thảo Vy", "answer": "hard-working", "prompt": "Thảo Vy practises the new words every evening.", "prompt_vi": "Thảo Vy luyện các từ mới vào mỗi tối." },
+      { "id": "confident", "character_name": "Quang Huy", "answer": "confident", "prompt": "Quang Huy speaks clearly in front of the whole class.", "prompt_vi": "Quang Huy nói rõ ràng trước cả lớp." },
+      { "id": "caring", "character_name": "Ngọc Hà", "answer": "caring", "prompt": "Ngọc Hà brings water to her tired teammate.", "prompt_vi": "Ngọc Hà mang nước cho đồng đội đang mệt." },
+      { "id": "active", "character_name": "Tuấn Kiệt", "answer": "active", "prompt": "Tuấn Kiệt joins the football club and cycles at weekends.", "prompt_vi": "Tuấn Kiệt tham gia câu lạc bộ bóng đá và đạp xe vào cuối tuần." }
+    ]
+  },
+  "friendship_garden": [
+    { "id": "minh-khang", "name": "Minh Khang", "emoji": "🧒", "clue": "Minh Khang shares his pencils and tells jokes at break time.", "clue_vi": "Minh Khang thường chia sẻ bút và kể chuyện vui vào giờ nghỉ.", "answers": ["kind", "funny"], "sentence": "Minh Khang is kind and funny.", "sentence_vi": "Minh Khang tốt bụng và hài hước." },
+    { "id": "lan-anh", "name": "Lan Anh", "emoji": "👧", "clue": "Lan Anh plays sport every afternoon and visits friends when they are ill.", "clue_vi": "Lan Anh chơi thể thao mỗi chiều và đến thăm bạn khi bạn bị ốm.", "answers": ["active", "caring"], "sentence": "Lan Anh is active and caring.", "sentence_vi": "Lan Anh năng động và biết quan tâm." },
+    { "id": "tu-anh", "name": "Tú Anh", "emoji": "🧑", "clue": "Tú Anh speaks in front of the class and always finishes homework on time.", "clue_vi": "Tú Anh phát biểu trước lớp và luôn hoàn thành bài tập đúng giờ.", "answers": ["confident", "hard-working"], "sentence": "Tú Anh is confident and hard-working.", "sentence_vi": "Tú Anh tự tin và chăm chỉ." },
+    { "id": "bao-ngoc", "name": "Bảo Ngọc", "emoji": "👩‍🎨", "clue": "Bảo Ngọc designs new games and checks every rule before playing.", "clue_vi": "Bảo Ngọc thiết kế trò chơi mới và kiểm tra từng luật trước khi chơi.", "answers": ["creative", "careful"], "sentence": "Bảo Ngọc is creative and careful.", "sentence_vi": "Bảo Ngọc sáng tạo và cẩn thận." },
+    { "id": "duc-minh", "name": "Đức Minh", "emoji": "🧑‍🤝‍🧑", "clue": "Đức Minh welcomes everyone and helps friends carry their books.", "clue_vi": "Đức Minh chào đón mọi người và giúp bạn mang sách.", "answers": ["friendly", "kind"], "sentence": "Đức Minh is friendly and kind.", "sentence_vi": "Đức Minh thân thiện và tốt bụng." },
+    { "id": "mai-chi", "name": "Mai Chi", "emoji": "🧩", "clue": "Mai Chi solves difficult puzzles and invents unusual answers.", "clue_vi": "Mai Chi giải câu đố khó và nghĩ ra những đáp án khác lạ.", "answers": ["clever", "creative"], "sentence": "Mai Chi is clever and creative.", "sentence_vi": "Mai Chi thông minh và sáng tạo." },
+    { "id": "khanh-an", "name": "Khánh An", "emoji": "🌱", "clue": "Khánh An speaks quietly but waters the class plants every day.", "clue_vi": "Khánh An nói nhỏ nhưng tưới cây của lớp mỗi ngày.", "answers": ["shy", "caring"], "sentence": "Khánh An is shy and caring.", "sentence_vi": "Khánh An nhút nhát và biết quan tâm." },
+    { "id": "quang-huy", "name": "Quang Huy", "emoji": "🏃", "clue": "Quang Huy leads the team and runs in the park every morning.", "clue_vi": "Quang Huy dẫn dắt đội và chạy trong công viên mỗi sáng.", "answers": ["confident", "active"], "sentence": "Quang Huy is confident and active.", "sentence_vi": "Quang Huy tự tin và năng động." },
+    { "id": "thao-vy", "name": "Thảo Vy", "emoji": "📖", "clue": "Thảo Vy studies daily and checks her writing for small mistakes.", "clue_vi": "Thảo Vy học mỗi ngày và kiểm tra bài viết để tìm lỗi nhỏ.", "answers": ["hard-working", "careful"], "sentence": "Thảo Vy is hard-working and careful.", "sentence_vi": "Thảo Vy chăm chỉ và cẩn thận." },
+    { "id": "hai-nam", "name": "Hải Nam", "emoji": "🎭", "clue": "Hải Nam tells jokes and quickly answers tricky questions.", "clue_vi": "Hải Nam kể chuyện vui và nhanh chóng trả lời câu hỏi khó.", "answers": ["funny", "clever"], "sentence": "Hải Nam is funny and clever.", "sentence_vi": "Hải Nam hài hước và thông minh." }
+  ],
+  "sound_sort": [
+    { "word": "big", "sound": "b" },
+    { "word": "pig", "sound": "p" },
+    { "word": "bear", "sound": "b" },
+    { "word": "pear", "sound": "p" },
+    { "word": "buy", "sound": "b" },
+    { "word": "pie", "sound": "p" },
+    { "word": "robe", "sound": "b" },
+    { "word": "rope", "sound": "p" },
+    { "word": "boat", "sound": "b" },
+    { "word": "pen", "sound": "p" }
+  ],
+  "rhythm_echo": {
+    "gap_ms": 7000,
+    "speakers": ["Bảo Nam", "Phương Anh"],
+    "lines": [
+      "Bảo Nam brings a big blue bag.",
+      "Phương Anh packs a pink picnic plate.",
+      "Bảo Nam buys bread and berries.",
+      "Phương Anh picks pears for the picnic.",
+      "Big bags, pink plates — pack and play!",
+      "Bảo Nam puts pears beside the bread.",
+      "Phương Anh brings a purple paper boat.",
+      "Bảo Nam picks a big peach pie.",
+      "Phương Anh buys blue picnic bowls.",
+      "Pack the bread and bring the ball!"
+    ]
+  }
+}

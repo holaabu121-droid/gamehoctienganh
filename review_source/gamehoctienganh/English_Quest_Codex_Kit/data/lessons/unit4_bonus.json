@@ -1,0 +1,57 @@
+{
+  "lesson_id":"unit4-bonus","source_status":"designed","usage_scope":"personal-family",
+  "source_note":"Ba màn Bonus được sáng tạo mới từ mục tiêu Unit 4. Không sao chép ảnh sách; audio là TTS luyện nghe và không chấm phát âm.",
+  "variant_catalog":[
+    {"id":"treasure","title":"Kho báu khu phố","skills":["vocabulary","listening","spelling"]},
+    {"id":"boss","title":"Direction Boss","skills":["grammar","directions","comparatives","spelling"]},
+    {"id":"meteor","title":"Mưa địa điểm","skills":["vocabulary","speed","spelling"]},
+    {"id":"detective","title":"Thám tử du khách lạc đường","skills":["listening","reading","writing","grammar"]}
+  ],
+  "selected_variants":["treasure","boss","detective"],
+  "rules_vi":[
+    "Bonus chỉ mở sau khi hoàn thành đủ 42 hoạt động Unit 4, gồm hai game âm luyện chủ động đủ 60 giây.",
+    "Điểm Unit từ 90% mở kho cao: 50.000 / 100.000 / 150.000 với tỷ lệ 50% / 35% / 15%.",
+    "Điểm Unit từ 70% đến dưới 90% mở kho tiêu chuẩn: 20.000 / 30.000 / 50.000 với cùng tỷ lệ; mở mức này sẽ khóa kho cao.",
+    "Dưới 70%, hãy luyện lại bài và câu điểm thấp được gợi ý.",
+    "Nếu điểm riêng của một màn dưới 70%, phần thưởng màn đó giảm một nửa.",
+    "Điểm thưởng tách khỏi điểm học tập và mỗi màn chỉ nhận thưởng một lần."
+  ],
+  "stages":{
+    "treasure":{"title":"Kho báu khu phố","subtitle":"Gõ đúng để mở 10 ổ khóa","variant":"treasure","help_vi":"Đọc hoặc nghe manh mối rồi gõ chính xác từ chỉ địa điểm hoặc tính chất khu phố.","rounds":[
+      {"id":"u4-tr-01","source_status":"ai-generated","character_name":"Lan Anh","skill":"vocabulary","prompt_vi":"Gõ nơi tàu dừng.","clue":"Trains stop at the ___.","answer":"railway station","explanation_vi":"Railway station là ga tàu.","completed_text":"Trains stop at the railway station."},
+      {"id":"u4-tr-02","source_status":"ai-generated","character_name":"Minh Khoa","skill":"vocabulary","prompt_vi":"Gõ nơi trưng bày tranh.","clue":"Minh Khoa sees paintings at the ___.","answer":"art gallery","explanation_vi":"Art gallery là phòng trưng bày nghệ thuật.","completed_text":"Minh Khoa visits the art gallery."},
+      {"id":"u4-tr-03","source_status":"ai-generated","character_name":"Bảo Ngọc","skill":"vocabulary","prompt_vi":"Gõ tính từ chỉ nơi yên bình.","clue":"The village is calm and ___.","answer":"peaceful","explanation_vi":"Peaceful nghĩa là yên bình.","completed_text":"The village is peaceful."},
+      {"id":"u4-tr-04","source_status":"ai-generated","character_name":"Hải Nam","skill":"vocabulary","prompt_vi":"Gõ tính từ chỉ nơi đông người.","clue":"Many people are in the square. It is ___.","answer":"crowded","explanation_vi":"Crowded nghĩa là đông đúc.","completed_text":"The square is crowded."},
+      {"id":"u4-tr-05","source_status":"ai-generated","character_name":"Mai Chi","skill":"listening","prompt_vi":"Nghe rồi gõ địa điểm.","clue":"Audio clue","audio_text":"cathedral","answer":"cathedral","explanation_vi":"Cathedral là nhà thờ lớn.","completed_text":"Mai Chi visits the cathedral."},
+      {"id":"u4-tr-06","source_status":"ai-generated","character_name":"Thu Hà","skill":"vocabulary","prompt_vi":"Gõ nơi xem phim.","clue":"Thu Hà watches a film at the ___.","answer":"cinema","explanation_vi":"Cinema là rạp chiếu phim.","completed_text":"Thu Hà watches a film at the cinema."},
+      {"id":"u4-tr-07","source_status":"ai-generated","character_name":"Đức Anh","skill":"vocabulary","prompt_vi":"Gõ tính từ chỉ nơi nhiều tiếng động.","clue":"The traffic makes this street ___.","answer":"noisy","explanation_vi":"Noisy nghĩa là ồn ào.","completed_text":"The street is noisy."},
+      {"id":"u4-tr-08","source_status":"ai-generated","character_name":"Khánh Linh","skill":"vocabulary","prompt_vi":"Gõ nơi tập thể dục.","clue":"Khánh Linh exercises at the ___.","answer":"gym","explanation_vi":"Gym là phòng tập.","completed_text":"Khánh Linh exercises at the gym."},
+      {"id":"u4-tr-09","source_status":"ai-generated","character_name":"Quang Huy","skill":"vocabulary","prompt_vi":"Gõ tính từ chỉ nơi có công trình mới.","clue":"The new buildings make the area look ___.","answer":"modern","explanation_vi":"Modern nghĩa là hiện đại.","completed_text":"The area looks modern."},
+      {"id":"u4-tr-10","source_status":"ai-generated","character_name":"Yến Nhi","skill":"listening","prompt_vi":"Nghe rồi gõ địa điểm.","clue":"Audio clue","audio_text":"square","answer":"square","explanation_vi":"Square là quảng trường.","completed_text":"Yến Nhi walks across the square."}
+    ]},
+    "boss":{"title":"Direction Boss","subtitle":"Chỉ đúng đường để hạ Boss","variant":"boss","help_vi":"Gõ từ chỉ đường hoặc dạng so sánh hơn. Mỗi đáp án đúng gây 10 sát thương; sai làm mất combo.","rounds":[
+      {"id":"u4-bo-01","source_status":"ai-generated","character_name":"Nam Phong","skill":"directions","prompt_vi":"Gõ hướng còn thiếu.","clue":"Go straight, then turn ___.","answer":"left","explanation_vi":"Turn left là rẽ trái.","completed_text":"Go straight, then turn left."},
+      {"id":"u4-bo-02","source_status":"ai-generated","character_name":"Mai Châu","skill":"directions","prompt_vi":"Gõ động từ còn thiếu.","clue":"___ the road at the lights.","answer":"Cross","explanation_vi":"Cross the road nghĩa là băng qua đường.","completed_text":"Cross the road at the lights."},
+      {"id":"u4-bo-03","source_status":"ai-generated","character_name":"Bảo Nam","skill":"grammar","prompt_vi":"Gõ dạng so sánh của noisy.","clue":"The city is ___ than the village.","answer":"noisier","explanation_vi":"Noisy đổi y thành i rồi thêm -er.","completed_text":"The city is noisier than the village."},
+      {"id":"u4-bo-04","source_status":"ai-generated","character_name":"Phương Anh","skill":"grammar","prompt_vi":"Gõ dạng so sánh của big.","clue":"This square is ___ than that one.","answer":"bigger","explanation_vi":"Big gấp đôi g rồi thêm -er.","completed_text":"This square is bigger than that one."},
+      {"id":"u4-bo-05","source_status":"ai-generated","character_name":"Minh Đức","skill":"directions","prompt_vi":"Gõ động từ còn thiếu.","clue":"___ the second turning on the left.","answer":"Take","explanation_vi":"Take the second turning là rẽ ở lối thứ hai.","completed_text":"Take the second turning on the left."},
+      {"id":"u4-bo-06","source_status":"ai-generated","character_name":"Lan Chi","skill":"grammar","prompt_vi":"Gõ cụm so sánh của peaceful.","clue":"Long Son is ___ than Binh Minh.","answer":"more peaceful","explanation_vi":"Tính từ dài dùng more peaceful.","completed_text":"Long Son is more peaceful than Binh Minh."},
+      {"id":"u4-bo-07","source_status":"ai-generated","character_name":"Hải Đăng","skill":"directions","prompt_vi":"Gõ giới từ.","clue":"The bank is ___ your right.","answer":"on","explanation_vi":"Cụm đúng là on your right.","completed_text":"The bank is on your right."},
+      {"id":"u4-bo-08","source_status":"ai-generated","character_name":"Ngọc Hà","skill":"grammar","prompt_vi":"Gõ dạng so sánh của modern.","clue":"Binh Minh is ___ than Long Son.","answer":"more modern","explanation_vi":"Modern dùng more modern.","completed_text":"Binh Minh is more modern than Long Son."},
+      {"id":"u4-bo-09","source_status":"ai-generated","character_name":"Tuấn Kiệt","skill":"grammar","prompt_vi":"Gõ từ nối so sánh.","clue":"The café is cheaper ___ the restaurant.","answer":"than","explanation_vi":"So sánh hơn dùng than.","completed_text":"The café is cheaper than the restaurant."},
+      {"id":"u4-bo-10","source_status":"ai-generated","character_name":"Thảo Vy","skill":"directions","prompt_vi":"Gõ hướng còn thiếu.","clue":"Turn ___ at the cinema.","answer":"right","explanation_vi":"Turn right là rẽ phải.","completed_text":"Turn right at the cinema."}
+    ]},
+    "detective":{"title":"Thám tử du khách lạc đường","subtitle":"Khôi phục chỉ dẫn và tìm đích đến","variant":"detective","help_vi":"Đọc hoặc nghe lời khai rồi gõ từ còn thiếu để giúp du khách tìm đường.","rounds":[
+      {"id":"u4-de-01","source_status":"ai-generated","character_name":"Lan Anh","skill":"reading","prompt_vi":"Khôi phục từ chỉ đường.","clue":"Go ___ until you see the park.","answer":"straight","explanation_vi":"Go straight là đi thẳng.","completed_text":"Go straight until you see the park."},
+      {"id":"u4-de-02","source_status":"ai-generated","character_name":"Minh Khoa","skill":"writing","prompt_vi":"Khôi phục địa điểm.","clue":"You can see paintings in the art ___.","answer":"gallery","explanation_vi":"Cụm đúng là art gallery.","completed_text":"You can see paintings in the art gallery."},
+      {"id":"u4-de-03","source_status":"ai-generated","character_name":"Bảo Ngọc","skill":"listening","prompt_vi":"Nghe và gõ hướng.","clue":"The missing direction is ___.","audio_text":"Turn left at the bank.","answer":"left","explanation_vi":"Lời thoại nói turn left.","completed_text":"Turn left at the bank."},
+      {"id":"u4-de-04","source_status":"ai-generated","character_name":"Hải Nam","skill":"grammar","prompt_vi":"Khôi phục dạng so sánh.","clue":"The old town is ___ than the new area. (beautiful)","answer":"more beautiful","explanation_vi":"Beautiful dùng more beautiful.","completed_text":"The old town is more beautiful than the new area."},
+      {"id":"u4-de-05","source_status":"ai-generated","character_name":"Mai Chi","skill":"directions","prompt_vi":"Khôi phục số thứ tự.","clue":"Take the ___ turning on the left.","answer":"second","explanation_vi":"Second là thứ hai.","completed_text":"Take the second turning on the left."},
+      {"id":"u4-de-06","source_status":"ai-generated","character_name":"Thu Hà","skill":"listening","prompt_vi":"Nghe và gõ địa điểm.","clue":"Where should the visitor go?","audio_text":"The railway station is opposite the bus stop.","answer":"railway station","explanation_vi":"Lời thoại nhắc railway station.","completed_text":"The railway station is opposite the bus stop."},
+      {"id":"u4-de-07","source_status":"ai-generated","character_name":"Đức Anh","skill":"grammar","prompt_vi":"Khôi phục dạng so sánh.","clue":"This road is ___ than that road. (wide)","answer":"wider","explanation_vi":"Wide bỏ e rồi thêm -er.","completed_text":"This road is wider than that road."},
+      {"id":"u4-de-08","source_status":"ai-generated","character_name":"Khánh Linh","skill":"reading","prompt_vi":"Khôi phục địa điểm từ chức năng.","clue":"You can watch a film at the ___.","answer":"cinema","explanation_vi":"Cinema là nơi xem phim.","completed_text":"You can watch a film at the cinema."},
+      {"id":"u4-de-09","source_status":"ai-generated","character_name":"Quang Huy","skill":"writing","prompt_vi":"Khôi phục giới từ.","clue":"The café is next ___ the park.","answer":"to","explanation_vi":"Cụm đúng là next to.","completed_text":"The café is next to the park."},
+      {"id":"u4-de-10","source_status":"ai-generated","character_name":"Yến Nhi","skill":"grammar","prompt_vi":"Khôi phục tính từ.","clue":"Long Son has little traffic. It is ___.","answer":"quiet","explanation_vi":"Quiet nghĩa là yên tĩnh.","completed_text":"Long Son is quiet."}
+    ]}
+  }
+}

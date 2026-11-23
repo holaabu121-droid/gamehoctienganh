@@ -1,0 +1,13 @@
+{
+  "lesson_id": "unit3-getting-started-part2-practice",
+  "source_status": "hybrid-personal-use",
+  "usage_scope": "personal-family",
+  "source_note": "Five additional AI-designed practice items following the fill-in-the-blank form of Unit 3 Part 2. They are not transcribed textbook items.",
+  "questions": [
+    { "id": 6, "source_status": "ai-generated", "sentence": "Minh Anh and Gia Huy are having a [BLANK].", "answer": "picnic", "options": ["picnic", "lesson", "party", "book"] },
+    { "id": 7, "source_status": "ai-generated", "sentence": "Thu Ha is reading her [BLANK].", "answer": "favourite magazine", "options": ["favourite magazine", "new glasses", "long hair", "best friend"] },
+    { "id": 8, "source_status": "ai-generated", "sentence": "Minh Khoa and Bao An see [BLANK] and [BLANK].", "answer": "Thu Ha and Gia Huy", "options": ["Thu Ha and Gia Huy", "Minh Anh and Bao An", "new books and magazines", "teachers and students"] },
+    { "id": 9, "source_status": "ai-generated", "sentence": "Minh Anh has [BLANK] and [BLANK].", "answer": "glasses and long black hair", "options": ["glasses and long black hair", "a picnic and a magazine", "a book and a pen", "short hair and blue eyes"] },
+    { "id": 10, "source_status": "ai-generated", "sentence": "Gia Huy and Bao An [BLANK] the bookshop.", "answer": "are going to", "options": ["are going to", "are reading in", "are looking at", "are walking from"] }
+  ]
+}

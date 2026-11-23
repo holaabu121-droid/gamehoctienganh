@@ -1,0 +1,54 @@
+{
+  "lesson_id":"unit6-phase1","source_status":"user-provided-reference","usage_scope":"personal-family",
+  "source_note":"Tham chiếu ảnh Unit 6 trang 58–62 do người dùng cung cấp ngày 2026-11-07. Không nhúng ảnh sách. Track 38–40 không được cung cấp; audio luyện tập dùng TTS và ghi nhãn AI.",
+  "unit":{"number":6,"title":"Our Tet Holiday","title_vi":"Kỳ nghỉ Tết của chúng ta"},
+  "getting_started":{
+    "title":"Happy New Year!",
+    "dialogue":[
+      {"speaker":"Linda","text":"Phong, does Viet Nam celebrate New Years?"},
+      {"speaker":"Phong","text":"Yes, we do. We have Tet."},
+      {"speaker":"Linda","text":"When is Tet?"},
+      {"speaker":"Phong","text":"At different times. This year, it's in January."},
+      {"speaker":"Linda","text":"What do you do at Tet?"},
+      {"speaker":"Phong","text":"We clean our homes and decorate them with flowers."},
+      {"speaker":"Linda","text":"Is Tet a time for family gatherings?"},
+      {"speaker":"Phong","text":"Yes. It's a happy time for everybody."},
+      {"speaker":"Linda","text":"Great!"},
+      {"speaker":"Phong","text":"Yes, and another good thing about Tet is that children get lucky money."},
+      {"speaker":"Linda","text":"That sounds interesting. Is there anything special people should do?"},
+      {"speaker":"Phong","text":"We should say Happy New Year when we meet people, and we shouldn't break anything."}
+    ],
+    "topic_answer":"Tet in Viet Nam",
+    "sentence_answers":["January","homes with flowers","gatherings","lucky money","break"],
+    "picture_phrases":["peach flowers","lucky money","banh chung and banh tet","family gathering"],
+    "tet_examples":{"about":["banh chung","lucky money","peach flowers","family gathering"],"not_about":["flying a kite","summer holiday"]}
+  },
+  "closer_look_1":{
+    "vocabulary":["fireworks","special food","fun","wish","furniture"],
+    "collocations":["have fun","visit relatives","give lucky money","make a wish","clean the furniture","watch fireworks"],
+    "context_answers":["celebrate","peach","clean","shopping","food"],
+    "sound_words":[
+      {"word":"shopping","sound":"/ʃ/"},{"word":"special","sound":"/ʃ/"},{"word":"rice","sound":"/s/"},{"word":"spring","sound":"/s/"},{"word":"wish","sound":"/ʃ/"},{"word":"celebrate","sound":"/s/"}
+    ],
+    "poem":["Spring is coming!","Tet is coming!","She sells peach flowers.","Her cheeks shine.","Her eyes smile.","Her smile is shy.","She sells peach flowers."]
+  },
+  "closer_look_2":{
+    "library_signs":[
+      {"sentence":"You ___ keep quiet.","answer":"should"},
+      {"sentence":"You ___ eat or drink.","answer":"shouldn't"},
+      {"sentence":"You ___ knock before you enter.","answer":"should"},
+      {"sentence":"You ___ run.","answer":"shouldn't"}
+    ],
+    "tet_activities":[
+      {"activity":"behave well","answer":"should"},{"activity":"eat lots of sweets","answer":"shouldn't"},{"activity":"plant trees","answer":"should"},{"activity":"break things","answer":"shouldn't"},
+      {"activity":"go out with friends","answer":"should"},{"activity":"make a wish","answer":"should"},{"activity":"fight","answer":"shouldn't"},{"activity":"help with housework","answer":"should"}
+    ],
+    "some_any_sentences":[
+      {"sentence":"I need ___ colour paper.","answer":"some"},{"sentence":"I need ___ pictures.","answer":"some"},{"sentence":"Do you have ___ free time for sports?","answer":"any"},
+      {"sentence":"Are there ___ interesting activities here during Tet?","answer":"any"},{"sentence":"Yes, there are ___ traditional games.","answer":"some"}
+    ],
+    "fridge":[
+      {"item":"eggs","answer":"some"},{"item":"fruit juice","answer":"some"},{"item":"apples","answer":"not any"},{"item":"bread","answer":"some"},{"item":"bananas","answer":"some"},{"item":"cheese","answer":"some"}
+    ]
+  }
+}

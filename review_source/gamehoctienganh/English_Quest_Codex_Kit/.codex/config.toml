@@ -1,0 +1,6 @@
+# Chỉ cấu hình agent cho dự án, không ghi đè model và tài khoản đăng nhập.
+# Nếu dự án đã có config.toml, gộp các khóa bên dưới vào tệp đang dùng.
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 2
+default_subagent_reasoning_effort = "low"
