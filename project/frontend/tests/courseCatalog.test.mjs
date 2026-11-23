@@ -31,6 +31,7 @@ test("Math is embedded with 50 exact original questions and a per-student storag
   assert.equal((mathHtml.match(/"KN[12]-[LV]\d\d"/g)||[]).length,50);
   assert.ok(mathHtml.includes("const STORE='toan6.bai1.v05.progress' +"));
   assert.ok(mathHtml.includes("sendCompletion(quiz.knowledge,results)"));
-  assert.ok(math.includes('math6-bai1-v054-kn'));
+  assert.ok(math.includes('const UNIT_ID = "math6-bai1-v054"'));
+  assert.ok(math.includes('UNIT_ID + "-kn" + knowledge'));
   assert.ok(math.includes("event.source !== frame.current?.contentWindow"));
 });
