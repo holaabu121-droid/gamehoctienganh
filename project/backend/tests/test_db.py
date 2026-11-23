@@ -581,6 +581,14 @@ class ProgressAndStreakTests(DatabaseTestCase):
         overview = self.repository.score_overview(self.user.id)
         self.assertEqual(next(s for s in overview["subjects"] if s["subject"] == "math")["earned_score"],sum(a))
         self.assertEqual(next(s for s in overview["subjects"] if s["subject"] == "english")["earned_score"],0)
+        # Across randomized quizzes, a new attempt must not inflate the
+        # score by merging unrelated question positions.
+        self.repository.save_user_progress(self.user.id, unit_id, "math6-bai1-v054-kn2",
+                                           earned_score=700, max_score=1000, completed=True)
+        self.repository.save_user_progress(self.user.id, unit_id, "math6-bai1-v054-kn2",
+                                           earned_score=650, max_score=1000, completed=True)
+        math_summary = self.repository.score_profile(self.user.id, "math-6-semester-1")
+        self.assertEqual(math_summary["course_best"]["earned_score"], sum(a)+700)
 
     def test_only_english_branches_are_openable_and_legacy_plans_remain_for_history(self) -> None:
         # Retiring other subjects must not make archived records or their score

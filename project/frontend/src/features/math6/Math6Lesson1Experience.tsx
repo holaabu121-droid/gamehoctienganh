@@ -60,7 +60,10 @@ export function Math6Lesson1Experience({ courseId, onChooseCourse }: Props) {
 
       const activityId = UNIT_ID + "-kn" + knowledge;
       setSyncMessage("Đang đồng bộ điểm Toán với hồ sơ học sinh…");
-      void saveActivityProgress(UNIT_ID, activityId, earned, 1000, true, scores as number[])
+      // Questions are randomized on each attempt. Never merge per-question
+      // scores by ordinal position across different quizzes: retain the
+      // best total for the activity and keep full per-question detail locally.
+      void saveActivityProgress(UNIT_ID, activityId, earned, 1000, true)
         .then(() => setSyncMessage("Điểm Toán đã được lưu vào hồ sơ học sinh."))
         .catch(() => setSyncMessage("Chưa đồng bộ được điểm lên hồ sơ. Bản trên thiết bị vẫn được giữ; mở lại bài Toán để thử đồng bộ."));
     }

@@ -33,5 +33,7 @@ test("Math is embedded with 50 exact original questions and a per-student storag
   assert.ok(mathHtml.includes("sendCompletion(quiz.knowledge,results)"));
   assert.ok(math.includes('const UNIT_ID = "math6-bai1-v054"'));
   assert.ok(math.includes('UNIT_ID + "-kn" + knowledge'));
+  assert.ok(math.includes('saveActivityProgress(UNIT_ID, activityId, earned, 1000, true)'));
+  assert.ok(!math.includes('earned, 1000, true, scores as number[]'));
   assert.ok(math.includes("event.source !== frame.current?.contentWindow"));
 });
