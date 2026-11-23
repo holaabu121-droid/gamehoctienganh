@@ -4,7 +4,7 @@ on:
     branches: [review/english-only, feature/grade6-multisubject]
     paths: ['project/**', '.github/workflows/test-english-only.yml']
   pull_request:
-    branches: [main]
+    branches: [main, review/english-only]
 permissions:
   contents: read
 jobs:
@@ -16,8 +16,6 @@ jobs:
         working-directory: project/frontend
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: review/english-only
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -32,8 +30,6 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: review/english-only
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -47,20 +43,21 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: review/english-only
-      - name: Validate exposed course catalog and source isolation
+      - name: Validate two English semesters plus Math Lesson 1
         run: |
           python - <<'PY'
           import json,pathlib
           p=pathlib.Path("project")
           cat=json.loads((p/"data/curriculum/catalog.json").read_text())
-          assert [x["id"] for x in cat["courses"]]==["english-6-semester-1","english-6-semester-2"]
-          assert all(x["subject"]=="english" for x in cat["courses"])
+          assert [x["id"] for x in cat["courses"]]==["english-6-semester-1","english-6-semester-2","math-6-semester-1"]
+          assert [x["subject"] for x in cat["courses"]]==["english","english","math"]
           app=(p/"frontend/src/App.tsx").read_text()
           for s in ["Math6Semester1Experience","Informatics6Experience","Vietnamese6Experience","Science6Experience"]:
             assert s not in app,s
-          for dir in ["math6","science6","vietnamese6","informatics6"]:
+          for dir in ["science6","vietnamese6","informatics6"]:
             assert not (p/"frontend/src/features"/dir).exists(),dir
-          print("PASS: catalog contains only English, non-English renderers/activities removed")
+          math=(p/"frontend/public/math6-bai1/index.html").read_text()
+          assert math.count('"KN1-')+math.count('"KN2-')>=50
+          assert (p/"frontend/src/features/math6/Math6Lesson1Experience.tsx").is_file()
+          print("PASS: two English semesters and Math Lesson 1; other subjects absent")
           PY
