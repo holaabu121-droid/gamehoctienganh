@@ -7,13 +7,8 @@ import { validateUnit3Structure, type Unit3SectionId, type Unit3Structure } from
 import type { ReviewTarget } from "./reviewTarget";
 import { CourseLibrary } from "./features/courses/CourseLibrary";
 import { validateCourseCatalog, type CourseCatalog } from "./curriculum/courseCatalog";
-import { courseExperienceFor, type CourseExperienceDescriptor, type CourseRendererKey, type English6Semester1Branch, type English6Semester2Branch, type Math6Semester1Branch, type Math6Semester2Branch, type Informatics6Semester1Branch, type Informatics6Semester2Branch, type Vietnamese6Semester1Branch, type Vietnamese6Semester2Branch } from "./curriculum/courseRegistry";
+import { courseExperienceFor, type CourseExperienceDescriptor, type CourseRendererKey, type English6Semester1Branch, type English6Semester2Branch } from "./curriculum/courseRegistry";
 import { authApi } from "./auth/authApi";
-import { MATH_SEMESTER_1_GENERATED_BRANCHES } from "./features/math6/mathSemester1Curriculum";
-import { MATH_SEMESTER_2_GENERATED_BRANCHES } from "./features/math6/mathSemester2Curriculum";
-import { INFORMATICS_S1_BRANCHES, INFORMATICS_S2_BRANCHES } from "./features/informatics6/informaticsCurriculum";
-import { VIETNAMESE_S1_BRANCHES, VIETNAMESE_S2_BRANCHES } from "./features/vietnamese6/vietnameseCurriculum";
-import { SCIENCE_S1_LESSON_INDEX, SCIENCE_S2_LESSON_INDEX } from "./features/science6/scienceLessonIndex";
 
 const unit = validateUnit3Structure(unitJson as Unit3Structure);
 const Unit1 = lazy(() => import("./features/unit1/Unit1").then((module) => ({ default: module.Unit1 })));
@@ -45,18 +40,6 @@ const Unit10 = lazy(() => import("./features/unit10/Unit10").then((module) => ({
 const Unit11 = lazy(() => import("./features/unit11/Unit11").then((module) => ({ default: module.Unit11 })));
 const Unit12 = lazy(() => import("./features/unit12/Unit12").then((module) => ({ default: module.Unit12 })));
 const Review4 = lazy(() => import("./features/review4/Review4").then((module) => ({ default: module.Review4 })));
-const MathLesson1 = lazy(() => import("./features/math6/MathLesson1").then((module) => ({ default: module.MathLesson1 })));
-const MathLesson2 = lazy(() => import("./features/math6/MathLesson2").then((module) => ({ default: module.MathLesson2 })));
-const MathLesson3 = lazy(() => import("./features/math6/MathLesson3").then((module) => ({ default: module.MathLesson3 })));
-const MathLesson4 = lazy(() => import("./features/math6/MathLesson4").then((module) => ({ default: module.MathLesson4 })));
-const MathLesson5 = lazy(() => import("./features/math6/MathLesson5").then((module) => ({ default: module.MathLesson5 })));
-const MathChapter1Practice = lazy(() => import("./features/math6/MathChapter1Practice").then((module) => ({ default: module.MathChapter1Practice })));
-const MathChapter1Review = lazy(() => import("./features/math6/MathChapter1Review").then((module) => ({ default: module.MathChapter1Review })));
-const MathGeneratedBranch = lazy(() => import("./features/math6/MathGeneratedBranch").then((module) => ({ default: module.MathGeneratedBranch })));
-const MathSemester2Branch = lazy(() => import("./features/math6/MathSemester2Branch").then((module) => ({ default: module.MathSemester2Branch })));
-const InformaticsBranch = lazy(() => import("./features/informatics6/InformaticsBranch").then((module) => ({ default: module.InformaticsBranch })));
-const VietnameseBranch = lazy(() => import("./features/vietnamese6/VietnameseBranch").then((module) => ({ default: module.VietnameseBranch })));
-const ScienceBranch = lazy(() => import("./features/science6/ScienceBranch").then((module) => ({ default: module.ScienceBranch })));
 const ScoreProfile = lazy(() => import("./features/profile/ScoreProfile").then((module) => ({ default: module.ScoreProfile })));
 type GettingView = 1 | 2 | 3 | 4 | 5 | "typing";
 const GETTING_NAV: Array<{ id: GettingView; label: string; description: string }> = [
@@ -123,7 +106,7 @@ function English6Semester1Experience({ courseId, descriptor, onChooseCourse }: C
   return <ProgressProvider onActivityResult={(result) => saveActivityProgress(result.unitId, result.activityId, result.score.earned, result.score.max, result.completed, result.score.questionScores.map(({ earned }) => earned), result.questions.map((question) => question.skipped ? "skipped" : "scored"))}><main className="app-shell">
     <div className="lesson-shell">
       <nav className="course-branch-nav" aria-label="Chọn nhánh học cùng cấp">
-        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi môn · học kỳ</span></button>
+        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi học kỳ</span></button>
         <button type="button" aria-current={courseBranch === "profile" ? "page" : undefined} onClick={() => setCourseBranch("profile")}><strong>Hồ sơ</strong><span>Điểm tốt nhất</span></button>
         <button type="button" aria-current={courseBranch === "unit1" ? "page" : undefined} onClick={() => setCourseBranch("unit1")}><strong>Unit 1</strong><span>My New School</span></button>
         <button type="button" aria-current={courseBranch === "unit2" ? "page" : undefined} onClick={() => setCourseBranch("unit2")}><strong>Unit 2</strong><span>My House</span></button>
@@ -168,7 +151,7 @@ function English6Semester2Experience({ courseId, descriptor, onChooseCourse }: C
   return <ProgressProvider onActivityResult={(result) => saveActivityProgress(result.unitId, result.activityId, result.score.earned, result.score.max, result.completed, result.score.questionScores.map(({ earned }) => earned), result.questions.map((question) => question.skipped ? "skipped" : "scored"))}><main className="app-shell">
     <div className="lesson-shell">
       <nav className="course-branch-nav" aria-label="Chọn nhánh học cùng cấp">
-        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi môn · học kỳ</span></button>
+        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi học kỳ</span></button>
         <button type="button" aria-current={courseBranch === "profile" ? "page" : undefined} onClick={() => setCourseBranch("profile")}><strong>Hồ sơ</strong><span>Điểm tốt nhất</span></button>
         <button type="button" aria-current={courseBranch === "unit7" ? "page" : undefined} onClick={() => setCourseBranch("unit7")}><strong>Unit 7</strong><span>Television</span></button>
         <button type="button" aria-current={courseBranch === "unit8" ? "page" : undefined} onClick={() => setCourseBranch("unit8")}><strong>Unit 8</strong><span>Sports and Games</span></button>
@@ -184,131 +167,10 @@ function English6Semester2Experience({ courseId, descriptor, onChooseCourse }: C
   </main></ProgressProvider>;
 }
 
-const MATH6_S1_NAV: Array<{ id: Math6Semester1Branch; label: string; title: string }> = [
-  { id: "math6-s1-lesson1", label: "Bài 1", title: "Tập hợp" },
-  { id: "math6-s1-lesson2", label: "Bài 2", title: "Cách ghi số tự nhiên" },
-  { id: "math6-s1-lesson3", label: "Bài 3", title: "Thứ tự trong ℕ" },
-  { id: "math6-s1-lesson4", label: "Bài 4", title: "Phép cộng và phép trừ" },
-  { id: "math6-s1-lesson5", label: "Bài 5", title: "Phép nhân và phép chia" },
-  { id: "math6-s1-chapter1-practice", label: "Luyện tập", title: "Trang 20–21" },
-  { id: "math6-s1-chapter1-review", label: "Cuối Chương I", title: "Bài tập tổng hợp" },
-  ...MATH_SEMESTER_1_GENERATED_BRANCHES.map((item) => ({ id: item.id as Math6Semester1Branch, label: item.label, title: item.title })),
-];
-
-function Math6Semester1Experience({ courseId, descriptor, onChooseCourse }: CourseRendererProps) {
-  const { saveActivityProgress } = useAuth();
-  const [courseBranch, setCourseBranch] = useState<Math6Semester1Branch>(descriptor.initialBranch as Math6Semester1Branch);
-  return <ProgressProvider onActivityResult={(result) => saveActivityProgress(result.unitId, result.activityId, result.score.earned, result.score.max, result.completed, result.score.questionScores.map(({ earned }) => earned), result.questions.map((question) => question.skipped ? "skipped" : "scored"))}><main className="app-shell">
-    <div className="lesson-shell">
-      <nav className="course-branch-nav" aria-label="Chọn bài học Toán 6 Học kỳ 1">
-        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi môn · học kỳ</span></button>
-        <button type="button" aria-current={courseBranch === "profile" ? "page" : undefined} onClick={() => setCourseBranch("profile")}><strong>Hồ sơ</strong><span>Điểm môn Toán</span></button>
-        {MATH6_S1_NAV.map((item) => <button key={item.id} type="button" aria-current={courseBranch === item.id ? "page" : undefined} onClick={() => setCourseBranch(item.id)}><strong>{item.label}</strong><span>{item.title}</span></button>)}
-      </nav>
-      <Suspense fallback={<section className="lesson-card auth-loading" role="status"><strong>Đang mở bài học Toán…</strong></section>}>
-        {courseBranch === "profile" ? <ScoreProfile courseId={courseId} />
-          : courseBranch === "math6-s1-lesson1" ? <MathLesson1 />
-          : courseBranch === "math6-s1-lesson2" ? <MathLesson2 />
-          : courseBranch === "math6-s1-lesson3" ? <MathLesson3 />
-          : courseBranch === "math6-s1-lesson4" ? <MathLesson4 />
-          : courseBranch === "math6-s1-lesson5" ? <MathLesson5 />
-          : courseBranch === "math6-s1-chapter1-practice" ? <MathChapter1Practice />
-          : courseBranch === "math6-s1-chapter1-review" ? <MathChapter1Review />
-          : <MathGeneratedBranch branchId={courseBranch} />}
-      </Suspense>
-    </div>
-  </main></ProgressProvider>;
-}
-
-const MATH6_S2_NAV: Array<{ id: Math6Semester2Branch; label: string; title: string }> = MATH_SEMESTER_2_GENERATED_BRANCHES.map((item) => ({ id: item.id as Math6Semester2Branch, label: item.label, title: item.title }));
-
-function Math6Semester2Experience({ courseId, descriptor, onChooseCourse }: CourseRendererProps) {
-  const { saveActivityProgress } = useAuth();
-  const [courseBranch, setCourseBranch] = useState<Math6Semester2Branch>(descriptor.initialBranch as Math6Semester2Branch);
-  return <ProgressProvider onActivityResult={(result) => saveActivityProgress(result.unitId, result.activityId, result.score.earned, result.score.max, result.completed, result.score.questionScores.map(({ earned }) => earned), result.questions.map((question) => question.skipped ? "skipped" : "scored"))}><main className="app-shell">
-    <div className="lesson-shell">
-      <nav className="course-branch-nav" aria-label="Chọn bài học Toán 6 Học kỳ 2">
-        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi môn · học kỳ</span></button>
-        <button type="button" aria-current={courseBranch === "profile" ? "page" : undefined} onClick={() => setCourseBranch("profile")}><strong>Hồ sơ</strong><span>Điểm Toán Học kỳ 2</span></button>
-        {MATH6_S2_NAV.map((item) => <button key={item.id} type="button" aria-current={courseBranch === item.id ? "page" : undefined} onClick={() => setCourseBranch(item.id)}><strong>{item.label}</strong><span>{item.title}</span></button>)}
-      </nav>
-      <Suspense fallback={<section className="lesson-card auth-loading" role="status"><strong>Đang mở bài học Toán Học kỳ 2…</strong></section>}>
-        {courseBranch === "profile" ? <ScoreProfile courseId={courseId} /> : <MathSemester2Branch branchId={courseBranch} />}
-      </Suspense>
-    </div>
-  </main></ProgressProvider>;
-}
-
-type InformaticsBranchId = Informatics6Semester1Branch | Informatics6Semester2Branch;
-function Informatics6Experience({ courseId, descriptor, onChooseCourse }: CourseRendererProps) {
-  const { saveActivityProgress } = useAuth();
-  const [courseBranch, setCourseBranch] = useState<InformaticsBranchId>(descriptor.initialBranch as InformaticsBranchId);
-  const lessons = courseId === "informatics-6-semester-1" ? INFORMATICS_S1_BRANCHES : INFORMATICS_S2_BRANCHES;
-  const semester = courseId.endsWith("2") ? "2" : "1";
-  return <ProgressProvider onActivityResult={(result) => saveActivityProgress(result.unitId, result.activityId, result.score.earned, result.score.max, result.completed, result.score.questionScores.map(({ earned }) => earned), result.questions.map((question) => question.skipped ? "skipped" : "scored"))}><main className="app-shell">
-    <div className="lesson-shell">
-      <nav className="course-branch-nav" aria-label={`Chọn bài Tin học 6 Học kỳ ${semester}`}>
-        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi môn · học kỳ</span></button>
-        <button type="button" aria-current={courseBranch === "profile" ? "page" : undefined} onClick={() => setCourseBranch("profile")}><strong>Hồ sơ</strong><span>Điểm môn Tin học</span></button>
-        {lessons.map(item=><button key={item.id} type="button" aria-current={courseBranch === item.id ? "page" : undefined} onClick={()=>setCourseBranch(item.id as InformaticsBranchId)}><strong>Bài {item.number}</strong><span>{item.title}</span></button>)}
-      </nav>
-      <Suspense fallback={<section className="lesson-card auth-loading" role="status"><strong>Đang mở bài học Tin học…</strong></section>}>
-        {courseBranch === "profile" ? <ScoreProfile courseId={courseId}/> : <InformaticsBranch branchId={courseBranch}/>}
-      </Suspense>
-    </div>
-  </main></ProgressProvider>;
-}
-
-type VietnameseBranchId = Vietnamese6Semester1Branch | Vietnamese6Semester2Branch;
-function Vietnamese6Experience({ courseId, descriptor, onChooseCourse }: CourseRendererProps) {
-  const { saveActivityProgress } = useAuth();
-  const [courseBranch, setCourseBranch] = useState<VietnameseBranchId>(descriptor.initialBranch as VietnameseBranchId);
-  const lessons = courseId === "vietnamese-6-semester-1" ? VIETNAMESE_S1_BRANCHES : VIETNAMESE_S2_BRANCHES;
-  const semester = courseId.endsWith("2") ? "2" : "1";
-  return <ProgressProvider onActivityResult={(result) => saveActivityProgress(result.unitId, result.activityId, result.score.earned, result.score.max, result.completed, result.score.questionScores.map(({ earned }) => earned), result.questions.map((question) => question.skipped ? "skipped" : "scored"))}><main className="app-shell">
-    <div className="lesson-shell">
-      <nav className="course-branch-nav" aria-label={`Chọn bài Ngữ văn 6 Học kỳ ${semester}`}>
-        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi môn · học kỳ</span></button>
-        <button type="button" aria-current={courseBranch === "profile" ? "page" : undefined} onClick={() => setCourseBranch("profile")}><strong>Hồ sơ</strong><span>Điểm môn Ngữ văn</span></button>
-        {lessons.map(item => <button key={item.id} type="button" aria-current={courseBranch === item.id ? "page" : undefined} onClick={() => setCourseBranch(item.id as VietnameseBranchId)}><strong>{item.label}</strong><span>{item.title}</span></button>)}
-      </nav>
-      <Suspense fallback={<section className="lesson-card auth-loading" role="status"><strong>Đang mở bài học Ngữ văn…</strong></section>}>
-        {courseBranch === "profile" ? <ScoreProfile courseId={courseId}/> : <VietnameseBranch branchId={courseBranch}/>}
-      </Suspense>
-    </div>
-  </main></ProgressProvider>;
-}
-
-function Science6Experience({ courseId, descriptor, onChooseCourse }: CourseRendererProps) {
-  const { saveActivityProgress } = useAuth();
-  const [courseBranch, setCourseBranch] = useState<string>(descriptor.initialBranch);
-  const lessons = courseId === "science-6-semester-1" ? SCIENCE_S1_LESSON_INDEX : SCIENCE_S2_LESSON_INDEX;
-  const semester = courseId.endsWith("2") ? "2" : "1";
-  return <ProgressProvider onActivityResult={(result) => saveActivityProgress(result.unitId, result.activityId, result.score.earned, result.score.max, result.completed, result.score.questionScores.map(({ earned }) => earned), result.questions.map((question) => question.skipped ? "skipped" : "scored"))}><main className="app-shell">
-    <div className="lesson-shell">
-      <nav className="course-branch-nav" aria-label={`Chọn bài Khoa học tự nhiên 6 Học kỳ ${semester}`}>
-        <button type="button" onClick={onChooseCourse}><strong>Thư viện</strong><span>Đổi môn · học kỳ</span></button>
-        <button type="button" aria-current={courseBranch === "profile" ? "page" : undefined} onClick={() => setCourseBranch("profile")}><strong>Hồ sơ</strong><span>Điểm môn Khoa học tự nhiên</span></button>
-        {lessons.map(item => <button key={item.id} type="button" aria-current={courseBranch === item.id ? "page" : undefined} onClick={() => setCourseBranch(item.id)}><strong>Bài {item.number}</strong><span>{item.title}</span></button>)}
-      </nav>
-      <Suspense fallback={<section className="lesson-card auth-loading" role="status"><strong>Đang mở bài học Khoa học tự nhiên…</strong></section>}>
-        {courseBranch === "profile" ? <ScoreProfile courseId={courseId}/> : <ScienceBranch branchId={courseBranch}/>}
-      </Suspense>
-    </div>
-  </main></ProgressProvider>;
-}
-
 const COURSE_RENDERERS: Record<CourseRendererKey, ComponentType<CourseRendererProps>> = {
   "english-6-semester-1": English6Semester1Experience,
   "english-6-semester-2": English6Semester2Experience,
-  "math-6-semester-1": Math6Semester1Experience,
-  "math-6-semester-2": Math6Semester2Experience,
-  "informatics-6-semester-1": Informatics6Experience,
-  "informatics-6-semester-2": Informatics6Experience,
-  "vietnamese-6-semester-1": Vietnamese6Experience,
-  "vietnamese-6-semester-2": Vietnamese6Experience,
-  "science-6-semester-1": Science6Experience,
-  "science-6-semester-2": Science6Experience,
+
 };
 
 function LearningApp() {
