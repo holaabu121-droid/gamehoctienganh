@@ -1,0 +1,157 @@
+{
+  "chapter": 3,
+  "sourcePageRange": [
+    42,
+    55
+  ],
+  "rows": [
+    {
+      "number": 12,
+      "terms": [
+        {
+          "name": "Vật liệu",
+          "meaning": "Chất hoặc hỗn hợp chất được dùng để chế tạo sản phẩm."
+        },
+        {
+          "name": "Dẫn điện",
+          "meaning": "Tính chất cho phép dòng điện đi qua vật liệu."
+        },
+        {
+          "name": "Cách nhiệt",
+          "meaning": "Tính chất hạn chế sự truyền nhiệt."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Lõi dây dẫn điện thường dùng vật liệu nào?",
+          "answer": "Đồng",
+          "incorrect": [
+            "Nhựa khô",
+            "Gỗ khô"
+          ],
+          "hint": "Kim loại thường dẫn điện tốt."
+        },
+        {
+          "prompt": "Tay cầm nồi nên ưu tiên vật liệu có tính chất nào?",
+          "answer": "Cách nhiệt",
+          "incorrect": [
+            "Dẫn nhiệt rất tốt",
+            "Dễ tan trong nước"
+          ],
+          "hint": "Tránh dùng vật liệu dẫn nhiệt tốt cho vị trí cần cầm nắm."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "terms": [
+        {
+          "name": "Nguyên liệu",
+          "meaning": "Vật chất được dùng để sản xuất hoặc chế biến thành sản phẩm."
+        },
+        {
+          "name": "Đá vôi",
+          "meaning": "Nguyên liệu phổ biến để sản xuất vôi, xi măng."
+        },
+        {
+          "name": "Quặng",
+          "meaning": "Đá hoặc đất chứa khoáng chất có thể khai thác."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Để sản xuất xi măng, nguyên liệu nào được sử dụng?",
+          "answer": "Đá vôi",
+          "incorrect": [
+            "Đường kính",
+            "Giấy viết"
+          ],
+          "hint": "Liên hệ nguyên liệu thường dùng trong sản xuất vật liệu xây dựng."
+        },
+        {
+          "prompt": "Khai thác nguyên liệu cần chú ý điều gì?",
+          "answer": "Sử dụng hợp lí và bảo vệ môi trường",
+          "incorrect": [
+            "Khai thác không cần phục hồi",
+            "Bỏ qua xử lí chất thải"
+          ],
+          "hint": "Hoạt động khai thác có thể tác động đến môi trường."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "terms": [
+        {
+          "name": "Nhiên liệu",
+          "meaning": "Chất được sử dụng để tạo năng lượng cho hoạt động đời sống và sản xuất."
+        },
+        {
+          "name": "Nhiên liệu hóa thạch",
+          "meaning": "Nguồn nhiên liệu như than, dầu mỏ, khí tự nhiên hình thành trong thời gian dài."
+        },
+        {
+          "name": "Năng lượng tái tạo",
+          "meaning": "Nguồn năng lượng có khả năng được bổ sung nhờ các quá trình tự nhiên."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Than đá thuộc nhóm nào?",
+          "answer": "Nhiên liệu hóa thạch",
+          "incorrect": [
+            "Vật liệu cách điện",
+            "Thực phẩm"
+          ],
+          "hint": "Than đá là một loại nhiên liệu tạo năng lượng khi sử dụng."
+        },
+        {
+          "prompt": "Để hạn chế ô nhiễm từ nhiên liệu, biện pháp nào phù hợp?",
+          "answer": "Sử dụng tiết kiệm và tăng nguồn năng lượng sạch",
+          "incorrect": [
+            "Đốt nhiên liệu tùy tiện",
+            "Làm rò rỉ khí nhiên liệu"
+          ],
+          "hint": "Ưu tiên tiết kiệm năng lượng và giảm chất thải."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "terms": [
+        {
+          "name": "Lương thực",
+          "meaning": "Thực phẩm chủ yếu cung cấp tinh bột như gạo, ngô, khoai."
+        },
+        {
+          "name": "Protein",
+          "meaning": "Chất dinh dưỡng góp phần xây dựng và phát triển cơ thể."
+        },
+        {
+          "name": "Lipid",
+          "meaning": "Nhóm chất dinh dưỡng cung cấp năng lượng và có vai trò đối với cơ thể."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Gạo, ngô và khoai là nhóm nào?",
+          "answer": "Lương thực",
+          "incorrect": [
+            "Vật liệu",
+            "Nhiên liệu hóa thạch"
+          ],
+          "hint": "Lương thực thường cung cấp nhiều carbohydrate."
+        },
+        {
+          "prompt": "Để hạn chế thực phẩm hư hỏng nên làm gì?",
+          "answer": "Bảo quản phù hợp và giữ vệ sinh",
+          "incorrect": [
+            "Để thực phẩm sống lẫn thực phẩm chín",
+            "Ăn thực phẩm đã biến chất"
+          ],
+          "hint": "Thực phẩm cần được bảo quản và chế biến an toàn."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "chapter": 9,
+  "sourcePageRange": [
+    162,
+    178
+  ],
+  "rows": [
+    {
+      "number": 46,
+      "terms": [
+        {
+          "name": "Năng lượng",
+          "meaning": "Khả năng thực hiện công hoặc gây ra biến đổi trong tự nhiên và đời sống."
+        },
+        {
+          "name": "Truyền năng lượng",
+          "meaning": "Năng lượng chuyển từ vật này sang vật khác."
+        },
+        {
+          "name": "Ví dụ truyền năng lượng",
+          "meaning": "Năng lượng từ Mặt Trời truyền tới Trái Đất qua ánh sáng."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Ánh sáng Mặt Trời làm mặt đất nóng lên thể hiện điều gì?",
+          "answer": "Truyền năng lượng",
+          "incorrect": [
+            "Khối lượng biến mất",
+            "Tạo ra thời gian"
+          ],
+          "hint": "Ánh sáng mang năng lượng tới bề mặt."
+        },
+        {
+          "prompt": "Trong hoạt động thường ngày, vật nào cung cấp năng lượng ánh sáng trực tiếp?",
+          "answer": "Bóng đèn đang sáng",
+          "incorrect": [
+            "Viên đá nằm yên không phát sáng",
+            "Thước thẳng"
+          ],
+          "hint": "Chọn vật đang phát ánh sáng."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "terms": [
+        {
+          "name": "Nhiệt năng",
+          "meaning": "Dạng năng lượng gắn với trạng thái nhiệt của vật."
+        },
+        {
+          "name": "Động năng",
+          "meaning": "Năng lượng của vật khi đang chuyển động."
+        },
+        {
+          "name": "Điện năng",
+          "meaning": "Năng lượng gắn với dòng điện trong các thiết bị."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Xe đạp đang chuyển động có dạng năng lượng nào?",
+          "answer": "Động năng",
+          "incorrect": [
+            "Năng lượng hóa học của pin đang nằm yên",
+            "Không có bất cứ năng lượng nào"
+          ],
+          "hint": "Vật chuyển động có động năng."
+        },
+        {
+          "prompt": "Bếp điện hoạt động sử dụng dạng năng lượng đầu vào nào?",
+          "answer": "Điện năng",
+          "incorrect": [
+            "Năng lượng hạt nhân từ thức ăn",
+            "Thế năng hấp dẫn của xe"
+          ],
+          "hint": "Thiết bị nối nguồn điện sử dụng điện năng."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "terms": [
+        {
+          "name": "Chuyển hóa năng lượng",
+          "meaning": "Một dạng năng lượng chuyển thành dạng khác."
+        },
+        {
+          "name": "Pin điện",
+          "meaning": "Thiết bị lưu trữ năng lượng hóa học có thể cung cấp điện năng."
+        },
+        {
+          "name": "Động cơ điện",
+          "meaning": "Thiết bị chuyển một phần điện năng thành năng lượng chuyển động."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Quạt điện đang chạy chủ yếu biến đổi điện năng thành gì?",
+          "answer": "Năng lượng chuyển động của cánh quạt",
+          "incorrect": [
+            "Năng lượng của mực bút",
+            "Khối lượng không khí"
+          ],
+          "hint": "Quan sát kết quả tác động của thiết bị."
+        },
+        {
+          "prompt": "Đèn pin chạy bằng pin biến đổi năng lượng để tạo ra gì?",
+          "answer": "Ánh sáng",
+          "incorrect": [
+            "Nước ngọt",
+            "Từ trường Trái Đất mới"
+          ],
+          "hint": "Pin cung cấp điện cho bóng đèn phát sáng."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "terms": [
+        {
+          "name": "Năng lượng có ích",
+          "meaning": "Phần năng lượng phục vụ đúng mục đích sử dụng."
+        },
+        {
+          "name": "Năng lượng hao phí",
+          "meaning": "Phần năng lượng chuyển sang dạng không mong muốn."
+        },
+        {
+          "name": "Hiệu quả sử dụng",
+          "meaning": "Mức độ tận dụng năng lượng vào mục đích hữu ích."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Quạt điện tỏa nhiệt ở động cơ trong khi mục đích là tạo gió: nhiệt này thường là gì?",
+          "answer": "Năng lượng hao phí",
+          "incorrect": [
+            "Năng lượng được tạo ra từ hư không",
+            "Khối lượng mới"
+          ],
+          "hint": "Không phải tất cả năng lượng đầu vào đều phục vụ mục đích chính."
+        },
+        {
+          "prompt": "Cách nào giảm năng lượng hao phí của thiết bị?",
+          "answer": "Bảo dưỡng và sử dụng đúng cách",
+          "incorrect": [
+            "Để máy chạy vô ích",
+            "Cố làm thiết bị ma sát nhiều"
+          ],
+          "hint": "Hạn chế chuyển hóa năng lượng không mong muốn."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "terms": [
+        {
+          "name": "Năng lượng tái tạo",
+          "meaning": "Nguồn năng lượng được bổ sung liên tục hoặc tương đối nhanh bởi tự nhiên."
+        },
+        {
+          "name": "Năng lượng Mặt Trời",
+          "meaning": "Nguồn năng lượng từ bức xạ Mặt Trời."
+        },
+        {
+          "name": "Năng lượng gió",
+          "meaning": "Nguồn năng lượng khai thác từ chuyển động của không khí."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Tấm pin Mặt Trời thu nhận năng lượng từ đâu?",
+          "answer": "Ánh sáng Mặt Trời",
+          "incorrect": [
+            "Than đá dưới đất",
+            "Dầu mỏ"
+          ],
+          "hint": "Thiết bị này khai thác năng lượng bức xạ."
+        },
+        {
+          "prompt": "Nguồn nào là năng lượng tái tạo?",
+          "answer": "Gió",
+          "incorrect": [
+            "Than đá",
+            "Xăng dầu"
+          ],
+          "hint": "Gió được tạo bởi quá trình tự nhiên liên tục."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "terms": [
+        {
+          "name": "Tiết kiệm năng lượng",
+          "meaning": "Sử dụng năng lượng hiệu quả, giảm lãng phí."
+        },
+        {
+          "name": "Thiết bị hiệu suất cao",
+          "meaning": "Thiết bị đáp ứng nhu cầu với mức tiêu thụ năng lượng hợp lí."
+        },
+        {
+          "name": "Thói quen tiết kiệm",
+          "meaning": "Tắt thiết bị khi không dùng và tận dụng ánh sáng tự nhiên."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Ra khỏi phòng không có người, nên làm gì với đèn?",
+          "answer": "Tắt khi không cần",
+          "incorrect": [
+            "Bật hết công suất",
+            "Để sáng liên tục"
+          ],
+          "hint": "Tránh sử dụng điện không cần thiết."
+        },
+        {
+          "prompt": "Muốn giảm điện tiêu thụ khi học ban ngày nên ưu tiên gì?",
+          "answer": "Tận dụng ánh sáng tự nhiên đủ độ sáng",
+          "incorrect": [
+            "Bật mọi đèn dù đủ sáng",
+            "Mở mọi thiết bị cùng lúc"
+          ],
+          "hint": "Giảm nhu cầu điện khi điều kiện cho phép."
+        }
+      ]
+    }
+  ]
+}

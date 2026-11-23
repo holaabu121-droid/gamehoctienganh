@@ -1,0 +1,157 @@
+{
+  "chapter": 10,
+  "sourcePageRange": [
+    179,
+    192
+  ],
+  "rows": [
+    {
+      "number": 52,
+      "terms": [
+        {
+          "name": "Chuyển động nhìn thấy của Mặt Trời",
+          "meaning": "Mặt Trời có vẻ đi từ phía đông sang phía tây trên bầu trời mỗi ngày."
+        },
+        {
+          "name": "Trái Đất tự quay",
+          "meaning": "Trái Đất quay quanh trục, tạo nên ngày và đêm."
+        },
+        {
+          "name": "Thiên thể",
+          "meaning": "Vật thể tồn tại trong không gian vũ trụ."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Vì sao ta thấy Mặt Trời di chuyển trên bầu trời mỗi ngày?",
+          "answer": "Do Trái Đất tự quay quanh trục",
+          "incorrect": [
+            "Do Mặt Trời quay quanh Trái Đất mỗi ngày",
+            "Do Mặt Trăng tự phát sáng"
+          ],
+          "hint": "Chuyển động nhìn thấy phụ thuộc chuyển động của người quan sát trên Trái Đất."
+        },
+        {
+          "prompt": "Vào buổi sáng, Mặt Trời thường mọc ở hướng nào?",
+          "answer": "Đông",
+          "incorrect": [
+            "Tây",
+            "Bắc"
+          ],
+          "hint": "Liên hệ chuyển động nhìn thấy trong ngày."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "terms": [
+        {
+          "name": "Mặt Trăng",
+          "meaning": "Vệ tinh tự nhiên của Trái Đất."
+        },
+        {
+          "name": "Pha Mặt Trăng",
+          "meaning": "Phần Mặt Trăng sáng mà người quan sát nhìn thấy thay đổi theo vị trí tương đối."
+        },
+        {
+          "name": "Phản xạ ánh sáng",
+          "meaning": "Mặt Trăng nhìn thấy sáng chủ yếu do phản xạ ánh sáng Mặt Trời."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Mặt Trăng có tự phát sáng như Mặt Trời không?",
+          "answer": "Không",
+          "incorrect": [
+            "Có, như một ngôi sao",
+            "Chỉ khi có mưa"
+          ],
+          "hint": "Mặt Trăng được chiếu sáng bởi Mặt Trời."
+        },
+        {
+          "prompt": "Vì sao hình dạng phần sáng của Mặt Trăng thay đổi theo ngày?",
+          "answer": "Do vị trí tương đối Mặt Trăng – Trái Đất – Mặt Trời thay đổi",
+          "incorrect": [
+            "Do Mặt Trăng đổi hình dạng vật lí hàng ngày",
+            "Do Trái Đất ngừng quay"
+          ],
+          "hint": "Các pha liên quan đến góc nhìn phần được chiếu sáng."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "terms": [
+        {
+          "name": "Hệ Mặt Trời",
+          "meaning": "Gồm Mặt Trời và các thiên thể chuyển động dưới tác dụng hấp dẫn của nó."
+        },
+        {
+          "name": "Mặt Trời",
+          "meaning": "Ngôi sao ở trung tâm hệ Mặt Trời."
+        },
+        {
+          "name": "Hành tinh",
+          "meaning": "Thiên thể quay quanh Mặt Trời theo quỹ đạo của nó."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Trái Đất là hành tinh thứ mấy tính từ Mặt Trời?",
+          "answer": "Thứ ba",
+          "incorrect": [
+            "Thứ nhất",
+            "Thứ tám"
+          ],
+          "hint": "Thứ tự đầu tiên là Thủy tinh, Kim tinh, Trái Đất."
+        },
+        {
+          "prompt": "Thiên thể nào ở trung tâm Hệ Mặt Trời?",
+          "answer": "Mặt Trời",
+          "incorrect": [
+            "Mặt Trăng",
+            "Trái Đất"
+          ],
+          "hint": "Tên gọi hệ Mặt Trời chỉ ngôi sao trung tâm."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "terms": [
+        {
+          "name": "Ngân Hà",
+          "meaning": "Thiên hà có chứa Hệ Mặt Trời của chúng ta."
+        },
+        {
+          "name": "Thiên hà",
+          "meaning": "Tập hợp rất lớn các sao, khí và bụi liên kết bởi hấp dẫn."
+        },
+        {
+          "name": "Hệ Mặt Trời",
+          "meaning": "Một hệ nhỏ nằm bên trong Ngân Hà."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Hệ Mặt Trời nằm ở đâu?",
+          "answer": "Trong Ngân Hà",
+          "incorrect": [
+            "Ngoài mọi thiên hà",
+            "Trong lõi Trái Đất"
+          ],
+          "hint": "Ngân Hà bao gồm Hệ Mặt Trời."
+        },
+        {
+          "prompt": "Ta nhìn thấy dải sáng Ngân Hà trên trời là do gì?",
+          "answer": "Ánh sáng tổng hợp từ rất nhiều ngôi sao xa",
+          "incorrect": [
+            "Một đám mây gần mặt đất phát sáng",
+            "Đèn đường phản chiếu lên mưa"
+          ],
+          "hint": "Dải sáng gồm ánh sáng nhiều sao ở khoảng cách rất xa."
+        }
+      ]
+    }
+  ]
+}

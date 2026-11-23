@@ -1,0 +1,120 @@
+{
+  "chapter": 6,
+  "sourcePageRange": [
+    75,
+    85
+  ],
+  "rows": [
+    {
+      "number": 22,
+      "terms": [
+        {
+          "name": "Cơ thể đơn bào",
+          "meaning": "Cơ thể chỉ gồm một tế bào đảm nhiệm các hoạt động sống."
+        },
+        {
+          "name": "Cơ thể đa bào",
+          "meaning": "Cơ thể gồm nhiều tế bào, có thể chuyên hóa chức năng."
+        },
+        {
+          "name": "Ví dụ cơ thể đơn bào",
+          "meaning": "Vi khuẩn và một số nguyên sinh vật."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Trùng roi được xem là cơ thể nào?",
+          "answer": "Cơ thể đơn bào",
+          "incorrect": [
+            "Cơ thể đa bào lớn",
+            "Vật không sống"
+          ],
+          "hint": "Một tế bào đã là cả cơ thể."
+        },
+        {
+          "prompt": "Cây xoài trưởng thành thuộc loại cơ thể nào?",
+          "answer": "Cơ thể đa bào",
+          "incorrect": [
+            "Cơ thể đơn bào",
+            "Chất tinh khiết"
+          ],
+          "hint": "Cây gồm rất nhiều tế bào."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "terms": [
+        {
+          "name": "Mô",
+          "meaning": "Tập hợp các tế bào giống nhau cùng thực hiện một chức năng."
+        },
+        {
+          "name": "Cơ quan",
+          "meaning": "Bộ phận gồm nhiều loại mô phối hợp thực hiện chức năng."
+        },
+        {
+          "name": "Hệ cơ quan",
+          "meaning": "Nhóm cơ quan phối hợp thực hiện chức năng nhất định."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Tim của người thuộc cấp tổ chức nào?",
+          "answer": "Cơ quan",
+          "incorrect": [
+            "Một tế bào",
+            "Một quần thể"
+          ],
+          "hint": "Cơ quan được cấu tạo từ nhiều mô."
+        },
+        {
+          "prompt": "Thứ tự cấp tổ chức từ nhỏ đến lớn đúng là gì?",
+          "answer": "Tế bào → mô → cơ quan → hệ cơ quan → cơ thể",
+          "incorrect": [
+            "Cơ thể → tế bào → mô → cơ quan → hệ cơ quan",
+            "Mô → cơ thể → tế bào → cơ quan"
+          ],
+          "hint": "Các cấp tổ chức có thứ bậc từ tế bào đến cơ thể."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "terms": [
+        {
+          "name": "Sinh vật đơn bào",
+          "meaning": "Chỉ một tế bào tạo nên toàn bộ cơ thể."
+        },
+        {
+          "name": "Sinh vật đa bào",
+          "meaning": "Nhiều tế bào phối hợp tạo nên cơ thể."
+        },
+        {
+          "name": "Mô tả mẫu",
+          "meaning": "Dùng quan sát hình ảnh để ghi số lượng tế bào và đặc điểm chính."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Ảnh hiển vi cho thấy một sinh vật chỉ gồm một tế bào. Phân loại thế nào?",
+          "answer": "Đơn bào",
+          "incorrect": [
+            "Đa bào",
+            "Vật vô sinh"
+          ],
+          "hint": "Xét số tế bào cấu tạo nên cơ thể."
+        },
+        {
+          "prompt": "Khi mô tả một mẫu sinh vật chưa rõ tên, điều nên làm là gì?",
+          "answer": "Ghi đặc điểm quan sát được trước khi kết luận",
+          "incorrect": [
+            "Đoán tên ngay không cần quan sát",
+            "Thay mẫu khác mà không ghi"
+          ],
+          "hint": "Quan sát và đối chiếu dấu hiệu giúp nhận định có căn cứ."
+        }
+      ]
+    }
+  ]
+}

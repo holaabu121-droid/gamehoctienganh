@@ -1,0 +1,83 @@
+{
+  "chapter": 4,
+  "sourcePageRange": [
+    56,
+    63
+  ],
+  "rows": [
+    {
+      "number": 16,
+      "terms": [
+        {
+          "name": "Chất tinh khiết",
+          "meaning": "Chất không lẫn các chất khác trong điều kiện xét."
+        },
+        {
+          "name": "Hỗn hợp",
+          "meaning": "Gồm từ hai chất trở lên trộn lẫn với nhau."
+        },
+        {
+          "name": "Dung dịch",
+          "meaning": "Hỗn hợp đồng nhất có chất tan và dung môi."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Nước muối đã hòa tan hoàn toàn thuộc loại nào?",
+          "answer": "Dung dịch",
+          "incorrect": [
+            "Đơn chất tinh khiết",
+            "Vật thể sống"
+          ],
+          "hint": "Dung dịch là hỗn hợp đồng nhất."
+        },
+        {
+          "prompt": "Nước có lẫn hạt cát là dạng nào?",
+          "answer": "Hỗn hợp không đồng nhất",
+          "incorrect": [
+            "Chất tinh khiết",
+            "Dung dịch đồng nhất"
+          ],
+          "hint": "Có thể phân biệt các thành phần bằng quan sát."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "terms": [
+        {
+          "name": "Lọc",
+          "meaning": "Cách tách chất rắn không tan ra khỏi chất lỏng."
+        },
+        {
+          "name": "Cô cạn",
+          "meaning": "Làm dung môi bay hơi để thu chất rắn hòa tan."
+        },
+        {
+          "name": "Chiết",
+          "meaning": "Tách hai chất lỏng không hòa tan vào nhau dựa vào lớp chất lỏng."
+        }
+      ],
+      "cases": [
+        {
+          "prompt": "Muốn tách cát ra khỏi nước, nên chọn phương pháp nào?",
+          "answer": "Lọc",
+          "incorrect": [
+            "Cô cạn rồi thu nước",
+            "Chiết bằng phễu chiết"
+          ],
+          "hint": "Hạt cát không tan trong nước."
+        },
+        {
+          "prompt": "Muốn thu muối từ nước muối về nguyên tắc dùng cách nào?",
+          "answer": "Cô cạn",
+          "incorrect": [
+            "Lọc trực tiếp qua giấy lọc",
+            "Dùng nam châm"
+          ],
+          "hint": "Muối hòa tan nên không giữ lại được bằng giấy lọc."
+        }
+      ]
+    }
+  ]
+}
