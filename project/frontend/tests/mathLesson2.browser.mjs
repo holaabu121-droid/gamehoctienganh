@@ -10,17 +10,18 @@ const base="http://127.0.0.1:"+port+"/math6-bai2/index.html?student=browser_stud
 const server=spawn("npx",["vite","--host","127.0.0.1","--port",String(port),"--strictPort"],{cwd:process.cwd(),stdio:"ignore"});
 let browser;
 const byId=new Map(QUESTIONS.map(q=>[q.id,q]));
+const optionFor=(page,value)=>page.locator(".answer-option").and(page.getByRole("button",{name:String(value),exact:true})).first();
 
 async function choose(page,q,correct) {
   if(q.mode==="single") {
     const v=correct?q.answer:q.options.find(x=>x!==q.answer);
-    await page.locator(".answer-option").filter({hasText:v}).first().click();
+    await optionFor(page,v).click();
     return;
   }
   if(q.mode==="multi"){
     const wanted=correct?q.answer:[q.answer[0]];
     for(const value of q.options){
-      const option=page.locator(".answer-option").filter({hasText:value}).first();
+      const option=optionFor(page,value);
       const pressed=(await option.getAttribute("aria-pressed"))==="true";
       if(pressed!==wanted.includes(value))await option.click();
     }
