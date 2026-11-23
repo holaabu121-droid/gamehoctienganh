@@ -1,15 +1,12 @@
-# Bàn giao hiện trạng (cập nhật khi có thay đổi thật)
-- Ngày cập nhật: 2026-11-18; ứng dụng cục bộ `personal-family` có 10 khóa thuộc 5 môn, lưu điểm từng khóa, tổng môn và toàn hệ thống.
-- Ngữ văn 6 Học kỳ 1–2 đang `available`: Bài 1–10 và Ôn tập I–II, tổng 12 nhánh, 72 game, 720 câu, 144 thẻ và 2.160 phản hồi chẩn đoán.
-- Mỗi nhánh Ngữ văn dùng sáu năng lực, lộ trình 3-4-2-1, kế hoạch từng phần và trực quan nguyên bản; câu mở có rubric và rào chắn quyền riêng tư.
-- Đánh giá Ngữ văn mô phỏng AI: học sinh 88/100, giáo viên 87/100, chuyên gia 85/100; chưa thay thế thí điểm người thật hoặc click-through/TTS/accessibility.
-- Tiếng Anh 6 hai học kỳ đang `available`, gồm Units 1–12 và Review 1–4; tiến độ, Bonus và điểm từng học kỳ được tách đúng.
-- Toán 6 hai học kỳ đang `available`: 74 phần, 4.440 lượt; 43 bài có trực quan tường minh riêng và 31 phần tổng hợp có bộ chọn mô hình ngay trong “Quy tắc và quy trình”.
-- Tin học 6 hai học kỳ đang `available`: Bài 1–17 có 102 hạt, 204 thẻ, 85 phần học, 17 rubric, 102 game, 1.020 câu và 3.060 phản hồi; thực hành thật không chấm tự động.
-- Khoa học tự nhiên 6 hai học kỳ đang `available`: Bài 1–55, 330 game, 3.300 câu, 18 khuôn; thực hành/mô phỏng không chấm điểm và có cảnh báo giám sát.
-- Mỗi game mặc định 10 câu, lưu từng câu, giữ điểm tốt nhất và cho phép tiếp tục, bỏ qua hoặc làm lại câu đã chấm.
-- Tài khoản cục bộ dùng PIN băm; SQLite schema v2 tự backup trước migration và Hồ sơ hỗ trợ xuất/nhập tiến độ không chứa PIN.
-- Git có `main`, `stable/1.1` và tag `v1.1.0`; build/release/cache/database không vào lịch sử nguồn.
-- Thứ bậc câu hỏi đã chuẩn hóa cho 5 môn; lỗi asset tải trễ tự khôi phục; giọng Việt đọc số phân nhóm theo giá trị hàng nghìn–triệu thay vì đọc rời số 0.
-- Kiểm thử tích hợp: frontend 401/401, backend 64/64, học liệu 46/46, Science gate PASS, validator 0 lỗi/0 cảnh báo, build 273 modules; trực quan Toán đại diện hai học kỳ click-through PASS.
-- Đánh giá Khoa học tự nhiên AI 74/84/74; biên bản `docs/APP_AUDIT_2026-11-17.md`; còn cần build lại bộ cài, mô phỏng tương tác, click-through/TTS/accessibility và kiểm tra Hồ sơ ở viewport 390 px.
+# English Quest – Trạng thái hiện tại (23/11/2026)
+
+- Nhánh `review/english-only` chứa bản mã nguồn giải nén từ Release `v1.0.0`.
+- Danh mục học tập chỉ có Tiếng Anh 6 học kỳ 1 và học kỳ 2.
+- Giao diện hỗ trợ Unit 1–12 và Review 1–4, chấm điểm, làm lại, lưu tiến độ và xuất/nhập bản sao lưu.
+- Mã bài tập Toán, Khoa học tự nhiên, Ngữ văn, Tin học đã được loại khỏi nhánh làm việc.
+- Backend giữ đăng ký điểm cũ làm dữ liệu lịch sử nhưng không cho truy cập các nhánh không còn trong catalog.
+- Không đưa cơ sở dữ liệu thật của học sinh, tệp PIN hay các bản sao lưu cá nhân lên GitHub.
+- Kiểm thử gần nhất: CI `45173061289`, frontend 235/235, backend 54/54, Vite build PASS (176 modules).
+- Những thay đổi câu chữ UI cuối cùng cần kiểm thử CI lại.
+- Chưa click-through thực trên Windows/Android, chưa tạo bộ cài mới.
+- Main và Release sao lưu gốc chưa thay đổi. Xem `docs/ENGLISH_ONLY_CLEANUP_2026-11-23.md`.
