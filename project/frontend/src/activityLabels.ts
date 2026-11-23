@@ -266,6 +266,8 @@ const LABELS: Record<string, string> = {
 };
 
 export function activityLabel(activityId: string) {
+  if (activityId === "math6-bai1-v054-kn1") return "Toán 6 · Bài 1 · Kiến thức nền 1";
+  if (activityId === "math6-bai1-v054-kn2") return "Toán 6 · Bài 1 · Kiến thức nền 2";
   const vietnamese = activityId.match(/^vietnamese6-s[12]-(lesson\d+|review)-(trace|organize|infer|language|compose|communicate)$/);
   if (vietnamese) {
     const names: Record<string,string> = { trace:"Đọc theo dấu vết", organize:"Tổ chức văn bản", infer:"Suy luận có bằng chứng", language:"Thực hành tiếng Việt", compose:"Tạo lập văn bản", communicate:"Nói và nghe" };

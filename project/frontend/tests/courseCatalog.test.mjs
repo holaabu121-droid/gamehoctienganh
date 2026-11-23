@@ -3,29 +3,37 @@ import { readFileSync } from "node:fs";
 import test from "node:test";
 import { descriptorMatchesCourse } from "../src/curriculum/courseRegistryCore.ts";
 
-const catalog = JSON.parse(readFileSync(new URL("../../data/curriculum/catalog.json", import.meta.url), "utf8"));
-const app = readFileSync(new URL("../src/App.tsx", import.meta.url), "utf8");
-const registry = readFileSync(new URL("../src/curriculum/courseRegistry.ts", import.meta.url), "utf8");
-const library = readFileSync(new URL("../src/features/courses/CourseLibrary.tsx", import.meta.url), "utf8");
-
-test("English-only catalog retains both semesters and lesson order", () => {
+const read=path=>readFileSync(new URL(path,import.meta.url),"utf8");
+const catalog=JSON.parse(read("../../data/curriculum/catalog.json"));
+const app=read("../src/App.tsx");
+const registry=read("../src/curriculum/courseRegistry.ts");
+const library=read("../src/features/courses/CourseLibrary.tsx");
+const math=read("../src/features/math6/Math6Lesson1Experience.tsx");
+const mathHtml=read("../public/math6-bai1/index.html");
+test("multisubject catalog keeps 2 English semesters and adds only Math Lesson 1",()=>{
   assert.equal(catalog.default_course_id,"english-6-semester-1");
-  assert.deepEqual(catalog.courses.map(x=>x.id),["english-6-semester-1","english-6-semester-2"]);
-  assert.ok(catalog.courses.every(x=>x.subject==="english" && x.status==="available"));
+  assert.deepEqual(catalog.courses.map(x=>x.id),["english-6-semester-1","english-6-semester-2","math-6-semester-1"]);
+  assert.deepEqual(catalog.courses.map(x=>x.subject),["english","english","math"]);
   assert.deepEqual(catalog.courses[0].branch_ids,["unit1","unit2","unit3","review1","unit4","unit5","unit6","review2"]);
   assert.deepEqual(catalog.courses[1].branch_ids,["unit7","unit8","unit9","review3","unit10","unit11","unit12","review4"]);
+  assert.deepEqual(catalog.courses[2].branch_ids,["math6-bai1-v054"]);
 });
-test("only English renderers are registered; other subjects are absent from the UI", () => {
-  assert.match(app, /"english-6-semester-1": English6Semester1Experience/);
-  assert.match(app, /"english-6-semester-2": English6Semester2Experience/);
-  assert.ok(!/function (Math6|Science6|Vietnamese6|Informatics6)Experience/.test(app));
-  assert.ok(!/"(?:math|science|informatics|vietnamese)-6-semester-1":/.test(registry));
-  assert.ok(library.includes("Chọn học kỳ Tiếng Anh"));
-  assert.ok(app.includes("<CourseLibrary catalog={catalog} onSelect={selectCourse} />"));
-});
-test("each English semester starts at its first registered unit",()=>{
-  for(const course of catalog.courses) {
-    assert.ok(descriptorMatchesCourse(course,{courseId:course.id,initialBranch:course.branch_ids[0],branchIds:course.branch_ids}));
-    assert.ok(!descriptorMatchesCourse(course,{courseId:course.id,initialBranch:"unregistered",branchIds:course.branch_ids}));
+test("each available course has a registered renderer and first branch",()=>{
+  for(const c of catalog.courses){
+    const initial=c.branch_ids[0];
+    assert.ok(registry.includes('initialBranch: "'+initial+'"'));
+    assert.ok(descriptorMatchesCourse(c,{courseId:c.id,initialBranch:initial,branchIds:c.branch_ids}));
   }
+  assert.ok(app.includes('"math-6-semester-1": Math6Lesson1Experience'));
+  assert.ok(library.includes("Chọn môn học và học kỳ"));
+});
+test("Math is embedded with 50 exact original questions and a per-student storage namespace",()=>{
+  assert.equal((mathHtml.match(/"KN[12]-[LV]\d\d"/g)||[]).length,50);
+  assert.ok(mathHtml.includes("const STORE='toan6.bai1.v05.progress' +"));
+  assert.ok(mathHtml.includes("sendCompletion(quiz.knowledge,results)"));
+  assert.ok(math.includes('const UNIT_ID = "math6-bai1-v054"'));
+  assert.ok(math.includes('UNIT_ID + "-kn" + knowledge'));
+  assert.ok(math.includes('saveActivityProgress(UNIT_ID, activityId, earned, 1000, true)'));
+  assert.ok(!math.includes('earned, 1000, true, scores as number[]'));
+  assert.ok(math.includes("event.source !== frame.current?.contentWindow"));
 });

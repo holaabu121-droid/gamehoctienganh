@@ -23,9 +23,9 @@ function CourseCard({ course, catalog, onSelect }: { course: Course; catalog: Co
 export function CourseLibrary({ catalog, onSelect }: { catalog: CourseCatalog; onSelect: (courseId: string) => void }) {
   return <section className="course-library" aria-labelledby="course-library-title">
     <header className="course-library-hero">
-      <span className="eyebrow">Thư viện Tiếng Anh 6</span>
-      <h1 id="course-library-title">Chọn học kỳ Tiếng Anh</h1>
-      <p>Điểm Tiếng Anh được lưu riêng cho từng học kỳ. Chọn học kỳ để tiếp tục học.</p>
+      <span className="eyebrow">Thư viện luyện tập đa môn · Lớp 6</span>
+      <h1 id="course-library-title">Chọn môn học và học kỳ</h1>
+      <p>Học Tiếng Anh và Toán trong cùng một ứng dụng. Điểm và tiến độ được lưu riêng theo môn, khóa và bài.</p>
     </header>
     <div className="course-library-grid">
       {catalog.courses.map((course) => <CourseCard key={course.id} course={course} catalog={catalog} onSelect={onSelect} />)}

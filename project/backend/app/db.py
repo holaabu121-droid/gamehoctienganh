@@ -433,6 +433,7 @@ UNIT_ACTIVITY_MAXIMA = {
         "review4-skills-listening": 1000,
         "review4-skills-writing": 1000,
     },
+    "math6-bai1-v054": {"math6-bai1-v054-kn1": 1000, "math6-bai1-v054-kn2": 1000},
     "math6-s1-lesson1": {
         "math6-s1-lesson1-identify": 1000,
         "math6-s1-lesson1-membership": 1000,

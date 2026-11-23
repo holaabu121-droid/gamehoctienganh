@@ -9,6 +9,7 @@ import { CourseLibrary } from "./features/courses/CourseLibrary";
 import { validateCourseCatalog, type CourseCatalog } from "./curriculum/courseCatalog";
 import { courseExperienceFor, type CourseExperienceDescriptor, type CourseRendererKey, type English6Semester1Branch, type English6Semester2Branch } from "./curriculum/courseRegistry";
 import { authApi } from "./auth/authApi";
+import { Math6Lesson1Experience } from "./features/math6/Math6Lesson1Experience";
 
 const unit = validateUnit3Structure(unitJson as Unit3Structure);
 const Unit1 = lazy(() => import("./features/unit1/Unit1").then((module) => ({ default: module.Unit1 })));
@@ -170,6 +171,7 @@ function English6Semester2Experience({ courseId, descriptor, onChooseCourse }: C
 const COURSE_RENDERERS: Record<CourseRendererKey, ComponentType<CourseRendererProps>> = {
   "english-6-semester-1": English6Semester1Experience,
   "english-6-semester-2": English6Semester2Experience,
+  "math-6-semester-1": Math6Lesson1Experience,
 
 };
 

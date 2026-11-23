@@ -43,6 +43,20 @@
         "unit12",
         "review4"
       ]
+    },
+    {
+      "id": "math-6-semester-1",
+      "subject": "math",
+      "subject_label": "Toán",
+      "grade": 6,
+      "semester": 1,
+      "title": "Toán 6 · Học kỳ 1",
+      "description": "Bài 1: Tập hợp — 50 câu hỏi luyện tập và vận dụng, có gợi ý và chấm điểm theo thời gian. Các bài tiếp theo sẽ được bổ sung.",
+      "status": "available",
+      "content_version": "0.5.4",
+      "branch_ids": [
+        "math6-bai1-v054"
+      ]
     }
   ]
 }

@@ -1,12 +1,14 @@
-# English Quest – Trạng thái hiện tại (23/11/2026)
+# Hiện trạng – Ứng dụng luyện tập đa môn lớp 6
+Ngày cập nhật: 2026-11-23. Nhánh: `feature/grade6-multisubject`.
 
-- Nhánh `review/english-only` chứa bản mã nguồn giải nén từ Release `v1.0.0`.
-- Danh mục học tập chỉ có Tiếng Anh 6 học kỳ 1 và học kỳ 2.
-- Giao diện hỗ trợ Unit 1–12 và Review 1–4, chấm điểm, làm lại, lưu tiến độ và xuất/nhập bản sao lưu.
-- Mã bài tập Toán, Khoa học tự nhiên, Ngữ văn, Tin học đã được loại khỏi nhánh làm việc.
-- Backend giữ đăng ký điểm cũ làm dữ liệu lịch sử nhưng không cho truy cập các nhánh không còn trong catalog.
-- Không đưa cơ sở dữ liệu thật của học sinh, tệp PIN hay các bản sao lưu cá nhân lên GitHub.
-- Kiểm thử gần nhất: CI `45173061289`, frontend 235/235, backend 54/54, Vite build PASS (176 modules).
-- Những thay đổi câu chữ UI cuối cùng cần kiểm thử CI lại.
-- Chưa click-through thực trên Windows/Android, chưa tạo bộ cài mới.
-- Main và Release sao lưu gốc chưa thay đổi. Xem `docs/ENGLISH_ONLY_CLEANUP_2026-11-23.md`.
+- Môn Tiếng Anh 6 giữ hai học kỳ, Unit 1–12 và Review 1–4 từ nhánh `review/english-only`.
+- Môn Toán 6 mới chỉ có **Bài 1 – Tập hợp**, gồm 50 câu: 30 luyện tập, 20 vận dụng, phân 2 kiến thức nền; không tự đưa các bài Toán chưa duyệt vào catalog.
+- Bài Toán dùng đúng ngân hàng/engine đã kiểm duyệt v0.5.4 trong `frontend/public/math6-bai1/index.html`.
+- Menu chọn môn/học kỳ gồm 3 khóa: Tiếng Anh HK1, Tiếng Anh HK2, Toán HK1 (Bài 1).
+- Backend vẫn là FastAPI/SQLite. Định danh bài Toán mới `math6-bai1-v054`, có hai hoạt động `-kn1` và `-kn2`, mỗi hoạt động tối đa 1000 điểm, tách biệt với ID Toán cũ.
+- Khi hoàn thành đề Toán, điểm tổng được chuyển đến API của tài khoản đang đăng nhập; giữ điểm tốt nhất theo đề, không ghép điểm theo vị trí câu hỏi ngẫu nhiên.
+- Tiến độ đề Toán đang làm dở và chi tiết từng câu tiếp tục lưu cục bộ theo tài khoản trên trình duyệt; chưa đồng bộ dở dang hoặc lịch sử chi tiết qua nhiều thiết bị.
+- Toàn bộ tiến độ/điểm Tiếng Anh, đăng nhập, backup/restore và mã nguồn gốc được giữ; không thao tác dữ liệu SQLite người học thật.
+- Không sửa `main`, không gộp PR #1, không đụng bản ZIP Release v1.0.0, không công khai triển khai.
+- Chưa tạo bộ cài Windows mới hay kiểm tra trực quan thủ công trên Android/Windows.
+- Xem báo cáo `docs/MULTISUBJECT_GRADE6_2026-11-23.md`.
