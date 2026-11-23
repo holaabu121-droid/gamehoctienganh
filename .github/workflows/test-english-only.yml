@@ -1,4 +1,4 @@
-name: Verify English-only application
+name: Verify English-only application (after fixes)
 on:
   push:
     branches: [review/english-only]
