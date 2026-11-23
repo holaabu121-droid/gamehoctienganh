@@ -1,0 +1,217 @@
+{
+  "generated_at": "2026-11-16T15:56:24.207Z",
+  "review_mode": "ai-role-simulation-over-source-data-and-integration-not-human-teacher-student-or-full-ui-validation",
+  "status": "PASS_WITH_PILOT_REQUIREMENTS",
+  "evidence": {
+    "lessons": 10,
+    "reviews": 2,
+    "semester_branches": [
+      6,
+      6
+    ],
+    "part_plans": 61,
+    "objectives": 60,
+    "concepts": 72,
+    "foundation_cards": 144,
+    "games": 72,
+    "questions": 720,
+    "unique_prompts": 624,
+    "unique_context_prompt_pairs": 720,
+    "ai_generated_questions": 720,
+    "diagnostic_feedback": 2160,
+    "diagnostic_contract_complete": 2160,
+    "difficulty_distribution": {
+      "Cơ bản": 216,
+      "Thông hiểu": 288,
+      "Thử thách": 72,
+      "Vận dụng": 144
+    },
+    "game_distribution": {
+      "communicate": 12,
+      "compose": 12,
+      "infer": 12,
+      "language": 12,
+      "organize": 12,
+      "trace": 12
+    },
+    "answer_positions": {
+      "1": 192,
+      "2": 180,
+      "3": 168,
+      "4": 180
+    },
+    "reading_load": {
+      "average_prompt_words": 23.2,
+      "average_option_words": 11.8,
+      "prompts_over_35_words": 0
+    },
+    "student_simulation": {
+      "attempted": 720,
+      "feedback_shown": 720,
+      "corrected": 720,
+      "invalid": 0
+    },
+    "open_work": {
+      "rubrics": 12,
+      "privacy_notes": 12,
+      "book_project_stages": 6,
+      "auto_scored_personal_feelings": 0
+    },
+    "source_safety": {
+      "long_copied_passages": 0,
+      "generated_status_complete": 720,
+      "source_review_document": true
+    },
+    "integration": {
+      "catalog_courses": [
+        "available",
+        "available"
+      ],
+      "renderer_registered": true,
+      "activity_plan_registered": true,
+      "subject_score_label": true
+    },
+    "limitations": {
+      "human_students": 0,
+      "human_teachers": 0,
+      "full_ui_click_through": 0,
+      "screen_reader_sessions": 0,
+      "tts_listening_sessions": 0
+    }
+  },
+  "role_reviews": {
+    "student": {
+      "role": "Học sinh mô phỏng",
+      "score": 88,
+      "maximum": 100,
+      "verdict": "Có thể học theo từng bài, nhận phản hồi và làm lại từng câu; cần thí điểm để đo tải đọc, hứng thú và độ tự nhiên của nhiệm vụ Văn.",
+      "criteria": [
+        {
+          "name": "Tiến trình và khả năng tự sửa",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "Mô phỏng 720/720 câu đi qua lượt sai–phản hồi–sửa đúng; lưu theo từng câu."
+        },
+        {
+          "name": "Phân hóa",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "Mỗi game theo 3 cơ bản – 4 thông hiểu – 2 vận dụng – 1 thử thách; câu khó không xuất hiện sớm."
+        },
+        {
+          "name": "Phản hồi và trợ giúp",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "2160/2160 phản hồi có mã lỗi, lí do, cách sửa và thẻ ôn; mỗi game có bốn bước suy nghĩ."
+        },
+        {
+          "name": "Dễ hiểu và động lực",
+          "score": 15,
+          "maximum": 20,
+          "evidence": "Câu hỏi trung bình 23.2 từ; sáu game khác mục tiêu nhưng vẫn chủ yếu chọn một đáp án."
+        },
+        {
+          "name": "Trực quan, quyền lựa chọn và riêng tư",
+          "score": 15,
+          "maximum": 20,
+          "evidence": "Có tám họ sơ đồ, bản đồ từng phần, tình huống hư cấu và quyền không chia sẻ; chưa thử UI/TTS với học sinh thật."
+        }
+      ]
+    },
+    "classroom_teacher": {
+      "role": "Giáo viên giảng dạy mô phỏng",
+      "score": 87,
+      "maximum": 100,
+      "verdict": "Đủ làm ngân hàng bổ trợ hai học kỳ; giáo viên vẫn cần duyệt ngữ liệu, điều phối thảo luận và phản hồi sản phẩm mở.",
+      "criteria": [
+        {
+          "name": "Độ phủ chương trình",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "Đủ 10 bài, 2 ôn tập và 61 bản mô tả phần Đọc–Tiếng Việt–Viết–Nói nghe/dự án."
+        },
+        {
+          "name": "Chiều sâu bài giảng",
+          "score": 17,
+          "maximum": 20,
+          "evidence": "144 thẻ, 72 hạt kiến thức và bản đồ trực quan; chưa thay thế giảng giải văn bản cụ thể của giáo viên."
+        },
+        {
+          "name": "Đánh giá và chẩn đoán",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "72 game, 720 câu, 2.160 phản hồi; tách chấm khách quan khỏi rubric và không chấm cảm xúc."
+        },
+        {
+          "name": "Đa dạng nhiệm vụ",
+          "score": 15,
+          "maximum": 20,
+          "evidence": "720 cặp bối cảnh–câu hỏi; vẫn dùng chung engine lựa chọn cho phần chấm tự động."
+        },
+        {
+          "name": "Tổ chức dạy học",
+          "score": 16,
+          "maximum": 20,
+          "evidence": "Có ý tưởng từng phần và rubric, nhưng chưa có bảng điều khiển lớp, phản hồi giáo viên trên bản nháp hay hoạt động nhóm trực tiếp."
+        }
+      ]
+    },
+    "education_expert": {
+      "role": "Chuyên gia ứng dụng giáo dục mô phỏng",
+      "score": 85,
+      "maximum": 100,
+      "verdict": "Sẵn sàng kỹ thuật cho thử nghiệm gia đình có giám sát; chưa đủ bằng chứng người thật để tuyên bố hiệu quả giáo dục hoặc phát hành rộng.",
+      "criteria": [
+        {
+          "name": "Nhất quán thiết kế",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "Mục tiêu–thẻ–sáu năng lực–phản hồi–activity ID–hồ sơ điểm nối nhất quán qua 12 nhánh."
+        },
+        {
+          "name": "Giá trị đánh giá",
+          "score": 15,
+          "maximum": 20,
+          "evidence": "Có độ khó và chẩn đoán nhưng chưa có dữ liệu độ khó, độ phân biệt, độ tin cậy hoặc chấm liên giám khảo người thật."
+        },
+        {
+          "name": "Bản quyền, an toàn và đạo đức",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "720 câu đều gắn AI; không chép dài tác phẩm, không chấm quan điểm/cảm xúc, có lựa chọn hư cấu và bảo vệ riêng tư."
+        },
+        {
+          "name": "Khả dụng và tiếp cận",
+          "score": 14,
+          "maximum": 20,
+          "evidence": "Có responsive, aria, sơ đồ CSS, nghe văn bản và làm lại từng câu; chưa click-through, thử đọc màn hình hoặc thẩm âm TTS."
+        },
+        {
+          "name": "Sẵn sàng vận hành",
+          "score": 17,
+          "maximum": 20,
+          "evidence": "Hai khóa available, 6+6 nhánh, điểm riêng học kỳ/tổng môn/tổng tất cả môn và build đạt; còn thiếu thí điểm và duyệt giáo viên thật."
+        }
+      ]
+    }
+  },
+  "release_decision": {
+    "technical_product": "READY",
+    "supervised_family_use": "READY_WITH_ADULT_SUPPORT",
+    "classroom_use": "CONDITIONAL_READY",
+    "broad_student_release": "PILOT_REQUIRED",
+    "blocking_reasons": [
+      "Chưa có học sinh lớp 6 thật kiểm thử có quan sát và đồng ý.",
+      "Chưa có giáo viên Ngữ văn thật duyệt toàn bộ câu hỏi, cách diễn đạt và rubric.",
+      "Chưa click-through bản cài, thẩm âm TTS hoặc kiểm thử đọc màn hình trên thiết bị thật.",
+      "Chưa có dữ liệu hiệu quả trước–sau, độ tin cậy điểm hoặc độ nhất quán chấm rubric."
+    ]
+  },
+  "next_priorities": [
+    "Thí điểm Bài 1, 4, 8, 9 và 10 với học sinh thật.",
+    "Giáo viên duyệt từng bài, đặc biệt thuật ngữ, phản hồi sai và rubric.",
+    "Thêm tương tác kéo–thả, tô bằng chứng, sắp xếp và trình biên tập thay cho một phần câu chọn.",
+    "Bổ sung lưu bản nháp cục bộ và phản hồi giáo viên/phụ huynh cho Viết–Nói nghe.",
+    "Chạy accessibility audit, click-through bộ cài và TTS trên máy gia đình."
+  ]
+}

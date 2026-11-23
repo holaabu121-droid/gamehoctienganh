@@ -1,0 +1,11 @@
+import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
+import test from "node:test";
+import {validateReview2Data} from "../src/features/review2/review2Engine.ts";
+import {validateBonusLesson} from "../src/features/bonus/bonusEngine.ts";
+const raw=JSON.parse(readFileSync(new URL("../../data/lessons/review2.json",import.meta.url),"utf8"));
+const bonusRaw=JSON.parse(readFileSync(new URL("../../data/lessons/review2_bonus.json",import.meta.url),"utf8"));
+test("Review 2 is after Unit 6 and has six independent ten-round games",()=>{const lesson=validateReview2Data(raw);assert.deepEqual(Object.keys(lesson.games),["pronunciation","vocabulary","grammar","reading","listening","writing"]);assert.deepEqual(Object.values(lesson.games).map(rounds=>rounds.length),[10,10,10,10,10,10]);const app=readFileSync(new URL("../src/App.tsx",import.meta.url),"utf8");assert.ok(app.indexOf("setCourseBranch(\"review2\")")>app.indexOf("setCourseBranch(\"unit6\")"));});
+test("Review 2 preserves visible anchors and labels all replacement audio",()=>{const lesson=validateReview2Data(raw);assert.equal(lesson.games.vocabulary[0].answer,"small");assert.equal(lesson.games.grammar[7].answer,"must");assert.equal(lesson.games.reading[3].answer,"in a park");assert.equal(lesson.games.writing[4].answer,"cycle and play games");assert.ok(lesson.games.listening.every(round=>round.audio_text&&round.audio_source_status==="ai-generated"));});
+test("Review 2 rejects invalid answers, counts and image fields",()=>{const answer=structuredClone(raw);answer.games.reading[0].answer="missing";assert.throws(()=>validateReview2Data(answer),/invalid/);const count=structuredClone(raw);count.games.writing.pop();assert.throws(()=>validateReview2Data(count),/10 unique/);const image=structuredClone(raw);image.games.reading[0].photo="page.jpg";assert.throws(()=>validateReview2Data(image),/images/);});
+test("Review 2 Bonus has three AI ten-round stages",()=>{const lesson=validateBonusLesson(bonusRaw);assert.equal(lesson.lesson_id,"review2-bonus");assert.deepEqual(lesson.selected_variants,["treasure","boss","detective"]);assert.deepEqual(lesson.selected_variants.map(id=>lesson.stages[id].rounds.length),[10,10,10]);assert.ok(lesson.selected_variants.flatMap(id=>lesson.stages[id].rounds).every(item=>item.source_status==="ai-generated"));});

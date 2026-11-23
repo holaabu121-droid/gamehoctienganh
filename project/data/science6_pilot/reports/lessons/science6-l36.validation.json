@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "gate": "science6-single-lesson-data-gate",
+  "lesson_id": "science6-l36",
+  "lesson_number": 36,
+  "title_vi": "Động vật",
+  "source_file": "tài liệu/SGK KHTN 6 KNTT.pdf",
+  "printed_pages": "125-132",
+  "output_sha256": "9ffaf225e20004089ba0fb768542dca960b4d96b1c88e511e22039b27f26c90f",
+  "counts": {
+    "foundations": 10,
+    "competencies": 6,
+    "questions": 60,
+    "diagnostic_feedback": 180
+  },
+  "level_distribution": {
+    "basic": 18,
+    "understanding": 24,
+    "application": 12,
+    "challenge": 6
+  },
+  "practical_application_scored": false,
+  "simulation_scored": false,
+  "limitations": [
+    "Đây là kiểm thử dữ liệu tự động, chưa phải kiểm thử giao diện hoặc quan sát học sinh thật.",
+    "Nội dung cần giáo viên Khoa học tự nhiên duyệt lần cuối trước khi phát hành."
+  ]
+}

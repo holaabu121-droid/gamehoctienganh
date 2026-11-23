@@ -1,0 +1,135 @@
+{
+  "unit_id": "grade6-friends-looking-back",
+  "section_id": "unit3-looking-back",
+  "grade": 6,
+  "level": "A1",
+  "theme": "reviewing personality, appearance and present-time language through evidence",
+  "estimated_minutes": 35,
+  "can_do": [
+    "Choose a personality adjective from a short action-based clue.",
+    "Ask and answer deterministic questions about a fictional person's visible features.",
+    "Build affirmative and negative present-continuous verb phrases.",
+    "Distinguish a repeated habit from an action happening at the moment of speaking.",
+    "Combine vocabulary and grammar evidence in a short final review."
+  ],
+  "knowledge_groups": [
+    {
+      "id": "personality_evidence",
+      "core_concepts": [
+        "humour",
+        "effort",
+        "helpfulness",
+        "care for others",
+        "willing participation"
+      ]
+    },
+    {
+      "id": "appearance_questions",
+      "core_concepts": [
+        "hair length",
+        "facial feature size",
+        "face shape",
+        "who-question",
+        "yes-no have-question"
+      ]
+    },
+    {
+      "id": "present_continuous",
+      "core_concepts": [
+        "be agreement",
+        "verb-ing form",
+        "affirmative",
+        "negative",
+        "question word order"
+      ]
+    },
+    {
+      "id": "tense_contrast",
+      "core_concepts": [
+        "habit marker",
+        "current-action context",
+        "third-person singular",
+        "simple-present negative",
+        "present-continuous question"
+      ]
+    }
+  ],
+  "language_focus": [
+    {
+      "concept": "evidence_to_adjective",
+      "function": "infer one personality adjective from a concrete action or repeated behaviour"
+    },
+    {
+      "concept": "safe_appearance_exchange",
+      "function": "identify a fictional character or answer yes/no from explicit profile evidence"
+    },
+    {
+      "concept": "continuous_verb_phrase",
+      "function": "combine the correct form of be with a verb ending in ing"
+    },
+    {
+      "concept": "simple_or_continuous",
+      "function": "select tense from meaning and time markers before choosing the verb form"
+    }
+  ],
+  "common_errors": [
+    "choose an attractive adjective without matching the action clue",
+    "mix appearance information with personality information",
+    "omit the form of be before a verb ending in ing",
+    "use the wrong be form for a plural or singular subject",
+    "forget the third-person singular ending in a repeated habit",
+    "use the present continuous with a daily habit marker",
+    "change word order incorrectly in a present-continuous question"
+  ],
+  "activity_slots": [
+    {
+      "id": "personality_clue",
+      "round_count": 10,
+      "purpose": "Select a personality adjective from an original action-based clue."
+    },
+    {
+      "id": "appearance_qa",
+      "round_count": 10,
+      "purpose": "Answer who- and yes-no questions from safe fictional profile cards."
+    },
+    {
+      "id": "action_builder",
+      "round_count": 10,
+      "purpose": "Complete affirmative and negative present-continuous verb phrases."
+    },
+    {
+      "id": "tense_choice",
+      "round_count": 10,
+      "purpose": "Choose present simple or present continuous and the matching verb form."
+    },
+    {
+      "id": "final_review",
+      "round_count": 10,
+      "purpose": "Mix personality, appearance and tense evidence in a deterministic end-of-unit challenge."
+    }
+  ],
+  "pedagogy_constraints": [
+    "Teach the evidence-to-answer routine before the first game.",
+    "Keep every round deterministic with one visible correct answer.",
+    "Use fictional profiles instead of asking learners to identify or describe real classmates.",
+    "Explain tense choice from meaning before focusing on spelling.",
+    "Accept full and contracted negative forms as equivalent in explanations, while keeping one displayed answer per multiple-choice round.",
+    "Give each game source-aware help, ten rounds, keyboard-accessible controls and transparent feedback."
+  ],
+  "originality_constraints": [
+    "Do not reuse source character names, sentences, dialogue wording, classroom scene or page layout in a commercial version.",
+    "Create all new clues, fictional profiles, grammar contexts, distractors and feedback from this clean brief only.",
+    "Do not reproduce, crop, trace or imitate the source illustration.",
+    "Use Vietnamese two-word names for every newly designed character.",
+    "Keep source-derived personal-family lesson items separate from clean-brief commercial content."
+  ],
+  "source_status": "clean_brief",
+  "review_status": "pending",
+  "analysis_date": "2026-11-06",
+  "confidence": {
+    "learning_goals": "high",
+    "vocabulary_structure": "high",
+    "grammar_structure": "high",
+    "open_question_answers": "not_applicable"
+  }
+}

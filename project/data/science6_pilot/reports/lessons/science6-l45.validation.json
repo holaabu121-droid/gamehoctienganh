@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "gate": "science6-single-lesson-data-gate",
+  "lesson_id": "science6-l45",
+  "lesson_number": 45,
+  "title_vi": "Lực cản của nước",
+  "source_file": "tài liệu/SGK KHTN 6 KNTT.pdf",
+  "printed_pages": "160-161",
+  "output_sha256": "e6f9cf19278bf694a14d8739456086b9a4e4fd1c5dc1b39a951e392501f95c61",
+  "counts": {
+    "foundations": 10,
+    "competencies": 6,
+    "questions": 60,
+    "diagnostic_feedback": 180
+  },
+  "level_distribution": {
+    "basic": 18,
+    "understanding": 24,
+    "application": 12,
+    "challenge": 6
+  },
+  "practical_application_scored": false,
+  "simulation_scored": false,
+  "limitations": [
+    "Đây là kiểm thử dữ liệu tự động, chưa phải kiểm thử giao diện hoặc quan sát học sinh thật.",
+    "Nội dung cần giáo viên Khoa học tự nhiên duyệt lần cuối trước khi phát hành."
+  ]
+}

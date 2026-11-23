@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "gate": "science6-single-lesson-data-gate",
+  "lesson_id": "science6-l47",
+  "lesson_number": 47,
+  "title_vi": "Một số dạng năng lượng",
+  "source_file": "tài liệu/SGK KHTN 6 KNTT.pdf",
+  "printed_pages": "165-167",
+  "output_sha256": "f1a85badcc40eea8abe98bacab7c77ef04aab089a1da5d0c2d5c5426430adc63",
+  "counts": {
+    "foundations": 10,
+    "competencies": 6,
+    "questions": 60,
+    "diagnostic_feedback": 180
+  },
+  "level_distribution": {
+    "basic": 18,
+    "understanding": 24,
+    "application": 12,
+    "challenge": 6
+  },
+  "practical_application_scored": false,
+  "simulation_scored": false,
+  "limitations": [
+    "Đây là kiểm thử dữ liệu tự động, chưa phải kiểm thử giao diện hoặc quan sát học sinh thật.",
+    "Nội dung cần giáo viên Khoa học tự nhiên duyệt lần cuối trước khi phát hành."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "lesson_id":"unit5-phase2","source_status":"user-provided-reference","usage_scope":"personal-family",
+  "source_note":"Tham chiếu ảnh Unit 5 trang 53–57 do người dùng cung cấp ngày 2026-11-07. Không nhúng ảnh sách. Track 35–37 không được cung cấp; script nghe thay thế ghi ai-generated.",
+  "communication":{
+    "appointment_dialogue":[
+      {"speaker":"Steven","text":"Duong, let's go for a picnic this Sunday."},
+      {"speaker":"Duong","text":"That's fine. What time can we meet?"},
+      {"speaker":"Steven","text":"How about 9 o'clock?"},
+      {"speaker":"Duong","text":"Sure. I'll meet you at that time."}
+    ],
+    "travel_guide_title":"The Himalayas",
+    "travel_guide_facts":["a mountain range","very special","has Mount Everest, the world's highest mountain"],
+    "travel_rules":[
+      "You must ask before you visit the area.",
+      "You mustn't travel alone. Always go in a group.",
+      "You mustn't litter.",
+      "You must bring only the necessary things.",
+      "You must bring the right clothes. Don't bring shorts or T-shirts."
+    ],
+    "packing_examples":{"must":"compass","mustnt":"bicycle"}
+  },
+  "skills1":{
+    "ha_long":"Ha Long Bay is in Quang Ninh. It has many islands and caves. Tuan Chau, with its beautiful beaches, is a popular tourist attraction in Ha Long Bay. There you can enjoy great seafood. And you can join in exciting activities. Ha Long Bay is Viet Nam's best natural wonder.",
+    "mui_ne":"Mui Ne is popular for its amazing landscapes. The sand has different colours: white, yellow, red ... It's like a desert here. You can ride a bike down the slopes. You can also fly kites, or have a picnic by the beach. The best time to visit the Mui Ne Sand Dunes is early morning or late afternoon. Remember to wear suncream and bring water.",
+    "word_box":["desert","visit","wonder","islands","remember"],
+    "fill_answers":["islands","wonder","desert","remember","visit"],
+    "questions":[
+      {"question":"Where is Ha Long Bay?","answer":"In Quang Ninh."},
+      {"question":"What can you do at Ha Long Bay?","answer":"Enjoy seafood and join exciting activities."},
+      {"question":"Is there a desert in Mui Ne?","answer":"No, there isn't."},
+      {"question":"Where can you have a picnic in Mui Ne?","answer":"By the beach."},
+      {"question":"What is the best time to visit the Mui Ne Sand Dunes?","answer":"Early morning or late afternoon."}
+    ]
+  },
+  "skills2":{
+    "visible_statements":[
+      "Phu Quoc is a very beautiful island in Viet Nam.",
+      "There are no green forests in Phu Quoc.",
+      "Tourists can visit fishing villages and national parks there.",
+      "You cannot play water sports in Phu Quoc.",
+      "People sell interesting things at the markets."
+    ],
+    "replacement_audio":{"source_status":"ai-generated","text":"Phu Quoc is a very beautiful island in southern Viet Nam. It has green forests, fishing villages and a national park. Tourists can swim and play water sports. At the markets, people sell interesting local products.","truth":[true,false,true,false,true]},
+    "writing_network":["name of the attraction","where it is","how you can go there","what is special about it","what you can do there"],
+    "paragraph_stems":["I am writing about ...","It is in ..."]
+  },
+  "looking_back":{
+    "picture_places":["waterfall","cave","desert","river","beach","island"],
+    "wonder_matches":[
+      {"name":"Fansipan","type":"mountain"},{"name":"Ban Gioc","type":"waterfall"},{"name":"Ha Long","type":"bay"},{"name":"Cuc Phuong","type":"forest"},{"name":"The Sahara","type":"desert"},{"name":"Con Dao","type":"island"}
+    ],
+    "travel_items":["scissors","sleeping bag","compass","backpack","plaster"],
+    "grammar_corrections":[
+      {"wrong":"How many candles is on that birthday cake?","answer":"are"},
+      {"wrong":"There are so much snow on the road.","answer":"is"},
+      {"wrong":"Michael can play different musical instrument.","answer":"instruments"},
+      {"wrong":"There are not much milk left in the fridge.","answer":"is"},
+      {"wrong":"Don't take too much luggages on your trip.","answer":"luggage"}
+    ],
+    "dialogue_answers":["must","must","mustn't","must","mustn't"]
+  },
+  "project":{
+    "title":"Dream Destination",
+    "prompts":["what the natural wonder is","where it is","how you can go there","what is special about it","what you can do there"],
+    "steps":["Make a poster about a natural wonder you would like to visit.","Introduce the attraction to your class."],
+    "now_i_can":[
+      "use words related to things in nature and travel items",
+      "pronounce the sounds /t/ and /d/ correctly",
+      "use countable and uncountable nouns",
+      "use the modal verb must / mustn't",
+      "make and accept appointments",
+      "read about natural wonders",
+      "listen and write about a natural wonder",
+      "write a paragraph about a natural wonder"
+    ],
+    "fictional_destination":{"source_status":"ai-generated","name":"Cloud Lake","location":"Green Valley","transport":"by bus","special":"clear blue water and a quiet forest","activities":"hike, take photos and have a picnic"}
+  }
+}

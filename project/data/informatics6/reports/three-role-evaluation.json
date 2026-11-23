@@ -1,0 +1,248 @@
+{
+  "status": "PASS_WITH_PILOT_REQUIREMENTS",
+  "scope": "integrated-informatics6-semesters-1-and-2-lessons-01-to-17",
+  "review_mode": "automated-three-role-simulation-not-human-teacher-student-or-full-ui-validation",
+  "generated_at": "2026-11-16T15:56:22.511Z",
+  "evidence": {
+    "lessons": 17,
+    "topics": 6,
+    "objectives": 68,
+    "concepts": 102,
+    "foundation_cards": 204,
+    "unique_foundation_cards": 204,
+    "part_plans": 85,
+    "rubric_lessons": 17,
+    "games": 102,
+    "questions": 1020,
+    "unique_prompts": 680,
+    "unique_context_prompt_pairs": 1020,
+    "diagnostic_feedback": 3060,
+    "diagnostic_contract_complete": 3060,
+    "difficulty_distribution": {
+      "Cơ bản": 306,
+      "Thông hiểu": 408,
+      "Thử thách": 102,
+      "Vận dụng": 204
+    },
+    "game_distribution": {
+      "connect": 17,
+      "diagnose": 17,
+      "process": 17,
+      "reason": 17,
+      "recognize": 17,
+      "safe-apply": 17
+    },
+    "visual_families": 6,
+    "visual_lessons": 17,
+    "safeguarded_practice_lessons": [
+      7,
+      8,
+      9,
+      11,
+      14
+    ],
+    "prompt_words": {
+      "average": 20.3,
+      "maximum": 40,
+      "over_35": 10
+    },
+    "option_words": {
+      "average": 10.7,
+      "maximum": 38,
+      "over_20": 412,
+      "total": 4080
+    },
+    "answer_position_distribution": [
+      255,
+      272,
+      255,
+      238
+    ],
+    "student_simulation": {
+      "attempted": 1020,
+      "feedback_shown": 1020,
+      "corrected": 1020,
+      "invalid": 0
+    },
+    "integration": {
+      "semester1_branches": 9,
+      "semester2_branches": 8,
+      "renderer_registered": true,
+      "activity_plan_registered": true,
+      "separate_subject_score": true
+    },
+    "limitations": {
+      "human_students": 0,
+      "human_teachers": 0,
+      "accessibility_audit": false,
+      "completed_ui_clickthrough": false,
+      "tts_listening_test": false
+    }
+  },
+  "role_reviews": {
+    "student": {
+      "role": "Mô phỏng học sinh lớp 6",
+      "score": 88,
+      "maximum": 100,
+      "verdict": "Có thể học độc lập trong gia đình với người lớn hỗ trợ; cần thí điểm người thật để xác nhận mức hấp dẫn và dễ dùng.",
+      "criteria": [
+        {
+          "criterion": "Tiến trình học và khả năng tự sửa",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "Mô phỏng 1020/1020 câu đi qua lượt sai, nhận phản hồi và sửa đúng; 102 game lưu theo từng câu."
+        },
+        {
+          "criterion": "Phân hóa từ dễ đến khó",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "Phân bố 306 cơ bản, 408 thông hiểu, 204 vận dụng, 102 thử thách; đúng 3-4-2-1 mỗi game."
+        },
+        {
+          "criterion": "Phản hồi và trợ giúp",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "3060/3060 phản hồi đủ lỗi, lí do, cách sửa và thẻ ôn; mỗi game có hướng dẫn bốn bước gắn đúng bài và năng lực."
+        },
+        {
+          "criterion": "Dễ đọc và động lực",
+          "score": 16,
+          "maximum": 20,
+          "evidence": "Câu hỏi trung bình 20.3 từ, phương án 10.7 từ; 10 câu trên 35 từ. Có bản đồ năm phần trước game nhưng sáu game vẫn giữ bố cục lựa chọn giống nhau."
+        },
+        {
+          "criterion": "Trực quan, thao tác và tiếp cận",
+          "score": 13,
+          "maximum": 20,
+          "evidence": "17/17 bài có trực quan thuộc 6 họ; có nghe bài, bàn phím theo thành phần chung nhưng chưa click-through localhost, nghe TTS bằng tai hoặc thử người học thật."
+        }
+      ],
+      "strengths": [
+        "Luồng sai–phản hồi–sửa đúng hoạt động với mọi câu.",
+        "Câu khó không xuất hiện sớm; có bỏ qua và làm lại từng câu.",
+        "Tình huống an toàn số gần gũi, không buộc cung cấp dữ liệu thật."
+      ],
+      "concerns": [
+        "Sáu trò chơi lặp bố cục lựa chọn, có thể gây đơn điệu sau nhiều bài.",
+        "Trực quan hiện là minh họa tĩnh theo sáu họ, chưa phải mô phỏng tương tác sâu.",
+        "Chưa có học sinh thật kiểm tra tốc độ đọc, thao tác, âm thanh và mức hứng thú."
+      ]
+    },
+    "classroom_teacher": {
+      "role": "Mô phỏng giáo viên trực tiếp giảng dạy",
+      "score": 90,
+      "maximum": 100,
+      "verdict": "Đủ tốt để dùng làm bài giảng và ngân hàng luyện tập bổ trợ; thực hành thật vẫn cần giáo viên quan sát và phản hồi.",
+      "criteria": [
+        {
+          "criterion": "Độ phủ chương trình và tính đúng trọng tâm",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "Đủ 17/17 bài, 6 chủ đề, 68 mục tiêu và phạm vi trang nguồn; hai học kỳ giữ đúng thứ tự bài."
+        },
+        {
+          "criterion": "Cấu trúc bài giảng và cách nghĩ",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "204 thẻ cho 17 bài, 102 hạt kiến thức và 85 phần học; mỗi bài có sáu khái niệm, 12 thẻ và lộ trình khởi động–hình thành–luyện–sửa sai–vận dụng."
+        },
+        {
+          "criterion": "Đánh giá sáu năng lực và chẩn đoán",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "102 game, 1020 câu, 3060 phản hồi; sáu năng lực và điểm hoạt động tách biệt."
+        },
+        {
+          "criterion": "Phân hóa và đa dạng nhiệm vụ",
+          "score": 14,
+          "maximum": 20,
+          "evidence": "1020/1020 cặp bối cảnh-câu hỏi khác nhau nhưng chỉ 680 câu dẫn khác chữ; các game dùng chung một bộ sinh mẫu."
+        },
+        {
+          "criterion": "Khả năng tổ chức dạy học và thực hành",
+          "score": 18,
+          "maximum": 20,
+          "evidence": "Có 85 kế hoạch phần học, rubric bốn tiêu chí ở 17/17 bài và cảnh báo thực hành ở Bài 7, 8, 9, 11, 14; chưa có kế hoạch thời lượng hoặc bảng điều khiển giáo viên."
+        }
+      ],
+      "strengths": [
+        "Bao phủ đủ 17 bài và giữ đúng thứ tự chương trình.",
+        "Mỗi bài có sáu hạt kiến thức, 12 thẻ, năm phần học, rubric và sáu năng lực.",
+        "An toàn số được dạy như tiêu chí ra quyết định, không chỉ là ghi chú."
+      ],
+      "concerns": [
+        "Sáu game vẫn dùng chung bộ sinh mẫu nên định dạng tương tác chưa đa dạng sâu.",
+        "Rubric hỗ trợ quan sát nhưng ứng dụng chưa có màn giáo viên nhập nhận xét sản phẩm.",
+        "Thiếu kế hoạch thời lượng, hoạt động cặp/nhóm chi tiết và trang tổng quan dành cho giáo viên."
+      ]
+    },
+    "education_expert": {
+      "role": "Mô phỏng chuyên gia đánh giá ứng dụng giáo dục",
+      "score": 85,
+      "maximum": 100,
+      "verdict": "Sẵn sàng về kỹ thuật cho thí điểm có giám sát; chưa đủ bằng chứng để khẳng định hiệu quả giáo dục hoặc phát hành rộng.",
+      "criteria": [
+        {
+          "criterion": "Tính nhất quán thiết kế học tập",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "Mục tiêu, 12 thẻ, năm phần học, rubric, sáu năng lực, phản hồi, activity ID, tiến độ và hồ sơ điểm nối nhất quán qua 17 bài."
+        },
+        {
+          "criterion": "Giá trị và độ tin cậy đánh giá",
+          "score": 14,
+          "maximum": 20,
+          "evidence": "Lộ trình và đáp án được kiểm soát, vị trí đáp án 255/272/255/238; chưa có dữ liệu độ khó thực nghiệm, độ phân biệt hoặc độ tin cậy từ người học thật."
+        },
+        {
+          "criterion": "An toàn, riêng tư và đạo đức số",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "Không yêu cầu tài khoản/dữ liệu thật; tìm kiếm, email, chia sẻ và dự án đều yêu cầu cho phép/giám sát, thực hành thật không chấm tự động."
+        },
+        {
+          "criterion": "Khả dụng và khả năng tiếp cận",
+          "score": 13,
+          "maximum": 20,
+          "evidence": "Có responsive, nhãn aria, lưu/bỏ qua/làm lại và trực quan CSS; chưa hoàn tất click-through, kiểm thử đọc màn hình, TTS bằng tai hoặc thiết bị học sinh."
+        },
+        {
+          "criterion": "Sẵn sàng vận hành và đo lường",
+          "score": 18,
+          "maximum": 20,
+          "evidence": "Đã đăng ký 9+8 bài, renderer, activity plan, điểm môn/tổng môn và bộ cài 1.2.0; còn thiếu thí điểm và telemetry sư phạm có đồng ý."
+        }
+      ],
+      "strengths": [
+        "Kiến trúc học liệu và đo điểm nhất quán, truy vết được tới bài và năng lực.",
+        "Phản hồi chẩn đoán tốt hơn phản hồi đúng/sai đơn thuần.",
+        "Quyền riêng tư, sự đồng ý, bản quyền và vai trò người lớn được tích hợp từ thiết kế."
+      ],
+      "concerns": [
+        "Chưa có bằng chứng trước–sau, độ tin cậy bài kiểm tra hoặc dữ liệu người học thật.",
+        "Chưa có kiểm thử khả năng tiếp cận đầy đủ và click-through trên bản cài cuối.",
+        "Độ đa dạng câu hỏi chủ yếu đến từ bối cảnh và thao tác, chưa đủ biến thiên định dạng tương tác."
+      ]
+    }
+  },
+  "release_decision": {
+    "technical_product": "READY",
+    "supervised_family_use": "READY_WITH_ADULT_SUPPORT",
+    "classroom_use": "CONDITIONAL_READY",
+    "broad_student_release": "PILOT_REQUIRED",
+    "blocking_reasons": [
+      "Chưa có học sinh lớp 6 thật tham gia kiểm thử có quan sát và đồng ý.",
+      "Chưa có giáo viên Tin học thật duyệt toàn bộ câu hỏi, lời giảng và mức độ khó.",
+      "Chưa hoàn tất click-through bản cài, kiểm thử đọc màn hình/TTS bằng tai và thiết bị cấu hình thấp.",
+      "Chưa có dữ liệu thực nghiệm về hiệu quả trước–sau, độ phân biệt và độ tin cậy của điểm."
+    ]
+  },
+  "priorities": [
+    "Thí điểm 5–10 học sinh cho Bài 1, 7, 9, 14 và 16; ghi thời gian, lỗi, bỏ cuộc và phỏng vấn ngắn.",
+    "Mời giáo viên Tin học duyệt từng bài, ưu tiên độ chính xác của sáu hạt kiến thức, đáp án và phản hồi sai.",
+    "Thêm biến thể tương tác ngoài trắc nghiệm: kéo thả luồng dữ liệu, email giả lập, định dạng văn bản và sơ đồ thuật toán.",
+    "Tạo màn giáo viên ghi rubric/nhận xét cho sản phẩm thật mà không tự động chấm thao tác.",
+    "Nâng sáu trực quan tĩnh thành mô phỏng có bàn phím và mô tả đọc màn hình.",
+    "Chạy accessibility audit, click-through bộ cài và thử TTS trên máy gia đình trước phát hành rộng."
+  ]
+}

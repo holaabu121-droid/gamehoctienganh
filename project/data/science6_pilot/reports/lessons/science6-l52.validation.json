@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "gate": "science6-single-lesson-data-gate",
+  "lesson_id": "science6-l52",
+  "lesson_number": 52,
+  "title_vi": "Chuyển động nhìn thấy của Mặt Trời. Thiên thể",
+  "source_file": "tài liệu/SGK KHTN 6 KNTT.pdf",
+  "printed_pages": "179-182",
+  "output_sha256": "598b155bca89e1b7acf8aaa917e643948cd500f1061c478a65fc680933aac163",
+  "counts": {
+    "foundations": 10,
+    "competencies": 6,
+    "questions": 60,
+    "diagnostic_feedback": 180
+  },
+  "level_distribution": {
+    "basic": 18,
+    "understanding": 24,
+    "application": 12,
+    "challenge": 6
+  },
+  "practical_application_scored": false,
+  "simulation_scored": false,
+  "limitations": [
+    "Đây là kiểm thử dữ liệu tự động, chưa phải kiểm thử giao diện hoặc quan sát học sinh thật.",
+    "Nội dung cần giáo viên Khoa học tự nhiên duyệt lần cuối trước khi phát hành."
+  ]
+}

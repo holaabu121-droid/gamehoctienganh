@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "default_course_id": "english-6-semester-1",
+  "courses": [
+    {
+      "id": "english-6-semester-1",
+      "subject": "english",
+      "subject_label": "Tiếng Anh",
+      "grade": 6,
+      "semester": 1,
+      "title": "Tiếng Anh 6 · Học kỳ 1",
+      "description": "Chương trình hiện có gồm Units 1–6 và Review 1–2.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": ["unit1", "unit2", "unit3", "review1", "unit4", "unit5", "unit6", "review2"]
+    },
+    {
+      "id": "english-6-semester-2",
+      "subject": "english",
+      "subject_label": "Tiếng Anh",
+      "grade": 6,
+      "semester": 2,
+      "title": "Tiếng Anh 6 · Học kỳ 2",
+      "description": "Chương trình hiện có gồm Units 7–12 và Review 3–4.",
+      "status": "available",
+      "content_version": "1.7.0",
+      "branch_ids": ["unit7", "unit8", "unit9", "review3", "unit10", "unit11", "unit12", "review4"]
+    },
+    {
+      "id": "math-6-semester-1",
+      "subject": "math",
+      "subject_label": "Toán",
+      "grade": 6,
+      "semester": 1,
+      "title": "Toán 6 · Học kỳ 1",
+      "description": "Đầy đủ 5 chương, Bài 1–22, các phần luyện tập và ba hoạt động trải nghiệm.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": [
+        "math6-s1-lesson1", "math6-s1-lesson2", "math6-s1-lesson3", "math6-s1-lesson4", "math6-s1-lesson5",
+        "math6-s1-chapter1-practice", "math6-s1-chapter1-review", "math6-s1-lesson6", "math6-s1-lesson7", "math6-s1-chapter1-practice2",
+        "math6-s1-lesson8", "math6-s1-lesson9", "math6-s1-lesson10", "math6-s1-chapter2-practice1", "math6-s1-lesson11", "math6-s1-lesson12", "math6-s1-chapter2-practice2", "math6-s1-chapter2-review",
+        "math6-s1-lesson13", "math6-s1-lesson14", "math6-s1-lesson15", "math6-s1-chapter3-practice1", "math6-s1-lesson16", "math6-s1-lesson17", "math6-s1-chapter3-practice2", "math6-s1-chapter3-review",
+        "math6-s1-lesson18", "math6-s1-lesson19", "math6-s1-lesson20", "math6-s1-chapter4-practice", "math6-s1-chapter4-review",
+        "math6-s1-lesson21", "math6-s1-lesson22", "math6-s1-chapter5-practice", "math6-s1-chapter5-review",
+        "math6-s1-activity-card-room", "math6-s1-activity-geogebra", "math6-s1-activity-calculator"
+      ]
+    },
+    {
+      "id": "math-6-semester-2",
+      "subject": "math",
+      "subject_label": "Toán",
+      "grade": 6,
+      "semester": 2,
+      "title": "Toán 6 · Học kỳ 2",
+      "description": "Đầy đủ Chương VI–IX, Bài 23–43, các phần luyện tập, hoạt động trải nghiệm và ôn tập cuối năm.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": [
+        "math6-s2-lesson23", "math6-s2-lesson24", "math6-s2-chapter6-practice1", "math6-s2-lesson25", "math6-s2-lesson26", "math6-s2-lesson27", "math6-s2-chapter6-practice2", "math6-s2-chapter6-review",
+        "math6-s2-lesson28", "math6-s2-lesson29", "math6-s2-lesson30", "math6-s2-lesson31", "math6-s2-chapter7-practice", "math6-s2-chapter7-review",
+        "math6-s2-lesson32", "math6-s2-lesson33", "math6-s2-lesson34", "math6-s2-lesson35", "math6-s2-chapter8-practice1", "math6-s2-lesson36", "math6-s2-lesson37", "math6-s2-chapter8-practice2", "math6-s2-chapter8-review",
+        "math6-s2-lesson38", "math6-s2-lesson39", "math6-s2-lesson40", "math6-s2-lesson41", "math6-s2-chapter9-practice1", "math6-s2-lesson42", "math6-s2-lesson43", "math6-s2-chapter9-practice2", "math6-s2-chapter9-review",
+        "math6-s2-activity-budget", "math6-s2-activity-sports-survey", "math6-s2-activity-geogebra", "math6-s2-final-review"
+      ]
+    },
+    {
+      "id": "informatics-6-semester-1",
+      "subject": "informatics",
+      "subject_label": "Tin học",
+      "grade": 6,
+      "semester": 1,
+      "title": "Tin học 6 · Học kỳ 1",
+      "description": "Bài 1–9: thông tin, máy tính, mạng, Internet, trao đổi và an toàn thông tin.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": ["informatics6-s1-lesson1","informatics6-s1-lesson2","informatics6-s1-lesson3","informatics6-s1-lesson4","informatics6-s1-lesson5","informatics6-s1-lesson6","informatics6-s1-lesson7","informatics6-s1-lesson8","informatics6-s1-lesson9"]
+    },
+    {
+      "id": "informatics-6-semester-2",
+      "subject": "informatics",
+      "subject_label": "Tin học",
+      "grade": 6,
+      "semester": 2,
+      "title": "Tin học 6 · Học kỳ 2",
+      "description": "Bài 10–17: ứng dụng tin học, thuật toán, cấu trúc điều khiển và chương trình.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": ["informatics6-s2-lesson10","informatics6-s2-lesson11","informatics6-s2-lesson12","informatics6-s2-lesson13","informatics6-s2-lesson14","informatics6-s2-lesson15","informatics6-s2-lesson16","informatics6-s2-lesson17"]
+    },
+    {
+      "id": "vietnamese-6-semester-1",
+      "subject": "vietnamese",
+      "subject_label": "Ngữ văn",
+      "grade": 6,
+      "semester": 1,
+      "title": "Ngữ văn 6 · Học kỳ 1",
+      "description": "Bài 1–5 và Ôn tập học kỳ I: đọc, tiếng Việt, viết, nói và nghe.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": ["vietnamese6-s1-lesson1","vietnamese6-s1-lesson2","vietnamese6-s1-lesson3","vietnamese6-s1-lesson4","vietnamese6-s1-lesson5","vietnamese6-s1-review"]
+    },
+    {
+      "id": "vietnamese-6-semester-2",
+      "subject": "vietnamese",
+      "subject_label": "Ngữ văn",
+      "grade": 6,
+      "semester": 2,
+      "title": "Ngữ văn 6 · Học kỳ 2",
+      "description": "Bài 6–10 và Ôn tập học kỳ II: đọc, tiếng Việt, viết, nói và nghe.",
+      "status": "available",
+      "content_version": "1.0.0",
+      "branch_ids": ["vietnamese6-s2-lesson6","vietnamese6-s2-lesson7","vietnamese6-s2-lesson8","vietnamese6-s2-lesson9","vietnamese6-s2-lesson10","vietnamese6-s2-review"]
+    },
+    {
+      "id": "science-6-semester-1",
+      "subject": "science",
+      "subject_label": "Khoa học tự nhiên",
+      "grade": 6,
+      "semester": 1,
+      "title": "Khoa học tự nhiên 6 · Học kỳ 1",
+      "description": "Bài 1–28: năm chặng kiến thức, sáu năng lực khoa học và ứng dụng an toàn không chấm điểm.",
+      "status": "available",
+      "content_version": "1.1.0",
+      "branch_ids": ["science6-l01","science6-l02","science6-l03","science6-l04","science6-l05","science6-l06","science6-l07","science6-l08","science6-l09","science6-l10","science6-l11","science6-l12","science6-l13","science6-l14","science6-l15","science6-l16","science6-l17","science6-l18","science6-l19","science6-l20","science6-l21","science6-l22","science6-l23","science6-l24","science6-l25","science6-l26","science6-l27","science6-l28"]
+    },
+    {
+      "id": "science-6-semester-2",
+      "subject": "science",
+      "subject_label": "Khoa học tự nhiên",
+      "grade": 6,
+      "semester": 2,
+      "title": "Khoa học tự nhiên 6 · Học kỳ 2",
+      "description": "Bài 29–55: năm chặng kiến thức, sáu năng lực khoa học và ứng dụng an toàn không chấm điểm.",
+      "status": "available",
+      "content_version": "1.1.0",
+      "branch_ids": ["science6-l29","science6-l30","science6-l31","science6-l32","science6-l33","science6-l34","science6-l35","science6-l36","science6-l37","science6-l38","science6-l39","science6-l40","science6-l41","science6-l42","science6-l43","science6-l44","science6-l45","science6-l46","science6-l47","science6-l48","science6-l49","science6-l50","science6-l51","science6-l52","science6-l53","science6-l54","science6-l55"]
+    }
+  ]
+}

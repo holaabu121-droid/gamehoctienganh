@@ -1,0 +1,10 @@
+import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
+import test from "node:test";
+import { isSkills2Answer, validateSkills2Data } from "../src/features/skills-2/skills2Engine.ts";
+const raw=JSON.parse(readFileSync(new URL("../../data/lessons/unit3_skills2.json",import.meta.url),"utf8"));
+test("Skills 2 has five scored games of ten rounds",()=>{const lesson=validateSkills2Data(raw);assert.deepEqual(Object.values(lesson.games).map(items=>items.length),[10,10,10,10,10]);assert.equal(Object.values(lesson.games).flat().length,50);});
+test("listening scripts are original practice with deterministic answers",()=>{const lesson=validateSkills2Data(raw);for(const id of ["actions","who","fill"])assert.ok(lesson.games[id].every(x=>x.audio_text?.trim()));assert.equal(isSkills2Answer(lesson.games.fill[0]," 6c "),true);assert.deepEqual(lesson.source_material.visible_actions,["talking","playing football","walking"]);});
+test("reference action prompts label their replacement audio as AI-generated",()=>{const lesson=validateSkills2Data(raw);assert.ok(lesson.games.actions.slice(0,3).every(x=>x.source_status==="user-provided-reference"&&x.audio_source_status==="ai-generated"));});
+test("Skills 2 keeps visible prompts and safe fictional writing",()=>{const lesson=validateSkills2Data(raw);assert.equal(lesson.source_material.interview_questions.length,4);assert.match(lesson.intro.privacy_note_vi,/không cần nhập thông tin thật/i);assert.equal(lesson.source_material.diary_word_target,50);});
+test("Skills 2 rejects invalid count, audio, AI name and image fields",()=>{const count=structuredClone(raw);count.games.diary.pop();assert.throws(()=>validateSkills2Data(count),/exactly 10/);const audio=structuredClone(raw);audio.games.actions[0].audio_text="";assert.throws(()=>validateSkills2Data(audio),/audio text/);const name=structuredClone(raw);name.games.who[0].character_name="Lan";assert.throws(()=>validateSkills2Data(name),/two-word/);const image=structuredClone(raw);image.photo="page.jpg";assert.throws(()=>validateSkills2Data(image),/image fields/);});

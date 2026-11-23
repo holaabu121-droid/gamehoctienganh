@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "gate": "science6-single-lesson-data-gate",
+  "lesson_id": "science6-l39",
+  "lesson_number": 39,
+  "title_vi": "Tìm hiểu sinh vật ngoài thiên nhiên",
+  "source_file": "tài liệu/SGK KHTN 6 KNTT.pdf",
+  "printed_pages": "139-143",
+  "output_sha256": "565ef6d200cd237b392c3994923c1c27eac04f03b6a34e15cf6c0d023a8d9c8f",
+  "counts": {
+    "foundations": 10,
+    "competencies": 6,
+    "questions": 60,
+    "diagnostic_feedback": 180
+  },
+  "level_distribution": {
+    "basic": 18,
+    "understanding": 24,
+    "application": 12,
+    "challenge": 6
+  },
+  "practical_application_scored": false,
+  "simulation_scored": false,
+  "limitations": [
+    "Đây là kiểm thử dữ liệu tự động, chưa phải kiểm thử giao diện hoặc quan sát học sinh thật.",
+    "Nội dung cần giáo viên Khoa học tự nhiên duyệt lần cuối trước khi phát hành."
+  ]
+}

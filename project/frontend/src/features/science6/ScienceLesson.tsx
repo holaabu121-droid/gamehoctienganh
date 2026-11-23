@@ -1,0 +1,14 @@
+import { SkillsSection } from "../skills-common/SkillsSection";
+import { ScienceConceptVisual } from "./ScienceConceptVisual";
+import { buildScienceLesson, type ScienceLessonSpec } from "./scienceCurriculum";
+
+export function ScienceLesson({spec}:{spec:ScienceLessonSpec}){
+  const lesson=buildScienceLesson(spec);
+  return <>
+    <header className="unit-header science-unit-header"><span className="eyebrow">Khoa học tự nhiên 6 · Học kỳ {spec.lesson_number<=28?1:2}</span><div className="unit-identity"><span className="unit-number">{spec.lesson_number}</span><div><span>Chương {spec.chapter_number}</span><h1>Bài {spec.lesson_number} · {spec.title_vi}</h1><p>{spec.source_note_vi}</p></div></div><section className="section-overview" aria-label={`Mục tiêu Bài ${spec.lesson_number}`}><div className="section-guide"><span className="section-kicker">Em sẽ học</span><h2>{spec.title_vi}</h2><p>Năm chặng kiến thức, sáu khuôn biểu diễn và sáu năng lực khoa học.</p></div><div className="section-objectives"><strong>Mục tiêu bài học</strong><ul>{spec.objectives.map(item=><li key={item}>{item}</li>)}</ul></div></section></header>
+    <ScienceConceptVisual spec={spec}/>
+    <SkillsSection unitId={spec.branch_id} sectionLabel={`Khoa học tự nhiên 6 · Bài ${spec.lesson_number} · trang ${spec.provenance.printed_pages}`} trailTitle={`Hành trình khoa học · ${spec.title_vi}`} introTitle={`Bài ${spec.lesson_number} · ${spec.title_vi}`} introTitleVi="Quan sát bằng chứng, lập luận có giới hạn và hành động an toàn" introDescription="Mở năm nhóm thẻ trước khi luyện. Sáu trò chơi có 10 câu theo lộ trình 3 cơ bản – 4 thông hiểu – 2 vận dụng – 1 thử thách; điểm được lưu riêng theo từng năng lực." foundations={lesson.foundations} games={lesson.rounds} help={lesson.help} meta={lesson.meta} listening={false} questionEmphasis="context" speechLang="vi-VN" privacyNote="Mọi tình huống là mô phỏng. Không tự làm thí nghiệm, dùng lửa, điện, hóa chất, vật sắc nhọn hoặc sinh vật khi chưa được phụ huynh/giáo viên cho phép và hướng dẫn."/>
+    <aside className="lesson-card science-simulation-note"><span className="eyebrow">Mô phỏng · không chấm điểm</span><h3>{spec.simulation.description_vi}</h3><p>Trạng thái: đặc tả hoạt động; không tuyên bố đây là thí nghiệm thật.</p><ul>{spec.simulation.student_actions.map(item=><li key={item}>{item}</li>)}</ul></aside>
+    <aside className="lesson-card science-practice-note"><span className="eyebrow">Ứng dụng thực tế · không chấm điểm</span><h3>{spec.practical_application.title_vi}</h3><p>{spec.practical_application.safe_summary_vi}</p><strong>{spec.practical_application.warning_vi}</strong><div><section><h4>Chỉ được làm</h4><ul>{spec.practical_application.allowed_actions.map(item=><li key={item}>{item}</li>)}</ul></section><section><h4>Không được làm</h4><ul>{spec.practical_application.prohibited_actions.map(item=><li key={item}>{item}</li>)}</ul></section></div></aside>
+  </>;
+}

@@ -1,0 +1,119 @@
+{
+  "unit_id": "grade6-friends-grammar-present-actions",
+  "section_id": "unit3-a-closer-look-2",
+  "grade": 6,
+  "level": "A1",
+  "theme": "friends and everyday actions",
+  "estimated_minutes": 35,
+  "can_do": [
+    "Describe an action happening now with the present continuous.",
+    "Build affirmative and negative present continuous sentences.",
+    "Ask and answer Yes/No questions about actions happening now.",
+    "Choose between the present simple and present continuous from meaning and time context."
+  ],
+  "vocabulary_groups": [
+    {
+      "id": "learning_and_creating",
+      "core": ["read", "write", "draw", "study"],
+      "extension": ["practise"]
+    },
+    {
+      "id": "movement_and_sport",
+      "core": ["walk", "cycle", "swim", "play"],
+      "extension": ["jog"]
+    },
+    {
+      "id": "social_and_daily_actions",
+      "core": ["talk", "listen", "take photos", "make"],
+      "extension": ["tidy", "wait"]
+    }
+  ],
+  "grammar_focus": [
+    {
+      "concept": "present_continuous_use",
+      "rule": "Use the present continuous for an action happening at or around the time of speaking.",
+      "time_contexts": ["now", "at present", "at the moment"]
+    },
+    {
+      "concept": "present_continuous_affirmative",
+      "pattern": "subject + am/is/are + verb-ing"
+    },
+    {
+      "concept": "present_continuous_negative",
+      "pattern": "subject + am/is/are + not + verb-ing"
+    },
+    {
+      "concept": "present_continuous_yes_no_question",
+      "pattern": "am/is/are + subject + verb-ing",
+      "short_answer_pattern": "yes/no + subject + am/is/are (not)"
+    },
+    {
+      "concept": "present_simple_vs_present_continuous",
+      "rule": "Use the present simple for routines or stable situations and the present continuous for an action happening now."
+    }
+  ],
+  "communication_functions": [
+    "describe a current action",
+    "ask whether someone is doing an action",
+    "confirm or deny a current action",
+    "contrast a routine with an action happening now"
+  ],
+  "skill_targets": {
+    "listening": "Identify the subject, auxiliary and action in short descriptions.",
+    "speaking": "Ask and answer short questions about current actions.",
+    "reading": "Use meaning and time context to identify the intended tense.",
+    "writing": "Construct accurate affirmative, negative and question forms."
+  },
+  "common_errors": [
+    "omit the auxiliary be",
+    "use the wrong form of be for the subject",
+    "use the base verb instead of verb-ing",
+    "place the auxiliary after the subject in a Yes/No question",
+    "use the present continuous for a repeated routine",
+    "choose a tense from one keyword without checking the sentence meaning"
+  ],
+  "activity_slots": [
+    {
+      "id": "foundation_tutorial",
+      "purpose": "Teach meaning, form and a simple decision rule before practice."
+    },
+    {
+      "id": "auxiliary_builder",
+      "purpose": "Build affirmative and negative forms from reusable grammar pieces."
+    },
+    {
+      "id": "current_action_reporter",
+      "purpose": "Describe original illustrated situations with positive or negative forms."
+    },
+    {
+      "id": "question_and_short_answer",
+      "purpose": "Form Yes/No questions and match short answers."
+    },
+    {
+      "id": "tense_signal_detective",
+      "purpose": "Choose present simple or present continuous from meaning and context."
+    },
+    {
+      "id": "action_guessing",
+      "purpose": "Use original action clues in a question-driven guessing game."
+    }
+  ],
+  "originality_constraints": [
+    "Do not embed, trace or imitate textbook illustrations or page layout.",
+    "Do not reuse source sentences, questions, answer order, character names or settings.",
+    "Create new contexts, distractors and feedback from this brief only.",
+    "Use original CSS, SVG or licensed assets with documented provenance.",
+    "Use Vietnamese two-word character names in newly designed examples.",
+    "Present the knowledge foundation before games and give every game concise help steps.",
+    "Do not preserve the source activity order as the default lesson sequence."
+  ],
+  "source_status": "clean_brief",
+  "review_status": "pending",
+  "analysis_date": "2026-11-06",
+  "confidence": {
+    "learning_goals": "high",
+    "grammar_rules": "high",
+    "activity_types": "high",
+    "small_print_details": "medium"
+  }
+}

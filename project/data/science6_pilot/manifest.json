@@ -1,0 +1,656 @@
+{
+  "schema_version": 1,
+  "pack_id": "science6-pilot",
+  "course_id": "science-6-pilot",
+  "title_vi": "Khoa học tự nhiên 6 - Gói nội dung đã tích hợp",
+  "status": "integrated",
+  "content_version": "1.1.0",
+  "target_lesson_count": 55,
+  "completed_lesson_count": 55,
+  "usage_scope": "personal-family",
+  "source_status": "user-provided-reference",
+  "source_file": "tài liệu/SGK KHTN 6 KNTT.pdf",
+  "integration": {
+    "catalog_registered": true,
+    "renderer_registered": true,
+    "activity_plan_registered": true
+  },
+  "level_sequence": [
+    "basic",
+    "basic",
+    "basic",
+    "understanding",
+    "understanding",
+    "understanding",
+    "understanding",
+    "application",
+    "application",
+    "challenge"
+  ],
+  "competency_ids": [
+    "observe-identify",
+    "classify-model",
+    "measure-analyze",
+    "predict-reason",
+    "experiment-safety",
+    "explain-apply"
+  ],
+  "presentation_templates": [
+    {
+      "id": "annotated-scene",
+      "title_vi": "Phiếu quan sát có chú thích",
+      "action_vi": "quan sát dấu hiệu và giới hạn kết luận",
+      "renderer_kind": "annotated-scene"
+    },
+    {
+      "id": "classification-grid",
+      "title_vi": "Lưới phân loại",
+      "action_vi": "xếp nhóm theo một tiêu chí nhất quán",
+      "renderer_kind": "classification-grid"
+    },
+    {
+      "id": "evidence-table",
+      "title_vi": "Bảng bằng chứng",
+      "action_vi": "đọc điều kiện, bằng chứng và kết quả",
+      "renderer_kind": "evidence-table"
+    },
+    {
+      "id": "cause-effect-map",
+      "title_vi": "Sơ đồ nguyên nhân - kết quả",
+      "action_vi": "nối căn cứ, thao tác và kết quả",
+      "renderer_kind": "cause-effect-map"
+    },
+    {
+      "id": "procedure-cards",
+      "title_vi": "Thẻ quy trình",
+      "action_vi": "sắp xếp thao tác và điểm dừng an toàn",
+      "renderer_kind": "procedure-cards"
+    },
+    {
+      "id": "claim-evidence-reasoning",
+      "title_vi": "Khẳng định - bằng chứng - lập luận",
+      "action_vi": "nối kết luận với bằng chứng và cơ chế",
+      "renderer_kind": "cer-frame"
+    },
+    {
+      "id": "diagram-labeling",
+      "title_vi": "Gắn nhãn vào sơ đồ",
+      "action_vi": "ghép tên, dấu hiệu và kết quả vào đúng vị trí",
+      "renderer_kind": "label-diagram"
+    },
+    {
+      "id": "sequence-builder",
+      "title_vi": "Sắp xếp trình tự",
+      "action_vi": "xếp các bước theo quan hệ trước - sau",
+      "renderer_kind": "sortable-sequence"
+    },
+    {
+      "id": "error-diagnosis",
+      "title_vi": "Tìm và sửa lỗi",
+      "action_vi": "phát hiện bước thiếu căn cứ và chọn cách sửa",
+      "renderer_kind": "error-repair"
+    },
+    {
+      "id": "before-after-comparison",
+      "title_vi": "So sánh trước - sau",
+      "action_vi": "đối chiếu trạng thái, thao tác và kết quả",
+      "renderer_kind": "before-after"
+    },
+    {
+      "id": "diagram-gap-fill",
+      "title_vi": "Điền khuyết sơ đồ",
+      "action_vi": "hoàn thiện mắt xích còn thiếu bằng căn cứ đã học",
+      "renderer_kind": "diagram-gap"
+    },
+    {
+      "id": "chart-reading",
+      "title_vi": "Đọc biểu đồ định tính",
+      "action_vi": "đọc xu hướng từ bằng chứng có sẵn, không tự sinh số liệu",
+      "renderer_kind": "qualitative-chart"
+    },
+    {
+      "id": "experiment-designer",
+      "title_vi": "Thiết kế kiểm tra khoa học",
+      "action_vi": "chọn điều kiện, thao tác, kết quả cần ghi và giới hạn an toàn",
+      "renderer_kind": "experiment-planner"
+    },
+    {
+      "id": "tool-selector",
+      "title_vi": "Chọn công cụ hoặc cách làm",
+      "action_vi": "chọn thao tác phù hợp từ mục tiêu và căn cứ",
+      "renderer_kind": "tool-selector"
+    },
+    {
+      "id": "virtual-lab",
+      "title_vi": "Phòng khoa học ảo",
+      "action_vi": "thay đổi điều kiện trong mô phỏng và đối chiếu kết quả dự kiến",
+      "renderer_kind": "virtual-lab"
+    },
+    {
+      "id": "decision-scenario",
+      "title_vi": "Tình huống ra quyết định",
+      "action_vi": "chọn phương án có căn cứ và an toàn",
+      "renderer_kind": "decision-scenario"
+    },
+    {
+      "id": "multi-layer-matching",
+      "title_vi": "Ghép cặp nhiều tầng",
+      "action_vi": "ghép khái niệm, căn cứ, thao tác và kết quả",
+      "renderer_kind": "multi-match"
+    },
+    {
+      "id": "concept-map",
+      "title_vi": "Bản đồ khái niệm",
+      "action_vi": "nối khái niệm bằng quan hệ khoa học đã được cung cấp",
+      "renderer_kind": "concept-map"
+    }
+  ],
+  "presentation_policy": {
+    "templates_per_lesson": 6,
+    "registry_size": 18,
+    "rotation": "six-consecutive-templates-rotated-every-lesson",
+    "grounding": "reviewed-foundation-only-no-external-claim"
+  },
+  "scoring": {
+    "games_scored": true,
+    "practical_application_scored": false,
+    "simulation_scored": false
+  },
+  "lessons": [
+    {
+      "lesson_id": "science6-l01",
+      "lesson_number": 1,
+      "chapter_number": 1,
+      "title_vi": "Giới thiệu về khoa học tự nhiên",
+      "file": "lessons/science6-l01.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l02",
+      "lesson_number": 2,
+      "chapter_number": 1,
+      "title_vi": "An toàn trong phòng thực hành",
+      "file": "lessons/science6-l02.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l03",
+      "lesson_number": 3,
+      "chapter_number": 1,
+      "title_vi": "Sử dụng kính lúp",
+      "file": "lessons/science6-l03.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l04",
+      "lesson_number": 4,
+      "chapter_number": 1,
+      "title_vi": "Sử dụng kính hiển vi quang học",
+      "file": "lessons/science6-l04.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l05",
+      "lesson_number": 5,
+      "chapter_number": 1,
+      "title_vi": "Đo chiều dài",
+      "file": "lessons/science6-l05.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l06",
+      "lesson_number": 6,
+      "chapter_number": 1,
+      "title_vi": "Đo khối lượng",
+      "file": "lessons/science6-l06.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l07",
+      "lesson_number": 7,
+      "chapter_number": 1,
+      "title_vi": "Đo thời gian",
+      "file": "lessons/science6-l07.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l08",
+      "lesson_number": 8,
+      "chapter_number": 1,
+      "title_vi": "Đo nhiệt độ",
+      "file": "lessons/science6-l08.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l09",
+      "lesson_number": 9,
+      "chapter_number": 2,
+      "title_vi": "Sự đa dạng của chất",
+      "file": "lessons/science6-l09.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l10",
+      "lesson_number": 10,
+      "chapter_number": 2,
+      "title_vi": "Các thể của chất và sự chuyển thể",
+      "file": "lessons/science6-l10.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l11",
+      "lesson_number": 11,
+      "chapter_number": 2,
+      "title_vi": "Oxygen. Không khí",
+      "file": "lessons/science6-l11.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l12",
+      "lesson_number": 12,
+      "chapter_number": 3,
+      "title_vi": "Một số vật liệu",
+      "file": "lessons/science6-l12.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l13",
+      "lesson_number": 13,
+      "chapter_number": 3,
+      "title_vi": "Một số nguyên liệu",
+      "file": "lessons/science6-l13.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l14",
+      "lesson_number": 14,
+      "chapter_number": 3,
+      "title_vi": "Một số nhiên liệu",
+      "file": "lessons/science6-l14.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l15",
+      "lesson_number": 15,
+      "chapter_number": 3,
+      "title_vi": "Một số lương thực, thực phẩm",
+      "file": "lessons/science6-l15.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l16",
+      "lesson_number": 16,
+      "chapter_number": 4,
+      "title_vi": "Hỗn hợp các chất",
+      "file": "lessons/science6-l16.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l17",
+      "lesson_number": 17,
+      "chapter_number": 4,
+      "title_vi": "Tách chất khỏi hỗn hợp",
+      "file": "lessons/science6-l17.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l18",
+      "lesson_number": 18,
+      "chapter_number": 5,
+      "title_vi": "Tế bào - Đơn vị cơ bản của sự sống",
+      "file": "lessons/science6-l18.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l19",
+      "lesson_number": 19,
+      "chapter_number": 5,
+      "title_vi": "Cấu tạo và chức năng các thành phần của tế bào",
+      "file": "lessons/science6-l19.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l20",
+      "lesson_number": 20,
+      "chapter_number": 5,
+      "title_vi": "Sự lớn lên và sinh sản của tế bào",
+      "file": "lessons/science6-l20.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l21",
+      "lesson_number": 21,
+      "chapter_number": 5,
+      "title_vi": "Thực hành: Quan sát và phân biệt một số loại tế bào",
+      "file": "lessons/science6-l21.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l22",
+      "lesson_number": 22,
+      "chapter_number": 6,
+      "title_vi": "Cơ thể sinh vật",
+      "file": "lessons/science6-l22.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l23",
+      "lesson_number": 23,
+      "chapter_number": 6,
+      "title_vi": "Tổ chức cơ thể đa bào",
+      "file": "lessons/science6-l23.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l24",
+      "lesson_number": 24,
+      "chapter_number": 6,
+      "title_vi": "Thực hành: Quan sát và mô tả cơ thể đơn bào, cơ thể đa bào",
+      "file": "lessons/science6-l24.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l25",
+      "lesson_number": 25,
+      "chapter_number": 7,
+      "title_vi": "Hệ thống phân loại sinh vật",
+      "file": "lessons/science6-l25.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l26",
+      "lesson_number": 26,
+      "chapter_number": 7,
+      "title_vi": "Khóa lưỡng phân",
+      "file": "lessons/science6-l26.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l27",
+      "lesson_number": 27,
+      "chapter_number": 7,
+      "title_vi": "Vi khuẩn",
+      "file": "lessons/science6-l27.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l28",
+      "lesson_number": 28,
+      "chapter_number": 7,
+      "title_vi": "Thực hành: Làm sữa chua và quan sát vi khuẩn",
+      "file": "lessons/science6-l28.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l29",
+      "lesson_number": 29,
+      "chapter_number": 7,
+      "title_vi": "Virus",
+      "file": "lessons/science6-l29.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l30",
+      "lesson_number": 30,
+      "chapter_number": 7,
+      "title_vi": "Nguyên sinh vật",
+      "file": "lessons/science6-l30.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l31",
+      "lesson_number": 31,
+      "chapter_number": 7,
+      "title_vi": "Thực hành: Quan sát nguyên sinh vật",
+      "file": "lessons/science6-l31.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l32",
+      "lesson_number": 32,
+      "chapter_number": 7,
+      "title_vi": "Nấm",
+      "file": "lessons/science6-l32.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l33",
+      "lesson_number": 33,
+      "chapter_number": 7,
+      "title_vi": "Thực hành: Quan sát các loại nấm",
+      "file": "lessons/science6-l33.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l34",
+      "lesson_number": 34,
+      "chapter_number": 7,
+      "title_vi": "Thực vật",
+      "file": "lessons/science6-l34.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l35",
+      "lesson_number": 35,
+      "chapter_number": 7,
+      "title_vi": "Thực hành: Quan sát và phân biệt một số nhóm thực vật",
+      "file": "lessons/science6-l35.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l36",
+      "lesson_number": 36,
+      "chapter_number": 7,
+      "title_vi": "Động vật",
+      "file": "lessons/science6-l36.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l37",
+      "lesson_number": 37,
+      "chapter_number": 7,
+      "title_vi": "Thực hành: Quan sát và nhận biết một số nhóm động vật ngoài thiên nhiên",
+      "file": "lessons/science6-l37.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l38",
+      "lesson_number": 38,
+      "chapter_number": 7,
+      "title_vi": "Đa dạng sinh học",
+      "file": "lessons/science6-l38.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l39",
+      "lesson_number": 39,
+      "chapter_number": 7,
+      "title_vi": "Tìm hiểu sinh vật ngoài thiên nhiên",
+      "file": "lessons/science6-l39.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l40",
+      "lesson_number": 40,
+      "chapter_number": 8,
+      "title_vi": "Lực là gì?",
+      "file": "lessons/science6-l40.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l41",
+      "lesson_number": 41,
+      "chapter_number": 8,
+      "title_vi": "Biểu diễn lực",
+      "file": "lessons/science6-l41.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l42",
+      "lesson_number": 42,
+      "chapter_number": 8,
+      "title_vi": "Biến dạng của lò xo",
+      "file": "lessons/science6-l42.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l43",
+      "lesson_number": 43,
+      "chapter_number": 8,
+      "title_vi": "Trọng lượng, lực hấp dẫn",
+      "file": "lessons/science6-l43.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l44",
+      "lesson_number": 44,
+      "chapter_number": 8,
+      "title_vi": "Lực ma sát",
+      "file": "lessons/science6-l44.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l45",
+      "lesson_number": 45,
+      "chapter_number": 8,
+      "title_vi": "Lực cản của nước",
+      "file": "lessons/science6-l45.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l46",
+      "lesson_number": 46,
+      "chapter_number": 9,
+      "title_vi": "Năng lượng và sự truyền năng lượng",
+      "file": "lessons/science6-l46.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l47",
+      "lesson_number": 47,
+      "chapter_number": 9,
+      "title_vi": "Một số dạng năng lượng",
+      "file": "lessons/science6-l47.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l48",
+      "lesson_number": 48,
+      "chapter_number": 9,
+      "title_vi": "Sự chuyển hóa năng lượng",
+      "file": "lessons/science6-l48.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l49",
+      "lesson_number": 49,
+      "chapter_number": 9,
+      "title_vi": "Năng lượng hao phí",
+      "file": "lessons/science6-l49.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l50",
+      "lesson_number": 50,
+      "chapter_number": 9,
+      "title_vi": "Năng lượng tái tạo",
+      "file": "lessons/science6-l50.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l51",
+      "lesson_number": 51,
+      "chapter_number": 9,
+      "title_vi": "Tiết kiệm năng lượng",
+      "file": "lessons/science6-l51.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l52",
+      "lesson_number": 52,
+      "chapter_number": 10,
+      "title_vi": "Chuyển động nhìn thấy của Mặt Trời. Thiên thể",
+      "file": "lessons/science6-l52.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l53",
+      "lesson_number": 53,
+      "chapter_number": 10,
+      "title_vi": "Mặt Trăng",
+      "file": "lessons/science6-l53.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l54",
+      "lesson_number": 54,
+      "chapter_number": 10,
+      "title_vi": "Hệ Mặt Trời",
+      "file": "lessons/science6-l54.json",
+      "competency_count": 6,
+      "question_count": 60
+    },
+    {
+      "lesson_id": "science6-l55",
+      "lesson_number": 55,
+      "chapter_number": 10,
+      "title_vi": "Ngân Hà",
+      "file": "lessons/science6-l55.json",
+      "competency_count": 6,
+      "question_count": 60
+    }
+  ]
+}

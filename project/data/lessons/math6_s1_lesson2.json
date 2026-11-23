@@ -1,0 +1,117 @@
+{
+  "lesson_id": "math6-s1-lesson2",
+  "source_status": "user-provided-reference",
+  "usage_scope": "personal-family",
+  "source_note": "SGK Toán 6 Tập 1, Kết nối tri thức với cuộc sống, Bài 2 Cách ghi số tự nhiên, trang 9–12; câu luyện thêm ghi ai-generated; không nhúng ảnh sách.",
+  "course_id": "math-6-semester-1",
+  "branch_id": "math6-s1-lesson2",
+  "lesson": {
+    "number": 2,
+    "title": "Cách ghi số tự nhiên",
+    "chapter": "Chương I · Tập hợp các số tự nhiên",
+    "lead": "Khám phá hệ thập phân, giá trị theo vị trí và số La Mã từ I đến XXX.",
+    "objectives": [
+      "Nhận biết hàng, lớp và giá trị của chữ số trong hệ thập phân.",
+      "Biểu diễn số tự nhiên thành tổng giá trị các chữ số.",
+      "Đọc, viết số tự nhiên có nhiều chữ số.",
+      "Đọc và viết số La Mã từ 1 đến 30."
+    ],
+    "extension": "Hệ La Mã với L, C, D, M và hệ nhị phân chỉ là nội dung khám phá, không tính điểm bắt buộc."
+  },
+  "foundations": [
+    {"title":"Hệ thập phân","items":[
+      {"text":"Hệ thập phân dùng mười chữ số từ 0 đến 9.","translation":"Cứ 10 đơn vị ở một hàng bằng 1 đơn vị ở hàng liền trước.","speechText":"Hệ thập phân dùng mười chữ số từ không đến chín. Cứ mười đơn vị ở một hàng bằng một đơn vị ở hàng liền trước."},
+      {"text":"Giá trị chữ số phụ thuộc vị trí.","translation":"Cùng chữ số 2 có thể mang giá trị 2, 20, 200 hoặc lớn hơn.","speechText":"Giá trị của một chữ số phụ thuộc vào vị trí của nó trong số."}
+    ]},
+    {"title":"Hàng, lớp và tổng giá trị","items":[
+      {"text":"Mỗi lớp gồm ba hàng.","translation":"Từ phải sang trái: lớp đơn vị, lớp nghìn, lớp triệu, lớp tỉ.","speechText":"Mỗi lớp gồm ba hàng. Từ phải sang trái là lớp đơn vị, lớp nghìn, lớp triệu và lớp tỉ."},
+      {"text":"Mỗi số là tổng giá trị các chữ số.","translation":"236 = 2 × 100 + 3 × 10 + 6.","speechText":"Hai trăm ba mươi sáu bằng hai nhân một trăm cộng ba nhân mười cộng sáu."}
+    ]},
+    {"title":"Số La Mã từ 1 đến 30","items":[
+      {"text":"I = 1, V = 5, X = 10; IV = 4, IX = 9.","translation":"Ghép các thành phần này để viết số La Mã không quá 30.","speechText":"I bằng một, V bằng năm, X bằng mười, IV bằng bốn và IX bằng chín."},
+      {"text":"Không có số La Mã biểu diễn số 0.","translation":"Các số 11–20 thêm X; các số 21–30 thêm XX vào bên trái phần đơn vị.","speechText":"Không có số La Mã biểu diễn số không. Từ mười một đến hai mươi thêm X, từ hai mươi mốt đến ba mươi thêm hai X."}
+    ]}
+  ],
+  "game_meta": [
+    {"id":"place-value","icon":"🏛️","title":"Tháp hàng và lớp","description":"Xác định hàng và giá trị chữ số.","teaching_vi":"Đếm vị trí từ phải sang trái: đơn vị, chục, trăm, nghìn; giá trị bằng chữ số nhân giá trị hàng."},
+    {"id":"expanded","icon":"🧱","title":"Xây tổng giá trị","description":"Tách số thành tổng giá trị chữ số.","teaching_vi":"Viết mỗi chữ số nhân với giá trị hàng; có thể bỏ các hạng bằng 0."},
+    {"id":"read-write","icon":"📣","title":"Đọc đúng – Viết nhanh","description":"Đọc và viết số theo từng lớp.","teaching_vi":"Tách số thành từng lớp ba chữ số từ phải sang trái rồi đọc lần lượt từ lớp cao nhất."},
+    {"id":"roman-read","icon":"🏺","title":"Giải mã La Mã","description":"Đổi số La Mã sang số tự nhiên.","teaching_vi":"Tách số thành các thành phần X, V, I, IV, IX rồi cộng giá trị."},
+    {"id":"roman-write","icon":"⏳","title":"Đồng hồ La Mã","description":"Viết số tự nhiên bằng số La Mã.","teaching_vi":"Tách hàng chục bằng X hoặc XX, sau đó ghép phần đơn vị I đến IX."},
+    {"id":"mixed","icon":"🛒","title":"Thử thách thập phân","description":"Vận dụng cách ghi số vào tình huống.","teaching_vi":"Xác định giá trị từng hàng trước, rồi ghép hoặc tách số theo yêu cầu thực tế."}
+  ],
+  "games": {
+    "place-value": [
+      {"id":"pv-01","context":"Số 32 019","hint_vi":"Đếm từ phải: 9 đơn vị, 1 chục, 0 trăm, 2 nghìn.","prompt":"Chữ số 2 có giá trị bao nhiêu?","task_vi":"Chọn giá trị theo đúng vị trí.","options":["2 000","200","20","2"],"answer":"2 000","explanation_vi":"2 ở hàng nghìn nên có giá trị 2 × 1 000 = 2 000.","source_status":"user-provided-reference"},
+      {"id":"pv-02","context":"Số 32 019","hint_vi":"Chữ số 3 đứng ở hàng chục nghìn.","prompt":"Chữ số 3 có giá trị bao nhiêu?","task_vi":"Chọn giá trị của chữ số 3.","options":["30 000","3 000","300","3"],"answer":"30 000","explanation_vi":"3 ở hàng chục nghìn nên có giá trị 30 000.","source_status":"user-provided-reference"},
+      {"id":"pv-03","context":"Số 34 604","hint_vi":"Chữ số 4 bên trái đứng ở hàng nghìn.","prompt":"Chữ số 4 bên trái có giá trị bao nhiêu?","task_vi":"Phân biệt hai chữ số 4 theo vị trí.","options":["4 000","400","40","4"],"answer":"4 000","explanation_vi":"Chữ số 4 bên trái ở hàng nghìn nên có giá trị 4 000.","source_status":"user-provided-reference"},
+      {"id":"pv-04","context":"Số 27 501","hint_vi":"Chữ số 7 đứng ở hàng nghìn.","prompt":"Giá trị của chữ số 7 là gì?","task_vi":"Chọn đáp án đúng.","options":["7 000","70 000","700","7"],"answer":"7 000","explanation_vi":"7 ở hàng nghìn nên có giá trị 7 000.","source_status":"user-provided-reference"},
+      {"id":"pv-05","context":"Số 106 712","hint_vi":"Chữ số 7 đứng ở hàng trăm.","prompt":"Giá trị của chữ số 7 là gì?","task_vi":"Chọn giá trị theo hàng.","options":["700","7 000","70","7"],"answer":"700","explanation_vi":"7 ở hàng trăm nên có giá trị 700.","source_status":"user-provided-reference"},
+      {"id":"pv-06","context":"Số 7 110 385","hint_vi":"Chữ số 7 đứng ở hàng triệu.","prompt":"Giá trị của chữ số 7 là gì?","task_vi":"Chọn giá trị đúng.","options":["7 000 000","700 000","70 000","7 000"],"answer":"7 000 000","explanation_vi":"7 ở hàng triệu nên có giá trị 7 000 000.","source_status":"user-provided-reference"},
+      {"id":"pv-07","context":"Số 2 915 404 267","hint_vi":"Chữ số 7 ở tận cùng bên phải.","prompt":"Giá trị của chữ số 7 là gì?","task_vi":"Chọn giá trị theo vị trí.","options":["7","70","700","7 000"],"answer":"7","explanation_vi":"7 ở hàng đơn vị nên có giá trị 7.","source_status":"user-provided-reference"},
+      {"id":"pv-08","context":"Số 508 241","hint_vi":"Chữ số 8 ở hàng nghìn.","prompt":"Giá trị của chữ số 8 là gì?","task_vi":"Chọn đáp án đúng.","options":["8 000","80 000","800","8"],"answer":"8 000","explanation_vi":"8 ở hàng nghìn nên có giá trị 8 000.","source_status":"ai-generated"},
+      {"id":"pv-09","context":"Số 6 040 300","hint_vi":"Chữ số 4 ở hàng chục nghìn.","prompt":"Giá trị của chữ số 4 là gì?","task_vi":"Chọn giá trị đúng.","options":["40 000","400 000","4 000","400"],"answer":"40 000","explanation_vi":"4 ở hàng chục nghìn nên có giá trị 40 000.","source_status":"ai-generated"},
+      {"id":"pv-10","context":"Số 921 705","hint_vi":"Chữ số 2 nằm trong lớp nghìn.","prompt":"Chữ số 2 thuộc hàng nào?","task_vi":"Chọn tên hàng.","options":["Hàng chục nghìn","Hàng trăm nghìn","Hàng nghìn","Hàng trăm"],"answer":"Hàng chục nghìn","explanation_vi":"Trong 921 705, chữ số 2 ở hàng chục nghìn.","source_status":"ai-generated"}
+    ],
+    "expanded": [
+      {"id":"ex-01","context":"236","hint_vi":"Tách theo hàng trăm, chục và đơn vị.","prompt":"Tổng giá trị nào đúng?","task_vi":"Chọn biểu diễn đúng.","options":["2 × 100 + 3 × 10 + 6","2 × 10 + 3 × 100 + 6","200 + 30 + 60","2 + 3 + 6"],"answer":"2 × 100 + 3 × 10 + 6","explanation_vi":"236 gồm 2 trăm, 3 chục và 6 đơn vị.","source_status":"user-provided-reference"},
+      {"id":"ex-02","context":"32 019","hint_vi":"Tách các chữ số theo đúng hàng.","prompt":"Biểu diễn nào đúng?","task_vi":"Chọn tổng giá trị các chữ số.","options":["3 × 10 000 + 2 × 1 000 + 1 × 10 + 9","3 × 1 000 + 2 × 100 + 1 × 10 + 9","32 × 100 + 19","3 + 2 + 1 + 9"],"answer":"3 × 10 000 + 2 × 1 000 + 1 × 10 + 9","explanation_vi":"Chữ số 0 ở hàng trăm tạo hạng bằng 0 nên có thể bỏ.","source_status":"user-provided-reference"},
+      {"id":"ex-03","context":"34 604","hint_vi":"Có 3 chục nghìn, 4 nghìn, 6 trăm và 4 đơn vị.","prompt":"Tổng giá trị nào đúng?","task_vi":"Chọn biểu diễn chính xác.","options":["30 000 + 4 000 + 600 + 4","3 000 + 400 + 60 + 4","30 000 + 400 + 60 + 4","34 000 + 6040"],"answer":"30 000 + 4 000 + 600 + 4","explanation_vi":"34 604 = 30 000 + 4 000 + 600 + 4.","source_status":"user-provided-reference"},
+      {"id":"ex-04","context":"507","hint_vi":"Chữ số 0 ở hàng chục.","prompt":"Tổng nào đúng?","task_vi":"Chọn tổng giá trị.","options":["5 × 100 + 7","5 × 10 + 7","500 + 70","5 + 0 + 7"],"answer":"5 × 100 + 7","explanation_vi":"507 gồm 5 trăm và 7 đơn vị.","source_status":"ai-generated"},
+      {"id":"ex-05","context":"8 040","hint_vi":"Có 8 nghìn và 4 chục.","prompt":"Tổng nào đúng?","task_vi":"Chọn biểu diễn đúng.","options":["8 000 + 40","800 + 40","8 000 + 400","8 + 40"],"answer":"8 000 + 40","explanation_vi":"8 040 = 8 000 + 40.","source_status":"ai-generated"},
+      {"id":"ex-06","context":"60 205","hint_vi":"Có 6 chục nghìn, 2 trăm và 5 đơn vị.","prompt":"Tổng nào đúng?","task_vi":"Chọn biểu diễn chính xác.","options":["60 000 + 200 + 5","6 000 + 20 + 5","60 000 + 20 + 5","600 000 + 205"],"answer":"60 000 + 200 + 5","explanation_vi":"60 205 = 60 000 + 200 + 5.","source_status":"ai-generated"},
+      {"id":"ex-07","context":"4 302 010","hint_vi":"Tách theo lớp triệu, nghìn và đơn vị.","prompt":"Tổng nào đúng?","task_vi":"Chọn tổng giá trị.","options":["4 000 000 + 300 000 + 2 000 + 10","4 000 000 + 30 000 + 200 + 10","400 000 + 30 000 + 2 000 + 10","4 302 000 + 100"],"answer":"4 000 000 + 300 000 + 2 000 + 10","explanation_vi":"Mỗi chữ số được đặt đúng giá trị hàng của nó.","source_status":"ai-generated"},
+      {"id":"ex-08","context":"9 × 1 000 + 4 × 100 + 2 × 10 + 1","hint_vi":"Cộng giá trị từng hàng.","prompt":"Đây là số nào?","task_vi":"Ghép tổng thành số tự nhiên.","options":["9 421","9 241","94 021","942"],"answer":"9 421","explanation_vi":"9 nghìn, 4 trăm, 2 chục, 1 đơn vị tạo số 9 421.","source_status":"ai-generated"},
+      {"id":"ex-09","context":"70 000 + 6 000 + 80 + 3","hint_vi":"Ghép các hàng còn thiếu bằng chữ số 0.","prompt":"Đây là số nào?","task_vi":"Chọn số đúng.","options":["76 083","76 803","70 683","7 683"],"answer":"76 083","explanation_vi":"Tổng tạo 7 chục nghìn, 6 nghìn, 8 chục và 3 đơn vị.","source_status":"ai-generated"},
+      {"id":"ex-10","context":"2 000 000 + 50 000 + 700 + 6","hint_vi":"Đặt 0 ở các hàng không xuất hiện.","prompt":"Đây là số nào?","task_vi":"Ghép đúng các lớp và hàng.","options":["2 050 706","2 500 706","2 057 006","2 050 076"],"answer":"2 050 706","explanation_vi":"Tổng bằng 2 050 706.","source_status":"ai-generated"}
+    ],
+    "read-write": [
+      {"id":"rw-01","context":"27 501","hint_vi":"Tách thành 27 nghìn và 501.","prompt":"Cách đọc nào đúng?","task_vi":"Chọn cách đọc số.","options":["Hai mươi bảy nghìn năm trăm linh một","Hai trăm bảy mươi lăm nghìn một","Hai mươi bảy nghìn năm mươi mốt","Hai nghìn bảy trăm linh một"],"answer":"Hai mươi bảy nghìn năm trăm linh một","explanation_vi":"27 501 đọc theo lớp nghìn rồi lớp đơn vị.","source_status":"user-provided-reference"},
+      {"id":"rw-02","context":"106 712","hint_vi":"Tách thành 106 nghìn và 712.","prompt":"Cách đọc nào đúng?","task_vi":"Chọn cách đọc chính xác.","options":["Một trăm linh sáu nghìn bảy trăm mười hai","Mười sáu nghìn bảy trăm mười hai","Một trăm sáu mươi nghìn bảy trăm mười hai","Một triệu sáu nghìn bảy trăm mười hai"],"answer":"Một trăm linh sáu nghìn bảy trăm mười hai","explanation_vi":"Đọc lần lượt lớp nghìn và lớp đơn vị.","source_status":"user-provided-reference"},
+      {"id":"rw-03","context":"Bảy triệu một trăm mười nghìn ba trăm tám mươi lăm","hint_vi":"Lớp triệu là 7, lớp nghìn là 110, lớp đơn vị là 385.","prompt":"Viết số nào đúng?","task_vi":"Chọn cách viết số.","options":["7 110 385","7 101 385","711 038 5","7 110 835"],"answer":"7 110 385","explanation_vi":"Ba lớp ghép lại thành 7 110 385.","source_status":"user-provided-reference"},
+      {"id":"rw-04","context":"2 915 404 267","hint_vi":"Tách thành lớp tỉ, triệu, nghìn và đơn vị.","prompt":"Số này có mấy lớp?","task_vi":"Đếm các nhóm ba chữ số.","options":["4 lớp","3 lớp","5 lớp","2 lớp"],"answer":"4 lớp","explanation_vi":"Số có các lớp tỉ, triệu, nghìn và đơn vị.","source_status":"user-provided-reference"},
+      {"id":"rw-05","context":"Năm trăm linh tám nghìn hai trăm bốn mươi mốt","hint_vi":"Lớp nghìn là 508, lớp đơn vị là 241.","prompt":"Viết số nào đúng?","task_vi":"Chọn số theo cách đọc.","options":["508 241","580 241","508 421","50 824"],"answer":"508 241","explanation_vi":"Cách đọc tương ứng số 508 241.","source_status":"ai-generated"},
+      {"id":"rw-06","context":"6 040 300","hint_vi":"Lớp nghìn là 040 nên phải đọc rõ “bốn mươi nghìn”.","prompt":"Cách đọc nào đúng?","task_vi":"Chọn cách đọc số.","options":["Sáu triệu không trăm bốn mươi nghìn ba trăm","Sáu triệu bốn trăm ba nghìn","Sáu trăm linh bốn nghìn ba trăm","Sáu triệu bốn mươi ba nghìn"],"answer":"Sáu triệu không trăm bốn mươi nghìn ba trăm","explanation_vi":"Số gồm 6 triệu, 40 nghìn và 300.","source_status":"ai-generated"},
+      {"id":"rw-07","context":"Chín trăm hai mươi mốt nghìn bảy trăm linh năm","hint_vi":"Lớp nghìn là 921, lớp đơn vị là 705.","prompt":"Viết số nào đúng?","task_vi":"Chọn cách viết số.","options":["921 705","921 075","912 705","92 175"],"answer":"921 705","explanation_vi":"Hai lớp ghép thành 921 705.","source_status":"ai-generated"},
+      {"id":"rw-08","context":"221 707 263 598","hint_vi":"Nhóm ba chữ số từ phải sang trái.","prompt":"Lớp cao nhất là lớp nào?","task_vi":"Chọn tên lớp của nhóm 221.","options":["Lớp tỉ","Lớp triệu","Lớp nghìn","Lớp đơn vị"],"answer":"Lớp tỉ","explanation_vi":"221 đứng ở lớp tỉ.","source_status":"user-provided-reference"},
+      {"id":"rw-09","context":"4 000 009","hint_vi":"Giữa lớp triệu và đơn vị không có lớp nghìn khác 0.","prompt":"Cách đọc nào đúng?","task_vi":"Chọn cách đọc.","options":["Bốn triệu không trăm linh chín","Bốn triệu chín nghìn","Bốn trăm nghìn chín","Bốn triệu chín trăm"],"answer":"Bốn triệu không trăm linh chín","explanation_vi":"Số gồm 4 triệu và 9 đơn vị.","source_status":"ai-generated"},
+      {"id":"rw-10","context":"Tám mươi triệu năm nghìn mười hai","hint_vi":"Lớp triệu 80, lớp nghìn 005, lớp đơn vị 012.","prompt":"Viết số nào đúng?","task_vi":"Ghép ba lớp số.","options":["80 005 012","80 050 012","8 005 012","80 500 120"],"answer":"80 005 012","explanation_vi":"Cách viết đúng là 80 005 012.","source_status":"ai-generated"}
+    ],
+    "roman-read": [
+      {"id":"rr-01","context":"XIV","hint_vi":"X = 10 và IV = 4.","prompt":"Số La Mã này biểu diễn số nào?","task_vi":"Cộng giá trị các thành phần.","options":["14","16","9","24"],"answer":"14","explanation_vi":"XIV = 10 + 4 = 14.","source_status":"user-provided-reference"},
+      {"id":"rr-02","context":"XVI","hint_vi":"X = 10, V = 5, I = 1.","prompt":"Số La Mã này bằng bao nhiêu?","task_vi":"Giải mã số La Mã.","options":["16","14","11","21"],"answer":"16","explanation_vi":"XVI = 10 + 5 + 1 = 16.","source_status":"user-provided-reference"},
+      {"id":"rr-03","context":"XXIII","hint_vi":"XX = 20 và III = 3.","prompt":"Số La Mã này bằng bao nhiêu?","task_vi":"Chọn số tự nhiên tương ứng.","options":["23","22","27","33"],"answer":"23","explanation_vi":"XXIII = 20 + 3 = 23.","source_status":"user-provided-reference"},
+      {"id":"rr-04","context":"IV","hint_vi":"IV là cụm biểu diễn số 4.","prompt":"IV bằng bao nhiêu?","task_vi":"Nhớ cụm đặc biệt IV.","options":["4","6","5","9"],"answer":"4","explanation_vi":"IV biểu diễn số 4.","source_status":"user-provided-reference"},
+      {"id":"rr-05","context":"IX","hint_vi":"IX là cụm biểu diễn số 9.","prompt":"IX bằng bao nhiêu?","task_vi":"Nhớ cụm đặc biệt IX.","options":["9","11","6","4"],"answer":"9","explanation_vi":"IX biểu diễn số 9.","source_status":"user-provided-reference"},
+      {"id":"rr-06","context":"XII","hint_vi":"X = 10 và II = 2.","prompt":"XII bằng bao nhiêu?","task_vi":"Cộng các thành phần.","options":["12","8","22","17"],"answer":"12","explanation_vi":"XII = 10 + 2 = 12.","source_status":"ai-generated"},
+      {"id":"rr-07","context":"XIX","hint_vi":"X = 10 và IX = 9.","prompt":"XIX bằng bao nhiêu?","task_vi":"Giải mã số La Mã.","options":["19","21","14","29"],"answer":"19","explanation_vi":"XIX = 10 + 9 = 19.","source_status":"ai-generated"},
+      {"id":"rr-08","context":"XXIV","hint_vi":"XX = 20 và IV = 4.","prompt":"XXIV bằng bao nhiêu?","task_vi":"Cộng các thành phần.","options":["24","26","14","29"],"answer":"24","explanation_vi":"XXIV = 20 + 4 = 24.","source_status":"user-provided-reference"},
+      {"id":"rr-09","context":"XXVIII","hint_vi":"XX = 20, V = 5, III = 3.","prompt":"XXVIII bằng bao nhiêu?","task_vi":"Giải mã số La Mã.","options":["28","27","18","30"],"answer":"28","explanation_vi":"XXVIII = 20 + 5 + 3 = 28.","source_status":"ai-generated"},
+      {"id":"rr-10","context":"XXX","hint_vi":"Mỗi X có giá trị 10.","prompt":"XXX bằng bao nhiêu?","task_vi":"Cộng ba thành phần X.","options":["30","20","3","40"],"answer":"30","explanation_vi":"XXX = 10 + 10 + 10 = 30.","source_status":"user-provided-reference"}
+    ],
+    "roman-write": [
+      {"id":"rwr-01","context":"14","hint_vi":"14 = 10 + 4.","prompt":"Viết 14 bằng số La Mã.","task_vi":"Ghép X với IV.","options":["XIV","XVI","IVX","IXV"],"answer":"XIV","explanation_vi":"14 được viết là XIV.","source_status":"user-provided-reference"},
+      {"id":"rwr-02","context":"27","hint_vi":"27 = 20 + 7.","prompt":"Viết 27 bằng số La Mã.","task_vi":"Ghép XX với VII.","options":["XXVII","XVII","XXIV","XXXVII"],"answer":"XXVII","explanation_vi":"27 được viết là XXVII.","source_status":"user-provided-reference"},
+      {"id":"rwr-03","context":"18","hint_vi":"18 = 10 + 8.","prompt":"Viết 18 bằng số La Mã.","task_vi":"Ghép X với VIII.","options":["XVIII","XXVIII","XIII","VIII"],"answer":"XVIII","explanation_vi":"18 được viết là XVIII.","source_status":"user-provided-reference"},
+      {"id":"rwr-04","context":"25","hint_vi":"25 = 20 + 5.","prompt":"Viết 25 bằng số La Mã.","task_vi":"Ghép XX với V.","options":["XXV","XV","XXXV","XXIV"],"answer":"XXV","explanation_vi":"25 được viết là XXV.","source_status":"user-provided-reference"},
+      {"id":"rwr-05","context":"4","hint_vi":"Dùng cụm đặc biệt IV.","prompt":"Viết 4 bằng số La Mã.","task_vi":"Chọn cách viết chuẩn.","options":["IV","IIII","VI","IX"],"answer":"IV","explanation_vi":"4 được viết là IV.","source_status":"user-provided-reference"},
+      {"id":"rwr-06","context":"9","hint_vi":"Dùng cụm đặc biệt IX.","prompt":"Viết 9 bằng số La Mã.","task_vi":"Chọn cách viết chuẩn.","options":["IX","VIIII","XI","IV"],"answer":"IX","explanation_vi":"9 được viết là IX.","source_status":"user-provided-reference"},
+      {"id":"rwr-07","context":"12","hint_vi":"12 = 10 + 2.","prompt":"Viết 12 bằng số La Mã.","task_vi":"Ghép X với II.","options":["XII","IIX","XVII","XXII"],"answer":"XII","explanation_vi":"12 được viết là XII.","source_status":"ai-generated"},
+      {"id":"rwr-08","context":"19","hint_vi":"19 = 10 + 9.","prompt":"Viết 19 bằng số La Mã.","task_vi":"Ghép X với IX.","options":["XIX","XXI","XVIV","IX"],"answer":"XIX","explanation_vi":"19 được viết là XIX.","source_status":"ai-generated"},
+      {"id":"rwr-09","context":"24","hint_vi":"24 = 20 + 4.","prompt":"Viết 24 bằng số La Mã.","task_vi":"Ghép XX với IV.","options":["XXIV","XIV","XXVI","IVXX"],"answer":"XXIV","explanation_vi":"24 được viết là XXIV.","source_status":"user-provided-reference"},
+      {"id":"rwr-10","context":"30","hint_vi":"30 gồm ba chục.","prompt":"Viết 30 bằng số La Mã.","task_vi":"Ghép ba chữ X.","options":["XXX","XX","XXXX","III"],"answer":"XXX","explanation_vi":"30 được viết là XXX.","source_status":"user-provided-reference"}
+    ],
+    "mixed": [
+      {"id":"mx-01","context":"Dùng các chữ số 0, 1, 2 để viết số có ba chữ số, mỗi chữ số dùng một lần.","hint_vi":"Chữ số hàng trăm không được là 0.","prompt":"Có bao nhiêu số thỏa mãn?","task_vi":"Liệt kê 102, 120, 201, 210 rồi đếm.","options":["4","6","3","2"],"answer":"4","explanation_vi":"Có bốn số: 102, 120, 201, 210.","source_status":"user-provided-reference"},
+      {"id":"mx-02","context":"Số có ba chữ số 0, 9, 0 xen kẽ nhau.","hint_vi":"Số có ba chữ số không thể bắt đầu bằng 0.","prompt":"Đó là số nào?","task_vi":"Chọn số tự nhiên phù hợp.","options":["909","090","900","990"],"answer":"909","explanation_vi":"Chỉ 909 có ba chữ số và 0, 9 xen kẽ.","source_status":"user-provided-reference"},
+      {"id":"mx-03","context":"Dùng 0, 3, 5 viết số có ba chữ số khác nhau, chữ số 5 có giá trị 50.","hint_vi":"5 phải đứng ở hàng chục; hàng trăm không thể là 0.","prompt":"Số cần viết là gì?","task_vi":"Xác định vị trí từng chữ số.","options":["350","305","530","503"],"answer":"350","explanation_vi":"Trong 350, chữ số 5 ở hàng chục nên có giá trị 50.","source_status":"user-provided-reference"},
+      {"id":"mx-04","context":"9 thùng, 9 hộp và 9 gói kẹo; mỗi gói 10 cái, mỗi hộp 10 gói, mỗi thùng 10 hộp.","hint_vi":"Một thùng 1 000 cái; một hộp 100 cái; một gói 10 cái.","prompt":"Tổng số kẹo là bao nhiêu?","task_vi":"Dùng giá trị theo hàng để tính.","options":["9 990","999","9 099","99 900"],"answer":"9 990","explanation_vi":"9 × 1 000 + 9 × 100 + 9 × 10 = 9 990.","source_status":"user-provided-reference"},
+      {"id":"mx-05","context":"492 nghìn đồng, dùng tờ 100 nghìn, 10 nghìn và 1 nghìn; mỗi loại không quá 9 tờ.","hint_vi":"Tách 492 theo hàng trăm, chục và đơn vị.","prompt":"Cần số tờ mỗi loại theo thứ tự là gì?","task_vi":"Chọn bộ số tờ đúng.","options":["4; 9; 2","9; 4; 2","4; 2; 9","2; 9; 4"],"answer":"4; 9; 2","explanation_vi":"492 = 4 × 100 + 9 × 10 + 2 nên cần 4, 9, 2 tờ.","source_status":"user-provided-reference"},
+      {"id":"mx-06","context":"Chữ số 4 có giá trị 400.","hint_vi":"Giá trị 400 nghĩa là chữ số 4 ở hàng trăm.","prompt":"Chữ số 4 đứng ở hàng nào?","task_vi":"Chọn tên hàng.","options":["Hàng trăm","Hàng chục","Hàng đơn vị","Hàng nghìn"],"answer":"Hàng trăm","explanation_vi":"4 × 100 = 400 nên 4 ở hàng trăm.","source_status":"user-provided-reference"},
+      {"id":"mx-07","context":"Một đồng hồ chỉ số La Mã XX.","hint_vi":"XX gồm hai chữ X.","prompt":"Đây là số tự nhiên nào?","task_vi":"Đổi La Mã sang thập phân.","options":["20","10","30","15"],"answer":"20","explanation_vi":"XX = 10 + 10 = 20.","source_status":"ai-generated"},
+      {"id":"mx-08","context":"Số 80 005 012","hint_vi":"Tách thành các lớp triệu, nghìn, đơn vị.","prompt":"Chữ số 5 có giá trị bao nhiêu?","task_vi":"Xác định đúng hàng của chữ số 5.","options":["5 000","50 000","500","5"],"answer":"5 000","explanation_vi":"5 ở hàng nghìn nên có giá trị 5 000.","source_status":"ai-generated"},
+      {"id":"mx-09","context":"Số La Mã không quá 30","hint_vi":"Các thành phần cơ bản là I, V, X, IV và IX.","prompt":"Phát biểu nào đúng?","task_vi":"Chọn nhận xét chính xác.","options":["Không có số La Mã biểu diễn số 0","Số 0 viết là O","Số 0 viết là X","Số 0 viết là I"],"answer":"Không có số La Mã biểu diễn số 0","explanation_vi":"Trong phạm vi bài học, không có số La Mã biểu diễn số 0.","source_status":"user-provided-reference"},
+      {"id":"mx-10","context":"Số 3 507 020","hint_vi":"Lớp nghìn là 507.","prompt":"Nhóm 507 thuộc lớp nào?","task_vi":"Chọn tên lớp đúng.","options":["Lớp nghìn","Lớp triệu","Lớp đơn vị","Lớp tỉ"],"answer":"Lớp nghìn","explanation_vi":"Tách số thành 3 | 507 | 020, nhóm 507 là lớp nghìn.","source_status":"ai-generated"}
+    ]
+  }
+}

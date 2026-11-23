@@ -1,0 +1,86 @@
+{
+  "lesson_id":"unit6-phase2",
+  "source_status":"user-provided-reference",
+  "usage_scope":"personal-family",
+  "source_note":"Tham chiếu ảnh Unit 6 trang 63–67 do người dùng cung cấp ngày 2026-11-07. Không nhúng ảnh sách. Track 41–43 không được cung cấp; mọi audio thay thế dùng TTS và ghi nhãn AI.",
+  "communication":{
+    "wish_model":"Wishing you joy and laughter from January to December!",
+    "wish_suggestions":["happy days from January to December","a year full of fun","happiness and cheers","a life full of happy moments","success in your studies"],
+    "picture_customs":[
+      {"activity":"go to Times Square to watch the New Year's Eve Ball drop","country":"the USA"},
+      {"activity":"bathe in an ice hole","country":"Russia"},
+      {"activity":"eat mochi rice cakes","country":"Japan"},
+      {"activity":"throw water on other people","country":"Thailand"}
+    ],
+    "world_customs":[
+      {"country":"Japan","activity":"ring bells 108 times at midnight"},
+      {"country":"Spain","activity":"put 12 grapes in their mouth at midnight"},
+      {"country":"Switzerland","activity":"drop ice cream on the floor"},
+      {"country":"Romania","activity":"throw coins into a river"},
+      {"country":"Thailand","activity":"throw water on other people"}
+    ]
+  },
+  "skills1":{
+    "passages":[
+      {"speaker":"Russ","country":"the USA","text":"I often go to Times Square with my parents to welcome the New Year. When the clock strikes midnight, colourful fireworks light up the sky. Everybody cheers and sings."},
+      {"speaker":"Wu","country":"China","text":"On New Year's Day, we dress beautifully and go to our grandparents' houses. We wish them Happy New Year and they give us lucky money. Then we go out and have a day full of fun."},
+      {"speaker":"Mai","country":"Viet Nam","text":"I learn some customs about Tet from my parents. People give rice to wish for enough food and buy salt to wish for good luck. Dogs are lucky animals but cats are not. A cat's cry sounds like ‘poor’ in Vietnamese."}
+    ],
+    "who_statements":[
+      {"statement":"Dogs are lucky animals.","speaker":"Mai"},
+      {"statement":"We welcome the New Year at Times Square.","speaker":"Russ"},
+      {"statement":"Children get lucky money.","speaker":"Wu"},
+      {"statement":"We give rice to wish for enough food.","speaker":"Mai"},
+      {"statement":"Children dress beautifully.","speaker":"Wu"}
+    ],
+    "memory_items":[
+      {"item":"lucky money","appears":true},{"item":"a day full of fun","appears":true},{"item":"a cat's cry","appears":true},{"item":"decorating the house","appears":false},
+      {"item":"fireworks","appears":true},{"item":"saying wishes","appears":true},{"item":"cheering and singing","appears":true},{"item":"visiting relatives","appears":true}
+    ],
+    "speaking_activities":["watch fireworks on New Year's Eve","sing when the New Year comes","get lucky money","go out and have fun","dress beautifully","buy salt for good luck"],
+    "advice_activities":[
+      {"activity":"break things","answer":"shouldn't"},{"activity":"make a wish","answer":"should"},{"activity":"dress beautifully","answer":"should"},
+      {"activity":"say Have fun to friends","answer":"should"},{"activity":"help decorate our houses","answer":"should"},{"activity":"play games all night","answer":"shouldn't"},
+      {"activity":"invite friends home","answer":"should"},{"activity":"ask for lucky money","answer":"shouldn't"},{"activity":"play loud music","answer":"shouldn't"}
+    ]
+  },
+  "skills2":{
+    "visible_items":["old things","peach flowers","new clothes","cakes","wishes","good luck"],
+    "visible_questions":[
+      {"question":"What do they throw away before Tet?","answer":"old things"},
+      {"question":"What do they clean and decorate?","answer":"their house"},
+      {"question":"What colour are the envelopes?","answer":"red"},
+      {"question":"Who cooks banh chung?","answer":"his mother"},
+      {"question":"What shouldn't they break?","answer":"anything"}
+    ],
+    "replacement_audio":{
+      "source_status":"ai-generated",
+      "script":"Nguyen is writing to Tom about Tet. Before Tet, his family throws away old things. They clean and decorate their house with peach flowers. They buy new clothes and cakes. His mother cooks banh chung. The children get lucky money in red envelopes and make wishes for good luck. They should behave well and shouldn't break anything."
+    },
+    "writing_prompts":["Children should behave well.","Children should help decorate the house.","Children shouldn't break things.","Children shouldn't play loud music."],
+    "email_stems":["At Tet, we should","We should","But we shouldn't","We shouldn't"]
+  },
+  "looking_back":{
+    "collocations":["give lucky money","cook special food","plant trees","make a wish","watch fireworks","break things"],
+    "vocabulary_answers":["lucky money","cleaning","banh chung","peach","gathering"],
+    "advice_sentences":[
+      {"cue":"ask for permission before entering a room","answer":"should"},{"cue":"run about the house","answer":"shouldn't"},
+      {"cue":"take things from a shelf","answer":"shouldn't"},{"cue":"make a lot of noise","answer":"shouldn't"},{"cue":"ask for some water if thirsty","answer":"should"}
+    ],
+    "some_any_answers":["some","some","any","any","some","any"]
+  },
+  "project":{
+    "title":"I wish",
+    "steps":[
+      "Each student gets a small piece of paper and writes his or her wishes on it.",
+      "He or she hangs it on a tree.",
+      "Other students take turns to get a piece of paper and read the wish aloud.",
+      "The class guesses whose wish it is."
+    ],
+    "example_wishes":["I want to have a brother.","I want to visit Singapore.","I want to live in a tree house."],
+    "now_i_can":[
+      "use words related to things and activities at Tet","recognise the sounds /s/ and /ʃ/","use should and shouldn't for advice","use some and any for amount",
+      "say New Year's wishes","read about New Year's practices","talk about what children should and shouldn't do at Tet","listen and write an email about Tet preparations"
+    ]
+  }
+}

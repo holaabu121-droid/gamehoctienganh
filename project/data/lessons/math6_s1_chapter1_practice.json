@@ -1,0 +1,91 @@
+{
+  "review_id":"math6-s1-chapter1-practice","source_status":"user-provided-reference","usage_scope":"personal-family","source_note":"SGK Toán 6 Tập 1, Kết nối tri thức với cuộc sống, Luyện tập chung Chương I trang 20–21; câu luyện thêm ghi ai-generated; không nhúng ảnh sách.","course_id":"math-6-semester-1","branch_id":"math6-s1-chapter1-practice",
+  "review":{"sequence":6,"label":"Luyện tập chung","badge":"LT","title":"Tổng hợp Bài 1–5","chapter":"Chương I · Tập hợp các số tự nhiên","lead":"Kết nối tập hợp, cách ghi số, thứ tự và bốn phép tính để giải bài toán nhiều bước.","objectives":["Nhận diện hàng và giá trị chữ số trong số tự nhiên.","Viết tập hợp theo hai cách và xác định quan hệ phần tử.","Vận dụng cộng, trừ, nhân, chia trong tính toán.","Giải bài toán thực tế và kiểm tra tính hợp lí của kết quả."]},
+  "foundations":[
+    {"title":"Đọc cấu tạo số","items":[{"text":"Giá trị chữ số phụ thuộc vào vị trí.","translation":"Ví dụ trong 280 650, chữ số 8 có giá trị 80 000 và chữ số 6 có giá trị 600.","speechText":"Giá trị của một chữ số phụ thuộc vào hàng của nó trong số."},{"text":"Một tập hợp không lặp phần tử.","translation":"Các chữ số của 280 650 tạo tập hợp {0; 2; 5; 6; 8}.","speechText":"Khi viết tập hợp các chữ số, mỗi chữ số chỉ xuất hiện một lần."}]},
+    {"title":"Chọn và kiểm tra phép tính","items":[{"text":"Gộp dùng cộng; tìm phần còn thiếu dùng trừ.","translation":"Muốn tìm số khách còn phải đón: kế hoạch trừ số đã đón.","speechText":"Gộp các phần dùng phép cộng, tìm phần còn thiếu dùng phép trừ."},{"text":"Nhiều nhóm bằng nhau dùng nhân; chia đều dùng chia.","translation":"Kiểm tra phép chia bằng số chia nhân thương rồi cộng số dư.","speechText":"Nhiều nhóm bằng nhau dùng phép nhân, chia đều dùng phép chia."}]},
+    {"title":"Giải bài toán nhiều bước","items":[{"text":"Đổi về cùng đơn vị trước khi tính.","translation":"8 phút 19 giây = 8 · 60 + 19 = 499 giây.","speechText":"Trước khi tính, đổi các đại lượng về cùng một đơn vị."},{"text":"Ước lượng để phát hiện sai sót.","translation":"Kết quả phải phù hợp với độ lớn dữ kiện và có đơn vị đầy đủ.","speechText":"Sau khi tính, ước lượng và ghi đơn vị để kiểm tra kết quả."}]}
+  ],
+  "game_meta":[
+    {"id":"place-value","icon":"🔢","title":"Giải mã chữ số","description":"Xác định hàng, giá trị và tổng giá trị các chữ số.","teaching_vi":"Đọc số từ phải sang trái theo các hàng đơn vị, chục, trăm, nghìn, chục nghìn, trăm nghìn.","default_hint_vi":"Xác định hàng của chữ số rồi nhân chữ số với giá trị của hàng."},
+    {"id":"sets-order","icon":"🧺","title":"Tập hợp và thứ tự","description":"Viết tập hợp, liệt kê phần tử và so sánh số.","teaching_vi":"Tập hợp không lặp phần tử; điều kiện lớn hơn 3 và không lớn hơn 7 tương ứng 3 < x ≤ 7.","default_hint_vi":"Đổi điều kiện thành khoảng rồi liệt kê lần lượt."},
+    {"id":"add-subtract","icon":"➕","title":"Cộng trừ hợp lí","description":"Tính tổng, hiệu và phần còn thiếu.","teaching_vi":"Gộp các phần bằng cộng; lấy tổng dự kiến trừ phần đã có để tìm phần còn thiếu.","default_hint_vi":"Nhóm số thuận tiện hoặc xác định toàn bộ và phần đã biết."},
+    {"id":"multiply-divide","icon":"✖️","title":"Nhân chia chính xác","description":"Tính tích, thương và số dư.","teaching_vi":"Nhiều nhóm bằng nhau dùng nhân; phép chia có dư thỏa a = bq + r và 0 ≤ r < b.","default_hint_vi":"Kiểm tra ngược kết quả bằng phép tính đối lập."},
+    {"id":"word-problem","icon":"🌍","title":"Toán học đời sống","description":"Giải các tình huống du lịch, ánh sáng, vận tải và tiền điện.","teaching_vi":"Gạch chân dữ kiện, đổi đơn vị, lập biểu thức rồi kiểm tra đơn vị kết quả.","default_hint_vi":"Xác định đại lượng cần tìm và phép tính cho từng bước."},
+    {"id":"mixed","icon":"🏁","title":"Đường đua tổng hợp","description":"Phối hợp kiến thức Bài 1–5.","teaching_vi":"Đọc kĩ yêu cầu để chọn đúng quy tắc; thực hiện và ước lượng trước khi chốt đáp án.","default_hint_vi":"Xác định chủ đề câu hỏi trước khi tính."}
+  ],
+  "games":{
+    "place-value":[
+      {"id":"pv1","q":"Trong số 280 650, chữ số hàng nghìn là gì?","a":"0","d":["2","6","8"],"e":"Từ phải sang trái: đơn vị 0, chục 5, trăm 6, nghìn 0.","s":"user-provided-reference"},
+      {"id":"pv2","q":"Trong số 280 650, chữ số hàng trăm nghìn là gì?","a":"2","d":["8","0","6"],"e":"Chữ số ngoài cùng bên trái nằm ở hàng trăm nghìn.","s":"user-provided-reference"},
+      {"id":"pv3","q":"Giá trị của chữ số 8 trong 280 650 là bao nhiêu?","a":"80 000","d":["8 000","800","8"],"e":"8 ở hàng chục nghìn nên có giá trị 8 · 10 000 = 80 000.","s":"user-provided-reference"},
+      {"id":"pv4","q":"Giá trị của chữ số 6 trong 280 650 là bao nhiêu?","a":"600","d":["6 000","60","6"],"e":"6 ở hàng trăm nên có giá trị 600.","s":"user-provided-reference"},
+      {"id":"pv5","q":"Dạng tổng giá trị đúng của 280 650 là gì?","a":"2·100 000 + 8·10 000 + 6·100 + 5·10","d":["2·10 000 + 8·1 000 + 6·100 + 5","28·10 000 + 65","2·100 000 + 8·1 000 + 6·10 + 5"],"e":"Chỉ giữ các chữ số khác 0 ở đúng hàng của chúng.","s":"user-provided-reference"},
+      {"id":"pv6","q":"Trong 406 215, chữ số 4 có giá trị bao nhiêu?","a":"400 000","d":["40 000","4 000","400"],"e":"4 ở hàng trăm nghìn.","s":"ai-generated"},
+      {"id":"pv7","q":"Chữ số hàng chục nghìn của 735 084 là gì?","a":"3","d":["7","5","0"],"e":"735 084 có hàng trăm nghìn 7, chục nghìn 3.","s":"ai-generated"},
+      {"id":"pv8","q":"Số nào bằng 9·100 000 + 4·1 000 + 2·10 + 7?","a":"904 027","d":["940 027","904 207","94 027"],"e":"Các hàng chục nghìn và trăm bằng 0.","s":"ai-generated"},
+      {"id":"pv9","q":"Trong 5 050 500, chữ số 5 ở hàng trăm có giá trị bao nhiêu?","a":"500","d":["5 000","50","5"],"e":"Chữ số 5 cuối cùng đứng ở hàng trăm.","s":"ai-generated"},
+      {"id":"pv10","q":"Số 1 203 040 có bao nhiêu chữ số?","a":"7","d":["6","8","5"],"e":"Bỏ khoảng cách nhóm, ta có dãy 1203040 gồm 7 chữ số.","s":"ai-generated"}
+    ],
+    "sets-order":[
+      {"id":"so1","q":"A gồm các số tự nhiên lớn hơn 3 và không lớn hơn 7. A là tập nào?","a":"{4; 5; 6; 7}","d":["{3; 4; 5; 6; 7}","{4; 5; 6}","{3; 4; 5; 6}"],"e":"Điều kiện là 3 < x ≤ 7.","s":"user-provided-reference"},
+      {"id":"so2","q":"Cách viết bằng tính chất đặc trưng của A = {4; 5; 6; 7} là gì?","a":"A = {x ∈ ℕ | 3 < x ≤ 7}","d":["A = {x ∈ ℕ | 3 ≤ x < 7}","A = {x ∈ ℕ | 4 < x < 7}","A = {x ∈ ℕ | x ≤ 3}"],"e":"A nhận các số tự nhiên lớn hơn 3 và không vượt quá 7.","s":"user-provided-reference"},
+      {"id":"so3","q":"Trong các số tự nhiên nhỏ hơn 10, số nào không thuộc A?","a":"0; 1; 2; 3; 8; 9","d":["4; 5; 6; 7","0; 1; 2; 8","3; 8; 9"],"e":"Loại khỏi 0 đến 9 các phần tử 4, 5, 6, 7 của A.","s":"user-provided-reference"},
+      {"id":"so4","q":"Tập hợp các chữ số của 280 650 là gì?","a":"{0; 2; 5; 6; 8}","d":["{2; 8; 0; 6; 5; 0}","{2; 5; 6; 8}","{0; 2; 5; 6}"],"e":"Tập hợp không lặp chữ số 0.","s":"user-provided-reference"},
+      {"id":"so5","q":"Số tự nhiên nhỏ nhất có bốn chữ số là gì?","a":"1 000","d":["999","1 001","100"],"e":"Số có bốn chữ số bắt đầu từ 1 000.","s":"user-provided-reference"},
+      {"id":"so6","q":"Số tự nhiên nhỏ nhất có bốn chữ số khác nhau là gì?","a":"1 023","d":["1 012","1 032","1 002"],"e":"Chọn hàng nghìn 1, sau đó lần lượt dùng 0, 2, 3 để nhỏ nhất và không lặp.","s":"user-provided-reference"},
+      {"id":"so7","q":"Số nhỏ nhất có bốn chữ số khác nhau và đều chẵn là gì?","a":"2 046","d":["1 024","2 024","2 064"],"e":"Chữ số đầu nhỏ nhất khác 0 là 2, tiếp theo 0, 4, 6.","s":"user-provided-reference"},
+      {"id":"so8","q":"Số nhỏ nhất có bốn chữ số khác nhau và đều lẻ là gì?","a":"1 357","d":["1 335","1 375","3 157"],"e":"Bốn chữ số lẻ nhỏ nhất khác nhau theo thứ tự tăng là 1, 3, 5, 7.","s":"user-provided-reference"},
+      {"id":"so9","q":"Tập {1; 3; 5; 7} có bao nhiêu phần tử?","a":"4","d":["3","5","7"],"e":"Đếm từng phần tử khác nhau trong tập.","s":"ai-generated"},
+      {"id":"so10","q":"Điều kiện 5 ≤ x < 9 với x ∈ ℕ cho tập nào?","a":"{5; 6; 7; 8}","d":["{6; 7; 8; 9}","{5; 6; 7; 8; 9}","{6; 7; 8}"],"e":"Lấy 5 nhưng không lấy 9.","s":"ai-generated"}
+    ],
+    "add-subtract":[
+      {"id":"as1","q":"6 526 300 + 3 514 500 bằng bao nhiêu?","a":"10 040 800","d":["10 040 700","9 040 800","10 140 800"],"e":"Cộng hai quý đầu được 10 040 800 khách.","s":"user-provided-reference"},
+      {"id":"as2","q":"22 000 000 − 10 040 800 bằng bao nhiêu?","a":"11 959 200","d":["11 960 200","12 040 800","11 959 800"],"e":"Đây là số khách còn phải đón để đủ kế hoạch.","s":"user-provided-reference"},
+      {"id":"as3","q":"457 + 298 + 543 + 202 bằng bao nhiêu?","a":"1 500","d":["1 400","1 600","1 480"],"e":"Nhóm 457 + 543 = 1 000 và 298 + 202 = 500.","s":"ai-generated"},
+      {"id":"as4","q":"9 000 − 3 475 bằng bao nhiêu?","a":"5 525","d":["5 425","6 525","5 575"],"e":"Trừ theo từng hàng hoặc bù từ 3 475 đến 9 000.","s":"ai-generated"},
+      {"id":"as5","q":"Số hạng chưa biết trong x + 2 350 = 8 000 là gì?","a":"5 650","d":["5 750","10 350","6 650"],"e":"x = 8 000 − 2 350.","s":"ai-generated"},
+      {"id":"as6","q":"Số bị trừ trong x − 725 = 1 275 là gì?","a":"2 000","d":["550","1 900","2 100"],"e":"x = 1 275 + 725.","s":"ai-generated"},
+      {"id":"as7","q":"7 845 + 0 bằng bao nhiêu?","a":"7 845","d":["0","7 840","7 850"],"e":"Cộng 0 không làm thay đổi số.","s":"ai-generated"},
+      {"id":"as8","q":"15 000 − 15 000 bằng bao nhiêu?","a":"0","d":["1","15 000","30 000"],"e":"Một số trừ chính nó bằng 0.","s":"ai-generated"},
+      {"id":"as9","q":"1 999 + 3 001 bằng bao nhiêu?","a":"5 000","d":["4 900","5 100","4 000"],"e":"Bù 1 từ 3 001 sang 1 999 tạo 2 000 + 3 000.","s":"ai-generated"},
+      {"id":"as10","q":"10 000 − 4 999 bằng bao nhiêu?","a":"5 001","d":["5 000","5 101","4 001"],"e":"4 999 + 5 001 = 10 000.","s":"ai-generated"}
+    ],
+    "multiply-divide":[
+      {"id":"md1","q":"Chữ số nào có giá trị không đổi dù đứng ở bất kì vị trí nào?","a":"0","d":["1","5","9"],"e":"Chữ số 0 luôn có giá trị 0 ở mọi hàng.","s":"user-provided-reference"},
+      {"id":"md2","q":"30 · 50 + 40 · 60 bằng bao nhiêu?","a":"3 900","d":["3 500","4 200","2 900"],"e":"Khối lượng gạo là 1 500 kg, ngô là 2 400 kg, tổng 3 900 kg.","s":"user-provided-reference"},
+      {"id":"md3","q":"4 800 : 60 bằng bao nhiêu?","a":"80","d":["8","800","70"],"e":"48 : 6 = 8 rồi giữ một chữ số 0.","s":"ai-generated"},
+      {"id":"md4","q":"987 : 45 cho thương và dư là gì?","a":"21 dư 42","d":["22 dư 3","20 dư 87","21 dư 32"],"e":"45 · 21 = 945, 987 − 945 = 42 < 45.","s":"ai-generated"},
+      {"id":"md5","q":"125 · 8 · 37 bằng bao nhiêu?","a":"37 000","d":["3 700","370 000","36 000"],"e":"Nhóm 125 · 8 = 1 000 rồi nhân 37.","s":"ai-generated"},
+      {"id":"md6","q":"24 · 25 bằng bao nhiêu?","a":"600","d":["500","625","650"],"e":"24 · 25 = 6 · 4 · 25 = 6 · 100.","s":"ai-generated"},
+      {"id":"md7","q":"Số dư trong phép chia cho 17 có thể bằng số nào?","a":"16","d":["17","18","34"],"e":"Số dư phải nhỏ hơn số chia 17.","s":"ai-generated"},
+      {"id":"md8","q":"3 456 : 1 bằng bao nhiêu?","a":"3 456","d":["1","0","3 455"],"e":"Chia cho 1 giữ nguyên số.","s":"ai-generated"},
+      {"id":"md9","q":"0 · 98 765 bằng bao nhiêu?","a":"0","d":["98 765","1","98 764"],"e":"Mọi số nhân 0 đều bằng 0.","s":"ai-generated"},
+      {"id":"md10","q":"Nếu a = 73, b = 9 thì a = bq + r với q, r nào?","a":"q = 8, r = 1","d":["q = 7, r = 10","q = 9, r = 8","q = 8, r = 9"],"e":"73 = 9 · 8 + 1 và 1 < 9.","s":"ai-generated"}
+    ],
+    "word-problem":[
+      {"id":"wp1","q":"8 phút 19 giây bằng bao nhiêu giây?","a":"499 giây","d":["819 giây","499 phút","480 giây"],"e":"8 · 60 + 19 = 499.","s":"user-provided-reference"},
+      {"id":"wp2","q":"Ánh sáng đi 300 000 km mỗi giây trong 499 giây. Quãng đường là bao nhiêu?","a":"149 700 000 km","d":["149 700 km","150 000 000 km","149 000 700 km"],"e":"499 · 300 000 = 149 700 000 km.","s":"user-provided-reference"},
+      {"id":"wp3","q":"30 bao gạo 50 kg và 40 bao ngô 60 kg nặng tất cả bao nhiêu?","a":"3 900 kg","d":["3 500 kg","4 400 kg","2 900 kg"],"e":"30 · 50 + 40 · 60 = 3 900 kg.","s":"user-provided-reference"},
+      {"id":"wp4","q":"Tiền 50 số điện đầu, mỗi số 1 678 đồng, là bao nhiêu?","a":"83 900 đồng","d":["81 900 đồng","86 700 đồng","167 800 đồng"],"e":"50 · 1 678 = 83 900 đồng.","s":"user-provided-reference"},
+      {"id":"wp5","q":"Tiền 50 số điện tiếp theo, mỗi số 1 734 đồng, là bao nhiêu?","a":"86 700 đồng","d":["83 900 đồng","173 400 đồng","85 700 đồng"],"e":"50 · 1 734 = 86 700 đồng.","s":"user-provided-reference"},
+      {"id":"wp6","q":"Tiền 15 số điện từ số 101, mỗi số 2 014 đồng, là bao nhiêu?","a":"30 210 đồng","d":["32 010 đồng","20 140 đồng","30 120 đồng"],"e":"15 · 2 014 = 30 210 đồng.","s":"user-provided-reference"},
+      {"id":"wp7","q":"Tổng tiền dùng 115 số điện theo ba mức của bài 1.35 là bao nhiêu?","a":"200 810 đồng","d":["201 810 đồng","170 600 đồng","230 210 đồng"],"e":"83 900 + 86 700 + 30 210 = 200 810 đồng.","s":"user-provided-reference"},
+      {"id":"wp8","q":"487 học sinh đi xe 45 chỗ cần ít nhất bao nhiêu xe?","a":"11 xe","d":["10 xe","12 xe","9 xe"],"e":"487 : 45 = 10 dư 37 nên phải thêm 1 xe.","s":"ai-generated"},
+      {"id":"wp9","q":"Mỗi hộp có 24 bút. 15 hộp có bao nhiêu bút?","a":"360 bút","d":["340 bút","390 bút","39 bút"],"e":"15 · 24 = 360.","s":"ai-generated"},
+      {"id":"wp10","q":"Một cửa hàng có 1 250 kg gạo, bán 475 kg. Còn bao nhiêu?","a":"775 kg","d":["785 kg","725 kg","1 725 kg"],"e":"1 250 − 475 = 775 kg.","s":"ai-generated"}
+    ],
+    "mixed":[
+      {"id":"mx1","q":"Số nhỏ nhất có bốn chữ số khác nhau là gì?","a":"1 023","d":["1 012","1 002","1 032"],"e":"Chọn lần lượt 1, 0, 2, 3.","s":"user-provided-reference"},
+      {"id":"mx2","q":"3 < x ≤ 7 có bao nhiêu nghiệm tự nhiên?","a":"4","d":["3","5","7"],"e":"Các nghiệm là 4, 5, 6, 7.","s":"user-provided-reference"},
+      {"id":"mx3","q":"Giá trị của 7 trong số 572 041 là bao nhiêu?","a":"70 000","d":["7 000","700 000","700"],"e":"7 ở hàng chục nghìn.","s":"ai-generated"},
+      {"id":"mx4","q":"500 · 24 : 100 bằng bao nhiêu?","a":"120","d":["12","1 200","20"],"e":"500 : 100 = 5, rồi 5 · 24 = 120.","s":"ai-generated"},
+      {"id":"mx5","q":"9 999 + 1 bằng bao nhiêu?","a":"10 000","d":["9 100","9 000","10 001"],"e":"Cộng 1 làm đổi tất cả bốn chữ số 9 thành 0 và thêm hàng chục nghìn.","s":"ai-generated"},
+      {"id":"mx6","q":"1 000 : 64 cho thương và dư là gì?","a":"15 dư 40","d":["16 dư 24","14 dư 104","15 dư 64"],"e":"64 · 15 = 960, còn 40.","s":"ai-generated"},
+      {"id":"mx7","q":"Tập hợp các chữ số của 101 010 có bao nhiêu phần tử?","a":"2","d":["6","3","1"],"e":"Chỉ có hai chữ số khác nhau là 0 và 1.","s":"ai-generated"},
+      {"id":"mx8","q":"Số liền sau của 99 999 là gì?","a":"100 000","d":["99 998","100 001","99 990"],"e":"Số liền sau bằng số đã cho cộng 1.","s":"ai-generated"},
+      {"id":"mx9","q":"Nếu 48 = 7 · 6 + r thì r bằng bao nhiêu?","a":"6","d":["5","7","8"],"e":"48 − 42 = 6 và 6 < 7.","s":"ai-generated"},
+      {"id":"mx10","q":"Biểu thức nào cho kết quả 1 000?","a":"25 · 40","d":["125 · 4","50 · 10","2 000 : 4"],"e":"25 · 40 = 1 000; ba đáp án còn lại đều bằng 500.","s":"ai-generated"}
+    ]
+  }
+}

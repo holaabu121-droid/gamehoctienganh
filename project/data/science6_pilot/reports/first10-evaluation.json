@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "scope": "science6-lessons-01-to-10",
+  "review_mode": "automated-data-logic-and-provisional-ai-teacher-role",
+  "counts": {
+    "lessons": 10,
+    "foundation_stages": 50,
+    "foundation_cards": 100,
+    "competency_games": 60,
+    "questions": 600,
+    "diagnostic_feedback": 1800,
+    "practical_scored": 0,
+    "simulations_scored": 0
+  },
+  "level_distribution": {
+    "basic": 180,
+    "understanding": 240,
+    "application": 120,
+    "challenge": 60
+  },
+  "answer_position_distribution": [
+    150,
+    140,
+    150,
+    160
+  ],
+  "student_simulation": {
+    "role": "student-simulation",
+    "mode": "deterministic-data-logic-check-not-human-or-ui-test",
+    "lessons_completed": 10,
+    "games_completed": 60,
+    "questions_completed": 600,
+    "intentional_wrong_attempts": 600,
+    "diagnostic_feedback_received": 600,
+    "corrected_answers": 600,
+    "level_counts": {
+      "basic": 180,
+      "understanding": 240,
+      "application": 120,
+      "challenge": 60
+    },
+    "practical_application_points": 0,
+    "failures": [],
+    "limitations": [
+      "Không mô phỏng thời gian suy nghĩ, thao tác chuột, khả năng đọc hay cảm xúc của học sinh thật.",
+      "Không đánh giá chất lượng thao tác giao diện; renderer bài học đã có nhưng mô phỏng tương tác vẫn mới ở mức đặc tả dữ liệu.",
+      "Chỉ xác minh luồng chọn sai - nhận chẩn đoán - sửa đúng trong dữ liệu."
+    ],
+    "passed": true
+  },
+  "teacher_role_audit": {
+    "role": "teacher-review",
+    "review_status": "provisional-ai-role-review-not-human-teacher-validation",
+    "automated_structural_score": 5,
+    "automated_structural_scale": "0-5",
+    "metrics": {
+      "lessons_with_10_unique_foundation_cards": 1,
+      "six_competencies_coverage": 1,
+      "diagnostic_feedback_coverage": 1,
+      "difficulty_progression_coverage": 1,
+      "representation_payload_coverage": 1,
+      "reviewed_grounding_coverage": 1,
+      "eighteen_template_rotation_coverage": 1,
+      "practical_safety_coverage": 1
+    },
+    "scientific_content_judgement_vi": "Các kiến thức lõi đã được gắn căn cứ thẻ và trang nguồn cho đủ 55 bài. Cổng tự động ngăn câu AI thêm khẳng định ngoài vật liệu đã duyệt, nhưng đây vẫn là nhận xét mô phỏng; giáo viên Khoa học tự nhiên phải duyệt lần cuối trước khi phát hành.",
+    "strengths": [
+      "Mỗi bài có mục tiêu, 5 chặng/10 thẻ và sáu năng lực tách biệt.",
+      "Mỗi phương án sai có phản hồi chỉ ra nhầm lẫn, căn cứ sửa và thẻ cần ôn.",
+      "Lộ trình 3 cơ bản - 4 thông hiểu - 2 vận dụng - 1 thử thách nhất quán.",
+      "Mỗi bài luân phiên sáu khuôn từ ngân hàng 18 khuôn; mọi câu có căn cứ thẻ và không khai báo khẳng định ngoài nguồn.",
+      "Ứng dụng thực tế không chấm điểm và luôn có cảnh báo, giám sát, việc được làm và việc cấm.",
+      "Nội dung tránh yêu cầu học sinh tự làm thí nghiệm nguy hiểm tại nhà."
+    ],
+    "limitations": [
+      "Renderer hiện trình bày bài giảng, khuôn biểu diễn và trò chơi; phần mô phỏng vẫn ở mức đặc tả, chưa có tương tác trực quan để đánh giá thao tác thật.",
+      "Kiểm thử học sinh là mô phỏng logic tất định, chưa thay thế quan sát học sinh lớp 6 thật.",
+      "Cần giáo viên bộ môn duyệt lần cuối cách diễn đạt, số liệu và thời lượng trước khi phát hành rộng.",
+      "Catalog, điểm và hồ sơ đã tích hợp; vẫn cần kiểm thử giao diện trên thiết bị gia đình và thí điểm người học thật."
+    ],
+    "lesson_notes": [
+      {
+        "lesson_id": "science6-l01",
+        "title_vi": "Giới thiệu về khoa học tự nhiên",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      },
+      {
+        "lesson_id": "science6-l02",
+        "title_vi": "An toàn trong phòng thực hành",
+        "note_vi": "Tốt cho xây thói quen an toàn; mô phỏng cần ưu tiên quyết định báo người lớn thay vì tự xử lí sự cố."
+      },
+      {
+        "lesson_id": "science6-l03",
+        "title_vi": "Sử dụng kính lúp",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      },
+      {
+        "lesson_id": "science6-l04",
+        "title_vi": "Sử dụng kính hiển vi quang học",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      },
+      {
+        "lesson_id": "science6-l05",
+        "title_vi": "Đo chiều dài",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      },
+      {
+        "lesson_id": "science6-l06",
+        "title_vi": "Đo khối lượng",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      },
+      {
+        "lesson_id": "science6-l07",
+        "title_vi": "Đo thời gian",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      },
+      {
+        "lesson_id": "science6-l08",
+        "title_vi": "Đo nhiệt độ",
+        "note_vi": "Bao phủ chọn dụng cụ, giới hạn đo, độ chia, vị trí đầu đo và sai số thị sai; phù hợp dạy thao tác đo."
+      },
+      {
+        "lesson_id": "science6-l09",
+        "title_vi": "Sự đa dạng của chất",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      },
+      {
+        "lesson_id": "science6-l10",
+        "title_vi": "Các thể của chất và sự chuyển thể",
+        "note_vi": "Bài có đủ cấu trúc kiến thức, năng lực, phản hồi và an toàn; cần giáo viên Khoa học tự nhiên duyệt diễn đạt, độ khó và trực quan trước khi phát hành."
+      }
+    ],
+    "recommendation": "Cấu trúc dữ liệu và tích hợp kỹ thuật đạt. Nội dung vẫn cần giáo viên bộ môn duyệt; mô phỏng trực quan, khả năng tiếp cận và hiệu quả học tập cần được kiểm thử với học sinh thật trước khi phát hành rộng."
+  },
+  "assessment": {
+    "strengths": [
+      "Phạm vi Bài 1-10 liền mạch từ nhập môn, an toàn, dụng cụ-quy trình đo đến chất và sự chuyển thể.",
+      "Mỗi bài có đủ bài giảng 5 chặng/10 thẻ, sáu năng lực và lộ trình 3-4-2-1.",
+      "Mỗi lựa chọn sai đều có chẩn đoán, cách sửa và thẻ kiến thức cần quay lại.",
+      "Thực hành gia đình không chấm điểm; hoạt động có nhiệt, lửa, hóa chất, vật sắc và thiết bị quang học đều bị giới hạn hoặc chuyển sang mô phỏng/giáo viên biểu diễn."
+    ],
+    "pedagogical_risks": [
+      "Sáu game dùng một bộ khung sinh câu chung nên độ đa dạng cấu trúc tư duy chưa tương đương ngân hàng câu viết tay hoàn toàn.",
+      "Renderer đã trình bày bài giảng, sáu khuôn biểu diễn và trò chơi; mô phỏng tương tác vẫn là đặc tả dữ liệu và chưa được kiểm thử khả năng tiếp cận trên thiết bị thật.",
+      "Chưa có quan sát học sinh thật hoặc nghiệm thu của giáo viên Khoa học tự nhiên; điểm 5/5 chỉ là cổng cấu trúc tự động."
+    ],
+    "recommendation": "Dữ liệu Bài 1-10 và renderer tích hợp đã đạt cổng tự động. Trước khi phát hành rộng cần thử với học sinh và giáo viên, kiểm thử khả năng tiếp cận, rồi mở rộng biến thiên số liệu-tình huống ở từng năng lực."
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "status": "PASS_WITH_RELEASE_BLOCKERS",
+  "scope": "science6-integrated-course-lessons-01-to-55",
+  "review_mode": "automated-three-role-simulation-and-source-validation-not-human-usability-validation",
+  "generated_at": "2026-11-17T01:28:17.947Z",
+  "evidence": {
+    "lessons": 55,
+    "chapters": 10,
+    "objectives": 276,
+    "foundation_stages": 275,
+    "foundation_cards": 550,
+    "unique_foundation_teaching": 550,
+    "games": 330,
+    "questions": 3300,
+    "unique_question_prompts": 3264,
+    "unique_contexts": 550,
+    "representation_types": 18,
+    "representation_distribution": {
+      "annotated-scene": 190,
+      "classification-grid": 190,
+      "evidence-table": 190,
+      "cause-effect-map": 190,
+      "procedure-cards": 190,
+      "claim-evidence-reasoning": 190,
+      "diagram-labeling": 180,
+      "sequence-builder": 180,
+      "error-diagnosis": 180,
+      "before-after-comparison": 180,
+      "diagram-gap-fill": 180,
+      "chart-reading": 180,
+      "experiment-designer": 180,
+      "tool-selector": 180,
+      "virtual-lab": 180,
+      "decision-scenario": 180,
+      "multi-layer-matching": 180,
+      "concept-map": 180
+    },
+    "diagnostic_feedback": 9900,
+    "unique_diagnostic_feedback": 9882,
+    "prompt_words": {
+      "average": 42.2,
+      "maximum": 64,
+      "over_35": 2538
+    },
+    "option_words": {
+      "average": 28.3,
+      "maximum": 111,
+      "over_30": 4202,
+      "total_options": 13200
+    },
+    "answer_position_distribution": [
+      825,
+      770,
+      825,
+      880
+    ],
+    "source_provenance_complete": 55,
+    "simulation_implementation_status": {
+      "specification-only": 55
+    },
+    "practical_scored": 0,
+    "simulation_scored": 0
+  },
+  "role_reviews": {
+    "student": {
+      "role": "Mô phỏng học sinh lớp 6",
+      "score": 74,
+      "maximum": 100,
+      "verdict": "Đạt luồng dữ liệu; chưa đủ bằng chứng về trải nghiệm học sinh thật.",
+      "criteria": [
+        {
+          "criterion": "Luồng sai - nhận phản hồi - sửa đúng",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "3300/3300 câu sửa đúng sau lượt sai."
+        },
+        {
+          "criterion": "Tiến trình từ dễ đến khó",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "Mọi game theo đúng 3 cơ bản - 4 thông hiểu - 2 vận dụng - 1 thử thách."
+        },
+        {
+          "criterion": "Phản hồi giúp tự sửa",
+          "score": 18,
+          "maximum": 20,
+          "evidence": "9900 phản hồi; mọi phản hồi nối về thẻ cần ôn."
+        },
+        {
+          "criterion": "Tải đọc và sự rõ ràng",
+          "score": 9,
+          "maximum": 20,
+          "evidence": "Câu hỏi trung bình 42.2 từ; 4202/13200 phương án dài trên 30 từ."
+        },
+        {
+          "criterion": "Trực quan, thao tác và khả năng tiếp cận",
+          "score": 8,
+          "maximum": 20,
+          "evidence": "Có renderer cho bài giảng, sáu khuôn biểu diễn và trò chơi; mô phỏng vẫn là specification-only và chưa kiểm thử hỗ trợ tiếp cận trên thiết bị thật."
+        }
+      ],
+      "strengths": [
+        "Học sinh luôn có thể thử sai, nhận nguyên nhân và quay về đúng thẻ kiến thức.",
+        "Lộ trình khó tăng dần nhất quán, không đẩy câu thử thách lên đầu.",
+        "Các hoạt động thực tế không gây áp lực điểm số."
+      ],
+      "concerns": [
+        "Nhiều câu và phương án dài, có nguy cơ gây mệt đọc cho học sinh lớp 6.",
+        "Mười tám khuôn đã giảm lặp và renderer đã hiển thị chúng, nhưng chất lượng trải nghiệm chưa thể xác nhận khi chưa có kiểm thử người thật.",
+        "Chưa thể đánh giá thao tác, âm thanh, hình ảnh, động lực, khả năng tiếp cận hay lưu tiến độ trên UI."
+      ]
+    },
+    "classroom_teacher": {
+      "role": "Mô phỏng giáo viên trực tiếp giảng dạy",
+      "score": 84,
+      "maximum": 100,
+      "verdict": "Tốt để làm ngân hàng học liệu tích hợp; cần duyệt chuyên môn và thí điểm có giám sát trước khi dùng trên lớp.",
+      "criteria": [
+        {
+          "criterion": "Độ phủ chương trình và nguồn",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "55/55 bài, 10/10 chương và 55/55 bài có provenance trang nguồn."
+        },
+        {
+          "criterion": "Cấu trúc bài dạy và mục tiêu",
+          "score": 19,
+          "maximum": 20,
+          "evidence": "276 mục tiêu, 275 chặng và 550 thẻ; cấu trúc giáo viên 5/5."
+        },
+        {
+          "criterion": "Đánh giá và chẩn đoán",
+          "score": 18,
+          "maximum": 20,
+          "evidence": "Sáu năng lực/bài, 9900 phản hồi và phân bố đáp án 825/770/825/880."
+        },
+        {
+          "criterion": "Phân hóa và đa dạng tư duy",
+          "score": 17,
+          "maximum": 20,
+          "evidence": "3264 câu không trùng nguyên văn và 18 khuôn biểu diễn được luân phiên sáu khuôn/bài."
+        },
+        {
+          "criterion": "Khả năng tổ chức dạy học thật",
+          "score": 10,
+          "maximum": 20,
+          "evidence": "Có học liệu trực quan chạy trong ứng dụng, đặc tả mô phỏng và thực hành an toàn; chưa có mô phỏng tương tác, giáo án thời lượng hoặc quan sát lớp học thật."
+        }
+      ],
+      "strengths": [
+        "Bao phủ đủ bài, mục tiêu, kiến thức nền, sáu năng lực và phản hồi chẩn đoán.",
+        "Có thể dùng dữ liệu để giao bài theo mức cơ bản, thông hiểu, vận dụng và thử thách.",
+        "Quy tắc an toàn rõ và phù hợp yêu cầu chỉ thực hành khi được cho phép, hướng dẫn."
+      ],
+      "concerns": [
+        "Cần giáo viên Khoa học tự nhiên duyệt câu chữ, số liệu và độ chính xác từng bài trước phát hành.",
+        "Chưa có kế hoạch thời lượng, hoạt động nhóm, câu hỏi mở và rubric cho sản phẩm học tập.",
+        "Sáu khuôn có giao diện trực quan tĩnh, nhưng mô phỏng chưa tương tác nên chưa thay thế được thao tác khoa học trực quan."
+      ]
+    },
+    "education_expert": {
+      "role": "Mô phỏng chuyên gia đánh giá ứng dụng giáo dục",
+      "score": 74,
+      "maximum": 100,
+      "verdict": "Đạt mốc gói dữ liệu, chưa đạt mốc sản phẩm giáo dục sẵn sàng phát hành.",
+      "criteria": [
+        {
+          "criterion": "Tính nhất quán thiết kế học tập",
+          "score": 18,
+          "maximum": 20,
+          "evidence": "Mục tiêu - thẻ - sáu năng lực - phản hồi - ôn lại được nối bằng ID nhất quán."
+        },
+        {
+          "criterion": "Giá trị và độ tin cậy đánh giá",
+          "score": 15,
+          "maximum": 20,
+          "evidence": "Độ khó, căn cứ và đáp án được kiểm soát; 18 khuôn tăng độ đa dạng nhưng vẫn cần dữ liệu người học để xác lập độ tin cậy."
+        },
+        {
+          "criterion": "An toàn và đạo đức",
+          "score": 20,
+          "maximum": 20,
+          "evidence": "Thực hành/mô phỏng đều 0 điểm; có giám sát, cảnh báo, việc được làm và việc cấm."
+        },
+        {
+          "criterion": "Khả dụng và tiếp cận",
+          "score": 7,
+          "maximum": 20,
+          "evidence": "Đã có giao diện tích hợp và trạng thái tải/lỗi; chưa kiểm thử bàn phím, đọc màn hình, thiết bị nhỏ, thời lượng hoặc học sinh thật."
+        },
+        {
+          "criterion": "Sẵn sàng vận hành và đo lường",
+          "score": 14,
+          "maximum": 20,
+          "evidence": "Đã nối catalog, renderer, tài khoản, tiến độ, điểm và hồ sơ; chưa có thí điểm người thật hoặc phân tích hiệu quả học tập."
+        }
+      ],
+      "strengths": [
+        "Kiến trúc học liệu có truy vết nguồn, ID ổn định và cổng kiểm thử tái lập.",
+        "Phản hồi sai gắn với ngộ nhận và thẻ ôn, tốt hơn phản hồi đúng/sai đơn thuần.",
+        "An toàn thực hành được thiết kế ngay trong dữ liệu và tách khỏi chấm điểm."
+      ],
+      "concerns": [
+        "Chưa có bằng chứng hiệu quả học tập từ học sinh thật hoặc đánh giá nội dung từ giáo viên bộ môn thật.",
+        "Chưa có dữ liệu về khả dụng, tiếp cận, tải nhận thức, độ tin cậy bài kiểm tra và công bằng.",
+        "Tải đọc còn cao; 18 khuôn mới chưa có dữ liệu người học để chứng minh cải thiện trải nghiệm và giá trị đánh giá.",
+        "Đã tích hợp tiến độ và hồ sơ điểm, nhưng chưa có dữ liệu người thật để phân tích hiệu quả học tập."
+      ]
+    }
+  },
+  "release_decision": {
+    "data_package": "READY",
+    "classroom_use": "CONDITIONAL_NOT_READY",
+    "student_release": "NOT_READY",
+    "blocking_reasons": [
+      "Mô phỏng tương tác chưa được hiện thực và giao diện chưa được kiểm thử trải nghiệm trên thiết bị thật.",
+      "Chưa được giáo viên Khoa học tự nhiên duyệt toàn bộ nội dung từng bài.",
+      "Chưa thí điểm với học sinh lớp 6 và chưa kiểm thử khả năng tiếp cận."
+    ]
+  },
+  "priorities": [
+    "Nâng sáu dạng biểu diễn tĩnh thành trực quan tương tác và hiện thực mô phỏng theo từng mạch kiến thức.",
+    "Rút gọn câu hỏi/phương án dài, chia nhỏ thông tin và kiểm thử tải đọc với học sinh lớp 6.",
+    "Tiếp tục mở rộng tình huống bên trong 18 khuôn và đo mức lặp bằng dữ liệu người học thay vì chỉ đếm câu khác chữ.",
+    "Tổ chức duyệt chuyên môn từng bài bởi giáo viên Khoa học tự nhiên, có biên bản sửa và ký duyệt.",
+    "Chạy E2E trên tài khoản tách biệt để xác minh catalog, tiến độ và hồ sơ điểm đã tích hợp.",
+    "Thí điểm người thật, đo hoàn thành, thời gian, lỗi, mức hiểu trước-sau và khả năng tiếp cận trước phát hành."
+  ]
+}

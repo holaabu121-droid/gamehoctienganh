@@ -1,0 +1,10 @@
+import assert from "node:assert/strict";
+import {readFileSync} from "node:fs";
+import test from "node:test";
+import {validateBonusLesson} from "../src/features/bonus/bonusEngine.ts";
+import {buildStructuredReviewBonus,validateStructuredReview} from "../src/features/semester2/structuredReviewEngine.ts";
+const raw=JSON.parse(readFileSync(new URL("../../data/lessons/review3_source.json",import.meta.url),"utf8"));
+test("Review 3 has six independent ten-round games",()=>{const before=JSON.stringify(raw),lesson=validateStructuredReview(raw);assert.equal(JSON.stringify(raw),before);assert.equal(Object.keys(lesson.games).length,6);assert.equal(Object.values(lesson.games).flat().length,60);for(const rounds of Object.values(lesson.games)){assert.equal(rounds.length,10);assert.ok(rounds.every(item=>item.options.includes(item.answer)));}});
+test("Review 3 preserves book anchors and labels replacement listening",()=>{const lesson=validateStructuredReview(raw);assert.equal(lesson.games.reading[0].answer,"Cheese Rolling");assert.equal(lesson.games.writing[0].answer,"India");assert.ok(lesson.games.listening.every(item=>item.audio_source_status==="ai-generated"&&item.audio_text));assert.ok(lesson.source_note.includes("36–37"));});
+test("Review 3 Bonus has three AI stages of ten",()=>{const bonus=validateBonusLesson(buildStructuredReviewBonus(raw));assert.deepEqual(bonus.selected_variants,["treasure","boss","detective"]);assert.deepEqual(bonus.selected_variants.map(id=>bonus.stages[id].rounds.length),[10,10,10]);});
+test("Review 3 is connected to semester 2 and backend",()=>{const app=readFileSync(new URL("../src/App.tsx",import.meta.url),"utf8"),db=readFileSync(new URL("../../backend/app/db.py",import.meta.url),"utf8");assert.ok(app.includes("<Review3 />"));assert.equal((db.match(/"review3-(?:language|skills)-[^"]+": 1000/g)??[]).length,6);});
