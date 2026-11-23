@@ -27,7 +27,7 @@ async function choose(page,q,correct) {
     return;
   }
   if(q.mode==="order"){
-    if(await page.locator('[data-action="clear-order"]').count())await page.locator('[data-action="clear-order"]').click();
+    if(await page.locator('[data-action="clear-order"]').isEnabled())await page.locator('[data-action="clear-order"]').click();
     const order=correct?q.answer:q.answer.slice().reverse();
     for(const value of order){
       await page.locator('[data-action="tile"]').filter({hasText:value}).first().click();
