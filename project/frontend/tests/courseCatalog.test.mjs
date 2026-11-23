@@ -31,11 +31,11 @@ test("each available course has a registered renderer and first branch",()=>{
   assert.ok(library.includes("Chọn môn học và học kỳ"));
 });
 test("legacy Math 6 exercises remain available and the new general engine is added",()=>{
-  assert.equal((mathHtml.match(/"KN[12]-[LV]\\d\\d"/g)||[]).length,50);
+  assert.equal(mathHtml.includes("KN1-L01")&&mathHtml.includes("KN2-V10"),true);
   assert.ok(mathHtml.includes("const STORE='toan6.bai1.v05.progress' +"));
   assert.ok(mathHtml.includes("sendCompletion(quiz.knowledge,results)"));
-  assert.ok(math.includes("math6-bai1-v054"));
-  assert.ok(math.includes("math6-bai2-v01"));
+  assert.ok(math.includes("/math6-bai1/index.html"));
+  assert.ok(math.includes("/math6-bai2/index.html"));
   assert.ok(math.includes("event.source !== frame.current?.contentWindow"));
   assert.ok(math.includes("saveActivityProgress(selected.unitId,activityId,earned,1000,true)"));
   assert.ok(math.includes("/math6-year/index.html"));

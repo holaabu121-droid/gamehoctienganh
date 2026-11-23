@@ -60,7 +60,7 @@ function make(n,k){
    :choose("Phép chia "+(a+1)+" cho "+d+" có số dư bằng bao nhiêu?",(a+1)%d,[0,2,3,4], "Tính bội gần nhất không vượt quá số bị chia.",(a+1)+" = "+d+" × "+(a/d)+" + 1.");
  }
  case 9:{
-   const d=[2,3,5,9][k%4],t=10+(k%70),m=d*t;
+   const d=[2,3,5,9][k%4],t=1000+k,m=d*t;
    return choose(ctx(n,practice,"Cần chọn số để chia đều vào các nhóm "+d+". Số nào chia hết cho "+d+"?","Số nào sau đây chia hết cho "+d+"?"),m,[m+1,m+d+1,m-1], "Dùng dấu hiệu chia hết cho "+d+".",m+" chia hết cho "+d+" vì "+m+" = "+d+" × "+t+".");
  }
  case 10:{

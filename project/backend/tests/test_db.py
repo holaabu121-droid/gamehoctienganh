@@ -569,7 +569,6 @@ class ProgressAndStreakTests(DatabaseTestCase):
 
 
     def test_all_41_generated_math_lessons_have_unique_score_plans(self) -> None:
-        from app.curriculum import course_catalog
         cats=course_catalog()
         all_ids=[b for c in cats.courses if c.subject=="math" for b in c.branch_ids]
         self.assertEqual(len(all_ids),43)
@@ -728,7 +727,7 @@ class CourseCatalogTests(unittest.TestCase):
         catalog = course_catalog()
         self.assertEqual(catalog.default_course_id, "english-6-semester-1")
         self.assertEqual([course.id for course in catalog.courses], [
-            "english-6-semester-1", "english-6-semester-2", "math-6-semester-1",
+            "english-6-semester-1", "english-6-semester-2", "math-6-semester-1", "math-6-semester-2",
         ])
         self.assertEqual([course.subject for course in catalog.courses], ["english", "english", "math", "math"])
         self.assertTrue(all(course.status == "available" for course in catalog.courses))

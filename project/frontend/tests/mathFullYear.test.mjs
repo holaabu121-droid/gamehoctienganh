@@ -71,8 +71,8 @@ test("new semesters share same profile bridge but never overwrite original Math 
  assert.ok(src.includes("event.source !== frame.current?.contentWindow"));
  assert.ok(src.includes("event.origin !== window.location.origin"));
  assert.ok(src.includes("saveActivityProgress"));
- assert.ok(src.includes("math6-bai1-v054"));
- assert.ok(src.includes("math6-bai2-v01"));
+ assert.ok(src.includes("/math6-bai1/index.html"));
+ assert.ok(src.includes("/math6-bai2/index.html"));
  const courses=catalog.courses.filter(c=>c.subject==="math");
  assert.equal(courses.length,2);
  assert.equal(courses[0].branch_ids.length,22);
