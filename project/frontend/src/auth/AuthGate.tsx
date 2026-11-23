@@ -34,7 +34,7 @@ export function AuthGate() {
 
   return <main className="app-shell auth-shell">
     <section className="auth-card" aria-labelledby="auth-title">
-      <div className="auth-brand"><span aria-hidden="true">🧭</span><div><span className="eyebrow">Thư viện học tập lớp 6</span><h1 id="auth-title">{mode === "login" ? "Chào mừng em trở lại!" : "Tạo tài khoản học tập"}</h1><p>Đăng nhập để lưu điểm, chuỗi học và tiến độ riêng của từng môn trên máy này.</p></div></div>
+      <div className="auth-brand"><span aria-hidden="true">🧭</span><div><span className="eyebrow">English Quest · Tiếng Anh 6</span><h1 id="auth-title">{mode === "login" ? "Chào mừng em trở lại!" : "Tạo tài khoản học tập"}</h1><p>Đăng nhập để lưu điểm, chuỗi học và tiến độ Tiếng Anh theo từng học kỳ trên máy này.</p></div></div>
       <div className="auth-tabs" role="tablist" aria-label="Chọn đăng nhập hoặc đăng ký">
         <button type="button" role="tab" aria-selected={mode === "login"} onClick={() => changeMode("login")}>Đăng nhập</button>
         <button type="button" role="tab" aria-selected={mode === "register"} onClick={() => changeMode("register")}>Đăng ký</button>
