@@ -61,7 +61,7 @@ function make(n,k){
  }
  case 9:{
    const d=[2,3,5,9][k%4],t=1000+k,m=d*t;
-   return choose(ctx(n,practice,"Cần chọn số để chia đều vào các nhóm "+d+". Số nào chia hết cho "+d+"?","Số nào sau đây chia hết cho "+d+"?"),m,[m+1,m+d+1,m-1], "Dùng dấu hiệu chia hết cho "+d+".",m+" chia hết cho "+d+" vì "+m+" = "+d+" × "+t+".");
+   return choose(ctx(n,practice,"Chia vật phẩm vào nhóm "+d+" phần: trong các số "+[m,m+1,m+d+1,m-1].join(", ")+", số nào chia hết cho "+d+"?","Trong các số "+[m,m+1,m+d+1,m-1].join(", ")+", số nào chia hết cho "+d+"?"),m,[m+1,m+d+1,m-1], "Dùng dấu hiệu chia hết cho "+d+".",m+" chia hết cho "+d+" vì "+m+" = "+d+" × "+t+".");
  }
  case 10:{
    const prime=[2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131][k%32];
@@ -101,7 +101,7 @@ function make(n,k){
  }
  case 18:{
    const side=2+k,type=k%3,perimeter=side*[3,4,6][type];
-   if(k%4===0)return choose("Hình "+sides[type]+" có bao nhiêu cạnh?",[3,4,6][type],[2,5,8],"Đếm các cạnh của đa giác đều.",sides[type]+" có "+[3,4,6][type]+" cạnh.");
+   if(k%4===0)return choose("Khung "+sides[type]+" có cạnh dài "+side+" cm; hình này có bao nhiêu cạnh?",[3,4,6][type],[2,5,8],"Đếm các cạnh của đa giác đều.",sides[type]+" có "+[3,4,6][type]+" cạnh.");
    return number(ctx(n,practice,"Làm khung "+sides[type]+" có cạnh "+side+" cm. Cần bao nhiêu cm dây cho đường viền?","Tính chu vi "+sides[type]+" có cạnh "+side+" cm."),perimeter,"Chu vi của đa giác đều bằng số cạnh nhân độ dài mỗi cạnh.",[3,4,6][type]+" × "+side+" = "+perimeter+" cm.");
  }
  case 19:{
@@ -116,7 +116,7 @@ function make(n,k){
    return choose("Mẫu tứ giác số "+t+" trên "+labels+" được mô tả: “"+facts[1]+"”. Tên hình phù hợp nhất là?",facts[0],[facts[2],facts[3]],"Nhớ các dấu hiệu nhận biết từng hình tứ giác.",facts[0]+" có tính chất đã cho.");
  }
  case 20:{
-   const type=k%5,a=4+(k%20),b=3+(k%11),h=2+(k%8);
+   const type=k%5,a=4+k,b=3+(k%11),h=2+(k%8);
    let ans,desc,hint;
    if(type===0){ans=a*b;desc="hình chữ nhật có chiều dài "+a+" cm và chiều rộng "+b+" cm";hint="Diện tích hình chữ nhật bằng dài nhân rộng.";}
    if(type===1){ans=4*a;desc="hình vuông cạnh "+a+" cm";hint="Chu vi hình vuông bằng bốn lần cạnh.";}
@@ -155,7 +155,7 @@ function make(n,k){
    return fraction("Tính "+a+"/"+b+(divide?" : ":" × ")+c+"/"+d+".",num,den,"Muốn chia phân số hãy nhân với phân số nghịch đảo; nhân thì nhân tử với tử và mẫu với mẫu.",frac(a,b)+(divide?" : ":" × ")+frac(c,d)+" = "+frac(num,den)+".");
  }
  case 27:{
-   const den=2+(k%9),num=1+(k%(den-1)),base=3+(k%18),total=den*base,inverse=k%2===1;
+   const den=2+(k%9),num=1+(k%(den-1)),base=3+k,total=den*base,inverse=k%2===1;
    if(inverse)return number("Biết "+num+"/"+den+" của một số bằng "+num*base+". Tìm số đó.",total,"Chia giá trị đã biết cho phân số được cho.",num*base+" : "+num+"/"+den+" = "+total+".");
    return number(ctx(n,practice,"Lớp có "+total+" học sinh; "+num+"/"+den+" số học sinh tham gia câu lạc bộ. Có bao nhiêu em?","Tìm "+num+"/"+den+" của "+total+"."),num*base,"Nhân số đã cho với phân số.",total+" × "+num+"/"+den+" = "+num*base+".");
  }
