@@ -1,8 +1,10 @@
-name: Verify English-only application (after fixes)
+name: Verify English-only application
 on:
   push:
     branches: [review/english-only]
-    paths: ['.github/workflows/test-english-only.yml']
+    paths: ['project/**', '.github/workflows/test-english-only.yml']
+  pull_request:
+    branches: [main]
 permissions:
   contents: read
 jobs:
